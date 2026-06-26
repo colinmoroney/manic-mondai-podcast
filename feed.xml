@@ -21,8 +21,8 @@
     <itunes:type>episodic</itunes:type>
     <!-- EPISODES_BELOW: add_episode.py prepends new <item> blocks immediately after this line -->
     <item>
-      <title>National Security and Million Dollar Solopreneurs - 2026-06-26</title>
-      <itunes:title>National Security and Million Dollar Solopreneurs - 2026-06-26</itunes:title>
+      <title>National Security and Million Dollar Solopreneurs</title>
+      <itunes:title>National Security and Million Dollar Solopreneurs</itunes:title>
       <description><![CDATA[<p>Governments are rewriting the AI launch playbook - and every frontier lab is now in scope. The Anthropic Fable ban established a template; this week the White House applied it to OpenAI. GPT-5.6 now requires government approval customer-by-customer before any user can access it. OpenAI complied while making clear it considers the model &quot;not sustainable long-term.&quot; The era of press-a-button public frontier model releases may be over.</p>
 <p>OpenAI is executing a vertical integration play faster than anyone anticipated. Jalapeño is OpenAI&#x27;s first custom inference chip (with Broadcom, nine months from design to tape-out). Daybreak turns GPT-5.5-Cyber into a commercial cyber-defense stack embedded in 30 partner security products. SpaceX&#x27;s Colossus is now effectively an AI compute exchange - Anthropic ($45B), Google ($30B), and Reflection AI ($6.3B) are all renting from it. Silicon, safety, and compute. Three legs of the stack, all moving simultaneously.</p>
 <p>The IP battle between East and West AI labs is becoming a legal and political fight. Anthropic accused Alibaba of running the &quot;largest known distillation attack&quot; on Claude - 28.8 million exchanges across 25,000 fraudulent accounts. Congress is preparing sanction legislation. Meanwhile, Gemini researchers are defecting to Anthropic, and Anthropic researchers are defecting to OpenAI. The human capital and model-output capital wars are now being waged in parallel.</p>
@@ -72,8 +72,8 @@
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
-      <title>Washington bans AI as Musk turns trillionaire - 2026-06-21</title>
-      <itunes:title>Washington bans AI as Musk turns trillionaire - 2026-06-21</itunes:title>
+      <title>Washington bans AI as Musk turns trillionaire</title>
+      <itunes:title>Washington bans AI as Musk turns trillionaire</itunes:title>
       <description><![CDATA[<p>Government vs. Frontier AI reaches a new boiling point. Anthropic&#x27;s Fable and Mythos models were yanked offline by a US Commerce Dept. directive, a &quot;Free Fable&quot; open letter signed by 100+ security leaders followed within 24 hours, and AI CEOs gathered at the G7 in France to talk safety - all in the same week. The argument about who controls the most powerful models is now geopolitical.</p>
 <p>The frontier AI economy goes public - and the numbers are both spectacular and alarming. SpaceX IPO created the world&#x27;s first trillionaire; Anthropic filed a confidential S-1 last month at a $965B valuation; OpenAI&#x27;s audited 2025 financials leaked - showing $13B revenue against $34B in costs. The industry is simultaneously going public and exposed.</p>
 <p>The agent infrastructure layer is standardizing fast. Android 17 shipped native MCP support, Cursor launched an agent-native GitHub alternative (Origin), Vercel shipped Eve (an agent framework), and Robinhood wired AI agents directly to trading. Every major platform is now plumbing for agents - not months from now, this week.</p>

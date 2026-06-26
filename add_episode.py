@@ -90,8 +90,6 @@ def build_meta(args):
             title = stories[0]
         else:
             title = "Manic AI"
-    if not title.endswith(args.date):
-        title = f"{title} - {args.date}"
 
     if args.summary:
         summary_plain = args.summary
