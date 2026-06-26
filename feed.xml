@@ -8,7 +8,7 @@
     <atom:link href="https://colinmoroney.github.io/manic-mondai-podcast/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-gb</language>
     <description>Manic AI is a twice-weekly rundown of the week in artificial intelligence - the big moves, the funding, the new tools, the security beat, and the occasional oddity, each delivered as a two-host audio overview. New episodes every Monday and Thursday.</description>
-    <itunes:author>Colin Moroney</itunes:author>
+    <itunes:author>Manic AI</itunes:author>
     <itunes:summary>A twice-weekly, two-host audio overview of the week in AI - the big moves, the money, the tools, and the security beat. New episodes Monday and Thursday.</itunes:summary>
     <itunes:owner>
       <itunes:name>Colin Moroney</itunes:name>
