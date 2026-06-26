@@ -8,9 +8,9 @@
     <link>https://colinmoroney.github.io/manic-mondai-podcast/</link>
     <atom:link href="https://colinmoroney.github.io/manic-mondai-podcast/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-gb</language>
-    <description>A twice-weekly AI briefing for Colin, rendered as a two-host audio overview. The big moves, the money, the tooling, the security beat, and a few for the go-to-market crowd. Monday and Thursday mornings.</description>
+    <description>Manic AI is a twice-weekly rundown of the week in artificial intelligence — the big moves, the funding, the new tools, the security beat, and the occasional oddity, each delivered as a two-host audio overview. New episodes every Monday and Thursday.</description>
     <itunes:author>Colin Moroney</itunes:author>
-    <itunes:summary>A twice-weekly AI briefing rendered as a two-host audio overview.</itunes:summary>
+    <itunes:summary>A twice-weekly, two-host audio overview of the week in AI — the big moves, the money, the tools, and the security beat. New episodes Monday and Thursday.</itunes:summary>
     <itunes:owner>
       <itunes:name>Colin Moroney</itunes:name>
       <itunes:email>colinmoroney@gmail.com</itunes:email>
@@ -71,8 +71,48 @@
     </item>
     <item>
       <title>Washington bans AI as Musk turns trillionaire — 2026-06-21</title>
-      <description>The US government forces Anthropic to pull its Fable and Mythos models (and 100+ security leaders push back); SpaceX's IPO mints the world's first trillionaire; DeepSeek raises $7.4B; and the agent-infrastructure layer standardizes fast — Android native MCP, Cursor Origin, Vercel Eve. A two-host overview of the week in AI.</description>
-      <itunes:summary>The US government forces Anthropic to pull its Fable and Mythos models (and 100+ security leaders push back); SpaceX's IPO mints the world's first trillionaire; DeepSeek raises $7.4B; and the agent-infrastructure layer standardizes fast — Android native MCP, Cursor Origin, Vercel Eve. A two-host overview of the week in AI.</itunes:summary>
+      <itunes:title>Washington bans AI as Musk turns trillionaire — 2026-06-21</itunes:title>
+      <description><![CDATA[<p>Government vs. Frontier AI reaches a new boiling point. Anthropic&#x27;s Fable and Mythos models were yanked offline by a US Commerce Dept. directive, a &quot;Free Fable&quot; open letter signed by 100+ security leaders followed within 24 hours, and AI CEOs gathered at the G7 in France to talk safety — all in the same week. The argument about who controls the most powerful models is now geopolitical.</p>
+<p>The frontier AI economy goes public — and the numbers are both spectacular and alarming. SpaceX IPO created the world&#x27;s first trillionaire; Anthropic filed a confidential S-1 last month at a $965B valuation; OpenAI&#x27;s audited 2025 financials leaked — showing $13B revenue against $34B in costs. The industry is simultaneously going public and exposed.</p>
+<p>The agent infrastructure layer is standardizing fast. Android 17 shipped native MCP support, Cursor launched an agent-native GitHub alternative (Origin), Vercel shipped Eve (an agent framework), and Robinhood wired AI agents directly to trading. Every major platform is now plumbing for agents — not months from now, this week.</p>
+<p>DeepSeek and OpenAI are making their next moves simultaneously. DeepSeek closed its first-ever $7.4B funding round while OpenAI is days away from GPT-5.6, a release explicitly timed to hit Anthropic while Fable is offline. The China-vs-West AI race is entering a new capital-intensive phase.</p>
+<p><strong>In this episode</strong></p><ul>
+<li><a href="https://www.anthropic.com/news/fable-mythos-access">Anthropic&#x27;s Fable and Mythos go dark: US government export control triggers the industry&#x27;s biggest governance crisis yet</a></li>
+<li><a href="https://www.cnbc.com/2026/06/15/spacex-stock-record-ipo-debut.html">SpaceX IPO: $2.1 trillion debut creates the world&#x27;s first trillionaire</a></li>
+<li><a href="https://techfundingnews.com/deepseek-raises-7-4b-at-50b-valuation-in-first-ever-external-funding-round/">DeepSeek&#x27;s $7.4B raise: China&#x27;s AI champion takes on the world with its first external capital</a></li>
+<li>GPT-5.6 is days away: 1.5M context window and a pricing offensive timed to hit Anthropic while Fable is offline</li>
+<li><a href="https://www.wheresyoured.at/exclusive-openai-financials/">OpenAI&#x27;s 2025 financials leaked: $13B revenue, $34B costs, $38.5B net loss — ahead of IPO</a></li>
+<li><a href="https://www.techtimes.com/articles/318613/20260618/transformer-architect-behind-gemini-jumps-openai-after-google-spent-27b.htm">Noam Shazeer quits Google for OpenAI: The man who invented the Transformer switches sides</a></li>
+<li><a href="https://www.salesforce.com/news/press-releases/2026/06/15/salesforce-signs-definitive-agreement-to-acquire-fin/">Salesforce acquires Fin (formerly Intercom) for $3.6B — AI customer service consolidates into the GTM stack</a></li>
+<li><a href="https://developer.android.com/guide/topics/appfunctions">Android 17 ships native MCP — every app on 3 billion phones can now expose tools to AI agents</a></li>
+<li><a href="https://about.fb.com/news/2026/06/new-ai-tools-to-help-you-make-things-happen-on-facebook/">Meta AI Mode on Facebook — the company&#x27;s biggest AI feature since News Feed</a></li>
+<li><a href="https://www.pewresearch.org/internet/2026/06/17/americans-and-ai-2026-chatbots-smart-devices-and-views-on-impact/">Pew Research 2026: Half of Americans now use chatbots — and 40% expect AI to harm society</a></li>
+<li>Cursor Origin: An agent-native GitHub — built for a world where AI commits outnumber human ones</li>
+<li>Midjourney Medical: The AI image company is building a full-body ultrasound spa</li>
+<li>Sakana Marlin: The first commercial AI that works for 8 hours straight without a human in the loop</li>
+<li><a href="https://www.anthropic.com/research/claude-code-expertise">Anthropic&#x27;s Claude Code study: In 400K sessions, what you know matters more than how well you code</a></li>
+</ul>]]></description>
+      <content:encoded><![CDATA[<p>Government vs. Frontier AI reaches a new boiling point. Anthropic&#x27;s Fable and Mythos models were yanked offline by a US Commerce Dept. directive, a &quot;Free Fable&quot; open letter signed by 100+ security leaders followed within 24 hours, and AI CEOs gathered at the G7 in France to talk safety — all in the same week. The argument about who controls the most powerful models is now geopolitical.</p>
+<p>The frontier AI economy goes public — and the numbers are both spectacular and alarming. SpaceX IPO created the world&#x27;s first trillionaire; Anthropic filed a confidential S-1 last month at a $965B valuation; OpenAI&#x27;s audited 2025 financials leaked — showing $13B revenue against $34B in costs. The industry is simultaneously going public and exposed.</p>
+<p>The agent infrastructure layer is standardizing fast. Android 17 shipped native MCP support, Cursor launched an agent-native GitHub alternative (Origin), Vercel shipped Eve (an agent framework), and Robinhood wired AI agents directly to trading. Every major platform is now plumbing for agents — not months from now, this week.</p>
+<p>DeepSeek and OpenAI are making their next moves simultaneously. DeepSeek closed its first-ever $7.4B funding round while OpenAI is days away from GPT-5.6, a release explicitly timed to hit Anthropic while Fable is offline. The China-vs-West AI race is entering a new capital-intensive phase.</p>
+<p><strong>In this episode</strong></p><ul>
+<li><a href="https://www.anthropic.com/news/fable-mythos-access">Anthropic&#x27;s Fable and Mythos go dark: US government export control triggers the industry&#x27;s biggest governance crisis yet</a></li>
+<li><a href="https://www.cnbc.com/2026/06/15/spacex-stock-record-ipo-debut.html">SpaceX IPO: $2.1 trillion debut creates the world&#x27;s first trillionaire</a></li>
+<li><a href="https://techfundingnews.com/deepseek-raises-7-4b-at-50b-valuation-in-first-ever-external-funding-round/">DeepSeek&#x27;s $7.4B raise: China&#x27;s AI champion takes on the world with its first external capital</a></li>
+<li>GPT-5.6 is days away: 1.5M context window and a pricing offensive timed to hit Anthropic while Fable is offline</li>
+<li><a href="https://www.wheresyoured.at/exclusive-openai-financials/">OpenAI&#x27;s 2025 financials leaked: $13B revenue, $34B costs, $38.5B net loss — ahead of IPO</a></li>
+<li><a href="https://www.techtimes.com/articles/318613/20260618/transformer-architect-behind-gemini-jumps-openai-after-google-spent-27b.htm">Noam Shazeer quits Google for OpenAI: The man who invented the Transformer switches sides</a></li>
+<li><a href="https://www.salesforce.com/news/press-releases/2026/06/15/salesforce-signs-definitive-agreement-to-acquire-fin/">Salesforce acquires Fin (formerly Intercom) for $3.6B — AI customer service consolidates into the GTM stack</a></li>
+<li><a href="https://developer.android.com/guide/topics/appfunctions">Android 17 ships native MCP — every app on 3 billion phones can now expose tools to AI agents</a></li>
+<li><a href="https://about.fb.com/news/2026/06/new-ai-tools-to-help-you-make-things-happen-on-facebook/">Meta AI Mode on Facebook — the company&#x27;s biggest AI feature since News Feed</a></li>
+<li><a href="https://www.pewresearch.org/internet/2026/06/17/americans-and-ai-2026-chatbots-smart-devices-and-views-on-impact/">Pew Research 2026: Half of Americans now use chatbots — and 40% expect AI to harm society</a></li>
+<li>Cursor Origin: An agent-native GitHub — built for a world where AI commits outnumber human ones</li>
+<li>Midjourney Medical: The AI image company is building a full-body ultrasound spa</li>
+<li>Sakana Marlin: The first commercial AI that works for 8 hours straight without a human in the loop</li>
+<li><a href="https://www.anthropic.com/research/claude-code-expertise">Anthropic&#x27;s Claude Code study: In 400K sessions, what you know matters more than how well you code</a></li>
+</ul>]]></content:encoded>
+      <itunes:summary>Government vs. Frontier AI reaches a new boiling point. Anthropic's Fable and Mythos models were yanked offline by a US Commerce Dept. directive, a "Free Fable" open letter signed by 100+ security leaders followed within 24 hours, and AI CEOs gathered at the G7 in France to talk safety — all in the same week. The argument about who controls the most powerful models is now geopolitical. The frontier AI economy goes public — and the numbers are both spectacular and alarming. SpaceX IPO created the world's first trillionaire; Anthropic filed a confidential S-1 last month at a $965B valuation; OpenAI's audited 2025 financials leaked — showing $13B revenue against $34B in costs. The industry is simultaneously going public and exposed. The agent infrastructure layer is standardizing fast. Android 17 shipped native MCP support, Cursor launched an agent-native GitHub alternative (Origin), Vercel shipped Eve (an agent framework), and Robinhood wired AI agents directly to trading. Every major platform is now plumbing for agents — not months from now, this week. DeepSeek and OpenAI are making their next moves simultaneously. DeepSeek closed its first-ever $7.4B funding round while OpenAI is days away from GPT-5.6, a release explicitly timed to hit Anthropic while Fable is offline. The China-vs-West AI race is entering a new capital-intensive phase.</itunes:summary>
       <pubDate>Sun, 21 Jun 2026 18:00:00 +0000</pubDate>
       <enclosure url="https://colinmoroney.github.io/manic-mondai-podcast/episodes/2026-06-21.m4a" length="44020968" type="audio/x-m4a"/>
       <guid isPermaLink="false">manic-mondai-2026-06-21</guid>
