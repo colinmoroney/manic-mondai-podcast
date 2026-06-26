@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Manic Mond-AI</title>
+    <link>https://colinmoroney.github.io/manic-mondai-podcast/</link>
+    <atom:link href="https://colinmoroney.github.io/manic-mondai-podcast/feed.xml" rel="self" type="application/rss+xml"/>
+    <language>en-gb</language>
+    <description>A twice-weekly AI briefing for Colin, rendered as a two-host audio overview. The big moves, the money, the tooling, the security beat, and a few for the go-to-market crowd. Monday and Thursday mornings.</description>
+    <itunes:author>Colin Moroney</itunes:author>
+    <itunes:summary>A twice-weekly AI briefing rendered as a two-host audio overview.</itunes:summary>
+    <itunes:owner>
+      <itunes:name>Colin Moroney</itunes:name>
+      <itunes:email>colinmoroney@gmail.com</itunes:email>
+    </itunes:owner>
+    <itunes:image href="https://colinmoroney.github.io/manic-mondai-podcast/cover.jpg"/>
+    <itunes:category text="Technology"/>
+    <itunes:category text="News"/>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:type>episodic</itunes:type>
+    <!-- EPISODES_BELOW: add_episode.py prepends new <item> blocks immediately after this line -->
+    <item>
+      <title>Washington bans AI as Musk turns trillionaire — 2026-06-21</title>
+      <description>The US government forces Anthropic to pull its Fable and Mythos models (and 100+ security leaders push back); SpaceX's IPO mints the world's first trillionaire; DeepSeek raises $7.4B; and the agent-infrastructure layer standardizes fast — Android native MCP, Cursor Origin, Vercel Eve. A two-host overview of the week in AI.</description>
+      <itunes:summary>The US government forces Anthropic to pull its Fable and Mythos models (and 100+ security leaders push back); SpaceX's IPO mints the world's first trillionaire; DeepSeek raises $7.4B; and the agent-infrastructure layer standardizes fast — Android native MCP, Cursor Origin, Vercel Eve. A two-host overview of the week in AI.</itunes:summary>
+      <pubDate>Sun, 21 Jun 2026 18:00:00 +0000</pubDate>
+      <enclosure url="https://colinmoroney.github.io/manic-mondai-podcast/episodes/2026-06-21.m4a" length="44020968" type="audio/x-m4a"/>
+      <guid isPermaLink="false">manic-mondai-2026-06-21</guid>
+      <itunes:duration>00:22:48</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+  </channel>
+</rss>
