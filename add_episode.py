@@ -91,7 +91,7 @@ def build_meta(args):
         else:
             title = "Manic AI"
     if not title.endswith(args.date):
-        title = f"{title} — {args.date}"
+        title = f"{title} - {args.date}"
 
     if args.summary:
         summary_plain = args.summary
@@ -110,7 +110,8 @@ def build_meta(args):
                          if urls else f"<li>{html.escape(h)}</li>")
         parts.append("</ul>")
     notes_html = "\n".join(parts) if parts else f"<p>{html.escape(summary_plain)}</p>"
-    return title, summary_plain, notes_html
+    nodash = lambda s: s.replace("—", "-").replace("–", "-")  # Colin dislikes em/en dashes
+    return nodash(title), nodash(summary_plain), nodash(notes_html)
 
 
 def main():
