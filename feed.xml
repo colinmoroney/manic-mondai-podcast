@@ -5,7 +5,6 @@
      xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Manic AI</title>
-    <link>https://colinmoroney.github.io/manic-mondai-podcast/</link>
     <atom:link href="https://colinmoroney.github.io/manic-mondai-podcast/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-gb</language>
     <description>Manic AI is a twice-weekly rundown of the week in artificial intelligence - the big moves, the funding, the new tools, the security beat, and the occasional oddity, each delivered as a two-host audio overview. New episodes every Monday and Thursday.</description>
