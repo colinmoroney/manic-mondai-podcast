@@ -1,6 +1,6 @@
-# Manic Mond-AI — public podcast feed
+# Manic AI — public podcast feed
 
-This is the **public** home for the Manic Mond-AI podcast feed and audio. It exists so podcast apps
+This is the **public** home for the Manic AI podcast feed and audio. It exists so podcast apps
 and directories (Apple Podcasts, Spotify) can fetch the feed and episodes anonymously. The source
 briefings are generated privately in `colinmoroney/manic-mondai-project`; only the finished audio +
 feed live here.
