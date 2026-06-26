@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Add a NotebookLM episode (.m4a) to the Manic AI public feed.
 
-Common use (one-liner — title + show notes auto-filled from that week's digest):
+Common use (one-liner - title + show notes auto-filled from that week's digest):
   python3 add_episode.py --file ~/Downloads/Some_NotebookLM_Title.m4a --date 2026-06-25
   git add -A && git commit -m "episode 2026-06-25" && git push
 
@@ -11,12 +11,14 @@ Options:
   --digest   source digest .md  (default: ../manic-mondai-project/digests/<date>-digest.md)
   --title    override the episode title
   --summary  override the description (plain text)
+  --season   season number (default: 1)
+  --episode  episode number (default: auto = current episode count + 1)
   --dry-run  print what would be written; change nothing
   --feed     feed file (default: feed.xml)
 
-Title priority:  --title > a descriptive NotebookLM filename > first story headline from the digest > "Manic AI — <date>".
-Description:      --summary, else built from the digest's "Threads this week" plus a linked list of the week's stories.
-Stdlib only; uses macOS `afinfo` for duration.
+Title priority:  --title > a descriptive NotebookLM filename > first story headline from the digest > "Manic AI - <date>".
+Description:     --summary, else built from the digest's "Threads this week" plus a plain list of the week's stories.
+Stdlib only; uses macOS `afinfo` for duration. No em-dashes (Colin's preference).
 """
 import argparse, html, os, re, shutil, subprocess
 from datetime import datetime, timezone
@@ -56,7 +58,7 @@ def md_strip(s):
 
 
 def parse_digest(path):
-    """Return (threads: list[str], stories: list[(headline, [urls])])."""
+    """Return (threads: list[str], stories: list[str]) - headlines only, no links."""
     text = open(path, encoding="utf-8").read()
     threads = []
     m = re.search(r"##\s*Threads this week\s*(.+?)(?:\n##\s|\Z)", text, re.S)
@@ -68,10 +70,8 @@ def parse_digest(path):
     stories = []
     for b in re.split(r"\n###\s+", text)[1:]:
         headline = re.sub(r"^\d+\.\s*", "", b.splitlines()[0]).strip()
-        sm = re.search(r"\*\*Source:\*\*(.+)", b)
-        urls = re.findall(r"https?://[^\s·)]+", sm.group(1)) if sm else []
         if headline:
-            stories.append((headline, urls))
+            stories.append(headline)
     return threads, stories
 
 
@@ -87,7 +87,7 @@ def build_meta(args):
         if cleaned and not datey and len(cleaned.split()) >= 3:
             title = cleaned
         elif stories:
-            title = stories[0][0]
+            title = stories[0]
         else:
             title = "Manic AI"
     if not title.endswith(args.date):
@@ -98,18 +98,18 @@ def build_meta(args):
     elif threads:
         summary_plain = " ".join(threads)
     elif stories:
-        summary_plain = "In this episode: " + "; ".join(h for h, _ in stories[:4]) + "."
+        summary_plain = "In this episode: " + "; ".join(stories[:4]) + "."
     else:
         summary_plain = "The latest AI news, twice a week."
 
     parts = [f"<p>{html.escape(t)}</p>" for t in threads]
     if stories:
         parts.append("<p><strong>In this episode</strong></p><ul>")
-        for h, urls in stories:
-            parts.append(f'<li><a href="{html.escape(urls[0])}">{html.escape(h)}</a></li>'
-                         if urls else f"<li>{html.escape(h)}</li>")
+        for h in stories:
+            parts.append(f"<li>{html.escape(h)}</li>")
         parts.append("</ul>")
     notes_html = "\n".join(parts) if parts else f"<p>{html.escape(summary_plain)}</p>"
+
     nodash = lambda s: s.replace("—", "-").replace("–", "-")  # Colin dislikes em/en dashes
     return nodash(title), nodash(summary_plain), nodash(notes_html)
 
@@ -121,24 +121,33 @@ def main():
     ap.add_argument("--digest")
     ap.add_argument("--title")
     ap.add_argument("--summary")
+    ap.add_argument("--season", default="1")
+    ap.add_argument("--episode")
     ap.add_argument("--feed", default="feed.xml")
     ap.add_argument("--dry-run", action="store_true")
     a = ap.parse_args()
     if not a.digest:
         a.digest = f"../manic-mondai-project/digests/{a.date}-digest.md"
 
+    with open(a.feed, encoding="utf-8") as f:
+        feed = f.read()
+    episode = a.episode or str(feed.count("<item>") + 1)
+
     title, summary_plain, notes_html = build_meta(a)
     dur = duration_hms(a.file)
 
     if a.dry_run:
-        print("DRY RUN — nothing written\n")
-        print("digest :", a.digest, "(found)" if os.path.exists(a.digest) else "(NOT FOUND — title/notes will be thin)")
+        print("DRY RUN - nothing written\n")
+        print("digest :", a.digest, "(found)" if os.path.exists(a.digest) else "(NOT FOUND - title/notes will be thin)")
         print("title  :", title)
+        print(f"season : {a.season}   episode: {episode}")
         print("duration:", dur)
         print("\n--- itunes:summary (plain) ---\n" + summary_plain[:700])
         print("\n--- description / show notes (html) ---\n" + notes_html[:1500])
         return
 
+    if MARKER not in feed:
+        raise SystemExit(f"marker '{MARKER}' not found in {a.feed}")
     os.makedirs("episodes", exist_ok=True)
     dest = os.path.join("episodes", f"{a.date}.m4a")
     if os.path.abspath(a.file) != os.path.abspath(dest):
@@ -150,6 +159,9 @@ def main():
     item = f"""    <item>
       <title>{esc(title)}</title>
       <itunes:title>{esc(title)}</itunes:title>
+      <itunes:season>{esc(a.season)}</itunes:season>
+      <itunes:episode>{esc(episode)}</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
       <description><![CDATA[{notes_html}]]></description>
       <content:encoded><![CDATA[{notes_html}]]></content:encoded>
       <itunes:summary>{esc(summary_plain)}</itunes:summary>
@@ -160,14 +172,10 @@ def main():
       <itunes:explicit>false</itunes:explicit>
     </item>
 """
-    with open(a.feed, encoding="utf-8") as f:
-        feed = f.read()
-    if MARKER not in feed:
-        raise SystemExit(f"marker '{MARKER}' not found in {a.feed}")
     i = feed.index("\n", feed.index(MARKER)) + 1
     with open(a.feed, "w", encoding="utf-8") as f:
         f.write(feed[:i] + item + feed[i:])
-    print(f"Added '{title}' ({size} bytes, {dur}).")
+    print(f"Added S{a.season}E{episode}: '{title}' ({size} bytes, {dur}).")
     print(f'Next: git add -A && git commit -m "episode {a.date}" && git push')
 
 
