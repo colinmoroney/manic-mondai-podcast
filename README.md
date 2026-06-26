@@ -12,21 +12,26 @@ https://colinmoroney.github.io/manic-mondai-podcast/feed.xml
 
 ## Adding an episode
 
-After NotebookLM generates the audio overview and you download the `.m4a`:
+After NotebookLM generates the audio overview and you download the `.m4a`, it's a one-liner — the
+**episode title and show notes auto-fill from that week's digest**:
 
 ```bash
-python3 add_episode.py \
-  --file ~/Downloads/Some_NotebookLM_Title.m4a \
-  --date 2026-06-25 \
-  --title "Episode title" \
-  --summary "One-line summary of the week."
-
+python3 add_episode.py --file ~/Downloads/Some_NotebookLM_Title.m4a --date 2026-06-25
 git add -A && git commit -m "episode 2026-06-25" && git push
 ```
 
-`add_episode.py` copies the file to `episodes/<date>.m4a`, computes its size and duration, and prepends
-a new `<item>` to `feed.xml`. GitHub Pages serves the update within a minute or two; subscribed apps pick
-it up on their next refresh.
+What it does automatically:
+- **Title** — from the NotebookLM filename (it auto-titles descriptively), with the date appended.
+  Falls back to the digest's top story headline if the filename isn't descriptive.
+- **Show notes / description** — built from the matching digest's *Threads this week* plus a tappable
+  list of the week's stories linked to their sources (`../manic-mondai-project/digests/<date>-digest.md`).
+- Copies the audio to `episodes/<date>.m4a`, computes size + duration, prepends a new `<item>` to `feed.xml`.
+
+Override anything if you want: `--title "..."`, `--summary "..."`, `--digest <path>`.
+Preview without writing: add `--dry-run`.
+
+GitHub Pages serves the update within a minute or two; subscribed apps pick it up on their next refresh.
+(Requires the private `manic-mondai-project` repo checked out as a sibling folder for the auto-notes.)
 
 ## Files
 - `feed.xml` — the RSS feed (newest episode first)
