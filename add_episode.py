@@ -129,7 +129,7 @@ def main():
 
     with open(a.feed, encoding="utf-8") as f:
         feed = f.read()
-    episode = a.episode or str(feed.count("<item>") + 1)
+    episode = a.episode or str(feed.count("</item>") + 1)  # count closing tags; marker comment contains "<item>"
 
     title, summary_plain, notes_html = build_meta(a)
     dur = duration_hms(a.file)
