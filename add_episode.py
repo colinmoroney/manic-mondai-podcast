@@ -126,6 +126,12 @@ def main():
     a = ap.parse_args()
     if not a.digest:
         a.digest = f"../manic-mondai-project/digests/{a.date}-digest.md"
+    if not os.path.exists(a.digest):
+        import glob
+        cands = sorted(glob.glob(os.path.join(os.path.dirname(a.digest) or ".", "*-digest.md")))
+        if cands:
+            print(f"NOTE: no digest dated {a.date}; using newest available: {os.path.basename(cands[-1])}")
+            a.digest = cands[-1]
 
     with open(a.feed, encoding="utf-8") as f:
         feed = f.read()

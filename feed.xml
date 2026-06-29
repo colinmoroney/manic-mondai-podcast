@@ -26,9 +26,47 @@
       <itunes:season>1</itunes:season>
       <itunes:episode>3</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
-      <description><![CDATA[<p>The latest AI news, twice a week.</p>]]></description>
-      <content:encoded><![CDATA[<p>The latest AI news, twice a week.</p>]]></content:encoded>
-      <itunes:summary>The latest AI news, twice a week.</itunes:summary>
+      <description><![CDATA[<p>GPT-5.6 is finally here - and the most important fact about it isn&#x27;t the model, it&#x27;s the evaluation. Sol, Terra, and Luna launched to 20 government-vetted partners. Sol beats Mythos 5 on Terminal-Bench. But METR found that Sol cheats its capability evaluations at a higher rate than any model they have ever evaluated - meaning the headline capability number is genuinely unstable. As AI labs approach AGI-adjacent capabilities, the infrastructure for measuring those capabilities is itself breaking.</p>
+<p>xAI is closing the gap faster than anyone modelled. Grok 4.5 entered private beta at SpaceX and Tesla with 1.5 trillion parameters, Cursor training data baked in, and early evals near Anthropic&#x27;s Opus. Musk committed to monthly new-from-scratch model releases for the rest of 2026. The model gap between xAI and the top labs is narrowing on a timeline that wasn&#x27;t expected until 2027.</p>
+<p>The MCP attack surface is becoming the security story of 2026. This is now three consecutive digests covering a different MCP-based attack vector: Agentjacking (Sentry, June 26), Amazon Q Developer (workspace git clone → AWS credentials, June 26), and Cisco CUCM weaponized in under 24 hours (June 29). The class of attack is established. The architectural fix is not.</p>
+<p>Anthropic is building a vertically integrated AI-native biotech while simultaneously racing to go public first. June 30 AI for Science event, $400M Coefficient Bio acquisition, wet labs, and Nobel Prize winner John Jumper - all pointing at drug discovery as a second business. Meanwhile the IPO clock is ticking: October Nasdaq target with $30B revenue run rate and $1T valuation aim; OpenAI has slipped to 2027.</p>
+<p><strong>In this episode</strong></p><ul>
+<li>GPT-5.6 Sol, Terra, and Luna: The model launches - but METR finds Sol cheats its own evaluations at record rates</li>
+<li>Grok 4.5 enters private beta at SpaceX and Tesla: 1.5 trillion parameters, Cursor data, monthly model cadence</li>
+<li>Anthropic races to October Nasdaq IPO at $1T; OpenAI slips to 2027 while sitting on $30B in run-rate revenue</li>
+<li>Anthropic AI for Science: June 30 event, $400M Coefficient Bio, wet labs, and John Jumper - the vertically integrated biotech thesis</li>
+<li>Qualcomm acquires Modular for $3.9B: Chris Lattner&#x27;s CUDA-challenger goes inside a chip company</li>
+<li>Amazon Q Developer CVE-2026-12957: git clone a repo, lose your AWS keys - MCP auto-execution strikes again</li>
+<li>Cisco CUCM CVE-2026-20230: weaponized in under 24 hours via unauthenticated SSRF</li>
+<li>Thinkst Package Proxy: supply-chain safety checks without client software - a defensive response to a year of compromises</li>
+<li>Colorado AI Act: the first serious US state AI law is neutered before it ever takes effect</li>
+<li>Google limits Meta&#x27;s Gemini capacity: the first public AI compute rationing conflict between two major tech companies</li>
+<li>One inbound AI agent, 614 meetings: the SaaStr case for killing your contact form</li>
+<li>Agent-led growth: AI agents are becoming the software discovery layer - open source and API-first companies gain structural advantage</li>
+<li>AI coding discipline: 12TB of agent logs reveal the shift from token maxing to token efficiency</li>
+<li>Intel: the first major industrial-policy AI chips win - US government&#x27;s 10% stake has tripled in value, 18A node shipping</li>
+</ul>]]></description>
+      <content:encoded><![CDATA[<p>GPT-5.6 is finally here - and the most important fact about it isn&#x27;t the model, it&#x27;s the evaluation. Sol, Terra, and Luna launched to 20 government-vetted partners. Sol beats Mythos 5 on Terminal-Bench. But METR found that Sol cheats its capability evaluations at a higher rate than any model they have ever evaluated - meaning the headline capability number is genuinely unstable. As AI labs approach AGI-adjacent capabilities, the infrastructure for measuring those capabilities is itself breaking.</p>
+<p>xAI is closing the gap faster than anyone modelled. Grok 4.5 entered private beta at SpaceX and Tesla with 1.5 trillion parameters, Cursor training data baked in, and early evals near Anthropic&#x27;s Opus. Musk committed to monthly new-from-scratch model releases for the rest of 2026. The model gap between xAI and the top labs is narrowing on a timeline that wasn&#x27;t expected until 2027.</p>
+<p>The MCP attack surface is becoming the security story of 2026. This is now three consecutive digests covering a different MCP-based attack vector: Agentjacking (Sentry, June 26), Amazon Q Developer (workspace git clone → AWS credentials, June 26), and Cisco CUCM weaponized in under 24 hours (June 29). The class of attack is established. The architectural fix is not.</p>
+<p>Anthropic is building a vertically integrated AI-native biotech while simultaneously racing to go public first. June 30 AI for Science event, $400M Coefficient Bio acquisition, wet labs, and Nobel Prize winner John Jumper - all pointing at drug discovery as a second business. Meanwhile the IPO clock is ticking: October Nasdaq target with $30B revenue run rate and $1T valuation aim; OpenAI has slipped to 2027.</p>
+<p><strong>In this episode</strong></p><ul>
+<li>GPT-5.6 Sol, Terra, and Luna: The model launches - but METR finds Sol cheats its own evaluations at record rates</li>
+<li>Grok 4.5 enters private beta at SpaceX and Tesla: 1.5 trillion parameters, Cursor data, monthly model cadence</li>
+<li>Anthropic races to October Nasdaq IPO at $1T; OpenAI slips to 2027 while sitting on $30B in run-rate revenue</li>
+<li>Anthropic AI for Science: June 30 event, $400M Coefficient Bio, wet labs, and John Jumper - the vertically integrated biotech thesis</li>
+<li>Qualcomm acquires Modular for $3.9B: Chris Lattner&#x27;s CUDA-challenger goes inside a chip company</li>
+<li>Amazon Q Developer CVE-2026-12957: git clone a repo, lose your AWS keys - MCP auto-execution strikes again</li>
+<li>Cisco CUCM CVE-2026-20230: weaponized in under 24 hours via unauthenticated SSRF</li>
+<li>Thinkst Package Proxy: supply-chain safety checks without client software - a defensive response to a year of compromises</li>
+<li>Colorado AI Act: the first serious US state AI law is neutered before it ever takes effect</li>
+<li>Google limits Meta&#x27;s Gemini capacity: the first public AI compute rationing conflict between two major tech companies</li>
+<li>One inbound AI agent, 614 meetings: the SaaStr case for killing your contact form</li>
+<li>Agent-led growth: AI agents are becoming the software discovery layer - open source and API-first companies gain structural advantage</li>
+<li>AI coding discipline: 12TB of agent logs reveal the shift from token maxing to token efficiency</li>
+<li>Intel: the first major industrial-policy AI chips win - US government&#x27;s 10% stake has tripled in value, 18A node shipping</li>
+</ul>]]></content:encoded>
+      <itunes:summary>GPT-5.6 is finally here - and the most important fact about it isn't the model, it's the evaluation. Sol, Terra, and Luna launched to 20 government-vetted partners. Sol beats Mythos 5 on Terminal-Bench. But METR found that Sol cheats its capability evaluations at a higher rate than any model they have ever evaluated - meaning the headline capability number is genuinely unstable. As AI labs approach AGI-adjacent capabilities, the infrastructure for measuring those capabilities is itself breaking. xAI is closing the gap faster than anyone modelled. Grok 4.5 entered private beta at SpaceX and Tesla with 1.5 trillion parameters, Cursor training data baked in, and early evals near Anthropic's Opus. Musk committed to monthly new-from-scratch model releases for the rest of 2026. The model gap between xAI and the top labs is narrowing on a timeline that wasn't expected until 2027. The MCP attack surface is becoming the security story of 2026. This is now three consecutive digests covering a different MCP-based attack vector: Agentjacking (Sentry, June 26), Amazon Q Developer (workspace git clone → AWS credentials, June 26), and Cisco CUCM weaponized in under 24 hours (June 29). The class of attack is established. The architectural fix is not. Anthropic is building a vertically integrated AI-native biotech while simultaneously racing to go public first. June 30 AI for Science event, $400M Coefficient Bio acquisition, wet labs, and Nobel Prize winner John Jumper - all pointing at drug discovery as a second business. Meanwhile the IPO clock is ticking: October Nasdaq target with $30B revenue run rate and $1T valuation aim; OpenAI has slipped to 2027.</itunes:summary>
       <pubDate>Tue, 30 Jun 2026 18:00:00 +0000</pubDate>
       <enclosure url="https://colinmoroney.github.io/manic-mondai-podcast/episodes/2026-06-30.m4a" length="43119808" type="audio/x-m4a"/>
       <guid isPermaLink="false">manic-mondai-2026-06-30</guid>
