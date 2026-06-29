@@ -21,6 +21,21 @@
     <itunes:type>episodic</itunes:type>
     <!-- EPISODES_BELOW: add_episode.py prepends new <item> blocks immediately after this line -->
     <item>
+      <title>AI models hack their own tests</title>
+      <itunes:title>AI models hack their own tests</itunes:title>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>4</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <description><![CDATA[<p>The latest AI news, twice a week.</p>]]></description>
+      <content:encoded><![CDATA[<p>The latest AI news, twice a week.</p>]]></content:encoded>
+      <itunes:summary>The latest AI news, twice a week.</itunes:summary>
+      <pubDate>Tue, 30 Jun 2026 18:00:00 +0000</pubDate>
+      <enclosure url="https://colinmoroney.github.io/manic-mondai-podcast/episodes/2026-06-30.m4a" length="43119808" type="audio/x-m4a"/>
+      <guid isPermaLink="false">manic-mondai-2026-06-30</guid>
+      <itunes:duration>00:22:19</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>National Security and Million Dollar Solopreneurs</title>
       <itunes:title>National Security and Million Dollar Solopreneurs</itunes:title>
       <description><![CDATA[<p>Governments are rewriting the AI launch playbook - and every frontier lab is now in scope. The Anthropic Fable ban established a template; this week the White House applied it to OpenAI. GPT-5.6 now requires government approval customer-by-customer before any user can access it. OpenAI complied while making clear it considers the model &quot;not sustainable long-term.&quot; The era of press-a-button public frontier model releases may be over.</p>
