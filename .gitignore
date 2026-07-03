@@ -1,2 +1,6 @@
 __pycache__/
 *.pyc
+
+# Audio is hosted in the GitHub Release "episodes", not committed here
+episodes/
+*.m4a

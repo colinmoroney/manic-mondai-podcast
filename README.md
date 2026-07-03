@@ -16,28 +16,30 @@ After NotebookLM generates the audio overview and you download the `.m4a`, it's 
 **episode title and show notes auto-fill from that week's digest**:
 
 ```bash
-python3 add_episode.py --file ~/Downloads/Some_NotebookLM_Title.m4a --date 2026-06-25
-git add -A && git commit -m "episode 2026-06-25" && git push
+python3 add_episode.py --file ~/Downloads/Some_NotebookLM_Title.m4a --date 2026-07-06
+git add feed.xml && git commit -m "episode 2026-07-06" && git push
 ```
 
 What it does automatically:
-- **Title** - from the NotebookLM filename (it auto-titles descriptively), with the date appended.
+- **Uploads the audio to the GitHub Release** tagged `episodes` as `<date>.m4a` (public, CDN-served),
+  and points the feed enclosure there. Audio is NOT committed to the repo, so Pages builds stay tiny.
+- **Title** - from the NotebookLM filename (it auto-titles descriptively).
   Falls back to the digest's top story headline if the filename isn't descriptive.
 - **Show notes / description** - built from the matching digest's *Threads this week* plus a plain
   list of the week's story headlines (`../manic-mondai-project/digests/<date>-digest.md`).
-- Copies the audio to `episodes/<date>.m4a`, computes size + duration, prepends a new `<item>` to `feed.xml`.
+- Computes size + duration and prepends a new `<item>` to `feed.xml`.
 
-Override anything: `--title`, `--summary`, `--season`, `--episode`, `--digest` (season defaults to 1; episode auto-increments).
-Preview without writing: add `--dry-run`.
+Override anything: `--title`, `--summary`, `--season`, `--episode`, `--digest`, `--force` (season defaults to 1; episode auto-increments).
+Preview without writing/uploading: add `--dry-run`.
 
-GitHub Pages serves the update within a minute or two; subscribed apps pick it up on their next refresh.
-(Requires the private `manic-mondai-project` repo checked out as a sibling folder for the auto-notes.)
+Requires the `gh` CLI (authenticated) for the upload, and the private `manic-mondai-project` repo
+checked out as a sibling folder for the auto-notes.
 
 ## Files
-- `feed.xml` - the RSS feed (newest episode first)
-- `episodes/` - the published `.m4a` files
-- `cover.jpg` - show artwork (3000×3000)
-- `add_episode.py` - feed updater
+- `feed.xml` - the RSS feed (newest episode first); Pages serves this
+- `cover.jpg` - show artwork (3000×3000); Pages serves this
+- `add_episode.py` - feed updater (uploads audio to the Release, updates the feed)
+- **Audio** lives in the GitHub Release [`episodes`](https://github.com/colinmoroney/manic-mondai-podcast/releases/tag/episodes), not in the repo
 
 ## Getting it searchable (one-time)
 1. **Apple Podcasts:** sign in at [Podcasts Connect](https://podcastsconnect.apple.com), add the feed URL, validate, submit.
@@ -47,6 +49,6 @@ GitHub Pages serves the update within a minute or two; subscribed apps pick it u
 Until submitted, the show is private - listeners can still add it by pasting the feed URL into any app.
 
 ## Notes
-- GitHub Pages is fine for a personal, low-traffic feed. If it ever grows, move audio to a dedicated
-  podcast host and only the enclosure URLs change.
+- Audio is hosted as GitHub Release assets (CDN-served), so GitHub Pages only ever builds the small
+  `feed.xml` + `cover.jpg` - fast, and no repo-size problem as episodes accumulate.
 - Episode dates match the source digest date in `manic-mondai-project/digests/`.

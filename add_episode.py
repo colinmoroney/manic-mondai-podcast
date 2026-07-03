@@ -1,30 +1,35 @@
 #!/usr/bin/env python3
-"""Add a NotebookLM episode (.m4a) to the Manic AI public feed.
+"""Add a NotebookLM episode to the Manic AI public feed.
+
+Audio is uploaded to the GitHub Release tagged "episodes" (public, CDN-served) and the feed's
+enclosure points there. Only feed.xml + cover live in the repo, so GitHub Pages builds stay tiny.
 
 Common use (one-liner - title + show notes auto-filled from that week's digest):
-  python3 add_episode.py --file ~/Downloads/Some_NotebookLM_Title.m4a --date 2026-06-25
-  git add -A && git commit -m "episode 2026-06-25" && git push
+  python3 add_episode.py --file ~/Downloads/Some_NotebookLM_Title.m4a --date 2026-07-06
+  git add feed.xml && git commit -m "episode 2026-07-06" && git push
 
 Options:
   --file     path to the NotebookLM .m4a            (required)
   --date     YYYY-MM-DD, matches the digest date    (required)
-  --digest   source digest .md  (default: ../manic-mondai-project/digests/<date>-digest.md)
+  --digest   source digest .md  (default: ../manic-mondai-project/digests/<date>-digest.md;
+             falls back to the newest digest if that exact date is missing)
   --title    override the episode title
   --summary  override the description (plain text)
   --season   season number (default: 1)
   --episode  episode number (default: auto = current episode count + 1)
-  --dry-run  print what would be written; change nothing
+  --force    allow re-using a date already in the feed (also clobbers the Release asset)
+  --dry-run  print what would be written; upload/change nothing
   --feed     feed file (default: feed.xml)
 
-Title priority:  --title > a descriptive NotebookLM filename > first story headline from the digest > "Manic AI - <date>".
-Description:     --summary, else built from the digest's "Threads this week" plus a plain list of the week's stories.
-Stdlib only; uses macOS `afinfo` for duration. No em-dashes (Colin's preference).
+Requires the `gh` CLI (authenticated) to upload the audio. No em-dashes (Colin's preference).
 """
 import argparse, html, os, re, shutil, subprocess
 from datetime import datetime, timezone
 from email.utils import format_datetime
 
-BASE_URL = "https://colinmoroney.github.io/manic-mondai-podcast"
+REPO = "colinmoroney/manic-mondai-podcast"
+RELEASE_TAG = "episodes"
+RELEASE_URL = f"https://github.com/{REPO}/releases/download/{RELEASE_TAG}"
 MARKER = "<!-- EPISODES_BELOW:"
 
 
@@ -122,7 +127,7 @@ def main():
     ap.add_argument("--season", default="1")
     ap.add_argument("--episode")
     ap.add_argument("--feed", default="feed.xml")
-    ap.add_argument("--force", action="store_true", help="overwrite an existing episode for this date")
+    ap.add_argument("--force", action="store_true", help="allow a date already present in the feed")
     ap.add_argument("--dry-run", action="store_true")
     a = ap.parse_args()
     if not a.digest:
@@ -136,34 +141,40 @@ def main():
 
     with open(a.feed, encoding="utf-8") as f:
         feed = f.read()
-    episode = a.episode or str(feed.count("</item>") + 1)  # count closing tags; marker comment contains "<item>"
+    if f"manic-mondai-{a.date}" in feed and not a.force:
+        raise SystemExit(f"ERROR: an episode dated {a.date} is already in the feed - did you forget to "
+                         f"update --date? Re-run with --force to add it anyway.")
+    episode = a.episode or str(feed.count("</item>") + 1)
 
     title, summary_plain, notes_html = build_meta(a)
     dur = duration_hms(a.file)
+    size = os.path.getsize(a.file)
 
     if a.dry_run:
-        print("DRY RUN - nothing written\n")
-        print("digest :", a.digest, "(found)" if os.path.exists(a.digest) else "(NOT FOUND - title/notes will be thin)")
+        print("DRY RUN - nothing uploaded or written\n")
+        print("digest :", a.digest, "(found)" if os.path.exists(a.digest) else "(NOT FOUND)")
         print("title  :", title)
         print(f"season : {a.season}   episode: {episode}")
-        print("duration:", dur)
-        print("\n--- itunes:summary (plain) ---\n" + summary_plain[:700])
-        print("\n--- description / show notes (html) ---\n" + notes_html[:1500])
+        print("audio  :", f"{RELEASE_URL}/{a.date}.m4a", f"({size} bytes, {dur})")
+        print("\n--- itunes:summary ---\n" + summary_plain[:700])
+        print("\n--- show notes (html) ---\n" + notes_html[:1500])
         return
 
     if MARKER not in feed:
         raise SystemExit(f"marker '{MARKER}' not found in {a.feed}")
-    os.makedirs("episodes", exist_ok=True)
-    dest = os.path.join("episodes", f"{a.date}.m4a")
-    if os.path.exists(dest) and not a.force and os.path.abspath(a.file) != os.path.abspath(dest):
-        raise SystemExit(f"ERROR: {dest} already exists - did you forget to update --date? "
-                         f"Re-run with --force to overwrite it on purpose.")
-    if os.path.abspath(a.file) != os.path.abspath(dest):
-        shutil.copyfile(a.file, dest)
-    size = os.path.getsize(dest)
+
+    # Upload the audio to the Release as <date>.m4a (stage a copy so the asset name is clean).
+    stage = os.path.join("/tmp", f"{a.date}.m4a")
+    shutil.copyfile(a.file, stage)
+    print(f"Uploading audio to Release '{RELEASE_TAG}' as {a.date}.m4a ({size} bytes)...")
+    r = subprocess.run(["gh", "release", "upload", RELEASE_TAG, stage, "--repo", REPO, "--clobber"],
+                       capture_output=True, text=True)
+    os.remove(stage)
+    if r.returncode != 0:
+        raise SystemExit(f"gh release upload failed:\n{r.stderr.strip()}")
+
     dt = datetime.strptime(a.date, "%Y-%m-%d").replace(hour=18, tzinfo=timezone.utc)
     esc = lambda s: html.escape(s, quote=False)
-
     item = f"""    <item>
       <title>{esc(title)}</title>
       <itunes:title>{esc(title)}</itunes:title>
@@ -174,7 +185,7 @@ def main():
       <content:encoded><![CDATA[{notes_html}]]></content:encoded>
       <itunes:summary>{esc(summary_plain)}</itunes:summary>
       <pubDate>{format_datetime(dt)}</pubDate>
-      <enclosure url="{BASE_URL}/episodes/{a.date}.m4a" length="{size}" type="audio/x-m4a"/>
+      <enclosure url="{RELEASE_URL}/{a.date}.m4a" length="{size}" type="audio/x-m4a"/>
       <guid isPermaLink="false">manic-mondai-{a.date}</guid>
       <itunes:duration>{dur}</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
@@ -184,7 +195,7 @@ def main():
     with open(a.feed, "w", encoding="utf-8") as f:
         f.write(feed[:i] + item + feed[i:])
     print(f"Added S{a.season}E{episode}: '{title}' ({size} bytes, {dur}).")
-    print(f'Next: git add -A && git commit -m "episode {a.date}" && git push')
+    print(f'Next: git add {a.feed} && git commit -m "episode {a.date}" && git push')
 
 
 if __name__ == "__main__":
