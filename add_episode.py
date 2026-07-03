@@ -122,6 +122,7 @@ def main():
     ap.add_argument("--season", default="1")
     ap.add_argument("--episode")
     ap.add_argument("--feed", default="feed.xml")
+    ap.add_argument("--force", action="store_true", help="overwrite an existing episode for this date")
     ap.add_argument("--dry-run", action="store_true")
     a = ap.parse_args()
     if not a.digest:
@@ -154,6 +155,9 @@ def main():
         raise SystemExit(f"marker '{MARKER}' not found in {a.feed}")
     os.makedirs("episodes", exist_ok=True)
     dest = os.path.join("episodes", f"{a.date}.m4a")
+    if os.path.exists(dest) and not a.force and os.path.abspath(a.file) != os.path.abspath(dest):
+        raise SystemExit(f"ERROR: {dest} already exists - did you forget to update --date? "
+                         f"Re-run with --force to overwrite it on purpose.")
     if os.path.abspath(a.file) != os.path.abspath(dest):
         shutil.copyfile(a.file, dest)
     size = os.path.getsize(dest)
