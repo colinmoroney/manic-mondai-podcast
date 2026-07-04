@@ -1,8 +1,14 @@
 #!/usr/bin/env python3
 """Add a NotebookLM episode to the Manic AI public feed.
 
-Audio is uploaded to the GitHub Release tagged "episodes" (public, CDN-served) and the feed's
-enclosure points there. Only feed.xml + cover live in the repo, so GitHub Pages builds stay tiny.
+Audio is uploaded to the archive.org item "manic-ai-podcast" (public, streams with a real
+audio/* content-type + byte-range support) and the feed's enclosure points there. Only
+feed.xml + cover live in the repo, so GitHub Pages builds stay tiny.
+
+Why archive.org, not GitHub Releases: GitHub forces Content-Disposition: attachment and
+Content-Type: application/octet-stream on every release-asset download, so Apple Podcasts
+refuses to stream them ("This episode can't be played on this device"). archive.org serves
+audio inline with the right headers.
 
 Common use (one-liner - title + show notes auto-filled from that week's digest):
   python3 add_episode.py --file ~/Downloads/Some_NotebookLM_Title.m4a --date 2026-07-06
@@ -17,19 +23,20 @@ Options:
   --summary  override the description (plain text)
   --season   season number (default: 1)
   --episode  episode number (default: auto = current episode count + 1)
-  --force    allow re-using a date already in the feed (also clobbers the Release asset)
+  --force    allow re-using a date already in the feed (also re-uploads/clobbers the archive.org file)
   --dry-run  print what would be written; upload/change nothing
   --feed     feed file (default: feed.xml)
 
-Requires the `gh` CLI (authenticated) to upload the audio. No em-dashes (Colin's preference).
+Requires the `ia` CLI (internetarchive, authenticated via ~/.config/internetarchive/ia.ini)
+to upload the audio. No em-dashes (Colin's preference).
 """
 import argparse, html, os, re, shutil, subprocess
 from datetime import datetime, timezone
 from email.utils import format_datetime
 
 REPO = "colinmoroney/manic-mondai-podcast"
-RELEASE_TAG = "episodes"
-RELEASE_URL = f"https://github.com/{REPO}/releases/download/{RELEASE_TAG}"
+IA_ITEM = "manic-ai-podcast"
+RELEASE_URL = f"https://archive.org/download/{IA_ITEM}"
 MARKER = "<!-- EPISODES_BELOW:"
 
 
@@ -163,15 +170,20 @@ def main():
     if MARKER not in feed:
         raise SystemExit(f"marker '{MARKER}' not found in {a.feed}")
 
-    # Upload the audio to the Release as <date>.m4a (stage a copy so the asset name is clean).
+    # Upload the audio to the archive.org item as <date>.m4a (stage a copy so the asset name is clean).
+    ia_bin = shutil.which("ia") or os.path.expanduser("~/Library/Python/3.14/bin/ia")
+    if not os.path.exists(ia_bin):
+        raise SystemExit("`ia` CLI not found. Install with: python3 -m pip install --user "
+                         "--break-system-packages internetarchive")
     stage = os.path.join("/tmp", f"{a.date}.m4a")
     shutil.copyfile(a.file, stage)
-    print(f"Uploading audio to Release '{RELEASE_TAG}' as {a.date}.m4a ({size} bytes)...")
-    r = subprocess.run(["gh", "release", "upload", RELEASE_TAG, stage, "--repo", REPO, "--clobber"],
+    print(f"Uploading audio to archive.org item '{IA_ITEM}' as {a.date}.m4a ({size} bytes)...")
+    r = subprocess.run([ia_bin, "upload", IA_ITEM, stage, "--metadata=mediatype:audio",
+                        "--no-derive", "--retries=5"],
                        capture_output=True, text=True)
     os.remove(stage)
     if r.returncode != 0:
-        raise SystemExit(f"gh release upload failed:\n{r.stderr.strip()}")
+        raise SystemExit(f"ia upload failed:\n{r.stderr.strip()}")
 
     dt = datetime.strptime(a.date, "%Y-%m-%d").replace(hour=18, tzinfo=timezone.utc)
     esc = lambda s: html.escape(s, quote=False)
