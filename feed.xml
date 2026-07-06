@@ -26,45 +26,47 @@
       <itunes:season>1</itunes:season>
       <itunes:episode>5</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
-      <description><![CDATA[<p>Washington as gatekeeper - now with a live example of the model returning. The prior digest covered GPT-5.6&#x27;s government-gated launch; this week we got the other bookend - Fable 5 came back after 21 days offline, but only with a new commitment that gives the US government a 30-day pre-release look at every future Anthropic model. The kill-switch precedent is now paired with a restoration precedent, and both run through Washington.</p>
-<p>The frontier lands cheaper - fast. Sonnet 5 approaches Opus-level capability at mid-tier pricing, and Cognition&#x27;s Devin Fusion proves multi-model routing can cut agentic-coding costs 35-41% without losing benchmark ground. Google is pushing the commodity floor up from below with sub-cent image generation. The unit economics of running AI are moving faster than the capability headlines.</p>
-<p>Inference is the battleground. Etched exits stealth with $800M and $1B in orders for transformer-baked-into-silicon chips; Meta plans to monetize its compute surplus as &quot;Meta Compute.&quot; Who controls - and prices - inference may matter as much as who trains the best model.</p>
-<p>AI deployments are the new attack surface. An 81M-attempt Azure CLI password spray and threat actors weaponizing misconfigured Ollama/LiteLLM endpoints show enterprise AI sprawl outpacing security hygiene - attackers are now stealing the compute, not just the data.</p>
+      <description><![CDATA[<p>The geopolitics of AI trust is fracturing fast. Anthropic accused Alibaba of running the largest known distillation attack on any AI lab - 25,000 fraudulent accounts, 28.8 million interactions - while Alibaba banned Claude Code over a hidden China-detection backdoor. Simultaneously, Altman published an FT op-ed calling for an IAEA for AI and floated giving the US government a 5% equity stake worth $42.6 billion. Washington and Beijing are now both actively shaping commercial AI, from opposite ends.</p>
+<p>The cheap-token trap: bills are exploding even as prices crater. Token prices fell from $60 to $0.60 per million in three years. AI bills didn&#x27;t follow. A four-person startup ran up $113,000/month; Uber burned its entire 2026 AI budget in four months. Agents re-read context and self-check, consuming 60-140× the tokens of a single reply. The Vercel SDR story is the bull case; Uber is the cautionary footnote from the same phenomenon.</p>
+<p>Specialization is beating the frontier - in public, with numbers. Thinking Machines Lab and Bridgewater published results showing a fine-tuned open model outperforming every frontier model at 13.8× lower cost. &quot;Better Models: Worse Tools&quot; documents frontier capability gains breaking agent harnesses. Vertical AI founders are defecting from model labs. The &quot;just use the best frontier&quot; default is being stress-tested simultaneously from research, engineering, and business angles.</p>
+<p>The hardware supply chain is becoming a strategic weapon. Anthropic is talking to Samsung about 2nm custom chips; Nvidia launched a 210,000-GPU vendor-financing program for smaller cloud operators; Meta is scaling Watermelon&#x27;s training on its Prometheus cluster (1 gigawatt, 500,000 GPUs). Control of compute is the new control of distribution - and every major AI player is making a different infrastructure bet.</p>
 <p><strong>In this episode</strong></p><ul>
-<li>Fable 5 Returns - and the US Government Now Gets a 30-Day Look at Every Future Anthropic Model</li>
-<li>Claude Sonnet 5: Opus-Class Performance at Mid-Tier Pricing - Watch the Tokenizer</li>
-<li>Meta Compute: A Fourth Hyperscaler Enters the Cloud Market</li>
-<li>Etched Exits Stealth: $800M Raised, $1B in Orders, First-Pass Silicon Working</li>
-<li>Devin Fusion: Multi-Model Routing Cuts Agentic Coding Costs 35-41%</li>
-<li>Security Cluster: Azure CLI Sprayed 81M Times; AI Inference Endpoints Weaponized</li>
-<li>DHS&#x27;s HSIN Information-Sharing Network Breached</li>
-<li>Meta Brain2Qwerty v2: 61% Word Accuracy from Non-Invasive Brain Scans</li>
-<li>Claude Science Ships: Anthropic&#x27;s AI Workbench for Researchers</li>
-<li>Google Pushes the Cheap Tier: Nano Banana 2 Lite, Gemini Omni Flash, and a Flash Upgrade in Testing</li>
-<li>Google TabFM: A Foundation Model for Tabular Data That Skips Per-Dataset Training</li>
-<li>Meta Walks Away From Kalshi, Builds Its Own Play-Money Prediction Market (&quot;Arena&quot;)</li>
-<li>Cursor for iOS: Agentic Coding Goes Mobile</li>
+<li>JadePuffer: The First End-to-End Autonomous LLM Ransomware</li>
+<li>Anthropic vs. Alibaba: The Distillation War Goes Public and Lands in Congress</li>
+<li>Meta Watermelon Claims GPT-5.5 Parity - and Zuckerberg&#x27;s Own Words Undercut It</li>
+<li>Altman Proposes an IAEA for AI and a 5% Government Stake in OpenAI</li>
+<li>Anthropic Explores Samsung 2nm Custom Chip as the Hardware Race Spreads</li>
+<li>Nvidia&#x27;s GPU Vendor-Finance Program: 210,000 Grace Blackwell Chips for Startup Clouds</li>
+<li>Vercel&#x27;s SDR Story: 10 People to 1, $5,000/Year - Read the Fine Print</li>
+<li>TML + Bridgewater: Specialized Fine-Tuning Beats Every Frontier Model at 13.8× Less Cost</li>
+<li>The AI Cost Trap: Token Prices Fell 99%, but Bills Are Exploding</li>
+<li>ByteDance Seedance 2.5: 3-Minute AI Video Drops July 9</li>
+<li>AI Superforecasters Are Here - and the Numbers Are Hard to Explain Away</li>
+<li>Better Models: Worse Tools - When Capability Upgrades Break Your Agent Stack</li>
+<li>AI Has Torched the Market for Junior Programmers</li>
+<li>The Context Engineering Playbook: Structure Your Data, Unlock Your Agents</li>
 </ul>]]></description>
-      <content:encoded><![CDATA[<p>Washington as gatekeeper - now with a live example of the model returning. The prior digest covered GPT-5.6&#x27;s government-gated launch; this week we got the other bookend - Fable 5 came back after 21 days offline, but only with a new commitment that gives the US government a 30-day pre-release look at every future Anthropic model. The kill-switch precedent is now paired with a restoration precedent, and both run through Washington.</p>
-<p>The frontier lands cheaper - fast. Sonnet 5 approaches Opus-level capability at mid-tier pricing, and Cognition&#x27;s Devin Fusion proves multi-model routing can cut agentic-coding costs 35-41% without losing benchmark ground. Google is pushing the commodity floor up from below with sub-cent image generation. The unit economics of running AI are moving faster than the capability headlines.</p>
-<p>Inference is the battleground. Etched exits stealth with $800M and $1B in orders for transformer-baked-into-silicon chips; Meta plans to monetize its compute surplus as &quot;Meta Compute.&quot; Who controls - and prices - inference may matter as much as who trains the best model.</p>
-<p>AI deployments are the new attack surface. An 81M-attempt Azure CLI password spray and threat actors weaponizing misconfigured Ollama/LiteLLM endpoints show enterprise AI sprawl outpacing security hygiene - attackers are now stealing the compute, not just the data.</p>
+      <content:encoded><![CDATA[<p>The geopolitics of AI trust is fracturing fast. Anthropic accused Alibaba of running the largest known distillation attack on any AI lab - 25,000 fraudulent accounts, 28.8 million interactions - while Alibaba banned Claude Code over a hidden China-detection backdoor. Simultaneously, Altman published an FT op-ed calling for an IAEA for AI and floated giving the US government a 5% equity stake worth $42.6 billion. Washington and Beijing are now both actively shaping commercial AI, from opposite ends.</p>
+<p>The cheap-token trap: bills are exploding even as prices crater. Token prices fell from $60 to $0.60 per million in three years. AI bills didn&#x27;t follow. A four-person startup ran up $113,000/month; Uber burned its entire 2026 AI budget in four months. Agents re-read context and self-check, consuming 60-140× the tokens of a single reply. The Vercel SDR story is the bull case; Uber is the cautionary footnote from the same phenomenon.</p>
+<p>Specialization is beating the frontier - in public, with numbers. Thinking Machines Lab and Bridgewater published results showing a fine-tuned open model outperforming every frontier model at 13.8× lower cost. &quot;Better Models: Worse Tools&quot; documents frontier capability gains breaking agent harnesses. Vertical AI founders are defecting from model labs. The &quot;just use the best frontier&quot; default is being stress-tested simultaneously from research, engineering, and business angles.</p>
+<p>The hardware supply chain is becoming a strategic weapon. Anthropic is talking to Samsung about 2nm custom chips; Nvidia launched a 210,000-GPU vendor-financing program for smaller cloud operators; Meta is scaling Watermelon&#x27;s training on its Prometheus cluster (1 gigawatt, 500,000 GPUs). Control of compute is the new control of distribution - and every major AI player is making a different infrastructure bet.</p>
 <p><strong>In this episode</strong></p><ul>
-<li>Fable 5 Returns - and the US Government Now Gets a 30-Day Look at Every Future Anthropic Model</li>
-<li>Claude Sonnet 5: Opus-Class Performance at Mid-Tier Pricing - Watch the Tokenizer</li>
-<li>Meta Compute: A Fourth Hyperscaler Enters the Cloud Market</li>
-<li>Etched Exits Stealth: $800M Raised, $1B in Orders, First-Pass Silicon Working</li>
-<li>Devin Fusion: Multi-Model Routing Cuts Agentic Coding Costs 35-41%</li>
-<li>Security Cluster: Azure CLI Sprayed 81M Times; AI Inference Endpoints Weaponized</li>
-<li>DHS&#x27;s HSIN Information-Sharing Network Breached</li>
-<li>Meta Brain2Qwerty v2: 61% Word Accuracy from Non-Invasive Brain Scans</li>
-<li>Claude Science Ships: Anthropic&#x27;s AI Workbench for Researchers</li>
-<li>Google Pushes the Cheap Tier: Nano Banana 2 Lite, Gemini Omni Flash, and a Flash Upgrade in Testing</li>
-<li>Google TabFM: A Foundation Model for Tabular Data That Skips Per-Dataset Training</li>
-<li>Meta Walks Away From Kalshi, Builds Its Own Play-Money Prediction Market (&quot;Arena&quot;)</li>
-<li>Cursor for iOS: Agentic Coding Goes Mobile</li>
+<li>JadePuffer: The First End-to-End Autonomous LLM Ransomware</li>
+<li>Anthropic vs. Alibaba: The Distillation War Goes Public and Lands in Congress</li>
+<li>Meta Watermelon Claims GPT-5.5 Parity - and Zuckerberg&#x27;s Own Words Undercut It</li>
+<li>Altman Proposes an IAEA for AI and a 5% Government Stake in OpenAI</li>
+<li>Anthropic Explores Samsung 2nm Custom Chip as the Hardware Race Spreads</li>
+<li>Nvidia&#x27;s GPU Vendor-Finance Program: 210,000 Grace Blackwell Chips for Startup Clouds</li>
+<li>Vercel&#x27;s SDR Story: 10 People to 1, $5,000/Year - Read the Fine Print</li>
+<li>TML + Bridgewater: Specialized Fine-Tuning Beats Every Frontier Model at 13.8× Less Cost</li>
+<li>The AI Cost Trap: Token Prices Fell 99%, but Bills Are Exploding</li>
+<li>ByteDance Seedance 2.5: 3-Minute AI Video Drops July 9</li>
+<li>AI Superforecasters Are Here - and the Numbers Are Hard to Explain Away</li>
+<li>Better Models: Worse Tools - When Capability Upgrades Break Your Agent Stack</li>
+<li>AI Has Torched the Market for Junior Programmers</li>
+<li>The Context Engineering Playbook: Structure Your Data, Unlock Your Agents</li>
 </ul>]]></content:encoded>
-      <itunes:summary>Washington as gatekeeper - now with a live example of the model returning. The prior digest covered GPT-5.6's government-gated launch; this week we got the other bookend - Fable 5 came back after 21 days offline, but only with a new commitment that gives the US government a 30-day pre-release look at every future Anthropic model. The kill-switch precedent is now paired with a restoration precedent, and both run through Washington. The frontier lands cheaper - fast. Sonnet 5 approaches Opus-level capability at mid-tier pricing, and Cognition's Devin Fusion proves multi-model routing can cut agentic-coding costs 35-41% without losing benchmark ground. Google is pushing the commodity floor up from below with sub-cent image generation. The unit economics of running AI are moving faster than the capability headlines. Inference is the battleground. Etched exits stealth with $800M and $1B in orders for transformer-baked-into-silicon chips; Meta plans to monetize its compute surplus as "Meta Compute." Who controls - and prices - inference may matter as much as who trains the best model. AI deployments are the new attack surface. An 81M-attempt Azure CLI password spray and threat actors weaponizing misconfigured Ollama/LiteLLM endpoints show enterprise AI sprawl outpacing security hygiene - attackers are now stealing the compute, not just the data.</itunes:summary>
+      <itunes:summary>The geopolitics of AI trust is fracturing fast. Anthropic accused Alibaba of running the largest known distillation attack on any AI lab - 25,000 fraudulent accounts, 28.8 million interactions - while Alibaba banned Claude Code over a hidden China-detection backdoor. Simultaneously, Altman published an FT op-ed calling for an IAEA for AI and floated giving the US government a 5% equity stake worth $42.6 billion. Washington and Beijing are now both actively shaping commercial AI, from opposite ends. The cheap-token trap: bills are exploding even as prices crater. Token prices fell from $60 to $0.60 per million in three years. AI bills didn't follow. A four-person startup ran up $113,000/month; Uber burned its entire 2026 AI budget in four months. Agents re-read context and self-check, consuming 60-140× the tokens of a single reply. The Vercel SDR story is the bull case; Uber is the cautionary footnote from the same phenomenon. Specialization is beating the frontier - in public, with numbers. Thinking Machines Lab and Bridgewater published results showing a fine-tuned open model outperforming every frontier model at 13.8× lower cost. "Better Models: Worse Tools" documents frontier capability gains breaking agent harnesses. Vertical AI founders are defecting from model labs. The "just use the best frontier" default is being stress-tested simultaneously from research, engineering, and business angles. The hardware supply chain is becoming a strategic weapon. Anthropic is talking to Samsung about 2nm custom chips; Nvidia launched a 210,000-GPU vendor-financing program for smaller cloud operators; Meta is scaling Watermelon's training on its Prometheus cluster (1 gigawatt, 500,000 GPUs). Control of compute is the new control of distribution - and every major AI player is making a different infrastructure bet.</itunes:summary>
       <pubDate>Mon, 06 Jul 2026 18:00:00 +0000</pubDate>
       <enclosure url="https://archive.org/download/manic-ai-podcast-audio/2026-07-06.m4a" length="42124404" type="audio/x-m4a"/>
       <guid isPermaLink="false">manic-mondai-2026-07-06</guid>
