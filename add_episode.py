@@ -35,7 +35,7 @@ from datetime import datetime, timezone
 from email.utils import format_datetime
 
 REPO = "colinmoroney/manic-mondai-podcast"
-IA_ITEM = "manic-ai-podcast"
+IA_ITEM = "manic-ai-podcast-audio"
 RELEASE_URL = f"https://archive.org/download/{IA_ITEM}"
 MARKER = "<!-- EPISODES_BELOW:"
 
