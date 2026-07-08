@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manic AI</title>
+  <meta name="description" content="A self-running AI briefing, turned into a two-host podcast. New episodes every Monday and Thursday.">
+
+  <link rel="canonical" href="https://thisismanic.ai/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://thisismanic.ai/">
+  <meta property="og:title" content="Manic AI">
+  <meta property="og:description" content="A self-running AI briefing, turned into a two-host podcast. New episodes every Monday and Thursday.">
+  <meta property="og:image" content="https://thisismanic.ai/assets/manic-ai-og.png">
+
+  <!-- Twitter card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Manic AI">
+  <meta name="twitter:description" content="A self-running AI briefing, turned into a two-host podcast. New episodes every Monday and Thursday.">
+  <meta name="twitter:image" content="https://thisismanic.ai/assets/manic-ai-og.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --ink: #16130f;
+      --paper: #fffcf5;
+      --paper-dim: #f6f0e4;
+      --accent: #ff3d00;
+      --accent-deep: #c22f00;
+      --line: #e4dccb;
+      --max: 68rem;
+      --display: "Bricolage Grotesque", "Avenir Next", "Helvetica Neue", Arial, sans-serif;
+      --body: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: var(--body);
+      background: var(--paper);
+      color: var(--ink);
+      line-height: 1.65;
+      font-size: 1.0625rem;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    ::selection { background: var(--accent); color: #fff; }
+
+    a { color: var(--accent-deep); }
+
+    a:focus-visible,
+    button:focus-visible {
+      outline: 3px solid var(--accent);
+      outline-offset: 3px;
+      border-radius: 4px;
+    }
+
+    .wrap {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 0 1.25rem;
+    }
+
+    h1, h2, h3 {
+      font-family: var(--display);
+      line-height: 1.05;
+      letter-spacing: -0.02em;
+      font-weight: 800;
+    }
+
+    /* ---------- Hero ---------- */
+    .hero {
+      padding: clamp(4rem, 12vh, 8rem) 0 clamp(3rem, 8vh, 6rem);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .eyebrow {
+      display: inline-block;
+      font-size: 0.8125rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.14em;
+      color: var(--accent-deep);
+      border: 1.5px solid var(--accent);
+      border-radius: 999px;
+      padding: 0.35rem 0.9rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .hero h1 {
+      font-size: clamp(3.5rem, 14vw, 9rem);
+      text-transform: uppercase;
+      color: var(--ink);
+    }
+
+    .hero h1 .spark { color: var(--accent); }
+
+    .tagline {
+      font-family: var(--display);
+      font-weight: 600;
+      font-size: clamp(1.25rem, 3.5vw, 1.75rem);
+      margin-top: 1.25rem;
+      max-width: 32ch;
+      line-height: 1.3;
+    }
+
+    .hero .intro {
+      margin-top: 1.25rem;
+      max-width: 56ch;
+      color: #3c362e;
+    }
+
+    .listen-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      margin-top: 2rem;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-family: var(--display);
+      font-weight: 700;
+      font-size: 1rem;
+      text-decoration: none;
+      padding: 0.85rem 1.5rem;
+      border-radius: 999px;
+      transition: transform 0.15s ease, box-shadow 0.15s ease;
+    }
+
+    .btn-primary {
+      background: var(--ink);
+      color: var(--paper);
+      border: 2px solid var(--ink);
+    }
+
+    .btn-secondary {
+      background: transparent;
+      color: var(--ink);
+      border: 2px solid var(--ink);
+    }
+
+    .btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 0 var(--accent);
+    }
+
+    .btn:active { transform: translateY(0); box-shadow: 0 2px 0 var(--accent); }
+
+    .cadence {
+      margin-top: 1rem;
+      font-size: 0.9375rem;
+      color: #5c5346;
+    }
+
+    /* ---------- Sections ---------- */
+    section { padding: clamp(3.5rem, 9vh, 6.5rem) 0; }
+
+    .section-head {
+      margin-bottom: 2.5rem;
+    }
+
+    .section-head h2 {
+      font-size: clamp(2rem, 6vw, 3.25rem);
+      text-transform: uppercase;
+    }
+
+    .section-head .kicker {
+      font-size: 0.8125rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.14em;
+      color: var(--accent-deep);
+      display: block;
+      margin-bottom: 0.75rem;
+    }
+
+    /* ---------- Pipeline ---------- */
+    .pipeline {
+      background: var(--ink);
+      color: var(--paper);
+    }
+
+    .pipeline .section-head h2 { color: var(--paper); }
+    .pipeline .section-head .kicker { color: var(--accent); }
+
+    .steps {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 2.5rem;
+      list-style: none;
+      counter-reset: step;
+    }
+
+    .step {
+      position: relative;
+      background: #211d17;
+      border: 1px solid #3a342b;
+      border-radius: 1rem;
+      padding: 1.75rem 1.5rem 1.5rem;
+      opacity: 1;
+    }
+
+    .step .num {
+      font-family: var(--display);
+      font-weight: 800;
+      font-size: 2.75rem;
+      line-height: 1;
+      color: var(--accent);
+      display: block;
+      margin-bottom: 0.75rem;
+    }
+
+    .step h3 {
+      font-size: 1.375rem;
+      margin-bottom: 0.6rem;
+      color: var(--paper);
+    }
+
+    .step p {
+      font-size: 0.9875rem;
+      color: #c9c2b4;
+    }
+
+    .step .detail {
+      margin-top: 0.75rem;
+      font-size: 0.875rem;
+      color: #948b7a;
+      font-style: italic;
+    }
+
+    /* connector: vertical line between stacked cards */
+    .step + .step::before {
+      content: "";
+      position: absolute;
+      top: -2.5rem;
+      left: 2.6rem;
+      width: 3px;
+      height: 2.5rem;
+      background: var(--accent);
+    }
+
+    @media (min-width: 760px) {
+      .steps {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 2rem;
+      }
+
+      /* connector: horizontal arrow between side-by-side cards */
+      .step + .step::before {
+        top: 50%;
+        left: -2rem;
+        width: 2rem;
+        height: 3px;
+        transform: translateY(-50%);
+      }
+
+      .step + .step::after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: -0.55rem;
+        transform: translateY(-50%) rotate(45deg);
+        width: 0.55rem;
+        height: 0.55rem;
+        border-top: 3px solid var(--accent);
+        border-right: 3px solid var(--accent);
+      }
+    }
+
+    .step { transition: transform 0.2s ease, border-color 0.2s ease; }
+
+    .step:hover {
+      transform: translateY(-4px);
+      border-color: var(--accent);
+    }
+
+    /* entrance animation, applied only when JS + motion allowed */
+    .anim .step {
+      opacity: 0;
+      transform: translateY(1.25rem);
+      transition: opacity 0.5s ease, transform 0.5s ease, border-color 0.2s ease;
+    }
+
+    .anim .step.in {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .anim .step.in:hover { transform: translateY(-4px); }
+
+    /* ---------- Why enriched ---------- */
+    .enriched .compare {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1rem;
+      margin: 2rem 0;
+    }
+
+    @media (min-width: 640px) {
+      .enriched .compare { grid-template-columns: 1fr 1fr; }
+    }
+
+    .compare .card {
+      border-radius: 1rem;
+      padding: 1.5rem;
+      border: 1.5px solid var(--line);
+      background: var(--paper-dim);
+    }
+
+    .compare .card.rich {
+      border-color: var(--accent);
+      background: #fff2ec;
+    }
+
+    .compare .card h3 {
+      font-size: 1.05rem;
+      margin-bottom: 0.4rem;
+    }
+
+    .compare .card p { font-size: 0.9375rem; color: #4a4337; }
+
+    .compare .card .arrow {
+      font-family: var(--display);
+      font-weight: 800;
+      color: var(--accent-deep);
+      display: block;
+      margin-top: 0.6rem;
+      font-size: 0.9375rem;
+    }
+
+    .enriched .body-copy { max-width: 60ch; }
+
+    /* ---------- Note ---------- */
+    .note {
+      background: var(--paper-dim);
+    }
+
+    .note blockquote {
+      max-width: 58ch;
+      font-family: var(--display);
+      font-weight: 500;
+      font-size: clamp(1.2rem, 3vw, 1.5rem);
+      line-height: 1.45;
+      letter-spacing: -0.01em;
+    }
+
+    .note blockquote .accent-mark { color: var(--accent); }
+
+    .note .sig {
+      margin-top: 1.5rem;
+      font-family: var(--body);
+      font-size: 0.9375rem;
+      font-weight: 600;
+      color: #5c5346;
+    }
+
+    /* ---------- Footer ---------- */
+    footer {
+      border-top: 1.5px solid var(--line);
+      padding: 2.5rem 0 3rem;
+      font-size: 0.9375rem;
+      color: #5c5346;
+    }
+
+    footer .foot-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem 2rem;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    /* ---------- Motion safety ---------- */
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      *, *::before, *::after {
+        animation: none !important;
+        transition: none !important;
+      }
+      .anim .step { opacity: 1; transform: none; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ================= Hero ================= -->
+  <header class="hero">
+    <div class="wrap">
+      <span class="eyebrow">A self-running AI briefing</span>
+      <h1>Manic<span class="spark">*</span><br>AI</h1>
+      <p class="tagline">The week in AI, gathered and written by a routine.</p>
+      <p class="intro">
+        Twice a week, a scheduled routine reads the past several days of AI news,
+        picks the stories with real substance, and writes them into a rich briefing.
+        NotebookLM turns that briefing into a two-host podcast.
+      </p>
+      <div class="listen-row">
+        <a class="btn btn-primary" href="https://open.spotify.com/show/033FhHakKuEYXWZg6WkTGW?si=668fe2f056f24698">Listen on Spotify</a>
+        <a class="btn btn-secondary" href="https://podcasts.apple.com/ca/podcast/manic-ai/id6784824356">Listen on Apple Podcasts</a>
+      </div>
+      <p class="cadence">New episodes every Monday and Thursday.</p>
+    </div>
+  </header>
+
+  <!-- ================= Pipeline ================= -->
+  <section class="pipeline" aria-labelledby="how-title">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="kicker">The pipeline</span>
+        <h2 id="how-title">How it works</h2>
+      </div>
+      <ol class="steps" id="steps">
+        <li class="step">
+          <span class="num" aria-hidden="true">1</span>
+          <h3>Gather</h3>
+          <p>A scheduled routine scans the week's AI news, from feeds and across the wider web.</p>
+        </li>
+        <li class="step">
+          <span class="num" aria-hidden="true">2</span>
+          <h3>Select</h3>
+          <p>Roughly 12 to 15 stories, variety first. Every item needs real substance.</p>
+          <p class="detail">Headline-only items get enriched or dropped.</p>
+        </li>
+        <li class="step">
+          <span class="num" aria-hidden="true">3</span>
+          <h3>Enrich &amp; write</h3>
+          <p>Each story gets what happened, the context, and why it matters. Plus the threads and open questions that give the episode a spine.</p>
+        </li>
+        <li class="step">
+          <span class="num" aria-hidden="true">4</span>
+          <h3>Listen</h3>
+          <p>The briefing goes to NotebookLM, which generates the two-host Manic AI audio overview.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ================= Why enriched ================= -->
+  <section class="enriched" aria-labelledby="why-title">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="kicker">The theory</span>
+        <h2 id="why-title">Why "enriched"</h2>
+      </div>
+      <p class="body-copy">
+        NotebookLM's output quality scales with how rich the source is.
+        That one observation shapes the whole pipeline.
+      </p>
+      <div class="compare">
+        <div class="card">
+          <h3>Terse roundup in</h3>
+          <p>Headlines and one-liners.</p>
+          <span class="arrow">&rarr; generic banter out</span>
+        </div>
+        <div class="card rich">
+          <h3>Rich briefing in</h3>
+          <p>Context, specifics, tension, open questions.</p>
+          <span class="arrow">&rarr; an engaging conversation out</span>
+        </div>
+      </div>
+      <p class="body-copy">
+        So the routine optimizes for depth and raw material.
+        Concision and delivery are NotebookLM's job.
+      </p>
+    </div>
+  </section>
+
+  <!-- ================= Note from me ================= -->
+  <section class="note" aria-labelledby="note-title">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="kicker">A note from me</span>
+        <h2 id="note-title" class="visually-hidden" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);">A note from me</h2>
+      </div>
+      <blockquote>
+        This is a personal experiment. I wanted to see what happens when a routine does
+        the gathering and the writing, so I can spend my attention on
+        <span class="accent-mark">listening and thinking</span> instead of doom-scrolling AI news.
+        So far, it works better than I expected. I keep tinkering anyway.
+      </blockquote>
+      <p class="sig">Colin Moroney</p>
+    </div>
+  </section>
+
+  <!-- ================= Footer ================= -->
+  <footer>
+    <div class="wrap foot-row">
+      <p>A personal project by Colin Moroney &middot; <span id="year">2026</span></p>
+      <p>
+        <a href="https://open.spotify.com/show/033FhHakKuEYXWZg6WkTGW?si=668fe2f056f24698">Spotify</a>
+        &nbsp;&middot;&nbsp;
+        <a href="https://podcasts.apple.com/ca/podcast/manic-ai/id6784824356">Apple Podcasts</a>
+        &nbsp;&middot;&nbsp;
+        <a href="https://www.linkedin.com/company/manic-ai/">LinkedIn</a>
+      </p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+
+    // Entrance animation for pipeline steps. Only enabled when motion is allowed
+    // and IntersectionObserver exists; otherwise cards render fully visible.
+    var motionOK = !window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    if (motionOK && "IntersectionObserver" in window) {
+      var steps = document.getElementById("steps");
+      steps.classList.add("anim");
+      var cards = steps.querySelectorAll(".step");
+      var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            var el = entry.target;
+            var i = Array.prototype.indexOf.call(cards, el);
+            el.style.transitionDelay = (i * 0.12) + "s";
+            el.classList.add("in");
+            io.unobserve(el);
+          }
+        });
+      }, { threshold: 0.2 });
+      cards.forEach(function (c) { io.observe(c); });
+    }
+  </script>
+</body>
+</html>
