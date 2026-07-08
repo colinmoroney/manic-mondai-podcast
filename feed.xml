@@ -5,7 +5,8 @@
      xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Manic AI</title>
-    <atom:link href="https://colinmoroney.github.io/manic-mondai-podcast/feed.xml" rel="self" type="application/rss+xml"/>
+    <link>https://thisismanic.ai/</link>
+    <atom:link href="https://thisismanic.ai/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-gb</language>
     <description>Manic AI is a twice-weekly rundown of the week in artificial intelligence - the big moves, the funding, the new tools, the security beat, and the occasional oddity, each delivered as a two-host audio overview. New episodes every Monday and Thursday.</description>
     <itunes:author>Manic AI</itunes:author>
@@ -14,7 +15,7 @@
       <itunes:name>Colin Moroney</itunes:name>
       <itunes:email>colinmoroney@gmail.com</itunes:email>
     </itunes:owner>
-    <itunes:image href="https://colinmoroney.github.io/manic-mondai-podcast/cover.jpg"/>
+    <itunes:image href="https://thisismanic.ai/cover.jpg"/>
     <itunes:category text="Technology"/>
     <itunes:category text="News"/>
     <itunes:explicit>false</itunes:explicit>
