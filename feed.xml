@@ -22,6 +22,49 @@
     <itunes:type>episodic</itunes:type>
     <!-- EPISODES_BELOW: add_episode.py prepends new <item> blocks immediately after this line -->
     <item>
+      <title>Microsoft Replaces OpenAI With Cheaper Models</title>
+      <itunes:title>Microsoft Replaces OpenAI With Cheaper Models</itunes:title>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>6</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <description><![CDATA[<p><strong>In this episode</strong></p><ul>
+<li>GPT-5.6 Launches Publicly - Three Tiers, Cerebras Speed</li>
+<li>GPT-Live - OpenAI&#x27;s Full-Duplex Voice Model</li>
+<li>Grok 4.5 - 1.5 Trillion Parameters at $2 Per Million Tokens</li>
+<li>Microsoft MAI - Own Models Replace OpenAI and Anthropic in Office Suite</li>
+<li>Anthropic J-Space - A Hidden Workspace Found Inside Claude</li>
+<li>DeepSeek Plans Custom Inference Silicon</li>
+<li>Nvidia Kyber NVL144 Delayed 12+ Months - PCB Manufacturing Bottleneck</li>
+<li>AI Agent Security Cluster - GitLost, Rogue Dialogflow, Writer Token Leak</li>
+<li>Januscape - 16-Year-Old Linux KVM Flaw Enables Cloud VM Escape</li>
+<li>Harvard/INSEAD Study - AI-Native Startups Run 25% Smaller Teams</li>
+<li>The Task Economy - Data Services as the Next $1 Trillion Category</li>
+<li>FDE Boom - $9.75B in Forward-Deployed Engineering + Uber&#x27;s 70% Agent PR Rate</li>
+<li>AI and Jobs - Big Tech Flips, Narrative Resets on Labor Impact</li>
+</ul>]]></description>
+      <content:encoded><![CDATA[<p><strong>In this episode</strong></p><ul>
+<li>GPT-5.6 Launches Publicly - Three Tiers, Cerebras Speed</li>
+<li>GPT-Live - OpenAI&#x27;s Full-Duplex Voice Model</li>
+<li>Grok 4.5 - 1.5 Trillion Parameters at $2 Per Million Tokens</li>
+<li>Microsoft MAI - Own Models Replace OpenAI and Anthropic in Office Suite</li>
+<li>Anthropic J-Space - A Hidden Workspace Found Inside Claude</li>
+<li>DeepSeek Plans Custom Inference Silicon</li>
+<li>Nvidia Kyber NVL144 Delayed 12+ Months - PCB Manufacturing Bottleneck</li>
+<li>AI Agent Security Cluster - GitLost, Rogue Dialogflow, Writer Token Leak</li>
+<li>Januscape - 16-Year-Old Linux KVM Flaw Enables Cloud VM Escape</li>
+<li>Harvard/INSEAD Study - AI-Native Startups Run 25% Smaller Teams</li>
+<li>The Task Economy - Data Services as the Next $1 Trillion Category</li>
+<li>FDE Boom - $9.75B in Forward-Deployed Engineering + Uber&#x27;s 70% Agent PR Rate</li>
+<li>AI and Jobs - Big Tech Flips, Narrative Resets on Labor Impact</li>
+</ul>]]></content:encoded>
+      <itunes:summary>In this episode: GPT-5.6 Launches Publicly - Three Tiers, Cerebras Speed; GPT-Live - OpenAI's Full-Duplex Voice Model; Grok 4.5 - 1.5 Trillion Parameters at $2 Per Million Tokens; Microsoft MAI - Own Models Replace OpenAI and Anthropic in Office Suite.</itunes:summary>
+      <pubDate>Thu, 09 Jul 2026 18:00:00 +0000</pubDate>
+      <enclosure url="https://archive.org/download/manic-ai-podcast-audio/2026-07-09.m4a" length="45916901" type="audio/x-m4a"/>
+      <guid isPermaLink="false">manic-mondai-2026-07-09</guid>
+      <itunes:duration>00:23:46</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>Why AI agent loops make bills explode</title>
       <itunes:title>Why AI agent loops make bills explode</itunes:title>
       <itunes:season>1</itunes:season>
