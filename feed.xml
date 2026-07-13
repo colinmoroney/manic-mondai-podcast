@@ -22,6 +22,57 @@
     <itunes:type>episodic</itunes:type>
     <!-- EPISODES_BELOW: add_episode.py prepends new <item> blocks immediately after this line -->
     <item>
+      <title>The Battle for Sovereign AI Control</title>
+      <itunes:title>The Battle for Sovereign AI Control</itunes:title>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>7</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <description><![CDATA[<p>Apple vs. OpenAI: the partnership is dead. Apple filed a blockbuster lawsuit accusing OpenAI of running a systematic hardware-secrets pipeline through job candidates, while separately exploring on-device AI (PrismML) to reduce reliance on cloud-based AI partners entirely. Two stories that together reveal Apple treating OpenAI as a strategic threat, not a partner.</p>
+<p>OpenAI under pressure from every direction. The Apple lawsuit lands as OpenAI&#x27;s head of safety resigns, its consumer app chief is out, and Greg Brockman consolidates power just months before a prospective IPO. The company that pitched a 5% government equity stake last month is now dealing with a very public unraveling at the top.</p>
+<p>The AI price floor is dissolving. Meta Muse Spark 1.1&#x27;s paid API debuts at $1.25/M input tokens - one-quarter of what Anthropic and OpenAI charge. Combined with Grok 4.5 ($2/M) and GPT-5.6 Luna ($0.50/M), the cost of frontier-class intelligence is dropping faster than most enterprise procurement models anticipated. The implications for any vendor monetizing the model layer are severe.</p>
+<p>Sovereignty lines are hardening around AI. China forces Meta to unwind its $2B Manus acquisition - the first use of China&#x27;s FISR mechanism on a completed cross-border AI deal - while simultaneously the NSA revives its elite hacking unit&#x27;s storied name (TAO) as a signal of reorganization for the AI era. AI is increasingly being treated as national infrastructure, not commercial software.</p>
+<p><strong>In this episode</strong></p><ul>
+<li>Apple Sues OpenAI: 400+ Employees, Stolen Parts, and a Demanded Redesign</li>
+<li>OpenAI Leadership Shakeup: Safety Head Out, Brockman Consolidates, IPO Clock Ticking</li>
+<li>ChatGPT Work: OpenAI&#x27;s First True Agentic Work Product</li>
+<li>Meta Muse Spark 1.1 Paid API: 25% of Rival Pricing, Native SDK Compatibility</li>
+<li>China Forces Meta to Unwind Manus: Agentic AI Becomes Sovereign Infrastructure</li>
+<li>Claude Code Gets a Browser; Cursor Builds a General Agent</li>
+<li>Security Cluster: ShareFile Emergency Shutdown and Injective SDK Key Theft</li>
+<li>NSA Revives Tailored Access Operations: TAO Returns to Its Own Building</li>
+<li>Brown University AI Cheating: Scores Fall 50% When the Exam Goes In-Person</li>
+<li>The Reverse Information Paradox: Enterprises Are Paying for AI Twice</li>
+<li>Broken SQL Benchmarks: BIRD and Spider Have Wrong Answers in Their Answer Keys</li>
+<li>Gamma: $100M ARR, 50 People, Zero Sales Spend - The AI-Native PLG Template</li>
+<li>Apple Explores On-Device AI: PrismML Shrinks a 27B-Parameter Model to iPhone-Size</li>
+</ul>]]></description>
+      <content:encoded><![CDATA[<p>Apple vs. OpenAI: the partnership is dead. Apple filed a blockbuster lawsuit accusing OpenAI of running a systematic hardware-secrets pipeline through job candidates, while separately exploring on-device AI (PrismML) to reduce reliance on cloud-based AI partners entirely. Two stories that together reveal Apple treating OpenAI as a strategic threat, not a partner.</p>
+<p>OpenAI under pressure from every direction. The Apple lawsuit lands as OpenAI&#x27;s head of safety resigns, its consumer app chief is out, and Greg Brockman consolidates power just months before a prospective IPO. The company that pitched a 5% government equity stake last month is now dealing with a very public unraveling at the top.</p>
+<p>The AI price floor is dissolving. Meta Muse Spark 1.1&#x27;s paid API debuts at $1.25/M input tokens - one-quarter of what Anthropic and OpenAI charge. Combined with Grok 4.5 ($2/M) and GPT-5.6 Luna ($0.50/M), the cost of frontier-class intelligence is dropping faster than most enterprise procurement models anticipated. The implications for any vendor monetizing the model layer are severe.</p>
+<p>Sovereignty lines are hardening around AI. China forces Meta to unwind its $2B Manus acquisition - the first use of China&#x27;s FISR mechanism on a completed cross-border AI deal - while simultaneously the NSA revives its elite hacking unit&#x27;s storied name (TAO) as a signal of reorganization for the AI era. AI is increasingly being treated as national infrastructure, not commercial software.</p>
+<p><strong>In this episode</strong></p><ul>
+<li>Apple Sues OpenAI: 400+ Employees, Stolen Parts, and a Demanded Redesign</li>
+<li>OpenAI Leadership Shakeup: Safety Head Out, Brockman Consolidates, IPO Clock Ticking</li>
+<li>ChatGPT Work: OpenAI&#x27;s First True Agentic Work Product</li>
+<li>Meta Muse Spark 1.1 Paid API: 25% of Rival Pricing, Native SDK Compatibility</li>
+<li>China Forces Meta to Unwind Manus: Agentic AI Becomes Sovereign Infrastructure</li>
+<li>Claude Code Gets a Browser; Cursor Builds a General Agent</li>
+<li>Security Cluster: ShareFile Emergency Shutdown and Injective SDK Key Theft</li>
+<li>NSA Revives Tailored Access Operations: TAO Returns to Its Own Building</li>
+<li>Brown University AI Cheating: Scores Fall 50% When the Exam Goes In-Person</li>
+<li>The Reverse Information Paradox: Enterprises Are Paying for AI Twice</li>
+<li>Broken SQL Benchmarks: BIRD and Spider Have Wrong Answers in Their Answer Keys</li>
+<li>Gamma: $100M ARR, 50 People, Zero Sales Spend - The AI-Native PLG Template</li>
+<li>Apple Explores On-Device AI: PrismML Shrinks a 27B-Parameter Model to iPhone-Size</li>
+</ul>]]></content:encoded>
+      <itunes:summary>Apple vs. OpenAI: the partnership is dead. Apple filed a blockbuster lawsuit accusing OpenAI of running a systematic hardware-secrets pipeline through job candidates, while separately exploring on-device AI (PrismML) to reduce reliance on cloud-based AI partners entirely. Two stories that together reveal Apple treating OpenAI as a strategic threat, not a partner. OpenAI under pressure from every direction. The Apple lawsuit lands as OpenAI's head of safety resigns, its consumer app chief is out, and Greg Brockman consolidates power just months before a prospective IPO. The company that pitched a 5% government equity stake last month is now dealing with a very public unraveling at the top. The AI price floor is dissolving. Meta Muse Spark 1.1's paid API debuts at $1.25/M input tokens - one-quarter of what Anthropic and OpenAI charge. Combined with Grok 4.5 ($2/M) and GPT-5.6 Luna ($0.50/M), the cost of frontier-class intelligence is dropping faster than most enterprise procurement models anticipated. The implications for any vendor monetizing the model layer are severe. Sovereignty lines are hardening around AI. China forces Meta to unwind its $2B Manus acquisition - the first use of China's FISR mechanism on a completed cross-border AI deal - while simultaneously the NSA revives its elite hacking unit's storied name (TAO) as a signal of reorganization for the AI era. AI is increasingly being treated as national infrastructure, not commercial software.</itunes:summary>
+      <pubDate>Mon, 13 Jul 2026 18:00:00 +0000</pubDate>
+      <enclosure url="https://archive.org/download/manic-ai-podcast-audio/2026-07-13.m4a" length="39056651" type="audio/x-m4a"/>
+      <guid isPermaLink="false">manic-mondai-2026-07-13</guid>
+      <itunes:duration>00:20:13</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>Microsoft Replaces OpenAI With Cheaper Models</title>
       <itunes:title>Microsoft Replaces OpenAI With Cheaper Models</itunes:title>
       <itunes:season>1</itunes:season>
