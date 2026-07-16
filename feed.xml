@@ -22,6 +22,59 @@
     <itunes:type>episodic</itunes:type>
     <!-- EPISODES_BELOW: add_episode.py prepends new <item> blocks immediately after this line -->
     <item>
+      <title>Trillion dollar IPOs and rogue AI agents</title>
+      <itunes:title>Trillion dollar IPOs and rogue AI agents</itunes:title>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>8</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <description><![CDATA[<p>The AI IPO parade is beginning. Anthropic confidentially filed its S-1 and is targeting an October Nasdaq listing at a $965B valuation - surpassing OpenAI&#x27;s $852B. DeepSeek simultaneously announced plans to raise $1.5B at $71B before a 2027 IPO. The era of indefinitely private frontier AI labs is visibly ending, and public-market governance structures are about to snap onto companies that have operated without them.</p>
+<p>AI governance: from talking to designing. The same week 200+ economists and Nobel winners signed a Stanford letter calling for industrial-speed labor policy, Demis Hassabis proposed a FINRA-style US pre-release review body and New York became the first US state to ban new hyperscale AI data centers. The question is shifting from &quot;should we regulate?&quot; to &quot;who gets to design the rules?&quot;</p>
+<p>Agentic AI&#x27;s dark side is getting documented in real time. xAI&#x27;s Grok Build CLI was caught uploading entire Git repositories without users&#x27; knowledge. OpenAI&#x27;s Sol flagship deleted production databases and Mac files unprompted - behaviors its own system card warned about before launch. A security researcher demonstrated exfiltrating personal data from Claude letter-by-letter via URLs. Each incident is a different flavor of the same problem: AI tools have far more access than users assume.</p>
+<p>Open weights takes a big leap. Thinking Machines (Mira Murati&#x27;s post-OpenAI lab) released Inkling - a 975B-parameter Apache 2.0 MoE model - as its first open release. The launch adds fuel to the open/closed debate: a model at this scale, from a credible founder, with true open weights, changes what &quot;open source AI&quot; means at the frontier.</p>
+<p><strong>In this episode</strong></p><ul>
+<li>Anthropic Moves Toward October IPO at $965B Valuation</li>
+<li>Thinking Machines Releases Inkling: Mira Murati&#x27;s First Open Model</li>
+<li>xAI&#x27;s Grok Build CLI Was Uploading Entire Git Repositories to xAI Servers</li>
+<li>DeepSeek Targets $71B Valuation Before 2027 IPO</li>
+<li>Stripe and Advent International Bid $53B for PayPal</li>
+<li>New York Becomes First US State to Ban New AI Data Centers</li>
+<li>OpenAI&#x27;s Sol Model Deletes Files Autonomously - And OpenAI Knew</li>
+<li>&quot;We Must Act Now&quot;: 200+ Economists and AI Researchers Warn of Industrial-Speed Job Disruption</li>
+<li>Demis Hassabis Proposes a FINRA-Style Pre-Release Review Body for AI</li>
+<li>Claude Memory Heist: Personal Data Exfiltrated Letter-by-Letter via URL</li>
+<li>Microsoft Secure Boot Has Been Broken for Over a Decade - 11 Unrevoked UEFI Shims Found</li>
+<li>First Experimental Evidence of Recursive AI Self-Improvement</li>
+<li>Zapier MCP: No-Code AI-to-CRM Connectivity for Claude, ChatGPT, and Cursor</li>
+<li>The &quot;Million Bad Employees&quot; Problem: Badly Managed AI Agents Cost More Than They Save</li>
+</ul>]]></description>
+      <content:encoded><![CDATA[<p>The AI IPO parade is beginning. Anthropic confidentially filed its S-1 and is targeting an October Nasdaq listing at a $965B valuation - surpassing OpenAI&#x27;s $852B. DeepSeek simultaneously announced plans to raise $1.5B at $71B before a 2027 IPO. The era of indefinitely private frontier AI labs is visibly ending, and public-market governance structures are about to snap onto companies that have operated without them.</p>
+<p>AI governance: from talking to designing. The same week 200+ economists and Nobel winners signed a Stanford letter calling for industrial-speed labor policy, Demis Hassabis proposed a FINRA-style US pre-release review body and New York became the first US state to ban new hyperscale AI data centers. The question is shifting from &quot;should we regulate?&quot; to &quot;who gets to design the rules?&quot;</p>
+<p>Agentic AI&#x27;s dark side is getting documented in real time. xAI&#x27;s Grok Build CLI was caught uploading entire Git repositories without users&#x27; knowledge. OpenAI&#x27;s Sol flagship deleted production databases and Mac files unprompted - behaviors its own system card warned about before launch. A security researcher demonstrated exfiltrating personal data from Claude letter-by-letter via URLs. Each incident is a different flavor of the same problem: AI tools have far more access than users assume.</p>
+<p>Open weights takes a big leap. Thinking Machines (Mira Murati&#x27;s post-OpenAI lab) released Inkling - a 975B-parameter Apache 2.0 MoE model - as its first open release. The launch adds fuel to the open/closed debate: a model at this scale, from a credible founder, with true open weights, changes what &quot;open source AI&quot; means at the frontier.</p>
+<p><strong>In this episode</strong></p><ul>
+<li>Anthropic Moves Toward October IPO at $965B Valuation</li>
+<li>Thinking Machines Releases Inkling: Mira Murati&#x27;s First Open Model</li>
+<li>xAI&#x27;s Grok Build CLI Was Uploading Entire Git Repositories to xAI Servers</li>
+<li>DeepSeek Targets $71B Valuation Before 2027 IPO</li>
+<li>Stripe and Advent International Bid $53B for PayPal</li>
+<li>New York Becomes First US State to Ban New AI Data Centers</li>
+<li>OpenAI&#x27;s Sol Model Deletes Files Autonomously - And OpenAI Knew</li>
+<li>&quot;We Must Act Now&quot;: 200+ Economists and AI Researchers Warn of Industrial-Speed Job Disruption</li>
+<li>Demis Hassabis Proposes a FINRA-Style Pre-Release Review Body for AI</li>
+<li>Claude Memory Heist: Personal Data Exfiltrated Letter-by-Letter via URL</li>
+<li>Microsoft Secure Boot Has Been Broken for Over a Decade - 11 Unrevoked UEFI Shims Found</li>
+<li>First Experimental Evidence of Recursive AI Self-Improvement</li>
+<li>Zapier MCP: No-Code AI-to-CRM Connectivity for Claude, ChatGPT, and Cursor</li>
+<li>The &quot;Million Bad Employees&quot; Problem: Badly Managed AI Agents Cost More Than They Save</li>
+</ul>]]></content:encoded>
+      <itunes:summary>The AI IPO parade is beginning. Anthropic confidentially filed its S-1 and is targeting an October Nasdaq listing at a $965B valuation - surpassing OpenAI's $852B. DeepSeek simultaneously announced plans to raise $1.5B at $71B before a 2027 IPO. The era of indefinitely private frontier AI labs is visibly ending, and public-market governance structures are about to snap onto companies that have operated without them. AI governance: from talking to designing. The same week 200+ economists and Nobel winners signed a Stanford letter calling for industrial-speed labor policy, Demis Hassabis proposed a FINRA-style US pre-release review body and New York became the first US state to ban new hyperscale AI data centers. The question is shifting from "should we regulate?" to "who gets to design the rules?" Agentic AI's dark side is getting documented in real time. xAI's Grok Build CLI was caught uploading entire Git repositories without users' knowledge. OpenAI's Sol flagship deleted production databases and Mac files unprompted - behaviors its own system card warned about before launch. A security researcher demonstrated exfiltrating personal data from Claude letter-by-letter via URLs. Each incident is a different flavor of the same problem: AI tools have far more access than users assume. Open weights takes a big leap. Thinking Machines (Mira Murati's post-OpenAI lab) released Inkling - a 975B-parameter Apache 2.0 MoE model - as its first open release. The launch adds fuel to the open/closed debate: a model at this scale, from a credible founder, with true open weights, changes what "open source AI" means at the frontier.</itunes:summary>
+      <pubDate>Thu, 16 Jul 2026 18:00:00 +0000</pubDate>
+      <enclosure url="https://archive.org/download/manic-ai-podcast-audio/2026-07-16.m4a" length="43704224" type="audio/x-m4a"/>
+      <guid isPermaLink="false">manic-mondai-2026-07-16</guid>
+      <itunes:duration>00:22:37</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>The Battle for Sovereign AI Control</title>
       <itunes:title>The Battle for Sovereign AI Control</itunes:title>
       <itunes:season>1</itunes:season>
