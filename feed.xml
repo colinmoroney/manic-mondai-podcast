@@ -22,6 +22,59 @@
     <itunes:type>episodic</itunes:type>
     <!-- EPISODES_BELOW: add_episode.py prepends new <item> blocks immediately after this line -->
     <item>
+      <title>China Erases the Frontier AI Gap</title>
+      <itunes:title>China Erases the Frontier AI Gap</itunes:title>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>9</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <description><![CDATA[<p>The open-weight arms race is now a two-lab sprint. Moonshot AI&#x27;s Kimi K3 (2.8T parameters, world&#x27;s largest open-weight model) launched on July 16 and pulled within benchmark striking distance of Claude Fable 5 and GPT-5.6 Sol. Alibaba answered two days later with Qwen 3.8 (2.4T, also going open-weight). Back-to-back releases from Chinese labs are compressing the time between &quot;open-weight achieves frontier&quot; and &quot;everyone can deploy frontier.&quot; Dario Amodei&#x27;s &quot;China is 6-12 months behind&quot; statement just got a single-release stress test.</p>
+<p>The &quot;self-driving company&quot; is moving from metaphor to case study. Replit published hard numbers: AI agents have nearly tripled engineering output, handled 30% of PR review work, and taken over incident response - all with quality metrics flat or improving. Separately, 64 Claude agents rewrote the Bun JavaScript runtime from Zig to Rust in 11 days at a total API cost of $165,000. These are the first data points that let companies calculate what &quot;AI-augmented engineering&quot; actually costs and produces.</p>
+<p>AI&#x27;s infrastructure economics are getting weird. Anthropic is in talks to lease $10 billion of Meta&#x27;s compute while simultaneously paying SpaceX $45 billion over three years for Colossus capacity. Google&#x27;s Gemini 3.5 Pro is months late on a promised June release. And token costs are reportedly doubling every 45 days at some companies while productivity gains run at only 5-10%. The &quot;AI is cheap&quot; narrative is colliding with the reality of who actually has the compute and what it costs to scale.</p>
+<p>Security: two emergency patches and a $100 poison pill. A pre-authentication RCE in WordPress Core (WP2Shell) affects ~500 million sites on stock installs with no plugins required; WordPress forced auto-updates. Zoom released an emergency patch for a CVSS 9.8 account-takeover flaw in its Windows client. And a UK researcher demonstrated that open-weight models can be permanently backdoored with ten training examples for under $100 - a direct counterweight to the week&#x27;s open-weight enthusiasm.</p>
+<p><strong>In this episode</strong></p><ul>
+<li>Anthropic Proposes $10B Compute Lease from Meta - While Already Paying SpaceX $45B</li>
+<li>Kimi K3: China&#x27;s Open-Weight DeepSeek Moment for 2026</li>
+<li>Alibaba Previews Qwen 3.8: 2.4 Trillion Parameters, &quot;Second Only to Fable 5&quot;</li>
+<li>SpaceXAI: xAI&#x27;s Rebrand Masks Deeper Chaos - All 11 Cofounders Gone</li>
+<li>Claude Fable 5 Access Saga Ends - With a Compromise Nobody Loves</li>
+<li>Google Gemini 3.5 Pro Is Months Late - Internal Chaos, Team Fragmentation</li>
+<li>Replit&#x27;s &quot;Self-Driving Company&quot;: Hard Numbers on AI-Augmented Engineering</li>
+<li>Bun Rewrites 535K Lines from Zig to Rust in 11 Days: $165K, 64 Claudes</li>
+<li>NotebookLM Becomes Gemini Notebook: 30 Million Users, New Code Execution</li>
+<li>WP2Shell + Zoom CVSS 9.8: Security Week Requires Emergency Patches</li>
+<li>You Can Permanently Backdoor an Open-Weight AI Model for Under $100</li>
+<li>Meta Launches MCP for Advertisers: AI-Native Ad Management via Natural Language</li>
+<li>The AI Cost Blindspot: Token Bills Doubling Every 45 Days, Productivity Up 5-10%</li>
+<li>Moonshot AI Plans Hong Kong IPO Within Six Months of Kimi K3 Launch</li>
+</ul>]]></description>
+      <content:encoded><![CDATA[<p>The open-weight arms race is now a two-lab sprint. Moonshot AI&#x27;s Kimi K3 (2.8T parameters, world&#x27;s largest open-weight model) launched on July 16 and pulled within benchmark striking distance of Claude Fable 5 and GPT-5.6 Sol. Alibaba answered two days later with Qwen 3.8 (2.4T, also going open-weight). Back-to-back releases from Chinese labs are compressing the time between &quot;open-weight achieves frontier&quot; and &quot;everyone can deploy frontier.&quot; Dario Amodei&#x27;s &quot;China is 6-12 months behind&quot; statement just got a single-release stress test.</p>
+<p>The &quot;self-driving company&quot; is moving from metaphor to case study. Replit published hard numbers: AI agents have nearly tripled engineering output, handled 30% of PR review work, and taken over incident response - all with quality metrics flat or improving. Separately, 64 Claude agents rewrote the Bun JavaScript runtime from Zig to Rust in 11 days at a total API cost of $165,000. These are the first data points that let companies calculate what &quot;AI-augmented engineering&quot; actually costs and produces.</p>
+<p>AI&#x27;s infrastructure economics are getting weird. Anthropic is in talks to lease $10 billion of Meta&#x27;s compute while simultaneously paying SpaceX $45 billion over three years for Colossus capacity. Google&#x27;s Gemini 3.5 Pro is months late on a promised June release. And token costs are reportedly doubling every 45 days at some companies while productivity gains run at only 5-10%. The &quot;AI is cheap&quot; narrative is colliding with the reality of who actually has the compute and what it costs to scale.</p>
+<p>Security: two emergency patches and a $100 poison pill. A pre-authentication RCE in WordPress Core (WP2Shell) affects ~500 million sites on stock installs with no plugins required; WordPress forced auto-updates. Zoom released an emergency patch for a CVSS 9.8 account-takeover flaw in its Windows client. And a UK researcher demonstrated that open-weight models can be permanently backdoored with ten training examples for under $100 - a direct counterweight to the week&#x27;s open-weight enthusiasm.</p>
+<p><strong>In this episode</strong></p><ul>
+<li>Anthropic Proposes $10B Compute Lease from Meta - While Already Paying SpaceX $45B</li>
+<li>Kimi K3: China&#x27;s Open-Weight DeepSeek Moment for 2026</li>
+<li>Alibaba Previews Qwen 3.8: 2.4 Trillion Parameters, &quot;Second Only to Fable 5&quot;</li>
+<li>SpaceXAI: xAI&#x27;s Rebrand Masks Deeper Chaos - All 11 Cofounders Gone</li>
+<li>Claude Fable 5 Access Saga Ends - With a Compromise Nobody Loves</li>
+<li>Google Gemini 3.5 Pro Is Months Late - Internal Chaos, Team Fragmentation</li>
+<li>Replit&#x27;s &quot;Self-Driving Company&quot;: Hard Numbers on AI-Augmented Engineering</li>
+<li>Bun Rewrites 535K Lines from Zig to Rust in 11 Days: $165K, 64 Claudes</li>
+<li>NotebookLM Becomes Gemini Notebook: 30 Million Users, New Code Execution</li>
+<li>WP2Shell + Zoom CVSS 9.8: Security Week Requires Emergency Patches</li>
+<li>You Can Permanently Backdoor an Open-Weight AI Model for Under $100</li>
+<li>Meta Launches MCP for Advertisers: AI-Native Ad Management via Natural Language</li>
+<li>The AI Cost Blindspot: Token Bills Doubling Every 45 Days, Productivity Up 5-10%</li>
+<li>Moonshot AI Plans Hong Kong IPO Within Six Months of Kimi K3 Launch</li>
+</ul>]]></content:encoded>
+      <itunes:summary>The open-weight arms race is now a two-lab sprint. Moonshot AI's Kimi K3 (2.8T parameters, world's largest open-weight model) launched on July 16 and pulled within benchmark striking distance of Claude Fable 5 and GPT-5.6 Sol. Alibaba answered two days later with Qwen 3.8 (2.4T, also going open-weight). Back-to-back releases from Chinese labs are compressing the time between "open-weight achieves frontier" and "everyone can deploy frontier." Dario Amodei's "China is 6-12 months behind" statement just got a single-release stress test. The "self-driving company" is moving from metaphor to case study. Replit published hard numbers: AI agents have nearly tripled engineering output, handled 30% of PR review work, and taken over incident response - all with quality metrics flat or improving. Separately, 64 Claude agents rewrote the Bun JavaScript runtime from Zig to Rust in 11 days at a total API cost of $165,000. These are the first data points that let companies calculate what "AI-augmented engineering" actually costs and produces. AI's infrastructure economics are getting weird. Anthropic is in talks to lease $10 billion of Meta's compute while simultaneously paying SpaceX $45 billion over three years for Colossus capacity. Google's Gemini 3.5 Pro is months late on a promised June release. And token costs are reportedly doubling every 45 days at some companies while productivity gains run at only 5-10%. The "AI is cheap" narrative is colliding with the reality of who actually has the compute and what it costs to scale. Security: two emergency patches and a $100 poison pill. A pre-authentication RCE in WordPress Core (WP2Shell) affects ~500 million sites on stock installs with no plugins required; WordPress forced auto-updates. Zoom released an emergency patch for a CVSS 9.8 account-takeover flaw in its Windows client. And a UK researcher demonstrated that open-weight models can be permanently backdoored with ten training examples for under $100 - a direct counterweight to the week's open-weight enthusiasm.</itunes:summary>
+      <pubDate>Mon, 20 Jul 2026 18:00:00 +0000</pubDate>
+      <enclosure url="https://archive.org/download/manic-ai-podcast-audio/2026-07-20.m4a" length="40225483" type="audio/x-m4a"/>
+      <guid isPermaLink="false">manic-mondai-2026-07-20</guid>
+      <itunes:duration>00:20:49</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>Trillion dollar IPOs and rogue AI agents</title>
       <itunes:title>Trillion dollar IPOs and rogue AI agents</itunes:title>
       <itunes:season>1</itunes:season>
