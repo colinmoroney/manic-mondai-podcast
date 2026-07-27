@@ -22,6 +22,57 @@
     <itunes:type>episodic</itunes:type>
     <!-- EPISODES_BELOW: add_episode.py prepends new <item> blocks immediately after this line -->
     <item>
+      <title>The Half Trillion Dollar AI Power Grid</title>
+      <itunes:title>The Half Trillion Dollar AI Power Grid</itunes:title>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>11</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <description><![CDATA[<p>The model tier below the frontier just got dramatically more capable. Claude Opus 5 launched at the same price as its predecessor but with Fable-tier performance on most benchmarks. This completes a pattern: every tier is compressing upward simultaneously - Sonnet is doing what Opus did six months ago, Opus is doing what Fable did, and the gap between open-weight and closed is narrowing for the same reason. The cost curve for capable AI is still dropping fast.</p>
+<p>The infrastructure bet is getting bigger, not smaller. Nvidia is in talks to guarantee $250 billion in financing for a 10-gigawatt OpenAI data center in Ohio - the largest financial commitment in AI infrastructure history. The signal from this and Cursor&#x27;s agent swarm paper: AI value creation is shifting from model quality to deployment architecture.</p>
+<p>The open-weights schism is now public and named. Jensen Huang&#x27;s first X post organized 50 companies behind an open letter urging Washington not to restrict open-weight models. OpenAI signed. Anthropic did not. The split between labs that profit from model secrecy and those that don&#x27;t is becoming the defining political fault line of the AI industry.</p>
+<p>The attack surface is expanding in unexpected directions. A gray market relays US model tokens to Chinese developers through a layered fraud ecosystem; residential proxy SDKs were quietly embedded in 42% of LG smart TV apps; and a threat actor&#x27;s new malware family is targeting developer tooling environments with modular implants. AI tools are becoming infrastructure, and infrastructure attracts criminals.</p>
+<p><strong>In this episode</strong></p><ul>
+<li>Claude Opus 5: Fable-Tier Performance at Half the Price</li>
+<li>Nvidia&#x27;s $250 Billion OpenAI Backstop: The Largest Financial Bet in AI History</li>
+<li>50 Companies Sign Open-Weight AI Letter - Anthropic and Amazon Are the Notable Absences</li>
+<li>Cursor&#x27;s Agent Swarm Paper: Orchestration Beats Model Size</li>
+<li>Inside the Gray Market for LLM Tokens: Relays, Account Farms, and Discount Model Access</li>
+<li>Prentis AI: Reid Hoffman and Mark Pincus Bet on Computer Use Over Coding</li>
+<li>Meta Becomes Agentic: Muse Spark Plans, Researches, and Builds Presentations</li>
+<li>GitLab RCE via Jupyter Notebook Diff: Two Ruby Memory Bugs, One Shell</li>
+<li>AlphaFold Redesigns Gene-Editing Proteins to Reduce Off-Target Effects</li>
+<li>LG Bans Residential Proxy SDKs from Smart TV Apps After 42% Exposure Finding</li>
+<li>Midjourney Acquires Co-Star: AI Image Generation Meets AI Astrology</li>
+<li>Gemma Hits 900 Million Downloads: Google&#x27;s Open Models Are the New Baseline</li>
+<li>Claude&#x27;s &quot;Record a Skill&quot; Feature: Cowork Learns Your Workflows From Your Screen</li>
+</ul>]]></description>
+      <content:encoded><![CDATA[<p>The model tier below the frontier just got dramatically more capable. Claude Opus 5 launched at the same price as its predecessor but with Fable-tier performance on most benchmarks. This completes a pattern: every tier is compressing upward simultaneously - Sonnet is doing what Opus did six months ago, Opus is doing what Fable did, and the gap between open-weight and closed is narrowing for the same reason. The cost curve for capable AI is still dropping fast.</p>
+<p>The infrastructure bet is getting bigger, not smaller. Nvidia is in talks to guarantee $250 billion in financing for a 10-gigawatt OpenAI data center in Ohio - the largest financial commitment in AI infrastructure history. The signal from this and Cursor&#x27;s agent swarm paper: AI value creation is shifting from model quality to deployment architecture.</p>
+<p>The open-weights schism is now public and named. Jensen Huang&#x27;s first X post organized 50 companies behind an open letter urging Washington not to restrict open-weight models. OpenAI signed. Anthropic did not. The split between labs that profit from model secrecy and those that don&#x27;t is becoming the defining political fault line of the AI industry.</p>
+<p>The attack surface is expanding in unexpected directions. A gray market relays US model tokens to Chinese developers through a layered fraud ecosystem; residential proxy SDKs were quietly embedded in 42% of LG smart TV apps; and a threat actor&#x27;s new malware family is targeting developer tooling environments with modular implants. AI tools are becoming infrastructure, and infrastructure attracts criminals.</p>
+<p><strong>In this episode</strong></p><ul>
+<li>Claude Opus 5: Fable-Tier Performance at Half the Price</li>
+<li>Nvidia&#x27;s $250 Billion OpenAI Backstop: The Largest Financial Bet in AI History</li>
+<li>50 Companies Sign Open-Weight AI Letter - Anthropic and Amazon Are the Notable Absences</li>
+<li>Cursor&#x27;s Agent Swarm Paper: Orchestration Beats Model Size</li>
+<li>Inside the Gray Market for LLM Tokens: Relays, Account Farms, and Discount Model Access</li>
+<li>Prentis AI: Reid Hoffman and Mark Pincus Bet on Computer Use Over Coding</li>
+<li>Meta Becomes Agentic: Muse Spark Plans, Researches, and Builds Presentations</li>
+<li>GitLab RCE via Jupyter Notebook Diff: Two Ruby Memory Bugs, One Shell</li>
+<li>AlphaFold Redesigns Gene-Editing Proteins to Reduce Off-Target Effects</li>
+<li>LG Bans Residential Proxy SDKs from Smart TV Apps After 42% Exposure Finding</li>
+<li>Midjourney Acquires Co-Star: AI Image Generation Meets AI Astrology</li>
+<li>Gemma Hits 900 Million Downloads: Google&#x27;s Open Models Are the New Baseline</li>
+<li>Claude&#x27;s &quot;Record a Skill&quot; Feature: Cowork Learns Your Workflows From Your Screen</li>
+</ul>]]></content:encoded>
+      <itunes:summary>The model tier below the frontier just got dramatically more capable. Claude Opus 5 launched at the same price as its predecessor but with Fable-tier performance on most benchmarks. This completes a pattern: every tier is compressing upward simultaneously - Sonnet is doing what Opus did six months ago, Opus is doing what Fable did, and the gap between open-weight and closed is narrowing for the same reason. The cost curve for capable AI is still dropping fast. The infrastructure bet is getting bigger, not smaller. Nvidia is in talks to guarantee $250 billion in financing for a 10-gigawatt OpenAI data center in Ohio - the largest financial commitment in AI infrastructure history. The signal from this and Cursor's agent swarm paper: AI value creation is shifting from model quality to deployment architecture. The open-weights schism is now public and named. Jensen Huang's first X post organized 50 companies behind an open letter urging Washington not to restrict open-weight models. OpenAI signed. Anthropic did not. The split between labs that profit from model secrecy and those that don't is becoming the defining political fault line of the AI industry. The attack surface is expanding in unexpected directions. A gray market relays US model tokens to Chinese developers through a layered fraud ecosystem; residential proxy SDKs were quietly embedded in 42% of LG smart TV apps; and a threat actor's new malware family is targeting developer tooling environments with modular implants. AI tools are becoming infrastructure, and infrastructure attracts criminals.</itunes:summary>
+      <pubDate>Mon, 27 Jul 2026 18:00:00 +0000</pubDate>
+      <enclosure url="https://archive.org/download/manic-ai-podcast-audio/2026-07-27.m4a" length="37831821" type="audio/x-m4a"/>
+      <guid isPermaLink="false">manic-mondai-2026-07-27</guid>
+      <itunes:duration>00:22:04</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>AI models hacking out of sandboxes</title>
       <itunes:title>AI models hacking out of sandboxes</itunes:title>
       <itunes:season>1</itunes:season>
