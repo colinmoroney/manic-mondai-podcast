@@ -17,8 +17,12 @@ Common use (one-liner - title + show notes auto-filled from that week's digest):
 Options:
   --file     path to the NotebookLM .m4a            (required)
   --date     YYYY-MM-DD, matches the digest date    (required)
-  --digest   source digest .md  (default: ../manic-mondai-project/digests/<date>-digest.md;
-             falls back to the newest digest if that exact date is missing)
+  --digest   source digest .md  (default: ../manic-mondai-project/digests/<date>-digest.md).
+             A missing digest is a hard error, never a fallback: the routine commits digests
+             to origin, so a clone that is behind silently has no digest for today, and
+             guessing would attach the PREVIOUS episode's show notes to this one. Pass
+             --digest explicitly to use a file the date does not name.
+  --no-fetch skip the git-freshness check on the digest repo (no network)
   --title    override the episode title
   --summary  override the description (plain text)
   --season   season number (default: 1)
@@ -60,6 +64,36 @@ def duration_hms(path):
             except Exception:
                 pass
     return "00:00:00"
+
+
+def repo_behind(path):
+    """How many commits the repo holding `path` is behind its upstream.
+
+    Returns (behind, repo_dir). behind is None when the question does not apply or
+    cannot be answered - no git, not a repo, no upstream, network down. None means
+    "unknown", never "up to date", so callers must not treat it as a green light.
+    Fetches first, because the digest is committed by the routine on another machine.
+    """
+    d = os.path.dirname(os.path.abspath(path)) or "."
+    if not shutil.which("git") or not os.path.isdir(d):
+        return None, d
+
+    def git(*args, timeout=20):
+        try:
+            r = subprocess.run(["git", "-C", d, *args], capture_output=True, text=True, timeout=timeout)
+            return r.stdout.strip() if r.returncode == 0 else None
+        except Exception:
+            return None
+
+    if git("rev-parse", "--is-inside-work-tree") != "true":
+        return None, d
+    root = git("rev-parse", "--show-toplevel") or d
+    git("fetch", "--quiet", timeout=90)  # best effort; offline just leaves the refs stale
+    upstream = git("rev-parse", "--abbrev-ref", "@{upstream}")
+    if not upstream:
+        return None, root
+    n = git("rev-list", "--count", f"HEAD..{upstream}")
+    return (int(n) if n and n.isdigit() else None), root
 
 
 def md_strip(s):
@@ -134,17 +168,44 @@ def main():
     ap.add_argument("--season", default="1")
     ap.add_argument("--episode")
     ap.add_argument("--feed", default="feed.xml")
+    ap.add_argument("--no-fetch", action="store_true",
+                    help="skip the git-freshness check on the digest repo (no network)")
     ap.add_argument("--force", action="store_true", help="allow a date already present in the feed")
     ap.add_argument("--dry-run", action="store_true")
     a = ap.parse_args()
+    explicit_digest = bool(a.digest)
     if not a.digest:
         a.digest = f"../manic-mondai-project/digests/{a.date}-digest.md"
+
+    # The digest lives in the private repo and is written there by the cloud routine,
+    # so "the file is not on disk" usually means "this clone has not pulled yet".
+    behind, repo_dir = (None, os.path.dirname(os.path.abspath(a.digest)))
+    if not a.no_fetch:
+        behind, repo_dir = repo_behind(a.digest)
+
     if not os.path.exists(a.digest):
-        import glob
-        cands = sorted(glob.glob(os.path.join(os.path.dirname(a.digest) or ".", "*-digest.md")))
-        if cands:
-            print(f"NOTE: no digest dated {a.date}; using newest available: {os.path.basename(cands[-1])}")
-            a.digest = cands[-1]
+        why = f"ERROR: no digest for {a.date} at {a.digest}\n\n"
+        if explicit_digest:
+            why += "That path was given with --digest and does not exist."
+        else:
+            why += ("Refusing to fall back to another date. The show notes are built from the\n"
+                    "digest, so guessing here publishes the PREVIOUS episode's notes over this\n"
+                    "episode's audio, which is worse than not publishing at all.\n\n")
+            if behind:
+                why += (f"This clone is {behind} commit(s) behind its remote, which is almost\n"
+                        f"certainly the cause. Pull, then re-run:\n"
+                        f"  git -C {repo_dir} pull\n\n")
+            elif behind is None:
+                why += ("Could not check whether this clone is behind its remote (no git, no\n"
+                        "upstream, or no network). If the routine has already written this\n"
+                        "digest, pulling the private repo is the usual fix.\n\n")
+            why += "To use a file this date does not name, pass it explicitly:\n  --digest path/to/digest.md"
+        raise SystemExit(why)
+
+    if behind:
+        print(f"WARNING: the digest repo is {behind} commit(s) behind its remote.\n"
+              f"         Using the local {os.path.basename(a.digest)}, which may be stale.\n"
+              f"         git -C {repo_dir} pull")
 
     with open(a.feed, encoding="utf-8") as f:
         feed = f.read()
