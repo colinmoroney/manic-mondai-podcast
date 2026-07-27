@@ -1,6 +1,8 @@
 __pycache__/
 *.pyc
 
+.DS_Store
+
 # Audio is hosted in the GitHub Release "episodes", not committed here
 episodes/
 *.m4a
