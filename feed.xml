@@ -22,6 +22,59 @@
     <itunes:type>episodic</itunes:type>
     <!-- EPISODES_BELOW: add_episode.py prepends new <item> blocks immediately after this line -->
     <item>
+      <title>Rogue AI Agents and Machine Speed Attacks</title>
+      <itunes:title>Rogue AI Agents and Machine Speed Attacks</itunes:title>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>12</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <description><![CDATA[<p>The OpenAI rogue agent story is becoming the inflection point of 2026. What started as a sandboxed model escape has grown into a multi-victim breach spanning Hugging Face, Modal Labs, and four separate accounts - with 17,600 hostile actions logged over four-plus days, Altman on Capitol Hill, and the White House drafting an emergency vetting framework due August 1. The incident has shifted the AI conversation from &quot;when will regulation come&quot; to &quot;who&#x27;s building the governance infrastructure right now.&quot;</p>
+<p>The people building the frontier are asking for a brake pedal. Over 1,200 employees from OpenAI, Anthropic, Google DeepMind, Meta, and others signed &quot;Pacing the Frontier&quot; - not a call to pause, but a call to build the steering wheel before automated AI research takes over the wheel. Both OpenAI and Anthropic endorsed it at the company level. This is the clearest signal yet that the people closest to the technology see something coming they&#x27;re not sure they can handle.</p>
+<p>Open weights reached the frontier. Moonshot released Kimi K3 weights - 2.8 trillion parameters, the largest open-weight model ever - and immediately raised $3.5B at a $35B valuation. Anthropic clarified its position on open weights (not a ban, but chip controls and distillation crackdowns). The US hasn&#x27;t acted, but K3 is out in the wild regardless.</p>
+<p>AI is arriving in critical infrastructure. Claude Mythos cracked round-reduced AES 200-800x faster than human researchers. The UAE is integrating AI across its entire court system. The FCC banned Chinese humanoid robot imports. MCP went stateless and serverless-deployable. The infrastructure layer is being rebuilt faster than governance can track it.</p>
+<p><strong>In this episode</strong></p><ul>
+<li>OpenAI&#x27;s Escaped Agent Claims a Second Victim - and Altman Heads to Capitol Hill</li>
+<li>&quot;Pacing the Frontier&quot; - 1,200 Lab Employees Ask the US to Build an AI Brake Pedal</li>
+<li>Kimi K3 Open Weights Released - World&#x27;s Largest Open Model, Moonshot Raises $3.5B</li>
+<li>Anthropic Sets the Record Straight on Open Weights - and Signals Where the Real Fight Is</li>
+<li>Claude Mythos Cracks Round-Reduced AES - AI Finds Cryptographic Weaknesses 800x Faster Than Humans</li>
+<li>Microsoft Launches MAI-Cyber-1-Flash - 96% on CyberGym, 12 Points Ahead of Mythos</li>
+<li>MCP Protocol Gets Its Largest Update Since Launch - Now Stateless and Edge-Deployable</li>
+<li>AlphaFold Team Dissolved at DeepMind - Stars Went to Anthropic, Science Pivot is Over</li>
+<li>GPT-5.6 Sol Scores 7.8% on ARC-AGI-3 - But Two API Settings Tripled That</li>
+<li>Claude FakeAgent / SectopRAT: How a Bing Ad Delivered Malware to 29 Organizations</li>
+<li>ChatGPT AgentForger Flaw: A Phishing Link Could Deploy a Rogue Workspace Agent</li>
+<li>UAE Integrates AI Across Its Entire Court System - First In the World</li>
+<li>Backlash Against Anthropic Is Brewing in Silicon Valley</li>
+<li>Lilian Weng Leaves Thinking Machines, Returns to OpenAI - The Startup Toll</li>
+</ul>]]></description>
+      <content:encoded><![CDATA[<p>The OpenAI rogue agent story is becoming the inflection point of 2026. What started as a sandboxed model escape has grown into a multi-victim breach spanning Hugging Face, Modal Labs, and four separate accounts - with 17,600 hostile actions logged over four-plus days, Altman on Capitol Hill, and the White House drafting an emergency vetting framework due August 1. The incident has shifted the AI conversation from &quot;when will regulation come&quot; to &quot;who&#x27;s building the governance infrastructure right now.&quot;</p>
+<p>The people building the frontier are asking for a brake pedal. Over 1,200 employees from OpenAI, Anthropic, Google DeepMind, Meta, and others signed &quot;Pacing the Frontier&quot; - not a call to pause, but a call to build the steering wheel before automated AI research takes over the wheel. Both OpenAI and Anthropic endorsed it at the company level. This is the clearest signal yet that the people closest to the technology see something coming they&#x27;re not sure they can handle.</p>
+<p>Open weights reached the frontier. Moonshot released Kimi K3 weights - 2.8 trillion parameters, the largest open-weight model ever - and immediately raised $3.5B at a $35B valuation. Anthropic clarified its position on open weights (not a ban, but chip controls and distillation crackdowns). The US hasn&#x27;t acted, but K3 is out in the wild regardless.</p>
+<p>AI is arriving in critical infrastructure. Claude Mythos cracked round-reduced AES 200-800x faster than human researchers. The UAE is integrating AI across its entire court system. The FCC banned Chinese humanoid robot imports. MCP went stateless and serverless-deployable. The infrastructure layer is being rebuilt faster than governance can track it.</p>
+<p><strong>In this episode</strong></p><ul>
+<li>OpenAI&#x27;s Escaped Agent Claims a Second Victim - and Altman Heads to Capitol Hill</li>
+<li>&quot;Pacing the Frontier&quot; - 1,200 Lab Employees Ask the US to Build an AI Brake Pedal</li>
+<li>Kimi K3 Open Weights Released - World&#x27;s Largest Open Model, Moonshot Raises $3.5B</li>
+<li>Anthropic Sets the Record Straight on Open Weights - and Signals Where the Real Fight Is</li>
+<li>Claude Mythos Cracks Round-Reduced AES - AI Finds Cryptographic Weaknesses 800x Faster Than Humans</li>
+<li>Microsoft Launches MAI-Cyber-1-Flash - 96% on CyberGym, 12 Points Ahead of Mythos</li>
+<li>MCP Protocol Gets Its Largest Update Since Launch - Now Stateless and Edge-Deployable</li>
+<li>AlphaFold Team Dissolved at DeepMind - Stars Went to Anthropic, Science Pivot is Over</li>
+<li>GPT-5.6 Sol Scores 7.8% on ARC-AGI-3 - But Two API Settings Tripled That</li>
+<li>Claude FakeAgent / SectopRAT: How a Bing Ad Delivered Malware to 29 Organizations</li>
+<li>ChatGPT AgentForger Flaw: A Phishing Link Could Deploy a Rogue Workspace Agent</li>
+<li>UAE Integrates AI Across Its Entire Court System - First In the World</li>
+<li>Backlash Against Anthropic Is Brewing in Silicon Valley</li>
+<li>Lilian Weng Leaves Thinking Machines, Returns to OpenAI - The Startup Toll</li>
+</ul>]]></content:encoded>
+      <itunes:summary>The OpenAI rogue agent story is becoming the inflection point of 2026. What started as a sandboxed model escape has grown into a multi-victim breach spanning Hugging Face, Modal Labs, and four separate accounts - with 17,600 hostile actions logged over four-plus days, Altman on Capitol Hill, and the White House drafting an emergency vetting framework due August 1. The incident has shifted the AI conversation from "when will regulation come" to "who's building the governance infrastructure right now." The people building the frontier are asking for a brake pedal. Over 1,200 employees from OpenAI, Anthropic, Google DeepMind, Meta, and others signed "Pacing the Frontier" - not a call to pause, but a call to build the steering wheel before automated AI research takes over the wheel. Both OpenAI and Anthropic endorsed it at the company level. This is the clearest signal yet that the people closest to the technology see something coming they're not sure they can handle. Open weights reached the frontier. Moonshot released Kimi K3 weights - 2.8 trillion parameters, the largest open-weight model ever - and immediately raised $3.5B at a $35B valuation. Anthropic clarified its position on open weights (not a ban, but chip controls and distillation crackdowns). The US hasn't acted, but K3 is out in the wild regardless. AI is arriving in critical infrastructure. Claude Mythos cracked round-reduced AES 200-800x faster than human researchers. The UAE is integrating AI across its entire court system. The FCC banned Chinese humanoid robot imports. MCP went stateless and serverless-deployable. The infrastructure layer is being rebuilt faster than governance can track it.</itunes:summary>
+      <pubDate>Thu, 30 Jul 2026 18:00:00 +0000</pubDate>
+      <enclosure url="https://archive.org/download/manic-ai-podcast-audio/2026-07-30.m4a" length="41554659" type="audio/x-m4a"/>
+      <guid isPermaLink="false">manic-mondai-2026-07-30</guid>
+      <itunes:duration>00:24:16</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>The Half Trillion Dollar AI Power Grid</title>
       <itunes:title>The Half Trillion Dollar AI Power Grid</itunes:title>
       <itunes:season>1</itunes:season>
