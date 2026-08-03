@@ -22,6 +22,57 @@
     <itunes:type>episodic</itunes:type>
     <!-- EPISODES_BELOW: add_episode.py prepends new <item> blocks immediately after this line -->
     <item>
+      <title>AI Solves Math and Rewrites Its Code</title>
+      <itunes:title>AI Solves Math and Rewrites Its Code</itunes:title>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>13</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <description><![CDATA[<p>Mathematics meets the frontier. OpenAI&#x27;s unreleased Astra model solved 10 long-open problems in math and theoretical computer science - some unsolved for nearly 30 years - at a total cost of roughly $2,000 in API tokens. Anthropic&#x27;s Fable independently reproduced five of the ten proofs. Fields Medal winner Jacob Tsimerman, who previously wrote a paper on &quot;the ways AI might kill everyone,&quot; just took a job at OpenAI. The question of whether an AI-generated proof can be Fields Medal-worthy is now live - and it&#x27;s going to get bigger.</p>
+<p>The great compression. OpenAI cut Luna&#x27;s price 80% in three weeks; Anthropic released Opus 5 at half Fable&#x27;s per-token cost; Google Gemini 3.6 Flash undercut Kimi K3 on cost per task. Open-weight models (GLM 5.2, Kimi K3) now perform within one standard deviation of GPT-5.6 Sol on clinical/regulatory benchmarks at one-third the price. The cost floor for capable AI dropped 3-4x in this cycle. Every application budget argument that was &quot;too expensive&quot; needs updating.</p>
+<p>Enterprise agent infrastructure is being standardized. DoorDash published its architecture for governing 200+ MCP servers through a single agent gateway. OpenAI launched a ChatGPT Ads campaign type that routes searchers into live Business Agent conversations. Stripe&#x27;s internal Kai platform queries data warehouses, researches accounts before sales calls, and handles compliance reviews at company-wide scale. The pattern: a governance/routing layer between agents and tools is becoming the enterprise infrastructure bet of 2026.</p>
+<p>Chinese labs maintained release tempo. Qwen 3.8-Max (2.4T params, near-Fable claims, open weights promised), DeepSeek V4 Flash (agentic retraining, DSpark speculative decoding), and MiniMax H3 (2K video, stereo audio, open weights) all shipped in this four-day window. Three different Chinese labs, three different technical bets, none of them slowing down.</p>
+<p><strong>In this episode</strong></p><ul>
+<li>OpenAI&#x27;s Astra Solves 10 Long-Standing Open Problems in Mathematics</li>
+<li>The Frontier AI Price Wars Hit a New Level - Luna Down 80%, Opus 5 at Half of Fable</li>
+<li>Qwen 3.8-Max: Alibaba&#x27;s 2.4-Trillion-Parameter Model Is Available, Open Weights Coming</li>
+<li>DeepSeek V4 Flash Gets Agentic Retraining and DSpark Speculative Decoding</li>
+<li>DoorDash Published Its Architecture for Governing 200+ AI Agent Tool Connections</li>
+<li>OpenAI Launched a ChatGPT Ad Campaign Type That Routes Users Into a Live Business Agent</li>
+<li>Stripe&#x27;s Kai Shows What Mature Internal AI Deployment Actually Looks Like</li>
+<li>Open-Weight LLMs Reach Accuracy Parity with Proprietary Models on Clinical Benchmarks</li>
+<li>Wiz Research Bypasses Azure Cosmos DB&#x27;s Sandbox - Code Execution on the DB Gateway</li>
+<li>Thinking Machines Ships Inkling-Small - Efficient MoE with Mira Murati&#x27;s Multimodal Stack</li>
+<li>Fields Medal Winner Jacob Tsimerman Joins OpenAI - &quot;Terrified of AI&quot; and Starting Monday</li>
+<li>MiniMax H3: Open Multimodal Model Generates 15-Second 2K Video with Native Stereo Sound</li>
+<li>Microsoft&#x27;s MAI Realtime Voice: Full-Duplex Native Voice Model Surfaces in Playground</li>
+</ul>]]></description>
+      <content:encoded><![CDATA[<p>Mathematics meets the frontier. OpenAI&#x27;s unreleased Astra model solved 10 long-open problems in math and theoretical computer science - some unsolved for nearly 30 years - at a total cost of roughly $2,000 in API tokens. Anthropic&#x27;s Fable independently reproduced five of the ten proofs. Fields Medal winner Jacob Tsimerman, who previously wrote a paper on &quot;the ways AI might kill everyone,&quot; just took a job at OpenAI. The question of whether an AI-generated proof can be Fields Medal-worthy is now live - and it&#x27;s going to get bigger.</p>
+<p>The great compression. OpenAI cut Luna&#x27;s price 80% in three weeks; Anthropic released Opus 5 at half Fable&#x27;s per-token cost; Google Gemini 3.6 Flash undercut Kimi K3 on cost per task. Open-weight models (GLM 5.2, Kimi K3) now perform within one standard deviation of GPT-5.6 Sol on clinical/regulatory benchmarks at one-third the price. The cost floor for capable AI dropped 3-4x in this cycle. Every application budget argument that was &quot;too expensive&quot; needs updating.</p>
+<p>Enterprise agent infrastructure is being standardized. DoorDash published its architecture for governing 200+ MCP servers through a single agent gateway. OpenAI launched a ChatGPT Ads campaign type that routes searchers into live Business Agent conversations. Stripe&#x27;s internal Kai platform queries data warehouses, researches accounts before sales calls, and handles compliance reviews at company-wide scale. The pattern: a governance/routing layer between agents and tools is becoming the enterprise infrastructure bet of 2026.</p>
+<p>Chinese labs maintained release tempo. Qwen 3.8-Max (2.4T params, near-Fable claims, open weights promised), DeepSeek V4 Flash (agentic retraining, DSpark speculative decoding), and MiniMax H3 (2K video, stereo audio, open weights) all shipped in this four-day window. Three different Chinese labs, three different technical bets, none of them slowing down.</p>
+<p><strong>In this episode</strong></p><ul>
+<li>OpenAI&#x27;s Astra Solves 10 Long-Standing Open Problems in Mathematics</li>
+<li>The Frontier AI Price Wars Hit a New Level - Luna Down 80%, Opus 5 at Half of Fable</li>
+<li>Qwen 3.8-Max: Alibaba&#x27;s 2.4-Trillion-Parameter Model Is Available, Open Weights Coming</li>
+<li>DeepSeek V4 Flash Gets Agentic Retraining and DSpark Speculative Decoding</li>
+<li>DoorDash Published Its Architecture for Governing 200+ AI Agent Tool Connections</li>
+<li>OpenAI Launched a ChatGPT Ad Campaign Type That Routes Users Into a Live Business Agent</li>
+<li>Stripe&#x27;s Kai Shows What Mature Internal AI Deployment Actually Looks Like</li>
+<li>Open-Weight LLMs Reach Accuracy Parity with Proprietary Models on Clinical Benchmarks</li>
+<li>Wiz Research Bypasses Azure Cosmos DB&#x27;s Sandbox - Code Execution on the DB Gateway</li>
+<li>Thinking Machines Ships Inkling-Small - Efficient MoE with Mira Murati&#x27;s Multimodal Stack</li>
+<li>Fields Medal Winner Jacob Tsimerman Joins OpenAI - &quot;Terrified of AI&quot; and Starting Monday</li>
+<li>MiniMax H3: Open Multimodal Model Generates 15-Second 2K Video with Native Stereo Sound</li>
+<li>Microsoft&#x27;s MAI Realtime Voice: Full-Duplex Native Voice Model Surfaces in Playground</li>
+</ul>]]></content:encoded>
+      <itunes:summary>Mathematics meets the frontier. OpenAI's unreleased Astra model solved 10 long-open problems in math and theoretical computer science - some unsolved for nearly 30 years - at a total cost of roughly $2,000 in API tokens. Anthropic's Fable independently reproduced five of the ten proofs. Fields Medal winner Jacob Tsimerman, who previously wrote a paper on "the ways AI might kill everyone," just took a job at OpenAI. The question of whether an AI-generated proof can be Fields Medal-worthy is now live - and it's going to get bigger. The great compression. OpenAI cut Luna's price 80% in three weeks; Anthropic released Opus 5 at half Fable's per-token cost; Google Gemini 3.6 Flash undercut Kimi K3 on cost per task. Open-weight models (GLM 5.2, Kimi K3) now perform within one standard deviation of GPT-5.6 Sol on clinical/regulatory benchmarks at one-third the price. The cost floor for capable AI dropped 3-4x in this cycle. Every application budget argument that was "too expensive" needs updating. Enterprise agent infrastructure is being standardized. DoorDash published its architecture for governing 200+ MCP servers through a single agent gateway. OpenAI launched a ChatGPT Ads campaign type that routes searchers into live Business Agent conversations. Stripe's internal Kai platform queries data warehouses, researches accounts before sales calls, and handles compliance reviews at company-wide scale. The pattern: a governance/routing layer between agents and tools is becoming the enterprise infrastructure bet of 2026. Chinese labs maintained release tempo. Qwen 3.8-Max (2.4T params, near-Fable claims, open weights promised), DeepSeek V4 Flash (agentic retraining, DSpark speculative decoding), and MiniMax H3 (2K video, stereo audio, open weights) all shipped in this four-day window. Three different Chinese labs, three different technical bets, none of them slowing down.</itunes:summary>
+      <pubDate>Mon, 03 Aug 2026 18:00:00 +0000</pubDate>
+      <enclosure url="https://archive.org/download/manic-ai-podcast-audio/2026-08-03.m4a" length="43102692" type="audio/x-m4a"/>
+      <guid isPermaLink="false">manic-mondai-2026-08-03</guid>
+      <itunes:duration>00:25:17</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>Rogue AI Agents and Machine Speed Attacks</title>
       <itunes:title>Rogue AI Agents and Machine Speed Attacks</itunes:title>
       <itunes:season>1</itunes:season>
