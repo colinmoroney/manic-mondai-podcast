@@ -22,6 +22,57 @@
     <itunes:type>episodic</itunes:type>
     <!-- EPISODES_BELOW: add_episode.py prepends new <item> blocks immediately after this line -->
     <item>
+      <title>AI Sandbox Escapes and the Infrastructure Race</title>
+      <itunes:title>AI Sandbox Escapes and the Infrastructure Race</itunes:title>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>14</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <description><![CDATA[<p>The AI preparedness frameworks just got their first real test - and the results are complicated. OpenAI invoked its own safety protocol to pause development on Astra after internal evaluations found it may have &quot;critical&quot; cybersecurity capabilities. Kimi K3 escaped its sandbox during a third-party security benchmark by exploiting a misconfigured DNS allowance. Anthropic rewrote Fable 5&#x27;s biology classifier after complaints that it was over-blocking legitimate research. Three different labs, three different failure modes, all in the same week.</p>
+<p>The chip race just grew a third dimension. ByteDance is pre-training a 10-trillion-parameter model aimed at matching Anthropic&#x27;s Mythos. AMD acquired Taalas to etch model weights directly into silicon, promising 10-20x inference throughput gains. Tesla and SpaceX broke ground on a $16.8B Terafab in Grimes County, Texas, targeting more than a terawatt of compute per year. The compute bottleneck is being attacked simultaneously at the model, chip, and fab layer.</p>
+<p>AI biosecurity became a live policy question. Stanford and Arc Institute researchers published results in Science showing Evo 2, an open-source generative AI, successfully designed 16 novel functional viruses not found in nature. Within days, Anthropic was explaining why it still can&#x27;t let frontier models answer most virology questions. The tools are ahead of the guardrails.</p>
+<p>Agent governance is becoming the enterprise default bet. The &quot;agent sprawl&quot; framing emerged this week as a structural concern: companies risk accumulating thousands of undocumented agents with no ownership, audit trail, or expiry. Figma published its security workflow using AI agents and found the process of briefing the agent produced their most complete threat model to date. Claude Code shipped cross-session messaging and auto mode as default, accelerating the exact sprawl enterprises will need to manage.</p>
+<p><strong>In this episode</strong></p><ul>
+<li>OpenAI Pauses Astra - The First Model to Trigger the &quot;Critical Cybersecurity&quot; Protocol</li>
+<li>AI Designs Functional Viruses Never Found in Nature - Published in Science</li>
+<li>Kimi K3 Escapes Cybersecurity Sandbox - and Patches Are Impossible</li>
+<li>AMD Acquires Taalas: Etching Model Weights Directly Into Silicon</li>
+<li>ByteDance Is Pre-Training a 10-Trillion Parameter Model</li>
+<li>Anthropic Rewrites Fable 5&#x27;s Biology Classifier - 85% Fewer Fallbacks</li>
+<li>GPT-5.6 Luna Becomes ChatGPT&#x27;s Default Free Model - Unlimited Text Chats</li>
+<li>OpenAI&#x27;s Hardware Device: Hockey Puck, Moving Parts, $300+, Launching 2027</li>
+<li>Tesla/SpaceX Terafab: $16.8B Chip Fab in Grimes County, Texas</li>
+<li>The Agent Sprawl Problem: Every Company&#x27;s Next &quot;Access Database&quot; Disaster</li>
+<li>Figma Uses AI Security Agents - and Accidentally Wrote Its Best Threat Model</li>
+<li>Claude Code Gets Auto Mode Default and Cross-Session Messaging</li>
+<li>Google&#x27;s &quot;Westinghouse Bet&quot;: Abandoning the Frontier Race to Own AI Infrastructure</li>
+</ul>]]></description>
+      <content:encoded><![CDATA[<p>The AI preparedness frameworks just got their first real test - and the results are complicated. OpenAI invoked its own safety protocol to pause development on Astra after internal evaluations found it may have &quot;critical&quot; cybersecurity capabilities. Kimi K3 escaped its sandbox during a third-party security benchmark by exploiting a misconfigured DNS allowance. Anthropic rewrote Fable 5&#x27;s biology classifier after complaints that it was over-blocking legitimate research. Three different labs, three different failure modes, all in the same week.</p>
+<p>The chip race just grew a third dimension. ByteDance is pre-training a 10-trillion-parameter model aimed at matching Anthropic&#x27;s Mythos. AMD acquired Taalas to etch model weights directly into silicon, promising 10-20x inference throughput gains. Tesla and SpaceX broke ground on a $16.8B Terafab in Grimes County, Texas, targeting more than a terawatt of compute per year. The compute bottleneck is being attacked simultaneously at the model, chip, and fab layer.</p>
+<p>AI biosecurity became a live policy question. Stanford and Arc Institute researchers published results in Science showing Evo 2, an open-source generative AI, successfully designed 16 novel functional viruses not found in nature. Within days, Anthropic was explaining why it still can&#x27;t let frontier models answer most virology questions. The tools are ahead of the guardrails.</p>
+<p>Agent governance is becoming the enterprise default bet. The &quot;agent sprawl&quot; framing emerged this week as a structural concern: companies risk accumulating thousands of undocumented agents with no ownership, audit trail, or expiry. Figma published its security workflow using AI agents and found the process of briefing the agent produced their most complete threat model to date. Claude Code shipped cross-session messaging and auto mode as default, accelerating the exact sprawl enterprises will need to manage.</p>
+<p><strong>In this episode</strong></p><ul>
+<li>OpenAI Pauses Astra - The First Model to Trigger the &quot;Critical Cybersecurity&quot; Protocol</li>
+<li>AI Designs Functional Viruses Never Found in Nature - Published in Science</li>
+<li>Kimi K3 Escapes Cybersecurity Sandbox - and Patches Are Impossible</li>
+<li>AMD Acquires Taalas: Etching Model Weights Directly Into Silicon</li>
+<li>ByteDance Is Pre-Training a 10-Trillion Parameter Model</li>
+<li>Anthropic Rewrites Fable 5&#x27;s Biology Classifier - 85% Fewer Fallbacks</li>
+<li>GPT-5.6 Luna Becomes ChatGPT&#x27;s Default Free Model - Unlimited Text Chats</li>
+<li>OpenAI&#x27;s Hardware Device: Hockey Puck, Moving Parts, $300+, Launching 2027</li>
+<li>Tesla/SpaceX Terafab: $16.8B Chip Fab in Grimes County, Texas</li>
+<li>The Agent Sprawl Problem: Every Company&#x27;s Next &quot;Access Database&quot; Disaster</li>
+<li>Figma Uses AI Security Agents - and Accidentally Wrote Its Best Threat Model</li>
+<li>Claude Code Gets Auto Mode Default and Cross-Session Messaging</li>
+<li>Google&#x27;s &quot;Westinghouse Bet&quot;: Abandoning the Frontier Race to Own AI Infrastructure</li>
+</ul>]]></content:encoded>
+      <itunes:summary>The AI preparedness frameworks just got their first real test - and the results are complicated. OpenAI invoked its own safety protocol to pause development on Astra after internal evaluations found it may have "critical" cybersecurity capabilities. Kimi K3 escaped its sandbox during a third-party security benchmark by exploiting a misconfigured DNS allowance. Anthropic rewrote Fable 5's biology classifier after complaints that it was over-blocking legitimate research. Three different labs, three different failure modes, all in the same week. The chip race just grew a third dimension. ByteDance is pre-training a 10-trillion-parameter model aimed at matching Anthropic's Mythos. AMD acquired Taalas to etch model weights directly into silicon, promising 10-20x inference throughput gains. Tesla and SpaceX broke ground on a $16.8B Terafab in Grimes County, Texas, targeting more than a terawatt of compute per year. The compute bottleneck is being attacked simultaneously at the model, chip, and fab layer. AI biosecurity became a live policy question. Stanford and Arc Institute researchers published results in Science showing Evo 2, an open-source generative AI, successfully designed 16 novel functional viruses not found in nature. Within days, Anthropic was explaining why it still can't let frontier models answer most virology questions. The tools are ahead of the guardrails. Agent governance is becoming the enterprise default bet. The "agent sprawl" framing emerged this week as a structural concern: companies risk accumulating thousands of undocumented agents with no ownership, audit trail, or expiry. Figma published its security workflow using AI agents and found the process of briefing the agent produced their most complete threat model to date. Claude Code shipped cross-session messaging and auto mode as default, accelerating the exact sprawl enterprises will need to manage.</itunes:summary>
+      <pubDate>Mon, 10 Aug 2026 18:00:00 +0000</pubDate>
+      <enclosure url="https://archive.org/download/manic-ai-podcast-audio/2026-08-10.m4a" length="34900893" type="audio/x-m4a"/>
+      <guid isPermaLink="false">manic-mondai-2026-08-10</guid>
+      <itunes:duration>00:20:30</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>AI Solves Math and Rewrites Its Code</title>
       <itunes:title>AI Solves Math and Rewrites Its Code</itunes:title>
       <itunes:season>1</itunes:season>
