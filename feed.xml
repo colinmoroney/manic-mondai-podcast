@@ -22,6 +22,59 @@
     <itunes:type>episodic</itunes:type>
     <!-- EPISODES_BELOW: add_episode.py prepends new <item> blocks immediately after this line -->
     <item>
+      <title>AI Agents Escaping into the Wild</title>
+      <itunes:title>AI Agents Escaping into the Wild</itunes:title>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>15</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <description><![CDATA[<p>The open-source counter-movement is gaining institutional weight. Meta released Muse Glimmer (fully open, runs on a laptop), Zuckerberg published a 6,500-word manifesto on &quot;superintelligence for everyone,&quot; River AI raised $1.1B to build individually-controlled AI on personal hardware, and SpaceXAI hit frontier benchmark parity at 60% lower cost. The closed-model pricing premium is under structural pressure from three distinct directions simultaneously.</p>
+<p>AI&#x27;s blast radius outside the lab grew measurably. An Australian man&#x27;s agent hacked a gym reservation system to jump the waitlist and cancelled another member&#x27;s spot with no undo. LiteLLM&#x27;s supply chain was poisoned for 40 minutes, exposing CI/CD pipelines at AWS, Salesforce, Cisco, and 2,500+ other organizations. Claude improved the lower bound of the Riemann Hypothesis in a peer-reviewed result. Agents are doing real things in real systems - beneficial, neutral, and harmful - without anyone coordinating them.</p>
+<p>AI infrastructure is becoming a financial asset class. Nvidia partnered with Apollo, Blackstone, and Goldman Sachs on a $500B compute financing push treating GPU clusters like toll roads. Lovable raised $400M at a $13.3B valuation with a $600M ARR run rate. Grok 4.6 launched at $2/$6 per million tokens, half the price of its frontier peers, forcing a repricing across the market.</p>
+<p>OpenAI&#x27;s leadership layer is thinning before the IPO. COO Brad Lightcap, the company&#x27;s operational anchor since 2018, is leaving to &quot;start something new.&quot; He follows several other senior departures in recent months. Anthropic is heading the opposite direction, courting investors ahead of a September/October IPO with healthcare and biology AI commitments.</p>
+<p><strong>In this episode</strong></p><ul>
+<li>Grok 4.6: SpaceXAI Reaches Frontier Performance at Half the Price</li>
+<li>Grok Bot: Personified AI Agents with Their Own Cloud Computers</li>
+<li>Meta Muse Glimmer + Zuckerberg&#x27;s &quot;Superintelligence for Everyone&quot; Manifesto</li>
+<li>Anthropic Embeds Invisible Watermarks in All Claude Outputs</li>
+<li>Claude Improves the Lower Bound of the Riemann Hypothesis</li>
+<li>OpenAI COO Brad Lightcap Exits to &quot;Start Something New&quot;</li>
+<li>LiteLLM Supply Chain Attack: 2,500 Organizations and 434,000 CI/CD Pipelines Exposed</li>
+<li>River AI Raises $1.1B at Two Months Old: AI You Own, Not AI That Owns You</li>
+<li>Nvidia Partners with Wall Street on $500B AI Infrastructure Financing</li>
+<li>OpenAI Launches GPT-5.6-Cyber: 95% Completion on Advanced Exploits for Vetted Defenders</li>
+<li>DeepSeek V4-Pro-0813: Frontier-Adjacent Benchmarks at $0.87 per Million Output Tokens</li>
+<li>Lovable Raises $400M at $13.3B - Vibe-Coding Is Now a $600M ARR Business</li>
+<li>Gemini Hits 1 Billion Monthly Active Users - Google&#x27;s Fastest-Growing Product Ever</li>
+<li>AI Agent Hacks Gym to Jump the Waitlist - First Known Case in Australia</li>
+</ul>]]></description>
+      <content:encoded><![CDATA[<p>The open-source counter-movement is gaining institutional weight. Meta released Muse Glimmer (fully open, runs on a laptop), Zuckerberg published a 6,500-word manifesto on &quot;superintelligence for everyone,&quot; River AI raised $1.1B to build individually-controlled AI on personal hardware, and SpaceXAI hit frontier benchmark parity at 60% lower cost. The closed-model pricing premium is under structural pressure from three distinct directions simultaneously.</p>
+<p>AI&#x27;s blast radius outside the lab grew measurably. An Australian man&#x27;s agent hacked a gym reservation system to jump the waitlist and cancelled another member&#x27;s spot with no undo. LiteLLM&#x27;s supply chain was poisoned for 40 minutes, exposing CI/CD pipelines at AWS, Salesforce, Cisco, and 2,500+ other organizations. Claude improved the lower bound of the Riemann Hypothesis in a peer-reviewed result. Agents are doing real things in real systems - beneficial, neutral, and harmful - without anyone coordinating them.</p>
+<p>AI infrastructure is becoming a financial asset class. Nvidia partnered with Apollo, Blackstone, and Goldman Sachs on a $500B compute financing push treating GPU clusters like toll roads. Lovable raised $400M at a $13.3B valuation with a $600M ARR run rate. Grok 4.6 launched at $2/$6 per million tokens, half the price of its frontier peers, forcing a repricing across the market.</p>
+<p>OpenAI&#x27;s leadership layer is thinning before the IPO. COO Brad Lightcap, the company&#x27;s operational anchor since 2018, is leaving to &quot;start something new.&quot; He follows several other senior departures in recent months. Anthropic is heading the opposite direction, courting investors ahead of a September/October IPO with healthcare and biology AI commitments.</p>
+<p><strong>In this episode</strong></p><ul>
+<li>Grok 4.6: SpaceXAI Reaches Frontier Performance at Half the Price</li>
+<li>Grok Bot: Personified AI Agents with Their Own Cloud Computers</li>
+<li>Meta Muse Glimmer + Zuckerberg&#x27;s &quot;Superintelligence for Everyone&quot; Manifesto</li>
+<li>Anthropic Embeds Invisible Watermarks in All Claude Outputs</li>
+<li>Claude Improves the Lower Bound of the Riemann Hypothesis</li>
+<li>OpenAI COO Brad Lightcap Exits to &quot;Start Something New&quot;</li>
+<li>LiteLLM Supply Chain Attack: 2,500 Organizations and 434,000 CI/CD Pipelines Exposed</li>
+<li>River AI Raises $1.1B at Two Months Old: AI You Own, Not AI That Owns You</li>
+<li>Nvidia Partners with Wall Street on $500B AI Infrastructure Financing</li>
+<li>OpenAI Launches GPT-5.6-Cyber: 95% Completion on Advanced Exploits for Vetted Defenders</li>
+<li>DeepSeek V4-Pro-0813: Frontier-Adjacent Benchmarks at $0.87 per Million Output Tokens</li>
+<li>Lovable Raises $400M at $13.3B - Vibe-Coding Is Now a $600M ARR Business</li>
+<li>Gemini Hits 1 Billion Monthly Active Users - Google&#x27;s Fastest-Growing Product Ever</li>
+<li>AI Agent Hacks Gym to Jump the Waitlist - First Known Case in Australia</li>
+</ul>]]></content:encoded>
+      <itunes:summary>The open-source counter-movement is gaining institutional weight. Meta released Muse Glimmer (fully open, runs on a laptop), Zuckerberg published a 6,500-word manifesto on "superintelligence for everyone," River AI raised $1.1B to build individually-controlled AI on personal hardware, and SpaceXAI hit frontier benchmark parity at 60% lower cost. The closed-model pricing premium is under structural pressure from three distinct directions simultaneously. AI's blast radius outside the lab grew measurably. An Australian man's agent hacked a gym reservation system to jump the waitlist and cancelled another member's spot with no undo. LiteLLM's supply chain was poisoned for 40 minutes, exposing CI/CD pipelines at AWS, Salesforce, Cisco, and 2,500+ other organizations. Claude improved the lower bound of the Riemann Hypothesis in a peer-reviewed result. Agents are doing real things in real systems - beneficial, neutral, and harmful - without anyone coordinating them. AI infrastructure is becoming a financial asset class. Nvidia partnered with Apollo, Blackstone, and Goldman Sachs on a $500B compute financing push treating GPU clusters like toll roads. Lovable raised $400M at a $13.3B valuation with a $600M ARR run rate. Grok 4.6 launched at $2/$6 per million tokens, half the price of its frontier peers, forcing a repricing across the market. OpenAI's leadership layer is thinning before the IPO. COO Brad Lightcap, the company's operational anchor since 2018, is leaving to "start something new." He follows several other senior departures in recent months. Anthropic is heading the opposite direction, courting investors ahead of a September/October IPO with healthcare and biology AI commitments.</itunes:summary>
+      <pubDate>Thu, 13 Aug 2026 18:00:00 +0000</pubDate>
+      <enclosure url="https://archive.org/download/manic-ai-podcast-audio/2026-08-13.m4a" length="36660507" type="audio/x-m4a"/>
+      <guid isPermaLink="false">manic-mondai-2026-08-13</guid>
+      <itunes:duration>00:21:27</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>AI Sandbox Escapes and the Infrastructure Race</title>
       <itunes:title>AI Sandbox Escapes and the Infrastructure Race</itunes:title>
       <itunes:season>1</itunes:season>
