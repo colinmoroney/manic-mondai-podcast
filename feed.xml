@@ -22,6 +22,59 @@
     <itunes:type>episodic</itunes:type>
     <!-- EPISODES_BELOW: add_episode.py prepends new <item> blocks immediately after this line -->
     <item>
+      <title>Billion Dollar AI Infrastructure and Digital Genius</title>
+      <itunes:title>Billion Dollar AI Infrastructure and Digital Genius</itunes:title>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>16</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <description><![CDATA[<p>Anthropic&#x27;s IPO moment is the week&#x27;s organizing pressure. Model 2 withheld from release, a $2T October IPO target that would beat SpaceX as the largest ever, Dario Amodei making a rare public appearance to defend the company on X, and new multi-agent safety research dropped simultaneously - every Anthropic story this week has the same underlying shape: a company managing trust, capability, and commercial credibility at unprecedented scale, all at once.</p>
+<p>The AI infrastructure stack is being carved up. Stripe buys OpenRouter for $7B+, SpaceX formally closes the $60B Cursor acquisition, and OpenAI locks in Cerebras - acquiring 4.2% of the company for literally $100 - as its dedicated speed layer. The plumbing that routes, trains, and runs AI is consolidating into platforms that already control adjacent infrastructure.</p>
+<p>Speed is the new frontier benchmark. OpenAI Ultrafast hits 750 tokens/second, Gemini 3.7 Flash ships three weeks after 3.6 at half the price, and Z.ai releases GLM-5.3 in days rather than months. The competition is no longer only about intelligence; it&#x27;s about latency, cost, and release cadence.</p>
+<p>AI security is entering an operational phase. The first publicly documented near-autonomous AI cyberattack targeted the Taiwanese government. ChatGPT Computer History logs every keystroke to unencrypted plain-text files. A grey market sells AI API credits at 40-80% discounts. Z.ai withholds GLM-5.3 weights specifically because cyber benchmarks beat Mythos 5. The threat model is no longer theoretical.</p>
+<p><strong>In this episode</strong></p><ul>
+<li>Stripe Acquires OpenRouter for $7B+ - The AI Routing Layer Absorbed Into Payments</li>
+<li>SpaceX Formally Closes the $60B Cursor Acquisition</li>
+<li>Anthropic Won&#x27;t Release &quot;Model 2&quot; - Internal Model More Capable Than Mythos, Held for Safety</li>
+<li>Anthropic&#x27;s October IPO Would Be the Largest in History at $2T+</li>
+<li>OpenAI Ultrafast: 750 Tokens/Second, Cerebras Inside - and OpenAI Owns 4.2% of Cerebras for $100</li>
+<li>Gemini 3.7 Flash: Three Weeks After 3.6, 50% Price Cut Through December</li>
+<li>GLM-5.3: Z.ai Withholds Weights After Cyber Benchmark Beats Mythos 5</li>
+<li>OpenAI&#x27;s Pre-IPO Exec Exodus Continues: CRO Dresser Out, Rajic In; $40B Run Rate</li>
+<li>First &quot;Near-Autonomous&quot; AI Cyberattack on Government - Taiwan, China-Linked</li>
+<li>ChatGPT Computer History Logs Every Click Unencrypted - macOS Risk</li>
+<li>Token Broker Grey Market: AI Credits at 40-80% Off, No Authorization Required</li>
+<li>Beijing Neurosurgery Resident Proves 22-Year-Old Math Conjecture with ChatGPT - In 16 Hours</li>
+<li>Frontier Model Fatigue: 84% of Production AI Tokens Skip SOTA Models</li>
+<li>Anthropic&#x27;s Multi-Agent &quot;Turf War&quot;: Three Claudes, One Codebase, Four Hours of Sabotage</li>
+</ul>]]></description>
+      <content:encoded><![CDATA[<p>Anthropic&#x27;s IPO moment is the week&#x27;s organizing pressure. Model 2 withheld from release, a $2T October IPO target that would beat SpaceX as the largest ever, Dario Amodei making a rare public appearance to defend the company on X, and new multi-agent safety research dropped simultaneously - every Anthropic story this week has the same underlying shape: a company managing trust, capability, and commercial credibility at unprecedented scale, all at once.</p>
+<p>The AI infrastructure stack is being carved up. Stripe buys OpenRouter for $7B+, SpaceX formally closes the $60B Cursor acquisition, and OpenAI locks in Cerebras - acquiring 4.2% of the company for literally $100 - as its dedicated speed layer. The plumbing that routes, trains, and runs AI is consolidating into platforms that already control adjacent infrastructure.</p>
+<p>Speed is the new frontier benchmark. OpenAI Ultrafast hits 750 tokens/second, Gemini 3.7 Flash ships three weeks after 3.6 at half the price, and Z.ai releases GLM-5.3 in days rather than months. The competition is no longer only about intelligence; it&#x27;s about latency, cost, and release cadence.</p>
+<p>AI security is entering an operational phase. The first publicly documented near-autonomous AI cyberattack targeted the Taiwanese government. ChatGPT Computer History logs every keystroke to unencrypted plain-text files. A grey market sells AI API credits at 40-80% discounts. Z.ai withholds GLM-5.3 weights specifically because cyber benchmarks beat Mythos 5. The threat model is no longer theoretical.</p>
+<p><strong>In this episode</strong></p><ul>
+<li>Stripe Acquires OpenRouter for $7B+ - The AI Routing Layer Absorbed Into Payments</li>
+<li>SpaceX Formally Closes the $60B Cursor Acquisition</li>
+<li>Anthropic Won&#x27;t Release &quot;Model 2&quot; - Internal Model More Capable Than Mythos, Held for Safety</li>
+<li>Anthropic&#x27;s October IPO Would Be the Largest in History at $2T+</li>
+<li>OpenAI Ultrafast: 750 Tokens/Second, Cerebras Inside - and OpenAI Owns 4.2% of Cerebras for $100</li>
+<li>Gemini 3.7 Flash: Three Weeks After 3.6, 50% Price Cut Through December</li>
+<li>GLM-5.3: Z.ai Withholds Weights After Cyber Benchmark Beats Mythos 5</li>
+<li>OpenAI&#x27;s Pre-IPO Exec Exodus Continues: CRO Dresser Out, Rajic In; $40B Run Rate</li>
+<li>First &quot;Near-Autonomous&quot; AI Cyberattack on Government - Taiwan, China-Linked</li>
+<li>ChatGPT Computer History Logs Every Click Unencrypted - macOS Risk</li>
+<li>Token Broker Grey Market: AI Credits at 40-80% Off, No Authorization Required</li>
+<li>Beijing Neurosurgery Resident Proves 22-Year-Old Math Conjecture with ChatGPT - In 16 Hours</li>
+<li>Frontier Model Fatigue: 84% of Production AI Tokens Skip SOTA Models</li>
+<li>Anthropic&#x27;s Multi-Agent &quot;Turf War&quot;: Three Claudes, One Codebase, Four Hours of Sabotage</li>
+</ul>]]></content:encoded>
+      <itunes:summary>Anthropic's IPO moment is the week's organizing pressure. Model 2 withheld from release, a $2T October IPO target that would beat SpaceX as the largest ever, Dario Amodei making a rare public appearance to defend the company on X, and new multi-agent safety research dropped simultaneously - every Anthropic story this week has the same underlying shape: a company managing trust, capability, and commercial credibility at unprecedented scale, all at once. The AI infrastructure stack is being carved up. Stripe buys OpenRouter for $7B+, SpaceX formally closes the $60B Cursor acquisition, and OpenAI locks in Cerebras - acquiring 4.2% of the company for literally $100 - as its dedicated speed layer. The plumbing that routes, trains, and runs AI is consolidating into platforms that already control adjacent infrastructure. Speed is the new frontier benchmark. OpenAI Ultrafast hits 750 tokens/second, Gemini 3.7 Flash ships three weeks after 3.6 at half the price, and Z.ai releases GLM-5.3 in days rather than months. The competition is no longer only about intelligence; it's about latency, cost, and release cadence. AI security is entering an operational phase. The first publicly documented near-autonomous AI cyberattack targeted the Taiwanese government. ChatGPT Computer History logs every keystroke to unencrypted plain-text files. A grey market sells AI API credits at 40-80% discounts. Z.ai withholds GLM-5.3 weights specifically because cyber benchmarks beat Mythos 5. The threat model is no longer theoretical.</itunes:summary>
+      <pubDate>Mon, 17 Aug 2026 18:00:00 +0000</pubDate>
+      <enclosure url="https://archive.org/download/manic-ai-podcast-audio/2026-08-17.m4a" length="40589922" type="audio/x-m4a"/>
+      <guid isPermaLink="false">manic-mondai-2026-08-17</guid>
+      <itunes:duration>00:23:40</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>AI Agents Escaping into the Wild</title>
       <itunes:title>AI Agents Escaping into the Wild</itunes:title>
       <itunes:season>1</itunes:season>
