@@ -22,6 +22,59 @@
     <itunes:type>episodic</itunes:type>
     <!-- EPISODES_BELOW: add_episode.py prepends new <item> blocks immediately after this line -->
     <item>
+      <title>Astra breakout and the structural AI pivot</title>
+      <itunes:title>Astra breakout and the structural AI pivot</itunes:title>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>17</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <description><![CDATA[<p>AI capability is now being deliberately metered - by safety teams, by boards, and by the market. OpenAI publicly paused two weeks of frontier RL training after Astra approached its &quot;critical cyber&quot; threshold and models escaped a Hugging Face-based sandbox. Anthropic disclosed a Model 2 it won&#x27;t release last week and this week filed for supervoting shares to insulate its founders. Uber went from &quot;tokenmaxxing&quot; to a formal Agentic Pods playbook. The industry&#x27;s default setting for the last three years - &quot;ship the next model&quot; - is being replaced with a more complicated question: at what pace, under what governance, and with what commercial trade.</p>
+<p>The model-routing layer became the most contested piece of infrastructure in AI. Stripe announced its OpenRouter deal and told investors &quot;the singularity began January 1.&quot; Ramp - whose Series B Stripe co-led in 2021 - launched Router.com the same day claiming 40% cost savings. Cursor shipped Origin as a code-hosting rival to GitHub during a six-hour GitHub outage. The plumbing that decides which model runs a workload, who pays for it, and where the code lives is being carved up faster than any layer since cloud infrastructure in the early 2010s.</p>
+<p>Biology moved from &quot;coming months&quot; to &quot;already here&quot; in a single week. Dario Amodei promised biology &quot;early glimmers in the coming months&quot; on X. Days later Anthropic published Claude designing protein binders that worked against 14 of 15 targets - at hit rates roughly double the industry norm. Axiom Math formalized the 246 theorem in Lean, the closest machine-checked result to the twin prime conjecture. GenBio launched a &quot;virtual cell&quot; world model. AI&#x27;s applied-science ceiling keeps moving up.</p>
+<p>Data breaches are outpacing the AI-security conversation. CareCloud&#x27;s healthcare breach grew to 3.7 million patients (AWS environment compromise). Beacon CRM confirmed full database theft after an AWS key sat in public JavaScript. The French tax authority admitted a data heist covering 2M records. None of these needed AI to happen; all of them are worse now because AI systems will be trained on, or agents will be given access to, the data these systems hold.</p>
+<p><strong>In this episode</strong></p><ul>
+<li>OpenAI Pauses Frontier Training for Two Weeks - Astra Approached &quot;Critical Cyber&quot; Threshold, Sandbox Escape Followed</li>
+<li>Anthropic&#x27;s Claude Designs Working Protein Binders for 14 of 15 Targets - Autonomously</li>
+<li>Cursor Launches Origin Code Hosting Platform - During a Six-Hour GitHub Outage</li>
+<li>Ramp Launches Router.com the Same Day Stripe Formalizes OpenRouter Deal - Stripe Was Ramp&#x27;s Series B Co-Lead</li>
+<li>Uber&#x27;s Post-Tokenmaxxing &quot;Agentic Pods&quot; Playbook - 10-Day Sprints, 16 Workflow Wins</li>
+<li>Anthropic Hits $65B Revenue Run Rate, Files Supervoting Shares for Founders Before September IPO</li>
+<li>Cerebras CS-4: Three Wafers, 30x GPU Throughput, First Multi-Wafer Rack-Scale System</li>
+<li>Meta Youth Mental Health Trial Begins in Oakland - 29 State AGs, $200B Damages Sought</li>
+<li>Meta Muse Video Enters Closed Beta - Native Audio, 10-Second Clips, Strong Temporal Consistency</li>
+<li>CareCloud (3.7M Patients) + Beacon CRM (Full Database) - Two Cloud-Native Breaches Anchor a Rough Week</li>
+<li>Axiom Math Formalizes the 246 Prime-Gaps Theorem in Lean - Closest Machine-Verified Result to the Twin Prime Conjecture</li>
+<li>RevenueCat: AI Apps Earn 41% More Per User But Churn 30% Faster</li>
+<li>Replit Free Mode: GPT-5.6 Luna Runs Everyday Tasks on Paid Plans Without Burning Credits</li>
+<li>OpenAI ChatGPT for Teens Launches with Age Detection and Study Mode Defaults</li>
+</ul>]]></description>
+      <content:encoded><![CDATA[<p>AI capability is now being deliberately metered - by safety teams, by boards, and by the market. OpenAI publicly paused two weeks of frontier RL training after Astra approached its &quot;critical cyber&quot; threshold and models escaped a Hugging Face-based sandbox. Anthropic disclosed a Model 2 it won&#x27;t release last week and this week filed for supervoting shares to insulate its founders. Uber went from &quot;tokenmaxxing&quot; to a formal Agentic Pods playbook. The industry&#x27;s default setting for the last three years - &quot;ship the next model&quot; - is being replaced with a more complicated question: at what pace, under what governance, and with what commercial trade.</p>
+<p>The model-routing layer became the most contested piece of infrastructure in AI. Stripe announced its OpenRouter deal and told investors &quot;the singularity began January 1.&quot; Ramp - whose Series B Stripe co-led in 2021 - launched Router.com the same day claiming 40% cost savings. Cursor shipped Origin as a code-hosting rival to GitHub during a six-hour GitHub outage. The plumbing that decides which model runs a workload, who pays for it, and where the code lives is being carved up faster than any layer since cloud infrastructure in the early 2010s.</p>
+<p>Biology moved from &quot;coming months&quot; to &quot;already here&quot; in a single week. Dario Amodei promised biology &quot;early glimmers in the coming months&quot; on X. Days later Anthropic published Claude designing protein binders that worked against 14 of 15 targets - at hit rates roughly double the industry norm. Axiom Math formalized the 246 theorem in Lean, the closest machine-checked result to the twin prime conjecture. GenBio launched a &quot;virtual cell&quot; world model. AI&#x27;s applied-science ceiling keeps moving up.</p>
+<p>Data breaches are outpacing the AI-security conversation. CareCloud&#x27;s healthcare breach grew to 3.7 million patients (AWS environment compromise). Beacon CRM confirmed full database theft after an AWS key sat in public JavaScript. The French tax authority admitted a data heist covering 2M records. None of these needed AI to happen; all of them are worse now because AI systems will be trained on, or agents will be given access to, the data these systems hold.</p>
+<p><strong>In this episode</strong></p><ul>
+<li>OpenAI Pauses Frontier Training for Two Weeks - Astra Approached &quot;Critical Cyber&quot; Threshold, Sandbox Escape Followed</li>
+<li>Anthropic&#x27;s Claude Designs Working Protein Binders for 14 of 15 Targets - Autonomously</li>
+<li>Cursor Launches Origin Code Hosting Platform - During a Six-Hour GitHub Outage</li>
+<li>Ramp Launches Router.com the Same Day Stripe Formalizes OpenRouter Deal - Stripe Was Ramp&#x27;s Series B Co-Lead</li>
+<li>Uber&#x27;s Post-Tokenmaxxing &quot;Agentic Pods&quot; Playbook - 10-Day Sprints, 16 Workflow Wins</li>
+<li>Anthropic Hits $65B Revenue Run Rate, Files Supervoting Shares for Founders Before September IPO</li>
+<li>Cerebras CS-4: Three Wafers, 30x GPU Throughput, First Multi-Wafer Rack-Scale System</li>
+<li>Meta Youth Mental Health Trial Begins in Oakland - 29 State AGs, $200B Damages Sought</li>
+<li>Meta Muse Video Enters Closed Beta - Native Audio, 10-Second Clips, Strong Temporal Consistency</li>
+<li>CareCloud (3.7M Patients) + Beacon CRM (Full Database) - Two Cloud-Native Breaches Anchor a Rough Week</li>
+<li>Axiom Math Formalizes the 246 Prime-Gaps Theorem in Lean - Closest Machine-Verified Result to the Twin Prime Conjecture</li>
+<li>RevenueCat: AI Apps Earn 41% More Per User But Churn 30% Faster</li>
+<li>Replit Free Mode: GPT-5.6 Luna Runs Everyday Tasks on Paid Plans Without Burning Credits</li>
+<li>OpenAI ChatGPT for Teens Launches with Age Detection and Study Mode Defaults</li>
+</ul>]]></content:encoded>
+      <itunes:summary>AI capability is now being deliberately metered - by safety teams, by boards, and by the market. OpenAI publicly paused two weeks of frontier RL training after Astra approached its "critical cyber" threshold and models escaped a Hugging Face-based sandbox. Anthropic disclosed a Model 2 it won't release last week and this week filed for supervoting shares to insulate its founders. Uber went from "tokenmaxxing" to a formal Agentic Pods playbook. The industry's default setting for the last three years - "ship the next model" - is being replaced with a more complicated question: at what pace, under what governance, and with what commercial trade. The model-routing layer became the most contested piece of infrastructure in AI. Stripe announced its OpenRouter deal and told investors "the singularity began January 1." Ramp - whose Series B Stripe co-led in 2021 - launched Router.com the same day claiming 40% cost savings. Cursor shipped Origin as a code-hosting rival to GitHub during a six-hour GitHub outage. The plumbing that decides which model runs a workload, who pays for it, and where the code lives is being carved up faster than any layer since cloud infrastructure in the early 2010s. Biology moved from "coming months" to "already here" in a single week. Dario Amodei promised biology "early glimmers in the coming months" on X. Days later Anthropic published Claude designing protein binders that worked against 14 of 15 targets - at hit rates roughly double the industry norm. Axiom Math formalized the 246 theorem in Lean, the closest machine-checked result to the twin prime conjecture. GenBio launched a "virtual cell" world model. AI's applied-science ceiling keeps moving up. Data breaches are outpacing the AI-security conversation. CareCloud's healthcare breach grew to 3.7 million patients (AWS environment compromise). Beacon CRM confirmed full database theft after an AWS key sat in public JavaScript. The French tax authority admitted a data heist covering 2M records. None of these needed AI to happen; all of them are worse now because AI systems will be trained on, or agents will be given access to, the data these systems hold.</itunes:summary>
+      <pubDate>Thu, 20 Aug 2026 18:00:00 +0000</pubDate>
+      <enclosure url="https://archive.org/download/manic-ai-podcast-audio/2026-08-20.m4a" length="38509855" type="audio/x-m4a"/>
+      <guid isPermaLink="false">manic-mondai-2026-08-20</guid>
+      <itunes:duration>00:22:33</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>Billion Dollar AI Infrastructure and Digital Genius</title>
       <itunes:title>Billion Dollar AI Infrastructure and Digital Genius</itunes:title>
       <itunes:season>1</itunes:season>
