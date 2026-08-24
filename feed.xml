@@ -22,6 +22,57 @@
     <itunes:type>episodic</itunes:type>
     <!-- EPISODES_BELOW: add_episode.py prepends new <item> blocks immediately after this line -->
     <item>
+      <title>Open source AI is crushing the giants</title>
+      <itunes:title>Open source AI is crushing the giants</itunes:title>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>18</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <description><![CDATA[<p>Open-weight models are eating the market from the bottom up. Token share at Vercel moved from 28% to 62% open-source in two months; Opus 5 overtook Fable 5 in enterprise spending; Harvey built a legal model on a Chinese open-weight base; Nvidia committed $6B to build the US answer to DeepSeek. The summer of open weights is becoming a structural shift in enterprise AI economics.</p>
+<p>Inference infrastructure is getting more expensive and more contested. Nvidia&#x27;s 15%+ server price hikes, the $6B Poolside licensing deal, and Hugging Face&#x27;s possible $13B sale all point to a maturing platform battle where compute and hosting layers are being locked up by the companies that can afford to win them.</p>
+<p>AI security is entering a new adversarial phase. A time-release backdoor in an open-source model via LoRA. Anthropic deploying Mythos 5 for cyber defenders with a $35M fund. A national AI cybersecurity policy gap that has no clean answer. The threat model is no longer theoretical and the defence is not keeping pace.</p>
+<p>The GTM stack is being reinvented from the top of funnel down. MCP gets enterprise authentication and agent identity. Slack Code embeds AI agents into the software development workflow. Anthropic&#x27;s Project Parka turns meetings into agent task queues. And 47% of B2B teams are already testing AI discovery channels, with answer engine optimization ranked the top rising investment.</p>
+<p><strong>In this episode</strong></p><ul>
+<li>Ox Alpha: Anonymous Frontier-Class Model Appears Free on OpenRouter - Nobody Knows Who Built It</li>
+<li>DeepSeek V4-Flash-Vision-Exp: Experimental Multimodal Model Rivals Opus 4.8 on Agent Benchmarks</li>
+<li>Nvidia Bets $6B on Open Weights: Poolside Deal Launches US Nemotron Alternative to DeepSeek</li>
+<li>Hugging Face Explores $13B Sale - Platform Consolidation at 3x Its 2023 Valuation</li>
+<li>LoRA Time-Release Backdoor: A Dormant Threat in Open-Source Models That Activates on a Date</li>
+<li>Anthropic Expands Mythos 5 to Cyber Defenders: $35M Fund, Code Scanning, Vetted Researcher Access</li>
+<li>Nvidia 15%+ Price Hikes on Vera Rubin and Grace Blackwell Servers: Memory Costs Hit the Stack</li>
+<li>MCP Roadmap Update: Stateless HTTP Core, Agent Identity, and Enterprise Authorization</li>
+<li>Slack Code: AI Coding Channels Go Generally Available - Agents Build Software Inside Chat</li>
+<li>Anthropic Project Parka: Meeting Recorder That Assigns Claude Agents the Homework</li>
+<li>Harvey Tenet: OpenAI-Backed Legal AI Firm Post-Trains Chinese Open Weight for Long-Horizon Law Work</li>
+<li>Open Source Doubles Token Share at Vercel in Two Months - Opus 5 Overtakes Fable 5 in Enterprise Spending</li>
+<li>2026 B2B GTM Playbook Benchmarks: AEO Leads Rising Investment, AI Credit Pricing Up 114%</li>
+</ul>]]></description>
+      <content:encoded><![CDATA[<p>Open-weight models are eating the market from the bottom up. Token share at Vercel moved from 28% to 62% open-source in two months; Opus 5 overtook Fable 5 in enterprise spending; Harvey built a legal model on a Chinese open-weight base; Nvidia committed $6B to build the US answer to DeepSeek. The summer of open weights is becoming a structural shift in enterprise AI economics.</p>
+<p>Inference infrastructure is getting more expensive and more contested. Nvidia&#x27;s 15%+ server price hikes, the $6B Poolside licensing deal, and Hugging Face&#x27;s possible $13B sale all point to a maturing platform battle where compute and hosting layers are being locked up by the companies that can afford to win them.</p>
+<p>AI security is entering a new adversarial phase. A time-release backdoor in an open-source model via LoRA. Anthropic deploying Mythos 5 for cyber defenders with a $35M fund. A national AI cybersecurity policy gap that has no clean answer. The threat model is no longer theoretical and the defence is not keeping pace.</p>
+<p>The GTM stack is being reinvented from the top of funnel down. MCP gets enterprise authentication and agent identity. Slack Code embeds AI agents into the software development workflow. Anthropic&#x27;s Project Parka turns meetings into agent task queues. And 47% of B2B teams are already testing AI discovery channels, with answer engine optimization ranked the top rising investment.</p>
+<p><strong>In this episode</strong></p><ul>
+<li>Ox Alpha: Anonymous Frontier-Class Model Appears Free on OpenRouter - Nobody Knows Who Built It</li>
+<li>DeepSeek V4-Flash-Vision-Exp: Experimental Multimodal Model Rivals Opus 4.8 on Agent Benchmarks</li>
+<li>Nvidia Bets $6B on Open Weights: Poolside Deal Launches US Nemotron Alternative to DeepSeek</li>
+<li>Hugging Face Explores $13B Sale - Platform Consolidation at 3x Its 2023 Valuation</li>
+<li>LoRA Time-Release Backdoor: A Dormant Threat in Open-Source Models That Activates on a Date</li>
+<li>Anthropic Expands Mythos 5 to Cyber Defenders: $35M Fund, Code Scanning, Vetted Researcher Access</li>
+<li>Nvidia 15%+ Price Hikes on Vera Rubin and Grace Blackwell Servers: Memory Costs Hit the Stack</li>
+<li>MCP Roadmap Update: Stateless HTTP Core, Agent Identity, and Enterprise Authorization</li>
+<li>Slack Code: AI Coding Channels Go Generally Available - Agents Build Software Inside Chat</li>
+<li>Anthropic Project Parka: Meeting Recorder That Assigns Claude Agents the Homework</li>
+<li>Harvey Tenet: OpenAI-Backed Legal AI Firm Post-Trains Chinese Open Weight for Long-Horizon Law Work</li>
+<li>Open Source Doubles Token Share at Vercel in Two Months - Opus 5 Overtakes Fable 5 in Enterprise Spending</li>
+<li>2026 B2B GTM Playbook Benchmarks: AEO Leads Rising Investment, AI Credit Pricing Up 114%</li>
+</ul>]]></content:encoded>
+      <itunes:summary>Open-weight models are eating the market from the bottom up. Token share at Vercel moved from 28% to 62% open-source in two months; Opus 5 overtook Fable 5 in enterprise spending; Harvey built a legal model on a Chinese open-weight base; Nvidia committed $6B to build the US answer to DeepSeek. The summer of open weights is becoming a structural shift in enterprise AI economics. Inference infrastructure is getting more expensive and more contested. Nvidia's 15%+ server price hikes, the $6B Poolside licensing deal, and Hugging Face's possible $13B sale all point to a maturing platform battle where compute and hosting layers are being locked up by the companies that can afford to win them. AI security is entering a new adversarial phase. A time-release backdoor in an open-source model via LoRA. Anthropic deploying Mythos 5 for cyber defenders with a $35M fund. A national AI cybersecurity policy gap that has no clean answer. The threat model is no longer theoretical and the defence is not keeping pace. The GTM stack is being reinvented from the top of funnel down. MCP gets enterprise authentication and agent identity. Slack Code embeds AI agents into the software development workflow. Anthropic's Project Parka turns meetings into agent task queues. And 47% of B2B teams are already testing AI discovery channels, with answer engine optimization ranked the top rising investment.</itunes:summary>
+      <pubDate>Mon, 24 Aug 2026 18:00:00 +0000</pubDate>
+      <enclosure url="https://archive.org/download/manic-ai-podcast-audio/2026-08-24.m4a" length="40635355" type="audio/x-m4a"/>
+      <guid isPermaLink="false">manic-mondai-2026-08-24</guid>
+      <itunes:duration>00:23:54</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>Astra breakout and the structural AI pivot</title>
       <itunes:title>Astra breakout and the structural AI pivot</itunes:title>
       <itunes:season>1</itunes:season>
