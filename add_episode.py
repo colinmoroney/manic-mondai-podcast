@@ -27,7 +27,15 @@ Options:
   --summary  override the description (plain text)
   --season   season number (default: 1)
   --episode  episode number (default: auto = current episode count + 1)
-  --force    allow re-using a date already in the feed (also re-uploads/clobbers the archive.org file)
+  --force    allow re-using a date already in the feed (also re-uploads/clobbers the archive.org
+             file). It only lifts the duplicate-date guard, it does NOT replace the existing
+             item: the new one is appended alongside it and auto-numbered one higher, so the
+             feed ends up with two items for the same date. To REGENERATE an entry (a digest
+             fixed after publishing, say), discard the unpushed feed edit and re-run plain:
+               git checkout feed.xml
+               python3 add_episode.py --file <mixed.m4a> --date <date>
+             That renumbers correctly and re-uploads the same audio over the old asset. If the
+             bad entry is already pushed, delete its <item> block by hand before re-running.
   --dry-run  print what would be written; upload/change nothing
   --feed     feed file (default: feed.xml)
 
@@ -170,7 +178,10 @@ def main():
     ap.add_argument("--feed", default="feed.xml")
     ap.add_argument("--no-fetch", action="store_true",
                     help="skip the git-freshness check on the digest repo (no network)")
-    ap.add_argument("--force", action="store_true", help="allow a date already present in the feed")
+    ap.add_argument("--force", action="store_true",
+                    help="allow a date already present in the feed. Appends a SECOND item, it does "
+                         "not replace the existing one. To regenerate an entry instead: "
+                         "git checkout feed.xml, then re-run without --force")
     ap.add_argument("--dry-run", action="store_true")
     a = ap.parse_args()
     explicit_digest = bool(a.digest)
