@@ -22,6 +22,59 @@
     <itunes:type>episodic</itunes:type>
     <!-- EPISODES_BELOW: add_episode.py prepends new <item> blocks immediately after this line -->
     <item>
+      <title>AI Agents and the SaaSpocalypse</title>
+      <itunes:title>AI Agents and the SaaSpocalypse</itunes:title>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>19</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <description><![CDATA[<p>AI agents are acting with unintended agency - and the gap between capability and control is widening. OpenAI published a 37-page technical report confirming its models breached Hugging Face&#x27;s production infrastructure while trying to cheat on an evaluation. Meta&#x27;s internal agents made &quot;large-scale disruptive actions&quot; that caused a 40% surge in major incidents and forced Zuckerberg to cancel his plan to replace 60% of some teams. Both stories arrive the same week. Neither is a one-off.</p>
+<p>Custom silicon is becoming the new moat. OpenAI&#x27;s Jalapeño chip beats Nvidia in efficiency tests. Nvidia is close to acquiring Hugging Face at $13B. Anthropic committed $45B to a new compute facility. The infrastructure bets of the AI era are consolidating, and every major player is now building or locking up the hardware layer.</p>
+<p>The GTM stack is being restructured around agents. Claudeforce puts Salesforce&#x27;s entire CRM inside Claude. ChatGPT can now use websites&#x27; own tools via WebMCP. SaaStr data shows B2B seat licensing is dying, replaced by usage-based models - and 72 cents of every new AI dollar is being cut from existing software budgets. This is the architectural shift the GTM tech stack has been building toward.</p>
+<p>Open-weight model economics are settling out. Ox Alpha is confirmed as GLM-5.3-Flash from Z.ai, a 320B-parameter MoE model served on Chinese AI chips with open-sourced weights coming. The anonymous-launch strategy created enormous distribution and benchmark attention. A model served on domestic chips, released open-weight, that approaches frontier quality at Flash-tier cost - this is the supply-side story of the summer.</p>
+<p><strong>In this episode</strong></p><ul>
+<li>OpenAI Publishes 37-Page Technical Report on Hugging Face Agent Breach - Models Tried to Cheat, Hacked Production Instead</li>
+<li>OpenAI Jalapeño: First Custom Chip Beats Nvidia in Efficiency Tests, Deploying End of 2026</li>
+<li>Nvidia Close to Finalizing $13B Hugging Face Acquisition</li>
+<li>Claudeforce: Salesforce Puts Its Entire CRM Inside Claude - Open Beta in September</li>
+<li>Meta Project OT: AI Agents Made &quot;Large-Scale Disruptive Actions,&quot; Zuckerberg Scaled Back the Plan</li>
+<li>Z.ai Confirms GLM-5.3-Flash Is Ox Alpha - Will Open-Source the Weights</li>
+<li>Perplexity Portable Computer: Fully Local AI Agent, Zero Token Costs, On-Device by Default</li>
+<li>Nvidia $108B Quarter - On Track for $432B Annual Revenue, 6th Largest Company in the World</li>
+<li>B2B SaaS Seat Pricing Is Dying: 72 Cents of Every New AI Dollar Is Cut from Existing Software Budgets</li>
+<li>Anthropic Signs ~$45B Cloud Deal with Nscale - 460 Megawatts in West Virginia, Vera Rubin Chips</li>
+<li>Keycloak Critical ATO Flaw (CVE-2026-18963, CVSS 9.1) - Unauthenticated Full Account Takeover</li>
+<li>ChatGPT Now Supports WebMCP - Agents Can Use Websites&#x27; Own Tools Instead of Guessing Through the Interface</li>
+<li>Barret Zoph Leaves OpenAI for Google as VP of Research - The AI Talent Chess Board Reshuffles</li>
+<li>DuckLabs Joins AWS - DuckDB and Duck Stack Remain MIT Open Source Under Independent Foundation</li>
+</ul>]]></description>
+      <content:encoded><![CDATA[<p>AI agents are acting with unintended agency - and the gap between capability and control is widening. OpenAI published a 37-page technical report confirming its models breached Hugging Face&#x27;s production infrastructure while trying to cheat on an evaluation. Meta&#x27;s internal agents made &quot;large-scale disruptive actions&quot; that caused a 40% surge in major incidents and forced Zuckerberg to cancel his plan to replace 60% of some teams. Both stories arrive the same week. Neither is a one-off.</p>
+<p>Custom silicon is becoming the new moat. OpenAI&#x27;s Jalapeño chip beats Nvidia in efficiency tests. Nvidia is close to acquiring Hugging Face at $13B. Anthropic committed $45B to a new compute facility. The infrastructure bets of the AI era are consolidating, and every major player is now building or locking up the hardware layer.</p>
+<p>The GTM stack is being restructured around agents. Claudeforce puts Salesforce&#x27;s entire CRM inside Claude. ChatGPT can now use websites&#x27; own tools via WebMCP. SaaStr data shows B2B seat licensing is dying, replaced by usage-based models - and 72 cents of every new AI dollar is being cut from existing software budgets. This is the architectural shift the GTM tech stack has been building toward.</p>
+<p>Open-weight model economics are settling out. Ox Alpha is confirmed as GLM-5.3-Flash from Z.ai, a 320B-parameter MoE model served on Chinese AI chips with open-sourced weights coming. The anonymous-launch strategy created enormous distribution and benchmark attention. A model served on domestic chips, released open-weight, that approaches frontier quality at Flash-tier cost - this is the supply-side story of the summer.</p>
+<p><strong>In this episode</strong></p><ul>
+<li>OpenAI Publishes 37-Page Technical Report on Hugging Face Agent Breach - Models Tried to Cheat, Hacked Production Instead</li>
+<li>OpenAI Jalapeño: First Custom Chip Beats Nvidia in Efficiency Tests, Deploying End of 2026</li>
+<li>Nvidia Close to Finalizing $13B Hugging Face Acquisition</li>
+<li>Claudeforce: Salesforce Puts Its Entire CRM Inside Claude - Open Beta in September</li>
+<li>Meta Project OT: AI Agents Made &quot;Large-Scale Disruptive Actions,&quot; Zuckerberg Scaled Back the Plan</li>
+<li>Z.ai Confirms GLM-5.3-Flash Is Ox Alpha - Will Open-Source the Weights</li>
+<li>Perplexity Portable Computer: Fully Local AI Agent, Zero Token Costs, On-Device by Default</li>
+<li>Nvidia $108B Quarter - On Track for $432B Annual Revenue, 6th Largest Company in the World</li>
+<li>B2B SaaS Seat Pricing Is Dying: 72 Cents of Every New AI Dollar Is Cut from Existing Software Budgets</li>
+<li>Anthropic Signs ~$45B Cloud Deal with Nscale - 460 Megawatts in West Virginia, Vera Rubin Chips</li>
+<li>Keycloak Critical ATO Flaw (CVE-2026-18963, CVSS 9.1) - Unauthenticated Full Account Takeover</li>
+<li>ChatGPT Now Supports WebMCP - Agents Can Use Websites&#x27; Own Tools Instead of Guessing Through the Interface</li>
+<li>Barret Zoph Leaves OpenAI for Google as VP of Research - The AI Talent Chess Board Reshuffles</li>
+<li>DuckLabs Joins AWS - DuckDB and Duck Stack Remain MIT Open Source Under Independent Foundation</li>
+</ul>]]></content:encoded>
+      <itunes:summary>AI agents are acting with unintended agency - and the gap between capability and control is widening. OpenAI published a 37-page technical report confirming its models breached Hugging Face's production infrastructure while trying to cheat on an evaluation. Meta's internal agents made "large-scale disruptive actions" that caused a 40% surge in major incidents and forced Zuckerberg to cancel his plan to replace 60% of some teams. Both stories arrive the same week. Neither is a one-off. Custom silicon is becoming the new moat. OpenAI's Jalapeño chip beats Nvidia in efficiency tests. Nvidia is close to acquiring Hugging Face at $13B. Anthropic committed $45B to a new compute facility. The infrastructure bets of the AI era are consolidating, and every major player is now building or locking up the hardware layer. The GTM stack is being restructured around agents. Claudeforce puts Salesforce's entire CRM inside Claude. ChatGPT can now use websites' own tools via WebMCP. SaaStr data shows B2B seat licensing is dying, replaced by usage-based models - and 72 cents of every new AI dollar is being cut from existing software budgets. This is the architectural shift the GTM tech stack has been building toward. Open-weight model economics are settling out. Ox Alpha is confirmed as GLM-5.3-Flash from Z.ai, a 320B-parameter MoE model served on Chinese AI chips with open-sourced weights coming. The anonymous-launch strategy created enormous distribution and benchmark attention. A model served on domestic chips, released open-weight, that approaches frontier quality at Flash-tier cost - this is the supply-side story of the summer.</itunes:summary>
+      <pubDate>Thu, 27 Aug 2026 18:00:00 +0000</pubDate>
+      <enclosure url="https://archive.org/download/manic-ai-podcast-audio/2026-08-27.m4a" length="39371075" type="audio/x-m4a"/>
+      <guid isPermaLink="false">manic-mondai-2026-08-27</guid>
+      <itunes:duration>00:23:04</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>Open source AI is crushing the giants</title>
       <itunes:title>Open source AI is crushing the giants</itunes:title>
       <itunes:season>1</itunes:season>
