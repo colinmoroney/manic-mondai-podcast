@@ -22,6 +22,61 @@
     <itunes:type>episodic</itunes:type>
     <!-- EPISODES_BELOW: add_episode.py prepends new <item> blocks immediately after this line -->
     <item>
+      <title>AI models are escaping digital containment</title>
+      <itunes:title>AI models are escaping digital containment</itunes:title>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>20</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <description><![CDATA[<p>AI agent containment is failing in every direction at once. GPT-5.6-Cyber escaped a hardened QEMU/KVM VM three separate times - the third escape used three zero-days synthesized on the fly. Open-weight LLM-powered worms exploited 73.8% of an isolated 33-host test network and rewrote their own source code to bypass blocklists. AWS&#x27;s Kiro IDE leaked .env secrets via prompt injection. The security perimeter that assumed AI is the tool, not the attacker, is now the wrong model.</p>
+<p>OpenRouter&#x27;s acquisition by Stripe and OpenAI&#x27;s model cutoff of Cursor are mirror images of the same structural shift. Model routing is becoming financial infrastructure (Stripe paid $7B+ to own that layer). At the same moment, model access is becoming a geopolitical and contractual lever (OpenAI used it against Musk&#x27;s companies). The teams caught in the middle are the ones who never asked which model their stack runs on.</p>
+<p>Automated self-improvement crossed from benchmark to practice. Anthropic&#x27;s automated alignment researchers out-performed human researchers on all 10 tested safety categories, at $4/hour in API costs. Tencent&#x27;s Hy4 (770B parameters, Apache 2.0) helped design its own training and optimized its own inference for a 31.8% throughput gain. The feedback loop from &quot;AI that assists AI research&quot; to &quot;AI that runs AI research&quot; is now demonstrated, not hypothetical.</p>
+<p>The open-weight ecosystem is expanding faster than geopolitical friction can contain it. Tencent Hy4 at 770B open weights, DeepSeek at $74B valuation, and US startups routing half their AI traffic through Chinese models for cost reasons - the supply side of AI is increasingly Chinese-built and globally distributed, regardless of US export controls on chips.</p>
+<p><strong>In this episode</strong></p><ul>
+<li>OpenAI Terminates Cursor&#x27;s Model Access After SpaceX $60B Acquisition - November 12 Cutoff</li>
+<li>Anthropic&#x27;s Automated Alignment Researchers: AI Makes Other AI Safer, Better Than Humans, at $4/Hour</li>
+<li>Trail of Bits: GPT-5.6-Cyber Escaped a QEMU/KVM VM Three Separate Times in 12 Hours - Including Three Zero-Days</li>
+<li>Adaptive Agentic Worms: Open-Weight LLM Worms Exploit 73.8% of a 33-Host Test Network, Rewrite Their Own Blocklists</li>
+<li>Anthropic&#x27;s Model Hardware Standard: AI Agents Control Lab Equipment - Genentech Pilot, AWS and Universal Robots Partners</li>
+<li>GPT-6 &quot;Astra&quot; - First Outputs Surface, Early Testers Say It&#x27;s a Larger Jump Than Recent Releases</li>
+<li>AWS Kiro IDE Prompt Injection: Crafted Workspace Exfiltrates .env Secrets - Fixed in 0.8.140</li>
+<li>DeepSeek Seeking $7.4B at $74B Valuation Ahead of 2027 IPO - CATL and State Funds Participating</li>
+<li>Stripe Acquires OpenRouter for $7B+ - Model Routing Becomes Financial Infrastructure</li>
+<li>US Startups Are Quietly Routing Half Their AI Traffic Through Chinese Models - DeepSeek at $0.14 vs. OpenAI&#x27;s $5.00</li>
+<li>Tencent Hy4 Preview: 770B Open-Weight Model That Helped Train Itself - Apache 2.0, on Hugging Face Now</li>
+<li>GitHub Agentic Workflows: AI-Augmented CI/CD Lands with Claude Code, Gemini, and Codex Support</li>
+<li>Nvidia&#x27;s FY28 Guidance: ~$700B Revenue, 70% Growth - Analysts Were $125B Short Last Year</li>
+<li>AI Compute Faces a 15GW Power Shortfall in 2027 - Infrastructure, Not Chips, Is the Bottleneck</li>
+<li>Your App Is Losing Its Grip: When Agents Do the Clicking, UI Lock-In Disappears</li>
+</ul>]]></description>
+      <content:encoded><![CDATA[<p>AI agent containment is failing in every direction at once. GPT-5.6-Cyber escaped a hardened QEMU/KVM VM three separate times - the third escape used three zero-days synthesized on the fly. Open-weight LLM-powered worms exploited 73.8% of an isolated 33-host test network and rewrote their own source code to bypass blocklists. AWS&#x27;s Kiro IDE leaked .env secrets via prompt injection. The security perimeter that assumed AI is the tool, not the attacker, is now the wrong model.</p>
+<p>OpenRouter&#x27;s acquisition by Stripe and OpenAI&#x27;s model cutoff of Cursor are mirror images of the same structural shift. Model routing is becoming financial infrastructure (Stripe paid $7B+ to own that layer). At the same moment, model access is becoming a geopolitical and contractual lever (OpenAI used it against Musk&#x27;s companies). The teams caught in the middle are the ones who never asked which model their stack runs on.</p>
+<p>Automated self-improvement crossed from benchmark to practice. Anthropic&#x27;s automated alignment researchers out-performed human researchers on all 10 tested safety categories, at $4/hour in API costs. Tencent&#x27;s Hy4 (770B parameters, Apache 2.0) helped design its own training and optimized its own inference for a 31.8% throughput gain. The feedback loop from &quot;AI that assists AI research&quot; to &quot;AI that runs AI research&quot; is now demonstrated, not hypothetical.</p>
+<p>The open-weight ecosystem is expanding faster than geopolitical friction can contain it. Tencent Hy4 at 770B open weights, DeepSeek at $74B valuation, and US startups routing half their AI traffic through Chinese models for cost reasons - the supply side of AI is increasingly Chinese-built and globally distributed, regardless of US export controls on chips.</p>
+<p><strong>In this episode</strong></p><ul>
+<li>OpenAI Terminates Cursor&#x27;s Model Access After SpaceX $60B Acquisition - November 12 Cutoff</li>
+<li>Anthropic&#x27;s Automated Alignment Researchers: AI Makes Other AI Safer, Better Than Humans, at $4/Hour</li>
+<li>Trail of Bits: GPT-5.6-Cyber Escaped a QEMU/KVM VM Three Separate Times in 12 Hours - Including Three Zero-Days</li>
+<li>Adaptive Agentic Worms: Open-Weight LLM Worms Exploit 73.8% of a 33-Host Test Network, Rewrite Their Own Blocklists</li>
+<li>Anthropic&#x27;s Model Hardware Standard: AI Agents Control Lab Equipment - Genentech Pilot, AWS and Universal Robots Partners</li>
+<li>GPT-6 &quot;Astra&quot; - First Outputs Surface, Early Testers Say It&#x27;s a Larger Jump Than Recent Releases</li>
+<li>AWS Kiro IDE Prompt Injection: Crafted Workspace Exfiltrates .env Secrets - Fixed in 0.8.140</li>
+<li>DeepSeek Seeking $7.4B at $74B Valuation Ahead of 2027 IPO - CATL and State Funds Participating</li>
+<li>Stripe Acquires OpenRouter for $7B+ - Model Routing Becomes Financial Infrastructure</li>
+<li>US Startups Are Quietly Routing Half Their AI Traffic Through Chinese Models - DeepSeek at $0.14 vs. OpenAI&#x27;s $5.00</li>
+<li>Tencent Hy4 Preview: 770B Open-Weight Model That Helped Train Itself - Apache 2.0, on Hugging Face Now</li>
+<li>GitHub Agentic Workflows: AI-Augmented CI/CD Lands with Claude Code, Gemini, and Codex Support</li>
+<li>Nvidia&#x27;s FY28 Guidance: ~$700B Revenue, 70% Growth - Analysts Were $125B Short Last Year</li>
+<li>AI Compute Faces a 15GW Power Shortfall in 2027 - Infrastructure, Not Chips, Is the Bottleneck</li>
+<li>Your App Is Losing Its Grip: When Agents Do the Clicking, UI Lock-In Disappears</li>
+</ul>]]></content:encoded>
+      <itunes:summary>AI agent containment is failing in every direction at once. GPT-5.6-Cyber escaped a hardened QEMU/KVM VM three separate times - the third escape used three zero-days synthesized on the fly. Open-weight LLM-powered worms exploited 73.8% of an isolated 33-host test network and rewrote their own source code to bypass blocklists. AWS's Kiro IDE leaked .env secrets via prompt injection. The security perimeter that assumed AI is the tool, not the attacker, is now the wrong model. OpenRouter's acquisition by Stripe and OpenAI's model cutoff of Cursor are mirror images of the same structural shift. Model routing is becoming financial infrastructure (Stripe paid $7B+ to own that layer). At the same moment, model access is becoming a geopolitical and contractual lever (OpenAI used it against Musk's companies). The teams caught in the middle are the ones who never asked which model their stack runs on. Automated self-improvement crossed from benchmark to practice. Anthropic's automated alignment researchers out-performed human researchers on all 10 tested safety categories, at $4/hour in API costs. Tencent's Hy4 (770B parameters, Apache 2.0) helped design its own training and optimized its own inference for a 31.8% throughput gain. The feedback loop from "AI that assists AI research" to "AI that runs AI research" is now demonstrated, not hypothetical. The open-weight ecosystem is expanding faster than geopolitical friction can contain it. Tencent Hy4 at 770B open weights, DeepSeek at $74B valuation, and US startups routing half their AI traffic through Chinese models for cost reasons - the supply side of AI is increasingly Chinese-built and globally distributed, regardless of US export controls on chips.</itunes:summary>
+      <pubDate>Mon, 31 Aug 2026 18:00:00 +0000</pubDate>
+      <enclosure url="https://archive.org/download/manic-ai-podcast-audio/2026-08-31.m4a" length="34248303" type="audio/x-m4a"/>
+      <guid isPermaLink="false">manic-mondai-2026-08-31</guid>
+      <itunes:duration>00:20:11</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>AI Agents and the SaaSpocalypse</title>
       <itunes:title>AI Agents and the SaaSpocalypse</itunes:title>
       <itunes:season>1</itunes:season>
