@@ -22,6 +22,57 @@
     <itunes:type>episodic</itunes:type>
     <!-- EPISODES_BELOW: add_episode.py prepends new <item> blocks immediately after this line -->
     <item>
+      <title>Autonomous AI agents fighting millisecond cyber warfare</title>
+      <itunes:title>Autonomous AI agents fighting millisecond cyber warfare</itunes:title>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>21</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <description><![CDATA[<p>Fable 5.1 week opened launch season at the frontier. Anthropic released Claude Fable 5.1 and Mythos 5.1 with a 75% reduction in cache read costs. Within the same 72-hour window, OpenAI confirmed Astra is the first model to cross its &quot;Critical&quot; cybersecurity capability threshold, and Google shipped Gemini 3.8 Flash. Three major lab releases in three days - and all three labs simultaneously shipped or previewed restricted-access cybersecurity variants.</p>
+<p>The AI security perimeter is fragmenting from unexpected angles. Infostealer malware hijacked Claude users&#x27; browser sessions. ShinyHunters claimed 284 million patient records from McKesson via Salesforce and Snowflake. A supply chain attack specifically targeted authentication tokens for Claude, Codex, Cursor, and Gemini inside npm packages. The attack surface now includes the developer tools themselves.</p>
+<p>Interfaces are becoming programmable artifacts. Runway Solaris generates interactive UIs frame by frame without code. Meta shipped Muse Code for terminal/CI automation and opened a waitlist for its agent super app. Cognition - the AI coding company - raised at $47 billion on $900 million in ARR. The economics of human interface-building are being tested from multiple directions simultaneously.</p>
+<p>AI pricing is moving from tokens to outcomes. OpenAI is piloting pay-per-completion with select enterprise accounts. Anthropic cut cache read costs 75%. The token meter is starting to give way to a model where you pay when the work is done.</p>
+<p><strong>In this episode</strong></p><ul>
+<li>Claude Fable 5.1 and Mythos 5.1: 75% Cache Read Cost Reduction, Cybersecurity and Life Science Access Controls</li>
+<li>OpenAI Astra: First Model to Cross &quot;Critical&quot; Cybersecurity Threshold - Zero-Days Without Human Guidance</li>
+<li>Cognition Raises $1 Billion at $47 Billion Valuation - $900M ARR, $10B in Investor Interest</li>
+<li>Runway Solaris: An Interface World Model That Renders UIs Frame by Frame, Without Code</li>
+<li>Meta&#x27;s Muse Week: Terminal Coding Agent, Spark 1.3, Computer Use, and a SuperApp Waitlist</li>
+<li>Gemini 3.8 Flash and Flash Cyber: Same Price, Better Agentic Reasoning, Restricted Security Variant</li>
+<li>OpenAI Tests Outcome-Based Pricing: Pay Only When the AI Completes the Job</li>
+<li>Infostealers Hijacked Claude Users&#x27; Browser Sessions and Drained Usage Limits - Anthropic Notifies, Refunds</li>
+<li>McKesson: ShinyHunters Claims 284 Million Patient Records via Okta SSO, Salesforce, and Snowflake</li>
+<li>ChainDrop: npm Supply Chain Attack Targets AI Developer Tool Auth Tokens - SLSA Attestations Bypassed</li>
+<li>Anthropic Enterprise Frontier Safeguards: Customer-Controlled Logs, Automated Inspection, No Anthropic Staff Review</li>
+<li>Anthropic Pauses Highest-Risk RL, Brings METR In for Independent Review - &quot;Hard to Slow Down&quot;</li>
+<li>&quot;The New Valley&quot;: AI Made $10M ARR 10× Easier, But Not $1B - Seed-to-Series-A Rate Has Halved</li>
+</ul>]]></description>
+      <content:encoded><![CDATA[<p>Fable 5.1 week opened launch season at the frontier. Anthropic released Claude Fable 5.1 and Mythos 5.1 with a 75% reduction in cache read costs. Within the same 72-hour window, OpenAI confirmed Astra is the first model to cross its &quot;Critical&quot; cybersecurity capability threshold, and Google shipped Gemini 3.8 Flash. Three major lab releases in three days - and all three labs simultaneously shipped or previewed restricted-access cybersecurity variants.</p>
+<p>The AI security perimeter is fragmenting from unexpected angles. Infostealer malware hijacked Claude users&#x27; browser sessions. ShinyHunters claimed 284 million patient records from McKesson via Salesforce and Snowflake. A supply chain attack specifically targeted authentication tokens for Claude, Codex, Cursor, and Gemini inside npm packages. The attack surface now includes the developer tools themselves.</p>
+<p>Interfaces are becoming programmable artifacts. Runway Solaris generates interactive UIs frame by frame without code. Meta shipped Muse Code for terminal/CI automation and opened a waitlist for its agent super app. Cognition - the AI coding company - raised at $47 billion on $900 million in ARR. The economics of human interface-building are being tested from multiple directions simultaneously.</p>
+<p>AI pricing is moving from tokens to outcomes. OpenAI is piloting pay-per-completion with select enterprise accounts. Anthropic cut cache read costs 75%. The token meter is starting to give way to a model where you pay when the work is done.</p>
+<p><strong>In this episode</strong></p><ul>
+<li>Claude Fable 5.1 and Mythos 5.1: 75% Cache Read Cost Reduction, Cybersecurity and Life Science Access Controls</li>
+<li>OpenAI Astra: First Model to Cross &quot;Critical&quot; Cybersecurity Threshold - Zero-Days Without Human Guidance</li>
+<li>Cognition Raises $1 Billion at $47 Billion Valuation - $900M ARR, $10B in Investor Interest</li>
+<li>Runway Solaris: An Interface World Model That Renders UIs Frame by Frame, Without Code</li>
+<li>Meta&#x27;s Muse Week: Terminal Coding Agent, Spark 1.3, Computer Use, and a SuperApp Waitlist</li>
+<li>Gemini 3.8 Flash and Flash Cyber: Same Price, Better Agentic Reasoning, Restricted Security Variant</li>
+<li>OpenAI Tests Outcome-Based Pricing: Pay Only When the AI Completes the Job</li>
+<li>Infostealers Hijacked Claude Users&#x27; Browser Sessions and Drained Usage Limits - Anthropic Notifies, Refunds</li>
+<li>McKesson: ShinyHunters Claims 284 Million Patient Records via Okta SSO, Salesforce, and Snowflake</li>
+<li>ChainDrop: npm Supply Chain Attack Targets AI Developer Tool Auth Tokens - SLSA Attestations Bypassed</li>
+<li>Anthropic Enterprise Frontier Safeguards: Customer-Controlled Logs, Automated Inspection, No Anthropic Staff Review</li>
+<li>Anthropic Pauses Highest-Risk RL, Brings METR In for Independent Review - &quot;Hard to Slow Down&quot;</li>
+<li>&quot;The New Valley&quot;: AI Made $10M ARR 10× Easier, But Not $1B - Seed-to-Series-A Rate Has Halved</li>
+</ul>]]></content:encoded>
+      <itunes:summary>Fable 5.1 week opened launch season at the frontier. Anthropic released Claude Fable 5.1 and Mythos 5.1 with a 75% reduction in cache read costs. Within the same 72-hour window, OpenAI confirmed Astra is the first model to cross its "Critical" cybersecurity capability threshold, and Google shipped Gemini 3.8 Flash. Three major lab releases in three days - and all three labs simultaneously shipped or previewed restricted-access cybersecurity variants. The AI security perimeter is fragmenting from unexpected angles. Infostealer malware hijacked Claude users' browser sessions. ShinyHunters claimed 284 million patient records from McKesson via Salesforce and Snowflake. A supply chain attack specifically targeted authentication tokens for Claude, Codex, Cursor, and Gemini inside npm packages. The attack surface now includes the developer tools themselves. Interfaces are becoming programmable artifacts. Runway Solaris generates interactive UIs frame by frame without code. Meta shipped Muse Code for terminal/CI automation and opened a waitlist for its agent super app. Cognition - the AI coding company - raised at $47 billion on $900 million in ARR. The economics of human interface-building are being tested from multiple directions simultaneously. AI pricing is moving from tokens to outcomes. OpenAI is piloting pay-per-completion with select enterprise accounts. Anthropic cut cache read costs 75%. The token meter is starting to give way to a model where you pay when the work is done.</itunes:summary>
+      <pubDate>Thu, 03 Sep 2026 18:00:00 +0000</pubDate>
+      <enclosure url="https://archive.org/download/manic-ai-podcast-audio/2026-09-03.m4a" length="27130872" type="audio/x-m4a"/>
+      <guid isPermaLink="false">manic-mondai-2026-09-03</guid>
+      <itunes:duration>00:15:50</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>AI models are escaping digital containment</title>
       <itunes:title>AI models are escaping digital containment</itunes:title>
       <itunes:season>1</itunes:season>
