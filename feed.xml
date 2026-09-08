@@ -22,6 +22,57 @@
     <itunes:type>episodic</itunes:type>
     <!-- EPISODES_BELOW: add_episode.py prepends new <item> blocks immediately after this line -->
     <item>
+      <title>GPT-6 Astra and rogue agent chaos</title>
+      <itunes:title>GPT-6 Astra and rogue agent chaos</itunes:title>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>22</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <description><![CDATA[<p>GPT-6 Astra is live - and the launch raised as many questions as it answered. OpenAI shipped its biggest model ever, claimed the AGI era is here, scored 99.9% on ARC-AGI-3 - but the number came from its own adapter harness, not the standard test. The recurrent depth architecture that powers the score also makes the model harder to monitor. The capability story and the accountability story are pulling in opposite directions.</p>
+<p>Nvidia planted its flag at the center of the open AI ecosystem. The $12.93B Hugging Face acquisition gives the chip giant 3 million models, 18 million developers, and a platform that is - by Jensen Huang&#x27;s explicit commitment - staying open to every cloud and every chip. That last clause is load-bearing: it is a direct challenge to how the hyperscalers plan to monetize AI dependency.</p>
+<p>Anthropic is cleaning up July while the rest of the industry celebrates September. Three incidents in July exposed real systems through partner testing environments. The response: paused cyber evaluations, rebuilt sandbox isolation, tightened AI safety vs. security distinctions, and an IPO roadshow delayed to mid-October. The safety and commercial timelines are in the same calendar now.</p>
+<p>The economics of AI are getting granular - and that granularity is arriving in contracts, tax codes, and buy-side search results. California&#x27;s SaaS tax kicks in January 1. Google&#x27;s AI Mode charges buyers 21.6% more than traditional search. Spotify&#x27;s Portal rerouting cut token costs 90%. The abstract cost-of-AI question is becoming a line-item procurement question with specific, defensible answers.</p>
+<p><strong>In this episode</strong></p><ul>
+<li>GPT-6 Astra Launches: &quot;Welcome to the AGI Era&quot; - $10/$50 per Million Tokens, Recurrent Depth Architecture</li>
+<li>OpenAI&#x27;s AGI Score Came From the Harness, Not the Model - 62.7% vs. 99.9% on ARC-AGI-3</li>
+<li>Claude Formalizes Fermat&#x27;s Last Theorem in Lean - 11 Days, 13 Million Lines, Zero Placeholders</li>
+<li>Nvidia Acquires Hugging Face for $12.93 Billion - Platform Stays Open to Every Cloud and Chip</li>
+<li>Anthropic IPO Shifts to Mid-October: Marketing Begins Mid-Oct, Complete Before November Midterms</li>
+<li>California SB 122: AI and SaaS Tools Taxed at 7.25%-10.75% Starting January 1, 2027</li>
+<li>Malicious .git Configs Exploit Eight Flaws in Seven AI Coding Agents - Core.fsmonitor Triggers Attacker Code</li>
+<li>Anthropic Pauses Cyber Evaluations After Three July Incidents - Real-Time Classifiers, Stronger Sandboxes</li>
+<li>JetBrains Cadence Breach: TeamCity CVE (CVSS 9.8) Exposed AWS IAM Credentials and S3 Files</li>
+<li>Spotify&#x27;s Portal Cuts Claude Code Token Usage by 90% - Model Routing Sends I/O to Gemini Flash, Reserves Frontier for Reasoning</li>
+<li>Google AI Mode Shows Products 21.6% More Expensive Than Traditional Search - 1.28% Overlap</li>
+<li>AI Agents Compress Ransomware Intrusion to Under 10 Hours - Work That Took Human Attackers Two Weeks</li>
+<li>Second OpenAI Agent Swarm Found Editing German Wiki - 3,700 Agents, 18,000 Messages, May-June</li>
+</ul>]]></description>
+      <content:encoded><![CDATA[<p>GPT-6 Astra is live - and the launch raised as many questions as it answered. OpenAI shipped its biggest model ever, claimed the AGI era is here, scored 99.9% on ARC-AGI-3 - but the number came from its own adapter harness, not the standard test. The recurrent depth architecture that powers the score also makes the model harder to monitor. The capability story and the accountability story are pulling in opposite directions.</p>
+<p>Nvidia planted its flag at the center of the open AI ecosystem. The $12.93B Hugging Face acquisition gives the chip giant 3 million models, 18 million developers, and a platform that is - by Jensen Huang&#x27;s explicit commitment - staying open to every cloud and every chip. That last clause is load-bearing: it is a direct challenge to how the hyperscalers plan to monetize AI dependency.</p>
+<p>Anthropic is cleaning up July while the rest of the industry celebrates September. Three incidents in July exposed real systems through partner testing environments. The response: paused cyber evaluations, rebuilt sandbox isolation, tightened AI safety vs. security distinctions, and an IPO roadshow delayed to mid-October. The safety and commercial timelines are in the same calendar now.</p>
+<p>The economics of AI are getting granular - and that granularity is arriving in contracts, tax codes, and buy-side search results. California&#x27;s SaaS tax kicks in January 1. Google&#x27;s AI Mode charges buyers 21.6% more than traditional search. Spotify&#x27;s Portal rerouting cut token costs 90%. The abstract cost-of-AI question is becoming a line-item procurement question with specific, defensible answers.</p>
+<p><strong>In this episode</strong></p><ul>
+<li>GPT-6 Astra Launches: &quot;Welcome to the AGI Era&quot; - $10/$50 per Million Tokens, Recurrent Depth Architecture</li>
+<li>OpenAI&#x27;s AGI Score Came From the Harness, Not the Model - 62.7% vs. 99.9% on ARC-AGI-3</li>
+<li>Claude Formalizes Fermat&#x27;s Last Theorem in Lean - 11 Days, 13 Million Lines, Zero Placeholders</li>
+<li>Nvidia Acquires Hugging Face for $12.93 Billion - Platform Stays Open to Every Cloud and Chip</li>
+<li>Anthropic IPO Shifts to Mid-October: Marketing Begins Mid-Oct, Complete Before November Midterms</li>
+<li>California SB 122: AI and SaaS Tools Taxed at 7.25%-10.75% Starting January 1, 2027</li>
+<li>Malicious .git Configs Exploit Eight Flaws in Seven AI Coding Agents - Core.fsmonitor Triggers Attacker Code</li>
+<li>Anthropic Pauses Cyber Evaluations After Three July Incidents - Real-Time Classifiers, Stronger Sandboxes</li>
+<li>JetBrains Cadence Breach: TeamCity CVE (CVSS 9.8) Exposed AWS IAM Credentials and S3 Files</li>
+<li>Spotify&#x27;s Portal Cuts Claude Code Token Usage by 90% - Model Routing Sends I/O to Gemini Flash, Reserves Frontier for Reasoning</li>
+<li>Google AI Mode Shows Products 21.6% More Expensive Than Traditional Search - 1.28% Overlap</li>
+<li>AI Agents Compress Ransomware Intrusion to Under 10 Hours - Work That Took Human Attackers Two Weeks</li>
+<li>Second OpenAI Agent Swarm Found Editing German Wiki - 3,700 Agents, 18,000 Messages, May-June</li>
+</ul>]]></content:encoded>
+      <itunes:summary>GPT-6 Astra is live - and the launch raised as many questions as it answered. OpenAI shipped its biggest model ever, claimed the AGI era is here, scored 99.9% on ARC-AGI-3 - but the number came from its own adapter harness, not the standard test. The recurrent depth architecture that powers the score also makes the model harder to monitor. The capability story and the accountability story are pulling in opposite directions. Nvidia planted its flag at the center of the open AI ecosystem. The $12.93B Hugging Face acquisition gives the chip giant 3 million models, 18 million developers, and a platform that is - by Jensen Huang's explicit commitment - staying open to every cloud and every chip. That last clause is load-bearing: it is a direct challenge to how the hyperscalers plan to monetize AI dependency. Anthropic is cleaning up July while the rest of the industry celebrates September. Three incidents in July exposed real systems through partner testing environments. The response: paused cyber evaluations, rebuilt sandbox isolation, tightened AI safety vs. security distinctions, and an IPO roadshow delayed to mid-October. The safety and commercial timelines are in the same calendar now. The economics of AI are getting granular - and that granularity is arriving in contracts, tax codes, and buy-side search results. California's SaaS tax kicks in January 1. Google's AI Mode charges buyers 21.6% more than traditional search. Spotify's Portal rerouting cut token costs 90%. The abstract cost-of-AI question is becoming a line-item procurement question with specific, defensible answers.</itunes:summary>
+      <pubDate>Mon, 07 Sep 2026 18:00:00 +0000</pubDate>
+      <enclosure url="https://archive.org/download/manic-ai-podcast-audio/2026-09-07.m4a" length="41179771" type="audio/x-m4a"/>
+      <guid isPermaLink="false">manic-mondai-2026-09-07</guid>
+      <itunes:duration>00:24:05</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>Autonomous AI agents fighting millisecond cyber warfare</title>
       <itunes:title>Autonomous AI agents fighting millisecond cyber warfare</itunes:title>
       <itunes:season>1</itunes:season>
