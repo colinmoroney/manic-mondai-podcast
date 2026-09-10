@@ -22,6 +22,59 @@
     <itunes:type>episodic</itunes:type>
     <!-- EPISODES_BELOW: add_episode.py prepends new <item> blocks immediately after this line -->
     <item>
+      <title>AI solved Navier-Stokes but risks extinction</title>
+      <itunes:title>AI solved Navier-Stokes but risks extinction</itunes:title>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>23</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <description><![CDATA[<p>AI solves math&#x27;s hardest problems - and the credit dispute reveals how fast the frontier has moved past what&#x27;s public. OpenAI&#x27;s internal model, described only as &quot;significantly more capable than GPT-6 Astra,&quot; solved the Navier-Stokes Millennium Problem in 88 hours using 10,000 agents. The same model also solved the Euler regularity problem as a warm-up. The week&#x27;s controversy: a concurrent NYU/Anthropic researcher effort and an uncomfortable disclosure that de-identified usage data from their own Codex drafts may have trained the model.</p>
+<p>Anthropic&#x27;s week: &gt;10% extinction odds from its own alignment lead, $517B in compute leases, and an economics paper predicting capital wins as knowledge workers lose - all published while the IPO prospectus clock is ticking. The three stories create an unusual proximity between &quot;this technology will kill everyone,&quot; &quot;we&#x27;re locking in 14.8GW of capacity to build it,&quot; and &quot;here&#x27;s what the economy looks like when we do.&quot;</p>
+<p>Consumer AI finds its price. Siri AI launches in beta on September 14 with usage caps and future paid tiers. Cognition updated its round to $2B at $48B, with a $4-5B ARR target by year end. OpenAI&#x27;s own researchers are spending $600/day in inference to get 3x research throughput. The unit economics of AI are becoming specific.</p>
+<p>The production attack surface expands. Customer service AI agents are vulnerable to email spoofing, hidden MIME instructions, and knowledge base poisoning. ChatGPT cross-account data leakage via a shared JFrog instance exfiltrated Gmail data while showing a clean visible answer. The EU Cyber Resilience Act mandatory disclosure clock starts September 11.</p>
+<p><strong>In this episode</strong></p><ul>
+<li>OpenAI&#x27;s Secret Internal Model Solves Navier-Stokes - One of Math&#x27;s Seven $1M Millennium Problems</li>
+<li>Anthropic Researcher Resigns, Alignment Lead Puts Human Extinction Odds at Greater Than 10%</li>
+<li>Anthropic Signed $517 Billion in Compute Agreements in 11 Months - 14.8GW Primarily with Google and AWS</li>
+<li>OpenAI Prepares Managed Agents for DevDay 2026 - Plus an Advertising Agent Layer</li>
+<li>Siri AI Beta Launches September 14 - Usage Caps, Regional Limits, Future Paid Tiers</li>
+<li>DeepSeek-V4.1-Flash: Asymmetric Architecture, Smaller KV Cache, Native Multimodal on API</li>
+<li>ChatGPT Images 2.5: 50% Lower Latency, Two New Models Ranked 1st and 2nd on Arena AI</li>
+<li>Cognition Raises $2B at $48B Valuation - $4-5B ARR Target by End of 2026</li>
+<li>Anthropic Publishes Economic Scenarios: Knowledge Workers Face Unemployment, Capital Captures the Gains</li>
+<li>Hacking AI Customer Service Agents: Email Spoofing, Hidden MIME Instructions, Knowledge Base Poisoning</li>
+<li>EU Cyber Resilience Act - Mandatory Vulnerability Reporting Starts September 11</li>
+<li>Suno v6: Music Models Rebuilt on Licensed Tracks from Warner, BMG, and Believe</li>
+<li>OpenAI Researchers Now Supervise 3.14 Agent-Workdays Per Human Shift - Inference Cost Up 43x</li>
+<li>ChatGPT Cross-Account Data Leakage via Shared JFrog Artifactory - Gmail Exfiltrated Behind a Clean Answer</li>
+</ul>]]></description>
+      <content:encoded><![CDATA[<p>AI solves math&#x27;s hardest problems - and the credit dispute reveals how fast the frontier has moved past what&#x27;s public. OpenAI&#x27;s internal model, described only as &quot;significantly more capable than GPT-6 Astra,&quot; solved the Navier-Stokes Millennium Problem in 88 hours using 10,000 agents. The same model also solved the Euler regularity problem as a warm-up. The week&#x27;s controversy: a concurrent NYU/Anthropic researcher effort and an uncomfortable disclosure that de-identified usage data from their own Codex drafts may have trained the model.</p>
+<p>Anthropic&#x27;s week: &gt;10% extinction odds from its own alignment lead, $517B in compute leases, and an economics paper predicting capital wins as knowledge workers lose - all published while the IPO prospectus clock is ticking. The three stories create an unusual proximity between &quot;this technology will kill everyone,&quot; &quot;we&#x27;re locking in 14.8GW of capacity to build it,&quot; and &quot;here&#x27;s what the economy looks like when we do.&quot;</p>
+<p>Consumer AI finds its price. Siri AI launches in beta on September 14 with usage caps and future paid tiers. Cognition updated its round to $2B at $48B, with a $4-5B ARR target by year end. OpenAI&#x27;s own researchers are spending $600/day in inference to get 3x research throughput. The unit economics of AI are becoming specific.</p>
+<p>The production attack surface expands. Customer service AI agents are vulnerable to email spoofing, hidden MIME instructions, and knowledge base poisoning. ChatGPT cross-account data leakage via a shared JFrog instance exfiltrated Gmail data while showing a clean visible answer. The EU Cyber Resilience Act mandatory disclosure clock starts September 11.</p>
+<p><strong>In this episode</strong></p><ul>
+<li>OpenAI&#x27;s Secret Internal Model Solves Navier-Stokes - One of Math&#x27;s Seven $1M Millennium Problems</li>
+<li>Anthropic Researcher Resigns, Alignment Lead Puts Human Extinction Odds at Greater Than 10%</li>
+<li>Anthropic Signed $517 Billion in Compute Agreements in 11 Months - 14.8GW Primarily with Google and AWS</li>
+<li>OpenAI Prepares Managed Agents for DevDay 2026 - Plus an Advertising Agent Layer</li>
+<li>Siri AI Beta Launches September 14 - Usage Caps, Regional Limits, Future Paid Tiers</li>
+<li>DeepSeek-V4.1-Flash: Asymmetric Architecture, Smaller KV Cache, Native Multimodal on API</li>
+<li>ChatGPT Images 2.5: 50% Lower Latency, Two New Models Ranked 1st and 2nd on Arena AI</li>
+<li>Cognition Raises $2B at $48B Valuation - $4-5B ARR Target by End of 2026</li>
+<li>Anthropic Publishes Economic Scenarios: Knowledge Workers Face Unemployment, Capital Captures the Gains</li>
+<li>Hacking AI Customer Service Agents: Email Spoofing, Hidden MIME Instructions, Knowledge Base Poisoning</li>
+<li>EU Cyber Resilience Act - Mandatory Vulnerability Reporting Starts September 11</li>
+<li>Suno v6: Music Models Rebuilt on Licensed Tracks from Warner, BMG, and Believe</li>
+<li>OpenAI Researchers Now Supervise 3.14 Agent-Workdays Per Human Shift - Inference Cost Up 43x</li>
+<li>ChatGPT Cross-Account Data Leakage via Shared JFrog Artifactory - Gmail Exfiltrated Behind a Clean Answer</li>
+</ul>]]></content:encoded>
+      <itunes:summary>AI solves math's hardest problems - and the credit dispute reveals how fast the frontier has moved past what's public. OpenAI's internal model, described only as "significantly more capable than GPT-6 Astra," solved the Navier-Stokes Millennium Problem in 88 hours using 10,000 agents. The same model also solved the Euler regularity problem as a warm-up. The week's controversy: a concurrent NYU/Anthropic researcher effort and an uncomfortable disclosure that de-identified usage data from their own Codex drafts may have trained the model. Anthropic's week: &gt;10% extinction odds from its own alignment lead, $517B in compute leases, and an economics paper predicting capital wins as knowledge workers lose - all published while the IPO prospectus clock is ticking. The three stories create an unusual proximity between "this technology will kill everyone," "we're locking in 14.8GW of capacity to build it," and "here's what the economy looks like when we do." Consumer AI finds its price. Siri AI launches in beta on September 14 with usage caps and future paid tiers. Cognition updated its round to $2B at $48B, with a $4-5B ARR target by year end. OpenAI's own researchers are spending $600/day in inference to get 3x research throughput. The unit economics of AI are becoming specific. The production attack surface expands. Customer service AI agents are vulnerable to email spoofing, hidden MIME instructions, and knowledge base poisoning. ChatGPT cross-account data leakage via a shared JFrog instance exfiltrated Gmail data while showing a clean visible answer. The EU Cyber Resilience Act mandatory disclosure clock starts September 11.</itunes:summary>
+      <pubDate>Thu, 10 Sep 2026 18:00:00 +0000</pubDate>
+      <enclosure url="https://archive.org/download/manic-ai-podcast-audio/2026-09-10.m4a" length="38248368" type="audio/x-m4a"/>
+      <guid isPermaLink="false">manic-mondai-2026-09-10</guid>
+      <itunes:duration>00:22:26</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>GPT-6 Astra and rogue agent chaos</title>
       <itunes:title>GPT-6 Astra and rogue agent chaos</itunes:title>
       <itunes:season>1</itunes:season>
