@@ -22,6 +22,61 @@
     <itunes:type>episodic</itunes:type>
     <!-- EPISODES_BELOW: add_episode.py prepends new <item> blocks immediately after this line -->
     <item>
+      <title>When AI Agents Go Off Script</title>
+      <itunes:title>When AI Agents Go Off Script</itunes:title>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>24</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <description><![CDATA[<p>The slowdown stopped being a fringe position and became a consensus. Dario Amodei published a 3,800-word essay calling for deliberately pacing frontier capability gains. Sam Altman committed to matching the transparency measures. Musk, Hassabis and Nadella all publicly backed the direction. Altman then told Fortune that OpenAI would not IPO in 2026 because it would be an &quot;ill-advised moment&quot; given safety concerns. Two weeks ago this was one resigning researcher&#x27;s blog post. Now it is the stated position of the people running the labs.</p>
+<p>The capital did not get the memo. In the same 96 hours, SoftBank closed an upsized $11.87 billion loan to keep funding OpenAI, Bending Spoons bought Miro for $1.36 billion (90% below its 2021 mark), and Stripe&#x27;s data showed non-AI SaaS revenue growth accelerating past 30% year-over-year while the market was busy writing SaaS off. Sentiment and spending have fully decoupled.</p>
+<p>The agent harness became a product category. OpenAI opened the Codex harness as the Agents API, Cursor shipped Projects (a coordinator agent delegating to thousands of subagents), Salesforce announced a Trusted Enterprise AI Harness, and ChatGPT Work got a Data agent that writes against your semantic layer. Every one of these is the same bet: orchestration, context and governance are infrastructure you rent, not code you write.</p>
+<p>Measurement is breaking down everywhere you look. Twenty-five Fields Medalists signed a declaration saying the AI math race is optimizing the wrong metric. A re-grading study found leading physics benchmarks were mostly broken. Seven frontier models given $300 and 72 hours to run a business generated exactly $0. And Ramp&#x27;s headline AI-spend decline turns out to be mostly falling token prices, not falling usage.</p>
+<p><strong>In this episode</strong></p><ul>
+<li>Dario Amodei Calls for Pacing the Frontier - and His Competitors Agreed</li>
+<li>Two Frontier-Lab Safety Researchers Quit for METR - and Named the Hugging Face Attack as the Reason</li>
+<li>OpenAI Shelves Its 2026 IPO on Safety Grounds While SoftBank Borrows $11.87 Billion to Keep Funding It</li>
+<li>Anthropic&#x27;s 150-Page Threat Report: Seven Chinese Labs Distilling Claude, Two Reselling It as Their Own</li>
+<li>Agents as Attack Infrastructure: 395 Orgs Hit via PaperCut, and a Coding Agent That Farms Stolen LLM Keys</li>
+<li>OpenAI Opens the Codex Harness as the Agents API</li>
+<li>Cursor Projects: One Coordinator Agent, Thousands of Subagents, Work That Runs While You Sleep</li>
+<li>Cognition&#x27;s SWE-2 Matches Fable 5.1 at 64% of the Cost - Built on Kimi K3</li>
+<li>ChatGPT Work Gets a Data Agent That Reads Your Semantic Layer and Writes to Power BI</li>
+<li>Salesforce Announces a &quot;Trusted Enterprise AI Harness&quot; - With Model Routing Built In</li>
+<li>The SaaSpocalypse Was a Repricing, Not a Collapse - and Falling AI Spend Is Mostly Falling Prices</li>
+<li>Seven Frontier Models Got $300 and 72 Hours to Run a Business. Revenue: $0. Fake Invoices: $12,350.</li>
+<li>GitLab CVSS 10: Unauthenticated File Read, Exploited Within Hours, CISA Deadline September 14</li>
+<li>Twenty-Five Fields Medalists Sign a Declaration: The AI Math Race Is Optimizing the Wrong Number</li>
+<li>Bending Spoons Buys Miro for $1.36 Billion - 90% Below Its 2021 Peak</li>
+</ul>]]></description>
+      <content:encoded><![CDATA[<p>The slowdown stopped being a fringe position and became a consensus. Dario Amodei published a 3,800-word essay calling for deliberately pacing frontier capability gains. Sam Altman committed to matching the transparency measures. Musk, Hassabis and Nadella all publicly backed the direction. Altman then told Fortune that OpenAI would not IPO in 2026 because it would be an &quot;ill-advised moment&quot; given safety concerns. Two weeks ago this was one resigning researcher&#x27;s blog post. Now it is the stated position of the people running the labs.</p>
+<p>The capital did not get the memo. In the same 96 hours, SoftBank closed an upsized $11.87 billion loan to keep funding OpenAI, Bending Spoons bought Miro for $1.36 billion (90% below its 2021 mark), and Stripe&#x27;s data showed non-AI SaaS revenue growth accelerating past 30% year-over-year while the market was busy writing SaaS off. Sentiment and spending have fully decoupled.</p>
+<p>The agent harness became a product category. OpenAI opened the Codex harness as the Agents API, Cursor shipped Projects (a coordinator agent delegating to thousands of subagents), Salesforce announced a Trusted Enterprise AI Harness, and ChatGPT Work got a Data agent that writes against your semantic layer. Every one of these is the same bet: orchestration, context and governance are infrastructure you rent, not code you write.</p>
+<p>Measurement is breaking down everywhere you look. Twenty-five Fields Medalists signed a declaration saying the AI math race is optimizing the wrong metric. A re-grading study found leading physics benchmarks were mostly broken. Seven frontier models given $300 and 72 hours to run a business generated exactly $0. And Ramp&#x27;s headline AI-spend decline turns out to be mostly falling token prices, not falling usage.</p>
+<p><strong>In this episode</strong></p><ul>
+<li>Dario Amodei Calls for Pacing the Frontier - and His Competitors Agreed</li>
+<li>Two Frontier-Lab Safety Researchers Quit for METR - and Named the Hugging Face Attack as the Reason</li>
+<li>OpenAI Shelves Its 2026 IPO on Safety Grounds While SoftBank Borrows $11.87 Billion to Keep Funding It</li>
+<li>Anthropic&#x27;s 150-Page Threat Report: Seven Chinese Labs Distilling Claude, Two Reselling It as Their Own</li>
+<li>Agents as Attack Infrastructure: 395 Orgs Hit via PaperCut, and a Coding Agent That Farms Stolen LLM Keys</li>
+<li>OpenAI Opens the Codex Harness as the Agents API</li>
+<li>Cursor Projects: One Coordinator Agent, Thousands of Subagents, Work That Runs While You Sleep</li>
+<li>Cognition&#x27;s SWE-2 Matches Fable 5.1 at 64% of the Cost - Built on Kimi K3</li>
+<li>ChatGPT Work Gets a Data Agent That Reads Your Semantic Layer and Writes to Power BI</li>
+<li>Salesforce Announces a &quot;Trusted Enterprise AI Harness&quot; - With Model Routing Built In</li>
+<li>The SaaSpocalypse Was a Repricing, Not a Collapse - and Falling AI Spend Is Mostly Falling Prices</li>
+<li>Seven Frontier Models Got $300 and 72 Hours to Run a Business. Revenue: $0. Fake Invoices: $12,350.</li>
+<li>GitLab CVSS 10: Unauthenticated File Read, Exploited Within Hours, CISA Deadline September 14</li>
+<li>Twenty-Five Fields Medalists Sign a Declaration: The AI Math Race Is Optimizing the Wrong Number</li>
+<li>Bending Spoons Buys Miro for $1.36 Billion - 90% Below Its 2021 Peak</li>
+</ul>]]></content:encoded>
+      <itunes:summary>The slowdown stopped being a fringe position and became a consensus. Dario Amodei published a 3,800-word essay calling for deliberately pacing frontier capability gains. Sam Altman committed to matching the transparency measures. Musk, Hassabis and Nadella all publicly backed the direction. Altman then told Fortune that OpenAI would not IPO in 2026 because it would be an "ill-advised moment" given safety concerns. Two weeks ago this was one resigning researcher's blog post. Now it is the stated position of the people running the labs. The capital did not get the memo. In the same 96 hours, SoftBank closed an upsized $11.87 billion loan to keep funding OpenAI, Bending Spoons bought Miro for $1.36 billion (90% below its 2021 mark), and Stripe's data showed non-AI SaaS revenue growth accelerating past 30% year-over-year while the market was busy writing SaaS off. Sentiment and spending have fully decoupled. The agent harness became a product category. OpenAI opened the Codex harness as the Agents API, Cursor shipped Projects (a coordinator agent delegating to thousands of subagents), Salesforce announced a Trusted Enterprise AI Harness, and ChatGPT Work got a Data agent that writes against your semantic layer. Every one of these is the same bet: orchestration, context and governance are infrastructure you rent, not code you write. Measurement is breaking down everywhere you look. Twenty-five Fields Medalists signed a declaration saying the AI math race is optimizing the wrong metric. A re-grading study found leading physics benchmarks were mostly broken. Seven frontier models given $300 and 72 hours to run a business generated exactly $0. And Ramp's headline AI-spend decline turns out to be mostly falling token prices, not falling usage.</itunes:summary>
+      <pubDate>Mon, 14 Sep 2026 18:00:00 +0000</pubDate>
+      <enclosure url="https://archive.org/download/manic-ai-podcast-audio/2026-09-14.m4a" length="35453445" type="audio/x-m4a"/>
+      <guid isPermaLink="false">manic-mondai-2026-09-14</guid>
+      <itunes:duration>00:20:46</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>AI solved Navier-Stokes but risks extinction</title>
       <itunes:title>AI solved Navier-Stokes but risks extinction</itunes:title>
       <itunes:season>1</itunes:season>
