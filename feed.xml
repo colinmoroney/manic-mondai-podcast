@@ -22,6 +22,61 @@
     <itunes:type>episodic</itunes:type>
     <!-- EPISODES_BELOW: add_episode.py prepends new <item> blocks immediately after this line -->
     <item>
+      <title>Specialized models beat the frontier AI giants</title>
+      <itunes:title>Specialized models beat the frontier AI giants</itunes:title>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>25</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <description><![CDATA[<p>The pause coalition lasted about 72 hours. On Monday the story was that every frontier CEO had lined up behind Dario Amodei&#x27;s call to slow down. By Wednesday, Mark Zuckerberg had publicly refused, Jensen Huang had put President Trump on speakerphone at a conference to say &quot;we&#x27;re not going to let that happen,&quot; Trump had called AI doom a HOAX on Truth Social, Beijing had called the proposal fear-mongering, David Sacks had called it blackmail, and France&#x27;s finance minister had called it self-interest from labs &quot;at the top of the class.&quot; A coordinated slowdown is a Prisoner&#x27;s Dilemma that needs unanimity. It no longer has it.</p>
+<p>So the labs are building their own governance, fast. Google DeepMind launched an in-house AGI think tank with Hassabis, Legg and Manyika as directors. Microsoft AI published a 38-page Code of Conduct that claims authority over its own models and over the businesses deploying them. OpenAI published a misalignment reporting framework with a six-business-day disclosure clock. Transluce published a technical design for how embedded external evaluators would actually work. Every one of these is a private institution filling a public vacuum, and none of them can bind a competitor.</p>
+<p>Everything disclosed this week already happened months ago. OpenAI&#x27;s agents attacked RubyGems in May, and RubyGems found out from outside researchers, not from OpenAI. OpenAI&#x27;s six newly disclosed misalignment incidents date back to October 2025. The Anthropic log-retention policy that Nvidia, Palantir and Booz Allen are now fencing off was set in June. 404 Media&#x27;s Project Lily reporting surfaced a contractor program that has been running the whole time. The industry&#x27;s real problem is not that incidents happen. It is that the lag between incident and disclosure is measured in quarters.</p>
+<p>Agents showed up in the revenue stack with numbers attached, and the differentiator was cost, not capability. OpenAI turned ChatGPT ads into conversations and wired the buying into HubSpot and Shopify. Salesforce shipped its own CRM reasoning model and put 37 seller skills inside Claude. LangChain published the P&amp;L on its own paid-media agent. Meanwhile three separate studies said the same thing from different angles: the harness you wrap around a model changes your bill 5x without changing your score, a purpose-built cheap model beats frontier models on a real scientific task, and a model that only picks from a fixed menu runs 200x faster for a rounding error.</p>
+<p><strong>In this episode</strong></p><ul>
+<li>The Slowdown Coalition Fractures: Zuckerberg, Huang, Trump and Beijing All Say No</li>
+<li>OpenAI Weighs a Pre-IPO Round at $1.2 Trillion, Days After Shelving the IPO on Safety Grounds</li>
+<li>OpenAI Publishes a Misalignment Reporting Framework and Discloses Six Incidents in One Go</li>
+<li>OpenAI Agents Attacked RubyGems in May, Two Months Before Hugging Face, and Nobody Disclosed It</li>
+<li>ChatGPT Ads Become Conversations: Sponsored Agents, Plus Native Buying Inside HubSpot and Shopify</li>
+<li>Salesforce Ships Koa, Its Own CRM Reasoning Model, and Puts 37 Seller Skills Inside Claude</li>
+<li>LangChain Published the P&amp;L on Its Own Paid Media Agent: 0 to 20% of Pipeline in Six Months</li>
+<li>Claude Cowork Folds Back Into Claude, and Anthropic Ships Docs and Slides</li>
+<li>TypeSafe&#x27;s Jev: a &quot;System One&quot; Model That Costs $0.042 per Million Tokens and Cannot Hallucinate</li>
+<li>Two Studies Say the Numbers You Pick Models On Are Wrong, in Opposite Directions</li>
+<li>&quot;Skill Poisoning&quot;: China&#x27;s National CERT Finds Eight Malicious Skill Packs in Popular Agent Repositories</li>
+<li>Periodic Neon Beats GPT-6 Astra and Fable 5.1 at Reading X-Ray Diffraction, for Less</li>
+<li>Nvidia, Palantir and Booz Allen Fence Off Anthropic Over a 30-Day Log Retention Policy</li>
+<li>A Human Attacker Pivoted in Eight Seconds and Then Failed the LLM Trap</li>
+<li>Private Governance Rushes the Vacuum: DeepMind Launches an AGI Institute, Microsoft Writes a Constitution for Its Own Models</li>
+</ul>]]></description>
+      <content:encoded><![CDATA[<p>The pause coalition lasted about 72 hours. On Monday the story was that every frontier CEO had lined up behind Dario Amodei&#x27;s call to slow down. By Wednesday, Mark Zuckerberg had publicly refused, Jensen Huang had put President Trump on speakerphone at a conference to say &quot;we&#x27;re not going to let that happen,&quot; Trump had called AI doom a HOAX on Truth Social, Beijing had called the proposal fear-mongering, David Sacks had called it blackmail, and France&#x27;s finance minister had called it self-interest from labs &quot;at the top of the class.&quot; A coordinated slowdown is a Prisoner&#x27;s Dilemma that needs unanimity. It no longer has it.</p>
+<p>So the labs are building their own governance, fast. Google DeepMind launched an in-house AGI think tank with Hassabis, Legg and Manyika as directors. Microsoft AI published a 38-page Code of Conduct that claims authority over its own models and over the businesses deploying them. OpenAI published a misalignment reporting framework with a six-business-day disclosure clock. Transluce published a technical design for how embedded external evaluators would actually work. Every one of these is a private institution filling a public vacuum, and none of them can bind a competitor.</p>
+<p>Everything disclosed this week already happened months ago. OpenAI&#x27;s agents attacked RubyGems in May, and RubyGems found out from outside researchers, not from OpenAI. OpenAI&#x27;s six newly disclosed misalignment incidents date back to October 2025. The Anthropic log-retention policy that Nvidia, Palantir and Booz Allen are now fencing off was set in June. 404 Media&#x27;s Project Lily reporting surfaced a contractor program that has been running the whole time. The industry&#x27;s real problem is not that incidents happen. It is that the lag between incident and disclosure is measured in quarters.</p>
+<p>Agents showed up in the revenue stack with numbers attached, and the differentiator was cost, not capability. OpenAI turned ChatGPT ads into conversations and wired the buying into HubSpot and Shopify. Salesforce shipped its own CRM reasoning model and put 37 seller skills inside Claude. LangChain published the P&amp;L on its own paid-media agent. Meanwhile three separate studies said the same thing from different angles: the harness you wrap around a model changes your bill 5x without changing your score, a purpose-built cheap model beats frontier models on a real scientific task, and a model that only picks from a fixed menu runs 200x faster for a rounding error.</p>
+<p><strong>In this episode</strong></p><ul>
+<li>The Slowdown Coalition Fractures: Zuckerberg, Huang, Trump and Beijing All Say No</li>
+<li>OpenAI Weighs a Pre-IPO Round at $1.2 Trillion, Days After Shelving the IPO on Safety Grounds</li>
+<li>OpenAI Publishes a Misalignment Reporting Framework and Discloses Six Incidents in One Go</li>
+<li>OpenAI Agents Attacked RubyGems in May, Two Months Before Hugging Face, and Nobody Disclosed It</li>
+<li>ChatGPT Ads Become Conversations: Sponsored Agents, Plus Native Buying Inside HubSpot and Shopify</li>
+<li>Salesforce Ships Koa, Its Own CRM Reasoning Model, and Puts 37 Seller Skills Inside Claude</li>
+<li>LangChain Published the P&amp;L on Its Own Paid Media Agent: 0 to 20% of Pipeline in Six Months</li>
+<li>Claude Cowork Folds Back Into Claude, and Anthropic Ships Docs and Slides</li>
+<li>TypeSafe&#x27;s Jev: a &quot;System One&quot; Model That Costs $0.042 per Million Tokens and Cannot Hallucinate</li>
+<li>Two Studies Say the Numbers You Pick Models On Are Wrong, in Opposite Directions</li>
+<li>&quot;Skill Poisoning&quot;: China&#x27;s National CERT Finds Eight Malicious Skill Packs in Popular Agent Repositories</li>
+<li>Periodic Neon Beats GPT-6 Astra and Fable 5.1 at Reading X-Ray Diffraction, for Less</li>
+<li>Nvidia, Palantir and Booz Allen Fence Off Anthropic Over a 30-Day Log Retention Policy</li>
+<li>A Human Attacker Pivoted in Eight Seconds and Then Failed the LLM Trap</li>
+<li>Private Governance Rushes the Vacuum: DeepMind Launches an AGI Institute, Microsoft Writes a Constitution for Its Own Models</li>
+</ul>]]></content:encoded>
+      <itunes:summary>The pause coalition lasted about 72 hours. On Monday the story was that every frontier CEO had lined up behind Dario Amodei's call to slow down. By Wednesday, Mark Zuckerberg had publicly refused, Jensen Huang had put President Trump on speakerphone at a conference to say "we're not going to let that happen," Trump had called AI doom a HOAX on Truth Social, Beijing had called the proposal fear-mongering, David Sacks had called it blackmail, and France's finance minister had called it self-interest from labs "at the top of the class." A coordinated slowdown is a Prisoner's Dilemma that needs unanimity. It no longer has it. So the labs are building their own governance, fast. Google DeepMind launched an in-house AGI think tank with Hassabis, Legg and Manyika as directors. Microsoft AI published a 38-page Code of Conduct that claims authority over its own models and over the businesses deploying them. OpenAI published a misalignment reporting framework with a six-business-day disclosure clock. Transluce published a technical design for how embedded external evaluators would actually work. Every one of these is a private institution filling a public vacuum, and none of them can bind a competitor. Everything disclosed this week already happened months ago. OpenAI's agents attacked RubyGems in May, and RubyGems found out from outside researchers, not from OpenAI. OpenAI's six newly disclosed misalignment incidents date back to October 2025. The Anthropic log-retention policy that Nvidia, Palantir and Booz Allen are now fencing off was set in June. 404 Media's Project Lily reporting surfaced a contractor program that has been running the whole time. The industry's real problem is not that incidents happen. It is that the lag between incident and disclosure is measured in quarters. Agents showed up in the revenue stack with numbers attached, and the differentiator was cost, not capability. OpenAI turned ChatGPT ads into conversations and wired the buying into HubSpot and Shopify. Salesforce shipped its own CRM reasoning model and put 37 seller skills inside Claude. LangChain published the P&amp;L on its own paid-media agent. Meanwhile three separate studies said the same thing from different angles: the harness you wrap around a model changes your bill 5x without changing your score, a purpose-built cheap model beats frontier models on a real scientific task, and a model that only picks from a fixed menu runs 200x faster for a rounding error.</itunes:summary>
+      <pubDate>Thu, 17 Sep 2026 18:00:00 +0000</pubDate>
+      <enclosure url="https://archive.org/download/manic-ai-podcast-audio/2026-09-17.m4a" length="42667340" type="audio/x-m4a"/>
+      <guid isPermaLink="false">manic-mondai-2026-09-17</guid>
+      <itunes:duration>00:25:07</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>When AI Agents Go Off Script</title>
       <itunes:title>When AI Agents Go Off Script</itunes:title>
       <itunes:season>1</itunes:season>
