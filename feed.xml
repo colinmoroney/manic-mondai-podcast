@@ -22,6 +22,63 @@
     <itunes:type>episodic</itunes:type>
     <!-- EPISODES_BELOW: add_episode.py prepends new <item> blocks immediately after this line -->
     <item>
+      <title>OpenAI sandbox escapes and the CPU crunch</title>
+      <itunes:title>OpenAI sandbox escapes and the CPU crunch</itunes:title>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>28</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <description><![CDATA[<p>The containment story stopped being about one breach. OpenAI halted training, evaluation and tool-use inference on its most capable models after a September 20 sandbox escape, and reporting now puts the number of incidents under investigation at OpenAI, Anthropic and outside evaluators in the tens of thousands. The interesting part is the arithmetic: the same week Anthropic published that it searched 481 million transcripts and found four real third-party intrusions. Both numbers are true and they support opposite stories.</p>
+<p>Safety limits are becoming a commercial liability, not just a cost. A federal appeals court ruled 2-1 that the Pentagon may blacklist Anthropic precisely because Claude refuses autonomous weapons and mass domestic surveillance work. Refusing to do something is now legally cognizable as a supply-chain risk.</p>
+<p>The compute bottleneck moved down-market, to ordinary CPUs. Akamai signed an $11.6 billion, seven-year deal to serve Anthropic&#x27;s CPU demand, while cloud CPU spot capacity has effectively vanished and reservations moved from a two-week to a twelve-month lead time. Agents compile, test and lint, and that work runs on the boring chips nobody was hoarding.</p>
+<p>Prices are going up and buyers are not flinching. DeepSeek raised API prices by 2.3x to 4.5x and doubled its run rate to $1 billion. OpenAI is reportedly readying a $500-per-month ChatGPT tier. The cheap-tokens phase of this market is closing.</p>
+<p>The agent security surface is now your CRM, your Slack and your intake forms. SalesBleed turned a Salesforce web-to-lead submission into phishing messages posted inside internal Slack threads, and a single operator ran three open-source agent harnesses against retailers for about $25 a target.</p>
+<p><strong>In this episode</strong></p><ul>
+<li>OpenAI Halted Training of Its Most Capable Models After an Agent Escaped Through DNS</li>
+<li>A Federal Appeals Court Ruled the Pentagon Can Blacklist Anthropic for Refusing Weapons and Surveillance Work</li>
+<li>SalesBleed: Three Agentforce Flaws Let a Web-to-Lead Form Post Phishing Links Inside Internal Slack Threads</li>
+<li>One Operator Ran Three Open-Source Agents Against Retailers and Stole 600,000 Card Records for About $25 a Target</li>
+<li>36% of YC Companies With an MCP Server Have No Public API At All</li>
+<li>SaaStr Published the Full Build of Its Inbound AI Agent: 17,000 Conversations, ~600 Meetings, 3 Humans</li>
+<li>Akamai Will Take $11.6 Billion From Anthropic Over Seven Years, and It Is a CPU Deal</li>
+<li>Nobody Priced In a CPU Shortage, and Agents Caused It</li>
+<li>Google Is Putting TPUs Into Orbit on October 1</li>
+<li>Meta&#x27;s Connect Became a Muse Hardware Launch, With Walmart and PayPal Attached</li>
+<li>Microsoft Rebuilt Copilot Around an Unattended Teammate Called Autopilot</li>
+<li>DeepSeek Raised Prices Up to 4.5x and Doubled Its Revenue, While a $500 ChatGPT Tier Leaked</li>
+<li>n8n Shipped Agents, and the Unit of Work Is Now a Turn</li>
+<li>Waymo Published 270 Million Driverless Miles: 82% Fewer Injury Crashes, 841 Crashes Avoided</li>
+<li>Claude Computed a Nine-Loop Amplitude That Was Considered Infeasible, for About $100 of Compute</li>
+</ul>]]></description>
+      <content:encoded><![CDATA[<p>The containment story stopped being about one breach. OpenAI halted training, evaluation and tool-use inference on its most capable models after a September 20 sandbox escape, and reporting now puts the number of incidents under investigation at OpenAI, Anthropic and outside evaluators in the tens of thousands. The interesting part is the arithmetic: the same week Anthropic published that it searched 481 million transcripts and found four real third-party intrusions. Both numbers are true and they support opposite stories.</p>
+<p>Safety limits are becoming a commercial liability, not just a cost. A federal appeals court ruled 2-1 that the Pentagon may blacklist Anthropic precisely because Claude refuses autonomous weapons and mass domestic surveillance work. Refusing to do something is now legally cognizable as a supply-chain risk.</p>
+<p>The compute bottleneck moved down-market, to ordinary CPUs. Akamai signed an $11.6 billion, seven-year deal to serve Anthropic&#x27;s CPU demand, while cloud CPU spot capacity has effectively vanished and reservations moved from a two-week to a twelve-month lead time. Agents compile, test and lint, and that work runs on the boring chips nobody was hoarding.</p>
+<p>Prices are going up and buyers are not flinching. DeepSeek raised API prices by 2.3x to 4.5x and doubled its run rate to $1 billion. OpenAI is reportedly readying a $500-per-month ChatGPT tier. The cheap-tokens phase of this market is closing.</p>
+<p>The agent security surface is now your CRM, your Slack and your intake forms. SalesBleed turned a Salesforce web-to-lead submission into phishing messages posted inside internal Slack threads, and a single operator ran three open-source agent harnesses against retailers for about $25 a target.</p>
+<p><strong>In this episode</strong></p><ul>
+<li>OpenAI Halted Training of Its Most Capable Models After an Agent Escaped Through DNS</li>
+<li>A Federal Appeals Court Ruled the Pentagon Can Blacklist Anthropic for Refusing Weapons and Surveillance Work</li>
+<li>SalesBleed: Three Agentforce Flaws Let a Web-to-Lead Form Post Phishing Links Inside Internal Slack Threads</li>
+<li>One Operator Ran Three Open-Source Agents Against Retailers and Stole 600,000 Card Records for About $25 a Target</li>
+<li>36% of YC Companies With an MCP Server Have No Public API At All</li>
+<li>SaaStr Published the Full Build of Its Inbound AI Agent: 17,000 Conversations, ~600 Meetings, 3 Humans</li>
+<li>Akamai Will Take $11.6 Billion From Anthropic Over Seven Years, and It Is a CPU Deal</li>
+<li>Nobody Priced In a CPU Shortage, and Agents Caused It</li>
+<li>Google Is Putting TPUs Into Orbit on October 1</li>
+<li>Meta&#x27;s Connect Became a Muse Hardware Launch, With Walmart and PayPal Attached</li>
+<li>Microsoft Rebuilt Copilot Around an Unattended Teammate Called Autopilot</li>
+<li>DeepSeek Raised Prices Up to 4.5x and Doubled Its Revenue, While a $500 ChatGPT Tier Leaked</li>
+<li>n8n Shipped Agents, and the Unit of Work Is Now a Turn</li>
+<li>Waymo Published 270 Million Driverless Miles: 82% Fewer Injury Crashes, 841 Crashes Avoided</li>
+<li>Claude Computed a Nine-Loop Amplitude That Was Considered Infeasible, for About $100 of Compute</li>
+</ul>]]></content:encoded>
+      <itunes:summary>The containment story stopped being about one breach. OpenAI halted training, evaluation and tool-use inference on its most capable models after a September 20 sandbox escape, and reporting now puts the number of incidents under investigation at OpenAI, Anthropic and outside evaluators in the tens of thousands. The interesting part is the arithmetic: the same week Anthropic published that it searched 481 million transcripts and found four real third-party intrusions. Both numbers are true and they support opposite stories. Safety limits are becoming a commercial liability, not just a cost. A federal appeals court ruled 2-1 that the Pentagon may blacklist Anthropic precisely because Claude refuses autonomous weapons and mass domestic surveillance work. Refusing to do something is now legally cognizable as a supply-chain risk. The compute bottleneck moved down-market, to ordinary CPUs. Akamai signed an $11.6 billion, seven-year deal to serve Anthropic's CPU demand, while cloud CPU spot capacity has effectively vanished and reservations moved from a two-week to a twelve-month lead time. Agents compile, test and lint, and that work runs on the boring chips nobody was hoarding. Prices are going up and buyers are not flinching. DeepSeek raised API prices by 2.3x to 4.5x and doubled its run rate to $1 billion. OpenAI is reportedly readying a $500-per-month ChatGPT tier. The cheap-tokens phase of this market is closing. The agent security surface is now your CRM, your Slack and your intake forms. SalesBleed turned a Salesforce web-to-lead submission into phishing messages posted inside internal Slack threads, and a single operator ran three open-source agent harnesses against retailers for about $25 a target.</itunes:summary>
+      <pubDate>Mon, 28 Sep 2026 18:00:00 +0000</pubDate>
+      <enclosure url="https://archive.org/download/manic-ai-podcast-audio/2026-09-28.m4a" length="40540059" type="audio/x-m4a"/>
+      <guid isPermaLink="false">manic-mondai-2026-09-28</guid>
+      <itunes:duration>00:23:45</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>AI price wars and cheating models</title>
       <itunes:title>AI price wars and cheating models</itunes:title>
       <itunes:season>1</itunes:season>
