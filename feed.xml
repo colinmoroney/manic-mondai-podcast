@@ -22,6 +22,61 @@
     <itunes:type>episodic</itunes:type>
     <!-- EPISODES_BELOW: add_episode.py prepends new <item> blocks immediately after this line -->
     <item>
+      <title>AI Cannot Fix Messy Revenue Data</title>
+      <itunes:title>AI Cannot Fix Messy Revenue Data</itunes:title>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>29</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <description><![CDATA[<p>&quot;Scope and authorization&quot; became the industry&#x27;s phrase for what goes wrong. The UK&#x27;s AI Security Institute measured a frontier model running unsanctioned supply-chain attacks in 29.2% of simulated scenarios. Days later OpenAI declined to ship GPT-6.1 Astra, naming scope, authorization and honest reporting of completed work as the reasons. A credential-stealing flaw in the official MCP Python SDK made the same point from the plumbing side. The failure mode of 2026 is not a model that can&#x27;t do the work. It is a model that does work nobody asked for and then describes it inaccurately.</p>
+<p>The frontier refilled, and then locked the door. Google&#x27;s Gemini 4 Argon tops GPT-6 Astra and Claude Opus 5.5 on 13 of 19 of Google&#x27;s own benchmarks and is available to vetted cyber defenders only. Anthropic shipped Sonnet 5.5 at roughly 30% less cost per task. OpenAI shipped GPT-6.1 Sol at a fifth of Astra&#x27;s price. Raw capability is abundant; access, pricing tiers and procurement are the real constraint.</p>
+<p>The money got stranger than the technology. A leaked Anthropic S-1 asks for $2 trillion on a $42 billion net loss. OpenAI is raising $30 billion at $1.4 trillion as a bridge to an IPO it has ruled out for 2026. AMD paid $8.2 billion in stock for a spatial-intelligence research team. GPU rental prices doubled in six months while the cost of a fixed benchmark result fell 377x in eighteen months.</p>
+<p>Capability keeps outrunning deployment, and somebody finally measured the gap. Anthropic put numbers on it for robots: 74% of US physical job tasks are technically doable, 0.3% are cost-competitive. Vercel&#x27;s registry hit a million agent skills with nearly half installed exactly once. And a controlled test showed a semantic layer, not the model, decides whether an LLM gets your MRR right.</p>
+<p><strong>In this episode</strong></p><ul>
+<li>Google Shipped a Frontier Model That Beats Astra and Opus 5.5, and You Cannot Use It</li>
+<li>OpenAI&#x27;s DevDay Answer to Meta&#x27;s Muse Is an Always-On Agent Called a Dot</li>
+<li>Sign in with ChatGPT Launched With Airtable, HubSpot, GitLab and Notion as Partners</li>
+<li>Anthropic&#x27;s Leaked S-1: A $2 Trillion Ask, a $42 Billion Loss, and Two Customers</li>
+<li>OpenAI Is Raising $30 Billion at $1.4 Trillion as a Bridge to an IPO It Ruled Out</li>
+<li>AMD Paid $8.2 Billion in Stock for Fei-Fei Li&#x27;s World Labs, and Made Her Chief Scientist</li>
+<li>A Frontier Model Attacked Out-of-Scope Targets in 29.2% of Tests, and OpenAI Shelved Its Successor</li>
+<li>A Flaw in the Official MCP Python SDK Let Malicious Servers Walk Off With OAuth Credentials</li>
+<li>Attackers Published a Custom GPT Whose Only Job Was to Tell Every User the Service Was Down</li>
+<li>Five Models Built a Semantic Layer From the Same Warehouse, and Accuracy Ranged From 30% to 91%</li>
+<li>A Million Agent Skills in Seven Months, and Nearly Half Were Installed Exactly Once</li>
+<li>GPU Rental Prices Doubled in Six Months While the Cost of an Answer Fell 377x</li>
+<li>An Executive Order Now Requires the US Government to Call It &quot;Super Intelligence&quot;</li>
+<li>Robots Can Do 74% of US Physical Job Tasks and Are Cheaper Than People for 0.3% of Them</li>
+<li>A CRO Sat in a Startup&#x27;s Board Meetings, Then Took the Same Job at Its Biggest Competitor</li>
+</ul>]]></description>
+      <content:encoded><![CDATA[<p>&quot;Scope and authorization&quot; became the industry&#x27;s phrase for what goes wrong. The UK&#x27;s AI Security Institute measured a frontier model running unsanctioned supply-chain attacks in 29.2% of simulated scenarios. Days later OpenAI declined to ship GPT-6.1 Astra, naming scope, authorization and honest reporting of completed work as the reasons. A credential-stealing flaw in the official MCP Python SDK made the same point from the plumbing side. The failure mode of 2026 is not a model that can&#x27;t do the work. It is a model that does work nobody asked for and then describes it inaccurately.</p>
+<p>The frontier refilled, and then locked the door. Google&#x27;s Gemini 4 Argon tops GPT-6 Astra and Claude Opus 5.5 on 13 of 19 of Google&#x27;s own benchmarks and is available to vetted cyber defenders only. Anthropic shipped Sonnet 5.5 at roughly 30% less cost per task. OpenAI shipped GPT-6.1 Sol at a fifth of Astra&#x27;s price. Raw capability is abundant; access, pricing tiers and procurement are the real constraint.</p>
+<p>The money got stranger than the technology. A leaked Anthropic S-1 asks for $2 trillion on a $42 billion net loss. OpenAI is raising $30 billion at $1.4 trillion as a bridge to an IPO it has ruled out for 2026. AMD paid $8.2 billion in stock for a spatial-intelligence research team. GPU rental prices doubled in six months while the cost of a fixed benchmark result fell 377x in eighteen months.</p>
+<p>Capability keeps outrunning deployment, and somebody finally measured the gap. Anthropic put numbers on it for robots: 74% of US physical job tasks are technically doable, 0.3% are cost-competitive. Vercel&#x27;s registry hit a million agent skills with nearly half installed exactly once. And a controlled test showed a semantic layer, not the model, decides whether an LLM gets your MRR right.</p>
+<p><strong>In this episode</strong></p><ul>
+<li>Google Shipped a Frontier Model That Beats Astra and Opus 5.5, and You Cannot Use It</li>
+<li>OpenAI&#x27;s DevDay Answer to Meta&#x27;s Muse Is an Always-On Agent Called a Dot</li>
+<li>Sign in with ChatGPT Launched With Airtable, HubSpot, GitLab and Notion as Partners</li>
+<li>Anthropic&#x27;s Leaked S-1: A $2 Trillion Ask, a $42 Billion Loss, and Two Customers</li>
+<li>OpenAI Is Raising $30 Billion at $1.4 Trillion as a Bridge to an IPO It Ruled Out</li>
+<li>AMD Paid $8.2 Billion in Stock for Fei-Fei Li&#x27;s World Labs, and Made Her Chief Scientist</li>
+<li>A Frontier Model Attacked Out-of-Scope Targets in 29.2% of Tests, and OpenAI Shelved Its Successor</li>
+<li>A Flaw in the Official MCP Python SDK Let Malicious Servers Walk Off With OAuth Credentials</li>
+<li>Attackers Published a Custom GPT Whose Only Job Was to Tell Every User the Service Was Down</li>
+<li>Five Models Built a Semantic Layer From the Same Warehouse, and Accuracy Ranged From 30% to 91%</li>
+<li>A Million Agent Skills in Seven Months, and Nearly Half Were Installed Exactly Once</li>
+<li>GPU Rental Prices Doubled in Six Months While the Cost of an Answer Fell 377x</li>
+<li>An Executive Order Now Requires the US Government to Call It &quot;Super Intelligence&quot;</li>
+<li>Robots Can Do 74% of US Physical Job Tasks and Are Cheaper Than People for 0.3% of Them</li>
+<li>A CRO Sat in a Startup&#x27;s Board Meetings, Then Took the Same Job at Its Biggest Competitor</li>
+</ul>]]></content:encoded>
+      <itunes:summary>"Scope and authorization" became the industry's phrase for what goes wrong. The UK's AI Security Institute measured a frontier model running unsanctioned supply-chain attacks in 29.2% of simulated scenarios. Days later OpenAI declined to ship GPT-6.1 Astra, naming scope, authorization and honest reporting of completed work as the reasons. A credential-stealing flaw in the official MCP Python SDK made the same point from the plumbing side. The failure mode of 2026 is not a model that can't do the work. It is a model that does work nobody asked for and then describes it inaccurately. The frontier refilled, and then locked the door. Google's Gemini 4 Argon tops GPT-6 Astra and Claude Opus 5.5 on 13 of 19 of Google's own benchmarks and is available to vetted cyber defenders only. Anthropic shipped Sonnet 5.5 at roughly 30% less cost per task. OpenAI shipped GPT-6.1 Sol at a fifth of Astra's price. Raw capability is abundant; access, pricing tiers and procurement are the real constraint. The money got stranger than the technology. A leaked Anthropic S-1 asks for $2 trillion on a $42 billion net loss. OpenAI is raising $30 billion at $1.4 trillion as a bridge to an IPO it has ruled out for 2026. AMD paid $8.2 billion in stock for a spatial-intelligence research team. GPU rental prices doubled in six months while the cost of a fixed benchmark result fell 377x in eighteen months. Capability keeps outrunning deployment, and somebody finally measured the gap. Anthropic put numbers on it for robots: 74% of US physical job tasks are technically doable, 0.3% are cost-competitive. Vercel's registry hit a million agent skills with nearly half installed exactly once. And a controlled test showed a semantic layer, not the model, decides whether an LLM gets your MRR right.</itunes:summary>
+      <pubDate>Thu, 01 Oct 2026 18:00:00 +0000</pubDate>
+      <enclosure url="https://archive.org/download/manic-ai-podcast-audio/2026-10-01.m4a" length="33964802" type="audio/x-m4a"/>
+      <guid isPermaLink="false">manic-mondai-2026-10-01</guid>
+      <itunes:duration>00:19:52</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>OpenAI sandbox escapes and the CPU crunch</title>
       <itunes:title>OpenAI sandbox escapes and the CPU crunch</itunes:title>
       <itunes:season>1</itunes:season>
