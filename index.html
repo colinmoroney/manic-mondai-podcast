@@ -163,6 +163,36 @@
       color: #5c5346;
     }
 
+    .hero-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr);
+      gap: 3rem;
+    }
+
+    .cover-art {
+      width: 100%;
+      max-width: 24rem;
+    }
+
+    .cover-art img {
+      display: block;
+      width: 100%;
+      height: auto;
+      aspect-ratio: 1 / 1;
+      border-radius: 1rem;
+      border: 1.5px solid var(--line);
+      box-shadow: 10px 10px 0 var(--accent);
+    }
+
+    @media (min-width: 900px) {
+      .hero-grid {
+        grid-template-columns: minmax(0, 1fr) minmax(0, 24rem);
+        align-items: center;
+      }
+
+      .hero h1 { font-size: clamp(3.5rem, 8.5vw, 7.5rem); }
+    }
+
     /* ---------- Sections ---------- */
     section { padding: clamp(3.5rem, 9vh, 6.5rem) 0; }
 
@@ -396,7 +426,8 @@
 
   <!-- ================= Hero ================= -->
   <header class="hero">
-    <div class="wrap">
+    <div class="wrap hero-grid">
+      <div class="hero-text">
       <span class="eyebrow">A self-running AI briefing</span>
       <h1>Manic<span class="spark">*</span><br>AI</h1>
       <p class="tagline">The week in AI, gathered and written by a routine.</p>
@@ -410,6 +441,14 @@
         <a class="btn btn-secondary" href="https://podcasts.apple.com/ca/podcast/manic-ai/id6784824356">Listen on Apple Podcasts</a>
       </div>
       <p class="cadence">New episodes every Monday and Thursday.</p>
+      </div>
+      <figure class="cover-art">
+        <img src="assets/cover-840.jpg"
+             srcset="assets/cover-840.jpg 840w, assets/cover.jpg 2048w"
+             sizes="(min-width: 900px) 24rem, min(24rem, 100vw - 2.5rem)"
+             width="840" height="840"
+             alt="Manic AI podcast cover art">
+      </figure>
     </div>
   </header>
 
