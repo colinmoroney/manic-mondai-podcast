@@ -22,6 +22,61 @@
     <itunes:type>episodic</itunes:type>
     <!-- EPISODES_BELOW: add_episode.py prepends new <item> blocks immediately after this line -->
     <item>
+      <title>Massive AI Agent Taxes Hit Software Bills</title>
+      <itunes:title>Massive AI Agent Taxes Hit Software Bills</itunes:title>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>30</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <description><![CDATA[<p>The agent tax arrives. Systems of record have worked out that agents are their heaviest users. SaaStr got an estimate of up to $240,000 a year for agent API access that used to come bundled with its subscriptions. Harvey&#x27;s gross margin went to negative 50% as usage outran seat pricing, and Simon Willison argued that every cloud bill now needs a hard cap. Whoever pays for agent work, whether the vendor, the customer, or nobody, is now the main pricing fight in software.</p>
+<p>Small, boring models are winning the plumbing. Cloudflare, Amazon, Perplexity and an independent developer all shipped open &quot;decision models&quot; within days of each other. These classify and route with a probability attached and generate no prose. Apache Ossie, the semantic-layer standard, picked up Microsoft and Google. Most real agent work is routing and definitions, and that layer is being commoditised fast.</p>
+<p>Agent containment moved down the stack. A KVM bug broke the microVM boundary Vercel uses to isolate AI agents. Apple is changing macOS permissions specifically because of agents. A poisoned git config hijacked a coding agent. Security work has moved past the prompt and into the hypervisor, the OS permission model, and the repo.</p>
+<p>OpenAI&#x27;s safety credibility is the week&#x27;s political story. Its safety-report lead quit with an essay calling the culture &quot;broken&quot;, three safety researchers were fired for leaking to an outside group, and OpenAI published a case accusing Moonshot-linked users of extracting its hidden reasoning. Meanwhile Anthropic spent the week training engineers and consulting clergy.</p>
+<p><strong>In this episode</strong></p><ul>
+<li>OpenAI&#x27;s Safety-Report Lead Quit and Called the Culture &quot;Broken,&quot; Days After Three Safety Researchers Were Fired</li>
+<li>SaaStr Got a $240,000-a-Year Quote for Agent API Access, and Its Agent Proposed a $5 Postgres Database Instead [GTM]</li>
+<li>Four Companies Shipped Open &quot;Decision Models&quot; in One Week, and Lead Routing Is the Obvious First Job [GTM]</li>
+<li>Harvey Hit Negative 50% Gross Margins Because Customers Used It More</li>
+<li>Epoch AI: The Chips Shipping Through 2027 Could Run the Equivalent of 140-720 Million Full-Time Workers</li>
+<li>Anthropic Is Spending $100 Million to Train 10,000 &quot;Frontier Deployed Engineers&quot; Using a Medical-Residency Model</li>
+<li>Tavus&#x27;s Griffin Passed for Human in 48% of Live Video Calls</li>
+<li>The Agent Sandbox Cracked at Three Layers in One Week: Hypervisor, Operating System, and Git Config</li>
+<li>543,699 Working Credentials Are Sitting in Public GitHub Repos, and the Median One Has Been There 784 Days</li>
+<li>OpenAI Says Moonshot-Linked Users Ran a 15,000-Account Campaign to Extract Its Hidden Reasoning</li>
+<li>California&#x27;s &quot;No Robo Bosses Act&quot; Means an AI Can&#x27;t Fire You on Its Own</li>
+<li>Microsoft and Google Joined Apache Ossie, the Bid to Make Metric Definitions Portable [GTM]</li>
+<li>Boston Dynamics Gave Atlas Four-Fingered Hands, and the Robot-Brain Valuations Keep Climbing</li>
+<li>Anthropic Spent a Year Asking Clergy Whether Claude Might Be Conscious</li>
+<li>Google DeepMind Put a Watermark Inside Proteins, and It Survives Being Built in a Lab</li>
+</ul>]]></description>
+      <content:encoded><![CDATA[<p>The agent tax arrives. Systems of record have worked out that agents are their heaviest users. SaaStr got an estimate of up to $240,000 a year for agent API access that used to come bundled with its subscriptions. Harvey&#x27;s gross margin went to negative 50% as usage outran seat pricing, and Simon Willison argued that every cloud bill now needs a hard cap. Whoever pays for agent work, whether the vendor, the customer, or nobody, is now the main pricing fight in software.</p>
+<p>Small, boring models are winning the plumbing. Cloudflare, Amazon, Perplexity and an independent developer all shipped open &quot;decision models&quot; within days of each other. These classify and route with a probability attached and generate no prose. Apache Ossie, the semantic-layer standard, picked up Microsoft and Google. Most real agent work is routing and definitions, and that layer is being commoditised fast.</p>
+<p>Agent containment moved down the stack. A KVM bug broke the microVM boundary Vercel uses to isolate AI agents. Apple is changing macOS permissions specifically because of agents. A poisoned git config hijacked a coding agent. Security work has moved past the prompt and into the hypervisor, the OS permission model, and the repo.</p>
+<p>OpenAI&#x27;s safety credibility is the week&#x27;s political story. Its safety-report lead quit with an essay calling the culture &quot;broken&quot;, three safety researchers were fired for leaking to an outside group, and OpenAI published a case accusing Moonshot-linked users of extracting its hidden reasoning. Meanwhile Anthropic spent the week training engineers and consulting clergy.</p>
+<p><strong>In this episode</strong></p><ul>
+<li>OpenAI&#x27;s Safety-Report Lead Quit and Called the Culture &quot;Broken,&quot; Days After Three Safety Researchers Were Fired</li>
+<li>SaaStr Got a $240,000-a-Year Quote for Agent API Access, and Its Agent Proposed a $5 Postgres Database Instead [GTM]</li>
+<li>Four Companies Shipped Open &quot;Decision Models&quot; in One Week, and Lead Routing Is the Obvious First Job [GTM]</li>
+<li>Harvey Hit Negative 50% Gross Margins Because Customers Used It More</li>
+<li>Epoch AI: The Chips Shipping Through 2027 Could Run the Equivalent of 140-720 Million Full-Time Workers</li>
+<li>Anthropic Is Spending $100 Million to Train 10,000 &quot;Frontier Deployed Engineers&quot; Using a Medical-Residency Model</li>
+<li>Tavus&#x27;s Griffin Passed for Human in 48% of Live Video Calls</li>
+<li>The Agent Sandbox Cracked at Three Layers in One Week: Hypervisor, Operating System, and Git Config</li>
+<li>543,699 Working Credentials Are Sitting in Public GitHub Repos, and the Median One Has Been There 784 Days</li>
+<li>OpenAI Says Moonshot-Linked Users Ran a 15,000-Account Campaign to Extract Its Hidden Reasoning</li>
+<li>California&#x27;s &quot;No Robo Bosses Act&quot; Means an AI Can&#x27;t Fire You on Its Own</li>
+<li>Microsoft and Google Joined Apache Ossie, the Bid to Make Metric Definitions Portable [GTM]</li>
+<li>Boston Dynamics Gave Atlas Four-Fingered Hands, and the Robot-Brain Valuations Keep Climbing</li>
+<li>Anthropic Spent a Year Asking Clergy Whether Claude Might Be Conscious</li>
+<li>Google DeepMind Put a Watermark Inside Proteins, and It Survives Being Built in a Lab</li>
+</ul>]]></content:encoded>
+      <itunes:summary>The agent tax arrives. Systems of record have worked out that agents are their heaviest users. SaaStr got an estimate of up to $240,000 a year for agent API access that used to come bundled with its subscriptions. Harvey's gross margin went to negative 50% as usage outran seat pricing, and Simon Willison argued that every cloud bill now needs a hard cap. Whoever pays for agent work, whether the vendor, the customer, or nobody, is now the main pricing fight in software. Small, boring models are winning the plumbing. Cloudflare, Amazon, Perplexity and an independent developer all shipped open "decision models" within days of each other. These classify and route with a probability attached and generate no prose. Apache Ossie, the semantic-layer standard, picked up Microsoft and Google. Most real agent work is routing and definitions, and that layer is being commoditised fast. Agent containment moved down the stack. A KVM bug broke the microVM boundary Vercel uses to isolate AI agents. Apple is changing macOS permissions specifically because of agents. A poisoned git config hijacked a coding agent. Security work has moved past the prompt and into the hypervisor, the OS permission model, and the repo. OpenAI's safety credibility is the week's political story. Its safety-report lead quit with an essay calling the culture "broken", three safety researchers were fired for leaking to an outside group, and OpenAI published a case accusing Moonshot-linked users of extracting its hidden reasoning. Meanwhile Anthropic spent the week training engineers and consulting clergy.</itunes:summary>
+      <pubDate>Mon, 05 Oct 2026 18:00:00 +0000</pubDate>
+      <enclosure url="https://archive.org/download/manic-ai-podcast-audio/2026-10-05.m4a" length="28001467" type="audio/x-m4a"/>
+      <guid isPermaLink="false">manic-mondai-2026-10-05</guid>
+      <itunes:duration>00:16:19</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>AI Cannot Fix Messy Revenue Data</title>
       <itunes:title>AI Cannot Fix Messy Revenue Data</itunes:title>
       <itunes:season>1</itunes:season>
