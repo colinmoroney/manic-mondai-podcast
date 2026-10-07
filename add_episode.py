@@ -23,7 +23,10 @@ Options:
              guessing would attach the PREVIOUS episode's show notes to this one. Pass
              --digest explicitly to use a file the date does not name.
   --no-fetch skip the git-freshness check on the digest repo (no network)
-  --title    override the episode title
+  --notes    episode notes .md written with the transcript (default:
+             ../manic-mondai-project/podcast/transcripts/<date>-episode-notes.md). If it exists,
+             its "**Title:** ..." line is the episode title, so no --title is needed.
+  --title    override the episode title (beats the notes file)
   --summary  override the description (plain text)
   --season   season number (default: 1)
   --episode  episode number (default: auto = current episode count + 1)
@@ -129,12 +132,24 @@ def parse_digest(path):
     return threads, stories
 
 
+def notes_title(path):
+    """The title from an episode-notes file ("**Title:** The Agent Tax"), or None."""
+    if not path or not os.path.exists(path):
+        return None
+    with open(path, encoding="utf-8") as f:
+        for line in f:
+            m = re.match(r"^\s*[-*]?\s*\**\s*Title\s*\**\s*:\s*\**\s*(.+?)\s*$", line)
+            if m and m.group(1).strip("*_ "):
+                return md_strip(m.group(1).strip("*_ ")).strip()
+    return None
+
+
 def build_meta(args):
     threads, stories = ([], [])
     if args.digest and os.path.exists(args.digest):
         threads, stories = parse_digest(args.digest)
 
-    title = args.title
+    title = args.title or notes_title(args.notes)
     if not title:
         cleaned = re.sub(r"[_]+", " ", os.path.splitext(os.path.basename(args.file))[0]).strip()
         datey = re.fullmatch(r"[\d\-.\s]+", cleaned) is not None
@@ -171,6 +186,7 @@ def main():
     ap.add_argument("--file", required=True)
     ap.add_argument("--date", required=True)
     ap.add_argument("--digest")
+    ap.add_argument("--notes")
     ap.add_argument("--title")
     ap.add_argument("--summary")
     ap.add_argument("--season", default="1")
@@ -187,6 +203,10 @@ def main():
     explicit_digest = bool(a.digest)
     if not a.digest:
         a.digest = f"../manic-mondai-project/digests/{a.date}-digest.md"
+    if not a.notes:
+        # Notes sit in the same private repo as the digest: <repo>/podcast/transcripts/
+        repo_root = os.path.dirname(os.path.dirname(os.path.abspath(a.digest)))
+        a.notes = os.path.join(repo_root, "podcast", "transcripts", f"{a.date}-episode-notes.md")
 
     # The digest lives in the private repo and is written there by the cloud routine,
     # so "the file is not on disk" usually means "this clone has not pulled yet".
@@ -232,7 +252,10 @@ def main():
     if a.dry_run:
         print("DRY RUN - nothing uploaded or written\n")
         print("digest :", a.digest, "(found)" if os.path.exists(a.digest) else "(NOT FOUND)")
-        print("title  :", title)
+        print("notes  :", a.notes, "(found)" if os.path.exists(a.notes) else "(not found)")
+        src = ("--title" if a.title else "episode notes" if notes_title(a.notes)
+               else "filename or digest")
+        print("title  :", title, f"   (from {src})")
         print(f"season : {a.season}   episode: {episode}")
         print("audio  :", f"{RELEASE_URL}/{a.date}.m4a", f"({size} bytes, {dur})")
         print("\n--- itunes:summary ---\n" + summary_plain[:700])
