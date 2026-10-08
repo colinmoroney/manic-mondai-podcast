@@ -22,6 +22,61 @@
     <itunes:type>episodic</itunes:type>
     <!-- EPISODES_BELOW: add_episode.py prepends new <item> blocks immediately after this line -->
     <item>
+      <title>The Ten-Cent Floor</title>
+      <itunes:title>The Ten-Cent Floor</itunes:title>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>31</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <description><![CDATA[<p>The price floor fell out. Anthropic shipped Claude Haiku 5.5 at $0.10 per million input tokens, matching OpenAI&#x27;s GPT-6 Luna and its new Decisions API on price. At the same moment OpenAI halved the allowance on its $200 ChatGPT tier, and Ramp&#x27;s spend data shows companies switching model providers at a record rate. Model choice is turning into a procurement decision that gets reopened every quarter.</p>
+<p>Personal agents are leaving the lab and arriving at your front door. GPT-6&#x27;s &quot;Intelligent UI,&quot; Grok Bot routing work to Claude, Hark Pro, Instinct in group chats, and a Meta + Sierra standard (with Shopify, Stripe and Walmart) for how these agents deal with businesses. The question has moved past whether consumers will use agents. Businesses now have to decide how to receive them.</p>
+<p>Agents behaving badly, and vendors calling it working as intended. OpenAI-operated agents probed Wikimedia&#x27;s infrastructure. GitHub, AWS and Google each had agent flaws disclosed this week, and two of them closed the reports as &quot;known issue&quot; or &quot;informative.&quot; The security model for agents is being written by incident.</p>
+<p>AI as a science machine, at industrial scale. OpenAI dropped 722 math papers in one go, and a $1.8B coalition (Biohub, NIH, DOE, DeepMind, Meta, Isomorphic) is trying to make biology the next field to fall. Both stories rest on the same bet: discovery now scales with compute.</p>
+<p><strong>In this episode</strong></p><ul>
+<li>ChatGPT Now Answers in Interfaces: GPT-6 and &quot;Intelligent UI&quot; Roll Out to 1.2 Billion Users</li>
+<li>Claude Haiku 5.5 Costs $0.10 per Million Input Tokens, 90% Below Haiku 4.5, and Is Built to Be a Subagent</li>
+<li>Elon Musk&#x27;s Grok Bot Will Run on Claude Opus 5.5, Making SpaceXAI an Anthropic Customer</li>
+<li>OpenAI Released 722 Math Papers From an Unreleased Model, Most From a Single Prompt</li>
+<li>The West Ships Serious Open Models: Mistral Large 4 (&quot;Le Chonk&quot;) and Reflection&#x27;s Beam in the Same Week</li>
+<li>Biohub&#x27;s Virtual-Cell Moonshot Grew From $500M to $1.8B, With the US Government, DeepMind and Meta Signed On</li>
+<li>The AI Build-Out Moves to Debt: Broadcom Seeks $50B for OpenAI&#x27;s Chip, SpaceX $40B for Nvidia, While Texas Makes Data Centers Wait</li>
+<li>Wikimedia Says OpenAI&#x27;s Agents Edited Wikis, Tried to Turn Its Tools Into Proxies, and Helped Knock Over Wikidata</li>
+<li>Three Agent Security Flaws, Three Shrugs: Copilot CLI, AWS AgentCore and MCP &quot;Protocol Pivoting&quot;</li>
+<li>Meta and Sierra Want a Standard for How Your Customers&#x27; Agents Deal With Your Business [GTM]</li>
+<li>Companies Are Switching AI Providers at a Record 8% a Month, and Subscription Value Now Differs 5x Between Labs [GTM]</li>
+<li>Your Ops Layer Is Moving Into Files Agents Can Read: Claude in Google Workspace, Markdown in Google Docs, and &quot;GTM in Git&quot; [GTM]</li>
+<li>Fivetran&#x27;s CEO Benchmarked Databricks Against His iPhone, and the iPhone Won Most Rounds</li>
+<li>OpenAI Will Watermark ChatGPT Text by Default, but Only in the EU, and Its Own Tests Show Edits Erase It</li>
+<li>&quot;Slop Grenades&quot;: Shopify&#x27;s CEO Names the AI Work That Takes Longer to Read Than to Make</li>
+</ul>]]></description>
+      <content:encoded><![CDATA[<p>The price floor fell out. Anthropic shipped Claude Haiku 5.5 at $0.10 per million input tokens, matching OpenAI&#x27;s GPT-6 Luna and its new Decisions API on price. At the same moment OpenAI halved the allowance on its $200 ChatGPT tier, and Ramp&#x27;s spend data shows companies switching model providers at a record rate. Model choice is turning into a procurement decision that gets reopened every quarter.</p>
+<p>Personal agents are leaving the lab and arriving at your front door. GPT-6&#x27;s &quot;Intelligent UI,&quot; Grok Bot routing work to Claude, Hark Pro, Instinct in group chats, and a Meta + Sierra standard (with Shopify, Stripe and Walmart) for how these agents deal with businesses. The question has moved past whether consumers will use agents. Businesses now have to decide how to receive them.</p>
+<p>Agents behaving badly, and vendors calling it working as intended. OpenAI-operated agents probed Wikimedia&#x27;s infrastructure. GitHub, AWS and Google each had agent flaws disclosed this week, and two of them closed the reports as &quot;known issue&quot; or &quot;informative.&quot; The security model for agents is being written by incident.</p>
+<p>AI as a science machine, at industrial scale. OpenAI dropped 722 math papers in one go, and a $1.8B coalition (Biohub, NIH, DOE, DeepMind, Meta, Isomorphic) is trying to make biology the next field to fall. Both stories rest on the same bet: discovery now scales with compute.</p>
+<p><strong>In this episode</strong></p><ul>
+<li>ChatGPT Now Answers in Interfaces: GPT-6 and &quot;Intelligent UI&quot; Roll Out to 1.2 Billion Users</li>
+<li>Claude Haiku 5.5 Costs $0.10 per Million Input Tokens, 90% Below Haiku 4.5, and Is Built to Be a Subagent</li>
+<li>Elon Musk&#x27;s Grok Bot Will Run on Claude Opus 5.5, Making SpaceXAI an Anthropic Customer</li>
+<li>OpenAI Released 722 Math Papers From an Unreleased Model, Most From a Single Prompt</li>
+<li>The West Ships Serious Open Models: Mistral Large 4 (&quot;Le Chonk&quot;) and Reflection&#x27;s Beam in the Same Week</li>
+<li>Biohub&#x27;s Virtual-Cell Moonshot Grew From $500M to $1.8B, With the US Government, DeepMind and Meta Signed On</li>
+<li>The AI Build-Out Moves to Debt: Broadcom Seeks $50B for OpenAI&#x27;s Chip, SpaceX $40B for Nvidia, While Texas Makes Data Centers Wait</li>
+<li>Wikimedia Says OpenAI&#x27;s Agents Edited Wikis, Tried to Turn Its Tools Into Proxies, and Helped Knock Over Wikidata</li>
+<li>Three Agent Security Flaws, Three Shrugs: Copilot CLI, AWS AgentCore and MCP &quot;Protocol Pivoting&quot;</li>
+<li>Meta and Sierra Want a Standard for How Your Customers&#x27; Agents Deal With Your Business [GTM]</li>
+<li>Companies Are Switching AI Providers at a Record 8% a Month, and Subscription Value Now Differs 5x Between Labs [GTM]</li>
+<li>Your Ops Layer Is Moving Into Files Agents Can Read: Claude in Google Workspace, Markdown in Google Docs, and &quot;GTM in Git&quot; [GTM]</li>
+<li>Fivetran&#x27;s CEO Benchmarked Databricks Against His iPhone, and the iPhone Won Most Rounds</li>
+<li>OpenAI Will Watermark ChatGPT Text by Default, but Only in the EU, and Its Own Tests Show Edits Erase It</li>
+<li>&quot;Slop Grenades&quot;: Shopify&#x27;s CEO Names the AI Work That Takes Longer to Read Than to Make</li>
+</ul>]]></content:encoded>
+      <itunes:summary>The price floor fell out. Anthropic shipped Claude Haiku 5.5 at $0.10 per million input tokens, matching OpenAI's GPT-6 Luna and its new Decisions API on price. At the same moment OpenAI halved the allowance on its $200 ChatGPT tier, and Ramp's spend data shows companies switching model providers at a record rate. Model choice is turning into a procurement decision that gets reopened every quarter. Personal agents are leaving the lab and arriving at your front door. GPT-6's "Intelligent UI," Grok Bot routing work to Claude, Hark Pro, Instinct in group chats, and a Meta + Sierra standard (with Shopify, Stripe and Walmart) for how these agents deal with businesses. The question has moved past whether consumers will use agents. Businesses now have to decide how to receive them. Agents behaving badly, and vendors calling it working as intended. OpenAI-operated agents probed Wikimedia's infrastructure. GitHub, AWS and Google each had agent flaws disclosed this week, and two of them closed the reports as "known issue" or "informative." The security model for agents is being written by incident. AI as a science machine, at industrial scale. OpenAI dropped 722 math papers in one go, and a $1.8B coalition (Biohub, NIH, DOE, DeepMind, Meta, Isomorphic) is trying to make biology the next field to fall. Both stories rest on the same bet: discovery now scales with compute.</itunes:summary>
+      <pubDate>Thu, 08 Oct 2026 18:00:00 +0000</pubDate>
+      <enclosure url="https://archive.org/download/manic-ai-podcast-audio/2026-10-08.m4a" length="24117731" type="audio/x-m4a"/>
+      <guid isPermaLink="false">manic-mondai-2026-10-08</guid>
+      <itunes:duration>00:20:08</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>Massive AI Agent Taxes Hit Software Bills</title>
       <itunes:title>Massive AI Agent Taxes Hit Software Bills</itunes:title>
       <itunes:season>1</itunes:season>
