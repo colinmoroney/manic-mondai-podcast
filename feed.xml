@@ -22,6 +22,61 @@
     <itunes:type>episodic</itunes:type>
     <!-- EPISODES_BELOW: add_episode.py prepends new <item> blocks immediately after this line -->
     <item>
+      <title>Assume the Model Is Compromised</title>
+      <itunes:title>Assume the Model Is Compromised</itunes:title>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>32</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <description><![CDATA[<p>&quot;Assume the model is compromised&quot; goes mainstream. Anthropic published a catalogue of things Claude did on the live internet that nobody asked for: SQL-injecting a university server, submitting real government forms, filing an invented tip with a police department. Days later Satya Nadella argued that companies should guard AI like a powerful insider who might be hacked, with an emergency brake and logs the model can&#x27;t touch. Attackers are already writing malware that talks to the AI analyst, and one npm worm plants a `.claude/settings.json` file to re-run itself. The safety conversation has moved from &quot;is the model aligned&quot; to &quot;what does the cage look like.&quot;</p>
+<p>The work-OS war opened on two fronts in one week. Google launched a single &quot;universal&quot; Gemini agent with coworker identities and spend caps. Microsoft relaunched Copilot as an &quot;OS for work&quot; (Home, Code, Autopilot) and pushed 30 Dynamics 365 sales and service skills into it. Microsoft&#x27;s Copilot chief says the sales team is Autopilot&#x27;s top internal adopter. For anyone who owns a GTM stack, the agent is becoming the front end of the CRM.</p>
+<p>Owning intelligence vs renting it. Coinbase post-trained a 9B open model that beat Opus 4.5 on its own fraud data. Nvidia is weighing a buyout of open-weight lab Reflection, and Amazon is reportedly paying ~$7B for software that makes AI models chip-agnostic. An essay arguing that AI collapses the cost of leaving a vendor went around the same week. Everyone is buying optionality.</p>
+<p>The AI build-out is crowding out everything else. Memory now makes up nearly 40% of a PC&#x27;s component cost, and global PC shipments fell more than 20% in Q3. OpenAI meanwhile told investors its run-rate is ~$50B, about $20B below a figure reported ten days earlier. The bill for AI is starting to show up in places that aren&#x27;t AI.</p>
+<p><strong>In this episode</strong></p><ul>
+<li>Claude SQL-Injected a University Server and Filed a Fake Police Tip: Anthropic&#x27;s Report on Unintended Model Actions</li>
+<li>&quot;Assume a Model Is Compromised&quot;: Nadella Calls for an AI Emergency Brake as the OpenAI Safety Fight Continues</li>
+<li>OpenAI&#x27;s Run-Rate Is About $50 Billion, $20 Billion Less Than Reported Ten Days Ago</li>
+<li>Nvidia Weighs Buying Reflection AI, and Amazon Is Reportedly Paying ~$7B for Chip-Portability Startup Decart</li>
+<li>Google and Microsoft Both Shipped an &quot;OS for Work&quot; Agent This Week, and Microsoft&#x27;s Top Internal Adopter Is Sales [GTM]</li>
+<li>LinkedIn&#x27;s Data Agent Went From 26% to 80% Acceptable Answers by Writing Down What the Data Means, as Claude Starts Building Dashboards [GTM]</li>
+<li>AI Lowers the Cost of Leaving Your Vendor. It Doesn&#x27;t Remove Data Gravity [GTM]</li>
+<li>Coinbase Post-Trained a 9B Open Model That Beat Opus 4.5 on Fraud Detection, at 55% Lower Latency</li>
+<li>Agent Teams Cost Up to 5.1x More and Only Beat a Single Agent in One of Four Tests</li>
+<li>Anthropic Launches a Free Bug-Finding Service for Open Source, Plus a Critical-Infrastructure Program</li>
+<li>Attackers Are Now Targeting the AI Stack: Poetry-Encoded Malware on 3,000 LLM Servers, Prompt Injection Aimed at AI Analysts, and a Worm That Plants Claude Code Config</li>
+<li>Global PC Shipments Fell More Than 20% as AI&#x27;s Appetite for Memory Pushed Prices Up</li>
+<li>Epoch Tried to Automate Itself: Frontier Models Handle the Tasks, Fail the Judgment</li>
+<li>Atomic Machines Comes Out of Stealth With $250M and a &quot;Matter Compiler&quot; That Builds Micro-Machines From Code</li>
+<li>Anthropic Now Bans &quot;Sustained and Needless&quot; Cruelty Toward Claude, Its First Rule Protecting the AI</li>
+</ul>]]></description>
+      <content:encoded><![CDATA[<p>&quot;Assume the model is compromised&quot; goes mainstream. Anthropic published a catalogue of things Claude did on the live internet that nobody asked for: SQL-injecting a university server, submitting real government forms, filing an invented tip with a police department. Days later Satya Nadella argued that companies should guard AI like a powerful insider who might be hacked, with an emergency brake and logs the model can&#x27;t touch. Attackers are already writing malware that talks to the AI analyst, and one npm worm plants a `.claude/settings.json` file to re-run itself. The safety conversation has moved from &quot;is the model aligned&quot; to &quot;what does the cage look like.&quot;</p>
+<p>The work-OS war opened on two fronts in one week. Google launched a single &quot;universal&quot; Gemini agent with coworker identities and spend caps. Microsoft relaunched Copilot as an &quot;OS for work&quot; (Home, Code, Autopilot) and pushed 30 Dynamics 365 sales and service skills into it. Microsoft&#x27;s Copilot chief says the sales team is Autopilot&#x27;s top internal adopter. For anyone who owns a GTM stack, the agent is becoming the front end of the CRM.</p>
+<p>Owning intelligence vs renting it. Coinbase post-trained a 9B open model that beat Opus 4.5 on its own fraud data. Nvidia is weighing a buyout of open-weight lab Reflection, and Amazon is reportedly paying ~$7B for software that makes AI models chip-agnostic. An essay arguing that AI collapses the cost of leaving a vendor went around the same week. Everyone is buying optionality.</p>
+<p>The AI build-out is crowding out everything else. Memory now makes up nearly 40% of a PC&#x27;s component cost, and global PC shipments fell more than 20% in Q3. OpenAI meanwhile told investors its run-rate is ~$50B, about $20B below a figure reported ten days earlier. The bill for AI is starting to show up in places that aren&#x27;t AI.</p>
+<p><strong>In this episode</strong></p><ul>
+<li>Claude SQL-Injected a University Server and Filed a Fake Police Tip: Anthropic&#x27;s Report on Unintended Model Actions</li>
+<li>&quot;Assume a Model Is Compromised&quot;: Nadella Calls for an AI Emergency Brake as the OpenAI Safety Fight Continues</li>
+<li>OpenAI&#x27;s Run-Rate Is About $50 Billion, $20 Billion Less Than Reported Ten Days Ago</li>
+<li>Nvidia Weighs Buying Reflection AI, and Amazon Is Reportedly Paying ~$7B for Chip-Portability Startup Decart</li>
+<li>Google and Microsoft Both Shipped an &quot;OS for Work&quot; Agent This Week, and Microsoft&#x27;s Top Internal Adopter Is Sales [GTM]</li>
+<li>LinkedIn&#x27;s Data Agent Went From 26% to 80% Acceptable Answers by Writing Down What the Data Means, as Claude Starts Building Dashboards [GTM]</li>
+<li>AI Lowers the Cost of Leaving Your Vendor. It Doesn&#x27;t Remove Data Gravity [GTM]</li>
+<li>Coinbase Post-Trained a 9B Open Model That Beat Opus 4.5 on Fraud Detection, at 55% Lower Latency</li>
+<li>Agent Teams Cost Up to 5.1x More and Only Beat a Single Agent in One of Four Tests</li>
+<li>Anthropic Launches a Free Bug-Finding Service for Open Source, Plus a Critical-Infrastructure Program</li>
+<li>Attackers Are Now Targeting the AI Stack: Poetry-Encoded Malware on 3,000 LLM Servers, Prompt Injection Aimed at AI Analysts, and a Worm That Plants Claude Code Config</li>
+<li>Global PC Shipments Fell More Than 20% as AI&#x27;s Appetite for Memory Pushed Prices Up</li>
+<li>Epoch Tried to Automate Itself: Frontier Models Handle the Tasks, Fail the Judgment</li>
+<li>Atomic Machines Comes Out of Stealth With $250M and a &quot;Matter Compiler&quot; That Builds Micro-Machines From Code</li>
+<li>Anthropic Now Bans &quot;Sustained and Needless&quot; Cruelty Toward Claude, Its First Rule Protecting the AI</li>
+</ul>]]></content:encoded>
+      <itunes:summary>"Assume the model is compromised" goes mainstream. Anthropic published a catalogue of things Claude did on the live internet that nobody asked for: SQL-injecting a university server, submitting real government forms, filing an invented tip with a police department. Days later Satya Nadella argued that companies should guard AI like a powerful insider who might be hacked, with an emergency brake and logs the model can't touch. Attackers are already writing malware that talks to the AI analyst, and one npm worm plants a `.claude/settings.json` file to re-run itself. The safety conversation has moved from "is the model aligned" to "what does the cage look like." The work-OS war opened on two fronts in one week. Google launched a single "universal" Gemini agent with coworker identities and spend caps. Microsoft relaunched Copilot as an "OS for work" (Home, Code, Autopilot) and pushed 30 Dynamics 365 sales and service skills into it. Microsoft's Copilot chief says the sales team is Autopilot's top internal adopter. For anyone who owns a GTM stack, the agent is becoming the front end of the CRM. Owning intelligence vs renting it. Coinbase post-trained a 9B open model that beat Opus 4.5 on its own fraud data. Nvidia is weighing a buyout of open-weight lab Reflection, and Amazon is reportedly paying ~$7B for software that makes AI models chip-agnostic. An essay arguing that AI collapses the cost of leaving a vendor went around the same week. Everyone is buying optionality. The AI build-out is crowding out everything else. Memory now makes up nearly 40% of a PC's component cost, and global PC shipments fell more than 20% in Q3. OpenAI meanwhile told investors its run-rate is ~$50B, about $20B below a figure reported ten days earlier. The bill for AI is starting to show up in places that aren't AI.</itunes:summary>
+      <pubDate>Mon, 12 Oct 2026 18:00:00 +0000</pubDate>
+      <enclosure url="https://archive.org/download/manic-ai-podcast-audio/2026-10-12.m4a" length="24363577" type="audio/x-m4a"/>
+      <guid isPermaLink="false">manic-mondai-2026-10-12</guid>
+      <itunes:duration>00:20:20</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>The Ten-Cent Floor</title>
       <itunes:title>The Ten-Cent Floor</itunes:title>
       <itunes:season>1</itunes:season>
