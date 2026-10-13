@@ -3,25 +3,27 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Manic AI</title>
-  <meta name="description" content="A self-running AI briefing, turned into a two-host podcast. New episodes every Monday and Thursday.">
+  <title>Manic AI for RevOps</title>
+  <meta name="description" content="What changed in AI for your GTM stack this week, and what to do about it. A one-page weekly brief for RevOps, Business Systems and GTM Systems teams.">
 
   <link rel="canonical" href="https://thisismanic.ai/">
+  <link rel="icon" type="image/png" href="assets/manic-ai-logo.png">
+  <link rel="apple-touch-icon" href="assets/manic-ai-logo.png">
 
   <!-- Open Graph -->
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://thisismanic.ai/">
-  <meta property="og:title" content="Manic AI">
-  <meta property="og:description" content="A self-running AI briefing, turned into a two-host podcast. New episodes every Monday and Thursday.">
+  <meta property="og:title" content="Manic AI for RevOps">
+  <meta property="og:description" content="What changed in AI for your GTM stack this week, and what to do about it. A one-page weekly brief for RevOps, Business Systems and GTM Systems teams.">
   <meta property="og:image" content="https://thisismanic.ai/assets/manic-ai-og-v2.png">
   <meta property="og:image:width" content="2400">
   <meta property="og:image:height" content="1260">
-  <meta property="og:image:alt" content="Manic AI: the week in AI, gathered and written by a routine. New episodes every Monday and Thursday.">
+  <meta property="og:image:alt" content="Manic AI: the week in AI, gathered and written by a routine.">
 
   <!-- Twitter card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Manic AI">
-  <meta name="twitter:description" content="A self-running AI briefing, turned into a two-host podcast. New episodes every Monday and Thursday.">
+  <meta name="twitter:title" content="Manic AI for RevOps">
+  <meta name="twitter:description" content="What changed in AI for your GTM stack this week, and what to do about it. A one-page weekly brief for RevOps, Business Systems and GTM Systems teams.">
   <meta name="twitter:image" content="https://thisismanic.ai/assets/manic-ai-og-v2.png">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -31,25 +33,70 @@
   <style>
     :root {
       --ink: #16130f;
+      --ink-soft: #3c362e;
+      --ink-mute: #5c5346;
       --paper: #fffcf5;
       --paper-dim: #f6f0e4;
       --accent: #ff3d00;
       --accent-deep: #c22f00;
+      --accent-tint: #fff2ec;
       --line: #e4dccb;
       --max: 68rem;
+      --radius-xl: 1.75rem;
+      --radius-lg: 1.25rem;
+      --radius-md: 0.75rem;
       --display: "Bricolage Grotesque", "Avenir Next", "Helvetica Neue", Arial, sans-serif;
       --body: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
     }
 
     * { margin: 0; padding: 0; box-sizing: border-box; }
 
-    html { scroll-behavior: smooth; }
+    html {
+      scroll-behavior: smooth;
+      scroll-snap-type: y proximity;
+    }
+
+    @media (min-width: 900px) and (min-height: 700px) {
+      html { scroll-snap-type: y mandatory; }
+    }
+
+    /* every major block fills the viewport and snaps into place */
+    .snap {
+      min-height: 100vh;
+      min-height: 100svh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      justify-content: safe center;
+      scroll-snap-align: start;
+      scroll-snap-stop: always;
+      padding: 5.25rem 0 2rem;
+    }
+
+    .snap > .wrap { width: 100%; }
+
+    #offer .section-head { margin-bottom: 1rem; }
+    #offer.snap { padding-bottom: 1.25rem; }
+
+    /* short laptop screens: squeeze the offer so it still fits one viewport */
+    @media (max-height: 760px) and (min-width: 1100px) {
+      #offer .section-head h2 { font-size: 2rem; }
+      #offer .section-head { margin-bottom: 0.75rem; }
+      #offer .price-card { gap: 0.6rem; padding: 1.4rem; }
+      #offer .price-card ul { gap: 0.6rem; }
+      #offer .form-card { padding: 1.4rem; }
+      #offer .fields { gap: 0.55rem; }
+      #offer .field input, #offer .field select { min-height: 2.5rem; padding: 0.5rem 0.9rem; }
+    }
+    #offer .section-head h2 { font-size: clamp(2rem, 4.5vw, 3rem); }
+
+    footer { scroll-snap-align: end; }
 
     body {
       font-family: var(--body);
       background: var(--paper);
       color: var(--ink);
-      line-height: 1.65;
+      line-height: 1.6;
       font-size: 1.0625rem;
       -webkit-font-smoothing: antialiased;
     }
@@ -59,11 +106,15 @@
     a { color: var(--accent-deep); }
 
     a:focus-visible,
-    button:focus-visible {
+    button:focus-visible,
+    input:focus-visible,
+    select:focus-visible {
       outline: 3px solid var(--accent);
       outline-offset: 3px;
       border-radius: 4px;
     }
+
+    img { display: block; max-width: 100%; height: auto; }
 
     .wrap {
       max-width: var(--max);
@@ -71,331 +122,730 @@
       padding: 0 1.25rem;
     }
 
+    .wrap-narrow {
+      max-width: 48rem;
+      margin: 0 auto;
+      padding: 0 1.25rem;
+    }
+
     h1, h2, h3 {
       font-family: var(--display);
       line-height: 1.05;
-      letter-spacing: -0.02em;
+      letter-spacing: -0.025em;
       font-weight: 800;
+      text-wrap: balance;
     }
 
-    /* ---------- Hero ---------- */
-    .hero {
-      padding: clamp(4rem, 12vh, 8rem) 0 clamp(3rem, 8vh, 6rem);
-      position: relative;
-      overflow: hidden;
+    .visually-hidden {
+      position: absolute; width: 1px; height: 1px; overflow: hidden;
+      clip: rect(0 0 0 0); white-space: nowrap;
     }
 
-    .eyebrow {
-      display: inline-block;
-      font-size: 0.8125rem;
-      font-weight: 600;
-      text-transform: uppercase;
-      letter-spacing: 0.14em;
-      color: var(--accent-deep);
-      border: 1.5px solid var(--accent);
-      border-radius: 999px;
-      padding: 0.35rem 0.9rem;
-      margin-bottom: 1.5rem;
-    }
-
-    .hero h1 {
-      font-size: clamp(3.5rem, 14vw, 9rem);
-      text-transform: uppercase;
-      color: var(--ink);
-    }
-
-    .hero h1 .spark { color: var(--accent); }
-
-    .tagline {
-      font-family: var(--display);
-      font-weight: 600;
-      font-size: clamp(1.25rem, 3.5vw, 1.75rem);
-      margin-top: 1.25rem;
-      max-width: 32ch;
-      line-height: 1.3;
-    }
-
-    .hero .intro {
-      margin-top: 1.25rem;
-      max-width: 56ch;
-      color: #3c362e;
-    }
-
-    .listen-row {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.75rem;
-      margin-top: 2rem;
-    }
-
+    /* ---------- Buttons ---------- */
     .btn {
       display: inline-flex;
       align-items: center;
+      justify-content: center;
       gap: 0.5rem;
       font-family: var(--display);
       font-weight: 700;
       font-size: 1rem;
-      text-decoration: none;
-      padding: 0.85rem 1.5rem;
-      border-radius: 999px;
-      transition: transform 0.15s ease, box-shadow 0.15s ease;
-    }
-
-    .btn-primary {
-      background: var(--ink);
-      color: var(--paper);
-      border: 2px solid var(--ink);
-    }
-
-    .btn-secondary {
-      background: transparent;
-      color: var(--ink);
-      border: 2px solid var(--ink);
-    }
-
-    .btn:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 6px 0 var(--accent);
-    }
-
-    .btn:active { transform: translateY(0); box-shadow: 0 2px 0 var(--accent); }
-
-    .cadence {
-      margin-top: 1rem;
-      font-size: 0.9375rem;
-      color: #5c5346;
-    }
-
-    .hero-grid {
-      display: grid;
-      grid-template-columns: minmax(0, 1fr);
-      gap: 3rem;
-    }
-
-    .cover-art {
-      width: 100%;
-      max-width: 24rem;
-    }
-
-    .cover-art img {
-      display: block;
-      width: 100%;
-      height: auto;
-      aspect-ratio: 1 / 1;
-      border-radius: 1rem;
-      border: 1.5px solid var(--line);
-      box-shadow: 10px 10px 0 var(--accent);
-    }
-
-    @media (min-width: 900px) {
-      .hero-grid {
-        grid-template-columns: minmax(0, 1fr) minmax(0, 24rem);
-        align-items: center;
-      }
-
-      .hero h1 { font-size: clamp(3.5rem, 8.5vw, 7.5rem); }
-    }
-
-    /* ---------- Sections ---------- */
-    section { padding: clamp(3.5rem, 9vh, 6.5rem) 0; }
-
-    .section-head {
-      margin-bottom: 2.5rem;
-    }
-
-    .section-head h2 {
-      font-size: clamp(2rem, 6vw, 3.25rem);
-      text-transform: uppercase;
-    }
-
-    .section-head .kicker {
-      font-size: 0.8125rem;
-      font-weight: 600;
-      text-transform: uppercase;
-      letter-spacing: 0.14em;
-      color: var(--accent-deep);
-      display: block;
-      margin-bottom: 0.75rem;
-    }
-
-    /* ---------- Pipeline ---------- */
-    .pipeline {
-      background: var(--ink);
-      color: var(--paper);
-    }
-
-    .pipeline .section-head h2 { color: var(--paper); }
-    .pipeline .section-head .kicker { color: var(--accent); }
-
-    .steps {
-      display: grid;
-      grid-template-columns: 1fr;
-      gap: 2.5rem;
-      list-style: none;
-      counter-reset: step;
-    }
-
-    .step {
-      position: relative;
-      background: #211d17;
-      border: 1px solid #3a342b;
-      border-radius: 1rem;
-      padding: 1.75rem 1.5rem 1.5rem;
-      opacity: 1;
-    }
-
-    .step .num {
-      font-family: var(--display);
-      font-weight: 800;
-      font-size: 2.75rem;
       line-height: 1;
-      color: var(--accent);
-      display: block;
-      margin-bottom: 0.75rem;
+      text-decoration: none;
+      padding: 0.95rem 1.5rem;
+      border-radius: 999px;
+      border: 2px solid var(--ink);
+      cursor: pointer;
+      transition: transform 0.15s ease, box-shadow 0.15s ease, background 0.15s ease;
     }
 
-    .step h3 {
-      font-size: 1.375rem;
-      margin-bottom: 0.6rem;
-      color: var(--paper);
+    .btn-primary { background: var(--ink); color: var(--paper); }
+    .btn-secondary { background: transparent; color: var(--ink); }
+    .btn-accent { background: var(--accent); color: #fff; border-color: var(--accent); }
+
+    .btn:hover { transform: translateY(-2px); box-shadow: 0 6px 0 var(--accent); }
+    .btn-accent:hover { box-shadow: 0 6px 0 var(--ink); }
+    .btn:active { transform: translateY(0); box-shadow: 0 2px 0 var(--accent); }
+    .btn[disabled] { opacity: 0.55; cursor: progress; transform: none; box-shadow: none; }
+
+    .btn-sm { font-size: 0.9375rem; padding: 0.7rem 1.1rem; }
+
+    /* ---------- Nav ---------- */
+    .nav-shell {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 20;
+      padding: 0.9rem 1rem 0;
+      pointer-events: none;
     }
 
-    .step p {
-      font-size: 0.9875rem;
-      color: #c9c2b4;
+    .nav {
+      pointer-events: auto;
+      position: relative;
+      isolation: isolate;
+      max-width: var(--max);
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      padding: 0.85rem 1.1rem;
+      border-radius: 999px;
+      background:
+        linear-gradient(120deg, rgba(255, 252, 245, 0.62) 0%, rgba(255, 252, 245, 0.34) 55%, rgba(255, 252, 245, 0.48) 100%);
+      -webkit-backdrop-filter: blur(26px) saturate(190%) brightness(1.04);
+      backdrop-filter: blur(26px) saturate(190%) brightness(1.04);
+      box-shadow:
+        inset 0 1px 0 rgba(255, 255, 255, 0.85),
+        inset 0 -1px 0 rgba(22, 19, 15, 0.05),
+        inset 1px 0 0 rgba(255, 255, 255, 0.35),
+        0 1px 1px rgba(22, 19, 15, 0.04),
+        0 14px 36px -18px rgba(22, 19, 15, 0.38);
     }
 
-    .step .detail {
-      margin-top: 0.75rem;
-      font-size: 0.875rem;
-      color: #948b7a;
-      font-style: italic;
-    }
-
-    /* connector: vertical line between stacked cards */
-    .step + .step::before {
+    /* refractive edge: a gradient border masked to the ring */
+    .nav::before {
       content: "";
       position: absolute;
-      top: -2.5rem;
-      left: 2.6rem;
-      width: 3px;
-      height: 2.5rem;
-      background: var(--accent);
+      inset: 0;
+      border-radius: inherit;
+      padding: 1px;
+      background: linear-gradient(
+        135deg,
+        rgba(255, 255, 255, 0.95) 0%,
+        rgba(255, 255, 255, 0.25) 30%,
+        rgba(22, 19, 15, 0.10) 55%,
+        rgba(255, 255, 255, 0.55) 100%
+      );
+      -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+      mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+      -webkit-mask-composite: xor;
+      mask-composite: exclude;
+      pointer-events: none;
+      z-index: -1;
     }
 
-    @media (min-width: 760px) {
-      .steps {
-        grid-template-columns: repeat(4, 1fr);
-        gap: 2rem;
-      }
-
-      /* connector: horizontal arrow between side-by-side cards */
-      .step + .step::before {
-        top: 50%;
-        left: -2rem;
-        width: 2rem;
-        height: 3px;
-        transform: translateY(-50%);
-      }
-
-      .step + .step::after {
-        content: "";
-        position: absolute;
-        top: 50%;
-        left: -0.55rem;
-        transform: translateY(-50%) rotate(45deg);
-        width: 0.55rem;
-        height: 0.55rem;
-        border-top: 3px solid var(--accent);
-        border-right: 3px solid var(--accent);
-      }
+    /* specular highlight sweeping across the top of the pill */
+    .nav::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      border-radius: inherit;
+      background:
+        radial-gradient(120% 90% at 18% -20%, rgba(255, 255, 255, 0.75) 0%, rgba(255, 255, 255, 0.0) 55%),
+        radial-gradient(60% 60% at 90% 120%, rgba(255, 61, 0, 0.10) 0%, rgba(255, 61, 0, 0) 60%);
+      pointer-events: none;
+      z-index: -1;
     }
 
-    .step { transition: transform 0.2s ease, border-color 0.2s ease; }
-
-    .step:hover {
-      transform: translateY(-4px);
-      border-color: var(--accent);
+    @supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+      .nav { background: rgba(255, 252, 245, 0.94); }
     }
 
-    /* entrance animation, applied only when JS + motion allowed */
-    .anim .step {
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 0;
+      text-decoration: none;
+      color: var(--ink);
+      font-family: var(--display);
+      font-weight: 800;
+      font-size: 1.25rem;
+      letter-spacing: -0.02em;
+      text-transform: uppercase;
+      white-space: nowrap;
+    }
+
+    .brand .spark { color: var(--accent); }
+
+    .tag {
+      display: inline-block;
+      font-family: var(--body);
+      font-size: 0.6875rem;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      background: var(--ink);
+      color: var(--paper);
+      padding: 0.3rem 0.55rem;
+      border-radius: 0.35rem;
+      line-height: 1;
+    }
+
+    .tag { white-space: nowrap; }
+    .btn { white-space: nowrap; }
+
+    .tag-accent { background: var(--accent); color: #fff; }
+    .tag-outline { background: transparent; color: var(--accent-deep); border: 1.5px solid var(--accent); }
+
+    .nav-links {
+      display: flex;
+      flex: 1;
+      justify-content: flex-end;
+      gap: 1rem;
+      list-style: none;
+      padding-right: 0.25rem;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color: var(--ink-mute);
+      font-size: 0.875rem;
+      font-weight: 500;
+      transition: color 0.15s ease;
+    }
+
+    .nav-links a:hover { color: var(--ink); }
+
+    .nav .btn { margin-left: auto; }
+
+    @media (max-width: 480px) {
+      .nav { padding: 0.75rem 0.9rem; gap: 0.6rem; }
+      .brand { font-size: 1.1rem; }
+      .nav-links { gap: 0.75rem; padding-right: 0; }
+      .nav-links a { font-size: 0.8125rem; }
+    }
+
+    @media (min-width: 860px) {
+      .nav-links { gap: 1.75rem; padding-right: 0.5rem; }
+      .nav-links a { font-size: 0.9375rem; }
+    }
+
+    /* ---------- Hero ---------- */
+    .hero { text-align: center; }
+
+    /* site-wide animated backdrop: above section backgrounds, below content */
+    .site-bg {
+      position: fixed;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+      pointer-events: none;
+    }
+
+    .snap > .wrap,
+    footer > .wrap { position: relative; z-index: 2; }
+
+    .hero h1 {
+      font-size: clamp(2.6rem, 7.6vw, 5rem);
+      max-width: 30ch;
+      margin: 0 auto;
+    }
+
+    .rotator {
+      display: grid;
+      justify-items: center;
+      text-align: center;
+      color: var(--accent);
+      width: 100%;
+    }
+
+    .rotator > span {
+      grid-area: 1 / 1;
+      white-space: nowrap;
       opacity: 0;
-      transform: translateY(1.25rem);
-      transition: opacity 0.5s ease, transform 0.5s ease, border-color 0.2s ease;
+      transform: translateY(0.45em);
+      transition: opacity 0.45s ease, transform 0.45s ease;
     }
 
-    .anim .step.in {
+    .rotator > span.on {
       opacity: 1;
       transform: translateY(0);
     }
 
-    .anim .step.in:hover { transform: translateY(-4px); }
+    .rotator > span.off {
+      opacity: 0;
+      transform: translateY(-0.45em);
+    }
 
-    /* ---------- Why enriched ---------- */
-    .enriched .compare {
+    .hero .lede {
+      margin: 1.5rem auto 0;
+      font-family: var(--display);
+      font-weight: 600;
+      font-size: clamp(1.5rem, 3.4vw, 2.25rem);
+      line-height: 1.2;
+      letter-spacing: -0.015em;
+      color: var(--ink);
+      text-align: center;
+      max-width: 34ch;
+      text-wrap: balance;
+    }
+
+    .cta-row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0.75rem;
+      margin-top: 2rem;
+    }
+
+    .hero .fine {
+      margin-top: 1rem;
+      font-size: 0.9375rem;
+      color: var(--ink-mute);
+    }
+
+    /* ---------- Sample item (the product shot) ---------- */
+    .shot { }
+
+    .shot-frame {
+      background: var(--paper-dim);
+      border-radius: var(--radius-xl);
+      padding: clamp(1rem, 3vw, 2.5rem);
+    }
+
+    .shot-label {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.5rem 1rem;
+      margin-bottom: 1rem;
+      font-size: 0.8125rem;
+      font-weight: 500;
+      color: var(--ink-mute);
+      letter-spacing: 0.02em;
+    }
+
+    .issue {
+      background: var(--paper);
+      border: 1.5px solid var(--line);
+      border-radius: var(--radius-lg);
+      box-shadow: 0 30px 60px -40px rgba(22, 19, 15, 0.45);
+      overflow: hidden;
+    }
+
+    .issue-head {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.5rem 1rem;
+      padding: 1rem 1.5rem;
+      border-bottom: 1.5px solid var(--line);
+      font-size: 0.8125rem;
+      color: var(--ink-mute);
+    }
+
+    .issue-head .brandline {
+      font-family: var(--display);
+      font-weight: 800;
+      color: var(--ink);
+      text-transform: uppercase;
+      letter-spacing: -0.01em;
+      font-size: 0.9375rem;
+    }
+
+    .issue-head .brandline .spark { color: var(--accent); }
+
+    .issue-body { padding: clamp(1.25rem, 3vw, 2rem) clamp(1.25rem, 3vw, 2rem) 1.5rem; }
+
+    .issue-body .item-no {
+      font-family: var(--display);
+      font-weight: 800;
+      color: var(--accent);
+      font-size: 0.9375rem;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      margin-bottom: 0.5rem;
+    }
+
+    .issue-body h3 {
+      font-size: clamp(1.35rem, 2.6vw, 1.85rem);
+      text-align: left;
+      margin-bottom: 1.5rem;
+    }
+
+    .blocks {
       display: grid;
       grid-template-columns: 1fr;
       gap: 1rem;
-      margin: 2rem 0;
+      text-align: left;
+    }
+
+    .block {
+      border-top: 2px solid var(--ink);
+      padding-top: 0.85rem;
+    }
+
+    .block.action {
+      border-top-color: var(--accent);
+      background: var(--accent-tint);
+      padding: 0.85rem 1rem 1rem;
+      border-radius: 0 0 var(--radius-md) var(--radius-md);
+    }
+
+    .block .k {
+      display: block;
+      font-family: var(--display);
+      font-weight: 700;
+      font-size: 0.875rem;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      margin-bottom: 0.45rem;
+    }
+
+    .block.action .k { color: var(--accent-deep); }
+
+    .block p { font-size: 0.9375rem; color: var(--ink-soft); }
+
+    .sources {
+      margin-top: 1.5rem;
+      padding-top: 1rem;
+      border-top: 1.5px solid var(--line);
+      font-size: 0.8125rem;
+      color: var(--ink-mute);
+      text-align: left;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.35rem 1rem;
+    }
+
+    .sources a { color: var(--accent-deep); text-decoration-thickness: 1px; text-underline-offset: 2px; }
+
+    @media (min-width: 760px) {
+      .blocks { grid-template-columns: 1fr 1fr 1fr; gap: 1.5rem; }
+      .block.action { border-radius: 0 0 var(--radius-md) var(--radius-md); }
+    }
+
+    /* ---------- Sections ---------- */
+    section.snap { padding: 5.25rem 0 2rem; }
+
+    .section-head {
+      text-align: center;
+      margin-bottom: clamp(1.5rem, 4vh, 2.5rem);
+    }
+
+
+    .section-head h2 {
+      font-size: clamp(2rem, 5.5vw, 3.5rem);
+      max-width: 34ch;
+      margin: 0 auto;
+    }
+
+    .section-head p {
+      margin: 1rem auto 0;
+      max-width: 52ch;
+      color: var(--ink-soft);
+      text-wrap: pretty;
+    }
+
+    /* tiles, the idle-style feature grid */
+    .tiles {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1rem;
+      list-style: none;
+    }
+
+    .tile {
+      background: var(--paper-dim);
+      border-radius: var(--radius-xl);
+      padding: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      transition: transform 0.2s ease, background 0.2s ease;
+    }
+
+    .tile:hover { transform: translateY(-3px); }
+
+    .tile .glyph {
+      font-family: var(--display);
+      font-weight: 800;
+      font-size: 2.5rem;
+      line-height: 1;
+      color: var(--accent);
+      margin-bottom: 0.75rem;
+      letter-spacing: -0.03em;
+    }
+
+    .tile h3 { font-size: 1.25rem; }
+    .tile p { font-size: 0.9375rem; color: var(--ink-soft); }
+
+    .tile .tag { align-self: flex-start; margin-bottom: 0.25rem; }
+
+    @media (min-width: 640px) {
+      .tiles { grid-template-columns: 1fr 1fr; gap: 1.25rem; }
+      .tiles.three { grid-template-columns: repeat(3, 1fr); }
+    }
+
+    @media (min-width: 960px) {
+      .tiles.five { grid-template-columns: repeat(6, 1fr); }
+      .tiles.five .tile { grid-column: span 2; }
+      .tiles.five .tile:nth-child(4) { grid-column: 2 / span 2; }
+      .tiles.five .tile:nth-child(5) { grid-column: 4 / span 2; }
+    }
+
+    /* ---------- Format strip ---------- */
+    .format-note {
+      margin-top: 1.25rem;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0.5rem 0.75rem;
+    }
+
+    .chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      font-size: 0.875rem;
+      font-weight: 500;
+      color: var(--ink);
+      background: var(--paper);
+      border: 1.5px solid var(--line);
+      border-radius: 999px;
+      padding: 0.4rem 0.85rem;
+    }
+
+    .chip::before {
+      content: "";
+      width: 0.45rem;
+      height: 0.45rem;
+      border-radius: 50%;
+      background: var(--accent);
+    }
+
+    /* ---------- Who ---------- */
+    .who {
+      background: var(--ink);
+      color: var(--paper);
+    }
+
+    .who .section-head h2 { color: var(--accent); }
+    .who .section-head p { color: #c9c2b4; }
+
+    .roles {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1rem;
+      list-style: none;
+    }
+
+    .role {
+      border: 1px solid #3a342b;
+      background: #211d17;
+      border-radius: var(--radius-lg);
+      padding: 1.5rem;
+    }
+
+    .role h3 { color: var(--paper); font-size: 1.2rem; margin-bottom: 0.4rem; }
+    .role p { color: #c9c2b4; font-size: 0.9375rem; }
+
+
+    @media (min-width: 760px) {
+      .roles { grid-template-columns: repeat(3, 1fr); }
+    }
+
+    /* ---------- Audio ---------- */
+    .audio .panel {
+      background: var(--paper-dim);
+      border-radius: var(--radius-xl);
+      padding: clamp(1.5rem, 4vw, 3rem);
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 2rem;
+      align-items: center;
+    }
+
+    .audio .cover {
+      width: min(18rem, 100%);
+      margin: 0 auto;
+    }
+
+    .audio .cover img {
+      width: 100%;
+      aspect-ratio: 1 / 1;
+      border-radius: var(--radius-lg);
+      border: 1.5px solid var(--line);
+      box-shadow: 10px 10px 0 var(--accent);
+    }
+
+    .audio .copy h2 { font-size: clamp(1.75rem, 4vw, 2.5rem); margin-bottom: 0.85rem; }
+    .audio .copy p { color: var(--ink-soft); max-width: 46ch; text-wrap: pretty; }
+    .audio .copy .cta-row { justify-content: flex-start; margin-top: 1.5rem; }
+    .audio .copy .fine { margin-top: 0.85rem; font-size: 0.875rem; color: var(--ink-mute); }
+
+    @media (min-width: 820px) {
+      .audio .panel { grid-template-columns: 18rem minmax(0, 1fr); gap: 3rem; }
+      .audio .cover { margin: 0; }
+    }
+
+    /* ---------- Offer + form ---------- */
+    .offer {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1.25rem;
+    }
+
+    .price-card {
+      background: var(--ink);
+      color: var(--paper);
+      border-radius: var(--radius-xl);
+      padding: clamp(1.5rem, 3vw, 2rem);
+      display: flex;
+      flex-direction: column;
+      gap: 0.85rem;
+    }
+
+    .price-card .tag-accent { align-self: flex-start; }
+
+    .price {
+      font-family: var(--display);
+      font-weight: 800;
+      font-size: clamp(2.75rem, 6vw, 3.5rem);
+      line-height: 1;
+      letter-spacing: -0.03em;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .price .cur {
+      font-family: var(--body);
+      font-weight: 600;
+      font-size: 0.95rem;
+      letter-spacing: 0.08em;
+      margin-left: 0.4rem;
+      vertical-align: 0.35em;
+      opacity: 0.85;
+    }
+
+    .price small {
+      display: block;
+      font-family: var(--body);
+      font-weight: 700;
+      font-size: 1rem;
+      letter-spacing: 0;
+      color: #e6dfd0;
+      margin-top: 0.5rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .price-card ul {
+      list-style: none;
+      display: grid;
+      align-content: start;
+      gap: 0.85rem;
+      font-size: 1rem;
+      line-height: 1.5;
+      color: #e6dfd0;
+    }
+
+    .price-card li {
+      display: flex;
+      gap: 0.6rem;
+      align-items: flex-start;
+    }
+
+    .price-card li::before {
+      content: "*";
+      color: var(--accent);
+      font-family: var(--display);
+      font-weight: 800;
+      font-size: 1.25rem;
+      line-height: 1;
+      flex: none;
+    }
+
+    .price-card.pro {
+      background: #fff;
+      color: var(--ink);
+      border: 2px solid var(--accent);
+    }
+    .price-card.pro .tag-accent { background: var(--accent); color: #fff; }
+    .price-card.pro li::before { color: var(--accent); }
+    .price-card.pro ul { color: var(--ink-soft); }
+    .price-card.pro .price small { color: var(--ink); }
+
+    .form-card {
+      background: var(--paper-dim);
+      border-radius: var(--radius-xl);
+      padding: clamp(1.5rem, 3vw, 2rem);
+    }
+
+    .form-card h3 { font-size: 1.4rem; margin-bottom: 0.9rem; }
+    .form-card > p { color: var(--ink-soft); font-size: 0.9375rem; margin-bottom: 1rem; max-width: 42ch; }
+
+    .fields { display: grid; grid-template-columns: 1fr; gap: 0.75rem; }
+
+    .field { display: flex; flex-direction: column; gap: 0.3rem; }
+
+    .field label {
+      font-size: 0.8125rem;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: var(--ink-mute);
+    }
+
+    .field input,
+    .field select {
+      font: inherit;
+      font-size: 1rem;
+      color: var(--ink);
+      background: var(--paper);
+      border: 1.5px solid var(--line);
+      border-radius: var(--radius-md);
+      padding: 0.65rem 0.95rem;
+      min-height: 2.75rem;
+      width: 100%;
+    }
+
+    .field select {
+      appearance: none;
+      -webkit-appearance: none;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='9' viewBox='0 0 14 9'%3E%3Cpath d='M1 1l6 6 6-6' fill='none' stroke='%2316130f' stroke-width='2'/%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: right 1rem center;
+      padding-right: 2.5rem;
+    }
+
+    .field input:focus,
+    .field select:focus { border-color: var(--ink); outline: none; }
+
+    .field input:focus-visible,
+    .field select:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+
+    .field input:user-invalid { border-color: var(--accent-deep); }
+
+    .form-actions {
+      margin-top: 1rem;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 0.75rem 1rem;
+    }
+
+    .form-actions .fine { font-size: 0.8125rem; color: var(--ink-mute); }
+
+    .form-msg {
+      margin-top: 1rem;
+      padding: 0.85rem 1rem;
+      border-radius: var(--radius-md);
+      font-size: 0.9375rem;
+      display: none;
+    }
+
+    .form-msg.ok { display: block; background: var(--accent-tint); border: 1.5px solid var(--accent); color: var(--ink); }
+    .form-msg.err { display: block; background: var(--paper); border: 1.5px solid var(--accent-deep); color: var(--ink); }
+
+    @media (min-width: 640px) {
+      .fields { grid-template-columns: 1fr 1fr; }
+      .fields .span { grid-column: 1 / -1; }
     }
 
     @media (min-width: 640px) {
-      .enriched .compare { grid-template-columns: 1fr 1fr; }
+      .offer { grid-template-columns: 1fr 1fr; }
+      .offer .form-card { grid-column: 1 / -1; }
     }
 
-    .compare .card {
-      border-radius: 1rem;
-      padding: 1.5rem;
-      border: 1.5px solid var(--line);
-      background: var(--paper-dim);
-    }
-
-    .compare .card.rich {
-      border-color: var(--accent);
-      background: #fff2ec;
-    }
-
-    .compare .card h3 {
-      font-size: 1.05rem;
-      margin-bottom: 0.4rem;
-    }
-
-    .compare .card p { font-size: 0.9375rem; color: #4a4337; }
-
-    .compare .card .arrow {
-      font-family: var(--display);
-      font-weight: 800;
-      color: var(--accent-deep);
-      display: block;
-      margin-top: 0.6rem;
-      font-size: 0.9375rem;
-    }
-
-    .enriched .body-copy { max-width: 60ch; }
-
-    /* ---------- Note ---------- */
-    .note {
-      background: var(--paper-dim);
-    }
-
-    .note blockquote {
-      max-width: 58ch;
-      font-family: var(--display);
-      font-weight: 500;
-      font-size: clamp(1.2rem, 3vw, 1.5rem);
-      line-height: 1.45;
-      letter-spacing: -0.01em;
-    }
-
-    .note blockquote .accent-mark { color: var(--accent); }
-
-    .note .sig {
-      margin-top: 1.5rem;
-      font-family: var(--body);
-      font-size: 0.9375rem;
-      font-weight: 600;
-      color: #5c5346;
+    @media (min-width: 1100px) {
+      .offer { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1.35fr); gap: 1.25rem; }
+      .offer .form-card { grid-column: auto; }
+      .offer .fields { grid-template-columns: 1fr; }
+      .offer .fields .span { grid-column: auto; }
     }
 
     /* ---------- Footer ---------- */
@@ -403,7 +853,7 @@
       border-top: 1.5px solid var(--line);
       padding: 2.5rem 0 3rem;
       font-size: 0.9375rem;
-      color: #5c5346;
+      color: var(--ink-mute);
     }
 
     footer .foot-row {
@@ -414,6 +864,17 @@
       align-items: center;
     }
 
+    footer .brand { font-size: 1.1rem; }
+
+    footer nav a { margin-right: 1.25rem; }
+    footer nav a:last-child { margin-right: 0; }
+
+    footer .foot-note {
+      margin-top: 1.25rem;
+      font-size: 0.875rem;
+      max-width: 64ch;
+    }
+
     /* ---------- Motion safety ---------- */
     @media (prefers-reduced-motion: reduce) {
       html { scroll-behavior: auto; }
@@ -421,157 +882,489 @@
         animation: none !important;
         transition: none !important;
       }
-      .anim .step { opacity: 1; transform: none; }
+      .rotator > span { opacity: 0; transform: none; }
+      .rotator > span.on { opacity: 1; }
     }
   </style>
 </head>
 <body>
 
+  <canvas class="site-bg" id="site-bg" aria-hidden="true"></canvas>
+
+  <!-- ================= Nav ================= -->
+  <div class="nav-shell">
+    <nav class="nav" aria-label="Primary">
+      <a class="brand" href="#top" aria-label="Manic AI, home">Manic<span class="spark" aria-hidden="true">*</span>AI</a>
+      <ul class="nav-links">
+        <li><a href="#format">Digest</a></li>
+        <li><a href="#pillars">Content</a></li>
+        <li><a href="#audio">Podcast</a></li>
+        <li><a href="#offer">Pricing</a></li>
+      </ul>
+    </nav>
+  </div>
+
   <!-- ================= Hero ================= -->
-  <header class="hero">
-    <div class="wrap hero-grid">
-      <div class="hero-text">
-      <span class="eyebrow">A self-running AI briefing</span>
-      <h1>Manic<span class="spark">*</span><br>AI</h1>
-      <p class="tagline">The week in AI, gathered and written by a routine.</p>
-      <p class="intro">
-        Twice a week, a scheduled routine reads the past several days of AI news,
-        picks the stories with real substance, and writes them into a rich briefing.
-        Claude turns that briefing into a two-host script, and ElevenLabs gives the hosts their voices.
-      </p>
-      <div class="listen-row">
-        <a class="btn btn-primary" href="https://open.spotify.com/show/033FhHakKuEYXWZg6WkTGW?si=668fe2f056f24698">Listen on Spotify</a>
-        <a class="btn btn-secondary" href="https://podcasts.apple.com/ca/podcast/manic-ai/id6784824356">Listen on Apple Podcasts</a>
+  <header class="hero snap" id="top">
+    <div class="wrap">
+      <h1>
+        What changed in AI for your
+        <span class="rotator" id="rotator" aria-live="off">
+          <span class="on">GTM stack</span>
+          <span>Salesforce org</span>
+          <span>HubSpot portal</span>
+          <span>RevOps team</span>
+          <span>CRM data</span>
+        </span>
+        this week.
+      </h1>
+      <p class="lede">The latest AI news, sourced and verified, then turned into a digest and a podcast discussion.</p>
+      <div class="cta-row">
+        <a class="btn btn-primary" href="#sample">Sample digest</a>
       </div>
-      <p class="cadence">New episodes every Monday and Thursday.</p>
-      </div>
-      <figure class="cover-art">
-        <img src="assets/cover-840.jpg"
-             srcset="assets/cover-840.jpg 840w, assets/cover.jpg 2048w"
-             sizes="(min-width: 900px) 24rem, min(24rem, 100vw - 2.5rem)"
-             width="840" height="840"
-             alt="Manic AI podcast cover art">
-      </figure>
     </div>
   </header>
 
-  <!-- ================= Pipeline ================= -->
-  <section class="pipeline" aria-labelledby="how-title">
+  <!-- ================= Sample item ================= -->
+  <section class="shot snap" id="sample" aria-label="Sample item">
     <div class="wrap">
-      <div class="section-head">
-        <span class="kicker">The pipeline</span>
-        <h2 id="how-title">How it works</h2>
+      <div class="shot-frame">
+        <div class="shot-label">
+          <span>Sample item, adapted from the 12 October 2026 Manic AI podcast episode</span>
+          <span>Each issue has three to five of these</span>
+        </div>
+        <article class="issue" aria-label="Sample brief item">
+          <div class="issue-head">
+            <span class="brandline">Manic<span class="spark" aria-hidden="true">*</span>AI for RevOps</span>
+            <span>Week of 12 October 2026</span>
+          </div>
+          <div class="issue-body">
+            <p class="item-no">Item 1 of 4</p>
+            <h3>Microsoft and Google both want to be the agent your reps live in. The CRM becomes the database it writes to.</h3>
+            <div class="blocks">
+              <div class="block">
+                <span class="k">What changed</span>
+                <p>On 8 October Microsoft began rolling 30 Dynamics 365 sales and service skills into Copilot: spot opportunities and risks, update CRM data, resolve service issues. The same week Google launched a single Gemini agent with persistent coworker identities, Salesforce connectors, an Agent Gateway and per-project spend caps.</p>
+              </div>
+              <div class="block">
+                <span class="k">Why it matters for your stack</span>
+                <p>Both vendors are pitching the agent as the place work starts. If reps live in Autopilot or Gemini, the CRM is a database the agent writes to. Picking one is a multi-year lock-in decision dressed up as a feature rollout.</p>
+              </div>
+              <div class="block action">
+                <span class="k">What to do this week</span>
+                <p>Sort your CRM write actions into one-way doors (email a prospect, change a stage, delete a record) and two-way doors. Before turning on the Dynamics or Gemini skills, confirm every agent action is logged under the agent's own identity rather than the rep's.</p>
+              </div>
+            </div>
+            <div class="sources">
+              <span>Sources:</span>
+              <a href="https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026">Google Cloud blog</a>
+              <a href="https://mc.merill.net/message/MC1492151">Microsoft 365 message center</a>
+            </div>
+          </div>
+        </article>
       </div>
-      <ol class="steps" id="steps">
-        <li class="step">
-          <span class="num" aria-hidden="true">1</span>
-          <h3>Gather</h3>
-          <p>A scheduled routine scans the week's AI news, from feeds and across the wider web.</p>
-        </li>
-        <li class="step">
-          <span class="num" aria-hidden="true">2</span>
-          <h3>Select</h3>
-          <p>Roughly 12 to 15 stories, variety first. Every item needs real substance.</p>
-          <p class="detail">Headline-only items get enriched or dropped.</p>
-        </li>
-        <li class="step">
-          <span class="num" aria-hidden="true">3</span>
-          <h3>Enrich &amp; write</h3>
-          <p>Each story gets what happened, the context, and why it matters. Plus the threads and open questions that give the episode a spine.</p>
-        </li>
-        <li class="step">
-          <span class="num" aria-hidden="true">4</span>
-          <h3>Script &amp; voice</h3>
-          <p>Claude writes the briefing up as a conversation between two hosts. ElevenLabs voices it as the Manic AI episode.</p>
-        </li>
-      </ol>
     </div>
   </section>
 
-  <!-- ================= Why enriched ================= -->
-  <section class="enriched" aria-labelledby="why-title">
+  <!-- ================= Format ================= -->
+  <section id="format" class="snap" aria-labelledby="format-title">
     <div class="wrap">
       <div class="section-head">
-        <span class="kicker">The theory</span>
-        <h2 id="why-title">Why "enriched"</h2>
+        <h2 id="format-title">A one-pager, and complete podcast episode</h2>
       </div>
-      <p class="body-copy">
-        The conversation is only as good as the briefing behind it.
-        That one observation shapes the whole pipeline.
-      </p>
-      <div class="compare">
-        <div class="card">
-          <h3>Terse roundup in</h3>
-          <p>Headlines and one-liners.</p>
-          <span class="arrow">&rarr; generic banter out</span>
-        </div>
-        <div class="card rich">
-          <h3>Rich briefing in</h3>
-          <p>Context, specifics, tension, open questions.</p>
-          <span class="arrow">&rarr; an engaging conversation out</span>
-        </div>
+      <ul class="tiles three">
+        <li class="tile">
+          <span class="glyph" aria-hidden="true">01</span>
+          <h3>What changed</h3>
+          <p>The release, pricing change or policy move, stated plainly and dated. Linked to the primary source.</p>
+        </li>
+        <li class="tile">
+          <span class="glyph" aria-hidden="true">02</span>
+          <h3>Why it matters for your stack</h3>
+          <p>The read for a Salesforce or HubSpot team. What it touches, who it locks you into, and where the bull and bear cases land.</p>
+        </li>
+        <li class="tile">
+          <span class="glyph" aria-hidden="true">03</span>
+          <h3>What to do this week</h3>
+          <p>One action sized for one week. Sometimes a policy to write. Sometimes a setting to check, or a question to put to a vendor before renewal.</p>
+        </li>
+      </ul>
+      <div class="format-note" aria-label="Format details">
+        <span class="chip">Weekly</span>
+        <span class="chip">3 to 5 items</span>
+        <span class="chip">Every claim linked</span>
+        <span class="chip">Audio companion included</span>
       </div>
-      <p class="body-copy">
-        So the routine optimizes for depth and raw material.
-        Concision and delivery belong to the script and the voices.
-      </p>
     </div>
   </section>
 
-  <!-- ================= Note from me ================= -->
-  <section class="note" aria-labelledby="note-title">
+  <!-- ================= Pillars ================= -->
+  <section id="pillars" class="snap" aria-labelledby="pillars-title">
     <div class="wrap">
       <div class="section-head">
-        <span class="kicker">A note from me</span>
-        <h2 id="note-title" class="visually-hidden" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);">A note from me</h2>
+        <h2 id="pillars-title">A deep-dive into what's changing under your stack</h2>
       </div>
-      <blockquote>
-        This is a personal experiment. I wanted to see what happens when a routine does
-        the gathering and the writing, so I can spend my attention on
-        <span class="accent-mark">listening and thinking</span> instead of doom-scrolling AI news.
-        So far, it works better than I expected. I keep tinkering anyway.
-      </blockquote>
-      <p class="sig">Colin Moroney</p>
+      <ul class="tiles five">
+        <li class="tile">
+          <span class="glyph" aria-hidden="true">*</span>
+          <h3>Vendor AI releases</h3>
+          <p>Salesforce, HubSpot, Gong, Clari, Outreach and the rest. What actually shipped, which edition gets it, and what it costs.</p>
+        </li>
+        <li class="tile">
+          <span class="glyph" aria-hidden="true">*</span>
+          <h3>Governance and permissions</h3>
+          <p>What agents can read, write and delete in your CRM, under whose identity, and how you would find out.</p>
+        </li>
+        <li class="tile">
+          <span class="glyph" aria-hidden="true">*</span>
+          <h3>AI pricing and licensing</h3>
+          <p>Credits, consumption meters, seat bundling and the renewal clauses that quietly change what you pay.</p>
+        </li>
+        <li class="tile">
+          <span class="glyph" aria-hidden="true">*</span>
+          <h3>Build versus buy</h3>
+          <p>When a week with an agent beats a vendor module, and when it leaves you owning something nobody wants to maintain.</p>
+        </li>
+        <li class="tile">
+          <span class="glyph" aria-hidden="true">*</span>
+          <h3>Regulation that touches CRM data</h3>
+          <p>Privacy, consent and AI rules as they land on contact records, call recordings and enrichment pipelines.</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ================= Who ================= -->
+  <section class="who snap" aria-labelledby="who-title">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 id="who-title">For the RevOps leaders and ICs who get asked about AI everyday</h2>
+      </div>
+      <ul class="roles">
+        <li class="role">
+          <h3>RevOps leaders</h3>
+          <p>You own the process and the numbers. You need to know which AI changes improve pipeline hygiene and which ones only move the invoice.</p>
+        </li>
+        <li class="role">
+          <h3>Business Systems</h3>
+          <p>You own the admin console, the integrations and the permission model. Agents are about to write to all three.</p>
+        </li>
+        <li class="role">
+          <h3>GTM Systems</h3>
+          <p>You sit between sales, marketing and the tools. Build-versus-buy lands on your desk first.</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ================= Audio ================= -->
+  <section class="audio snap" id="audio" aria-labelledby="audio-title">
+    <div class="wrap">
+      <div class="panel">
+        <figure class="cover">
+          <img src="assets/cover-840.jpg"
+               srcset="assets/cover-840.jpg 840w, assets/cover.jpg 2048w"
+               sizes="(min-width: 820px) 18rem, min(18rem, 100vw - 5rem)"
+               width="840" height="840"
+               alt="Manic AI podcast cover art">
+        </figure>
+        <div class="copy">
+          <h2 id="audio-title">Read it at your desk. Hear it on the way in.</h2>
+          <p>Every issue also ships as a short two-host episode for subscribers. The public Manic AI show covers the whole week in AI, with new episodes every Monday and Thursday.</p>
+          <div class="cta-row">
+            <a class="btn btn-primary btn-sm" href="https://open.spotify.com/show/033FhHakKuEYXWZg6WkTGW?si=668fe2f056f24698">Listen on Spotify</a>
+            <a class="btn btn-secondary btn-sm" href="https://podcasts.apple.com/ca/podcast/manic-ai/id6784824356">Apple Podcasts</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= Offer ================= -->
+  <section id="offer" class="snap" aria-labelledby="offer-title">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 id="offer-title">Choose your plan or try for free</h2>
+      </div>
+      <div class="offer">
+        <div class="price-card">
+          <span class="tag tag-accent">Basic</span>
+          <p class="price">$99<span class="cur">USD</span><small>per team, per month</small></p>
+          <ul>
+            <li>One weekly written brief, shared with your whole team</li>
+            <li>Audio companion for every issue</li>
+            <li>Standard AI voices and characters</li>
+            <li>Annual pricing on request</li>
+          </ul>
+        </div>
+
+        <div class="price-card pro">
+          <span class="tag tag-accent">Pro</span>
+          <p class="price">$149<span class="cur">USD</span><small>per team, per month</small></p>
+          <ul>
+            <li>Everything in Basic</li>
+            <li>Customisable AI voices and characters</li>
+            <li>Branded digest for your team</li>
+            <li>Longer audio episodes</li>
+            <li>Annual pricing on request</li>
+          </ul>
+        </div>
+
+        <div class="form-card">
+          <h3>Get a sample issue</h3>
+          <form name="founding-teams" method="POST" action="/" data-netlify="true" netlify-honeypot="bot-field" id="founding-form" novalidate>
+            <input type="hidden" name="form-name" value="founding-teams">
+            <p class="visually-hidden" aria-hidden="true">
+              <label>Leave this field empty <input name="bot-field" tabindex="-1" autocomplete="off"></label>
+            </p>
+            <div class="fields">
+              <div class="field">
+                <label for="f-name">Name</label>
+                <input id="f-name" name="name" type="text" autocomplete="name" required>
+              </div>
+              <div class="field">
+                <label for="f-email">Work email</label>
+                <input id="f-email" name="email" type="email" autocomplete="email" inputmode="email" required>
+              </div>
+              <div class="field">
+                <label for="f-company">Company</label>
+                <input id="f-company" name="company" type="text" autocomplete="organization" required>
+              </div>
+              <div class="field">
+                <label for="f-role">Your role</label>
+                <select id="f-role" name="role" required>
+                  <option value="" selected disabled>Choose one</option>
+                  <option>RevOps</option>
+                  <option>Business Systems</option>
+                  <option>GTM Systems</option>
+                  <option>Sales or Marketing Ops</option>
+                  <option>Other</option>
+                </select>
+              </div>
+              <div class="field span">
+                <label for="f-stack">Your CRM</label>
+                <select id="f-stack" name="stack" required>
+                  <option value="" selected disabled>Choose one</option>
+                  <option>Salesforce</option>
+                  <option>HubSpot</option>
+                  <option>Both</option>
+                  <option>Something else</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-actions">
+              <button class="btn btn-accent" type="submit" id="submit-btn">Send me an issue</button>
+            </div>
+            <p class="form-msg" id="form-msg" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
     </div>
   </section>
 
   <!-- ================= Footer ================= -->
   <footer>
-    <div class="wrap foot-row">
-      <p>A personal project by Colin Moroney &middot; <span id="year">2026</span></p>
-      <p>
-        <a href="https://open.spotify.com/show/033FhHakKuEYXWZg6WkTGW?si=668fe2f056f24698">Spotify</a>
-        &nbsp;&middot;&nbsp;
-        <a href="https://podcasts.apple.com/ca/podcast/manic-ai/id6784824356">Apple Podcasts</a>
-        &nbsp;&middot;&nbsp;
-        <a href="https://www.linkedin.com/company/manic-ai/">LinkedIn</a>
-      </p>
+    <div class="wrap">
+      <div class="foot-row">
+        <a class="brand" href="#top">Manic<span class="spark" aria-hidden="true">*</span>AI</a>
+        <nav aria-label="Footer">
+          <a href="https://www.linkedin.com/company/manic-ai/">LinkedIn</a>
+          <a href="https://open.spotify.com/show/033FhHakKuEYXWZg6WkTGW?si=668fe2f056f24698">Spotify</a>
+          <a href="https://podcasts.apple.com/ca/podcast/manic-ai/id6784824356">Apple Podcasts</a>
+          <a href="feed.xml">RSS</a>
+        </nav>
+      </div>
+      <p class="foot-note">&copy; <span id="year">2026</span> Manic AI.</p>
     </div>
   </footer>
 
   <script>
     document.getElementById("year").textContent = new Date().getFullYear();
 
-    // Entrance animation for pipeline steps. Only enabled when motion is allowed
-    // and IntersectionObserver exists; otherwise cards render fully visible.
     var motionOK = !window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-    if (motionOK && "IntersectionObserver" in window) {
-      var steps = document.getElementById("steps");
-      steps.classList.add("anim");
-      var cards = steps.querySelectorAll(".step");
-      var io = new IntersectionObserver(function (entries) {
-        entries.forEach(function (entry) {
-          if (entry.isIntersecting) {
-            var el = entry.target;
-            var i = Array.prototype.indexOf.call(cards, el);
-            el.style.transitionDelay = (i * 0.12) + "s";
-            el.classList.add("in");
-            io.unobserve(el);
-          }
-        });
-      }, { threshold: 0.2 });
-      cards.forEach(function (c) { io.observe(c); });
+
+    // Scroll snap can override the browser's initial jump to a #hash on load.
+    // Re-apply it once the page has settled.
+    if ("scrollRestoration" in history) history.scrollRestoration = "manual";
+    function jumpToHash() {
+      if (!location.hash) return;
+      var target = document.querySelector(location.hash);
+      if (target) target.scrollIntoView({ block: "start", behavior: "instant" });
     }
+    window.addEventListener("load", function () {
+      jumpToHash();
+      setTimeout(jumpToHash, 60);
+      setTimeout(jumpToHash, 400);
+    });
+
+    // Site-wide backdrop: a field of brand asterisks that drifts with the pointer,
+    // turns with scroll, and shifts colour from top to bottom of the page.
+    // Reduced motion: no animation loop, redrawn only when the scroll position changes.
+    (function () {
+      var canvas = document.getElementById("site-bg");
+      if (!canvas || !canvas.getContext) return;
+      var ctx = canvas.getContext("2d");
+      var who = document.querySelector(".who");
+      var W = 0, H = 0, dpr = 1;
+      var mouse = { x: 0, y: 0 }, eased = { x: 0, y: 0 };
+      var t0 = performance.now();
+
+      // colour stops from the top of the page to the bottom
+      var stops = [
+        [255, 61, 0],    // brand orange
+        [255, 40, 120],  // pink
+        [150, 70, 255],  // violet
+        [40, 130, 255]   // blue
+      ];
+
+      function colorAt(f) {
+        f = Math.max(0, Math.min(1, f)) * (stops.length - 1);
+        var i = Math.floor(f), k = f - i;
+        var a = stops[i], b = stops[Math.min(i + 1, stops.length - 1)];
+        return [
+          Math.round(a[0] + (b[0] - a[0]) * k),
+          Math.round(a[1] + (b[1] - a[1]) * k),
+          Math.round(a[2] + (b[2] - a[2]) * k)
+        ];
+      }
+
+      function size() {
+        dpr = Math.min(window.devicePixelRatio || 1, 2);
+        W = window.innerWidth; H = window.innerHeight;
+        canvas.width = Math.round(W * dpr);
+        canvas.height = Math.round(H * dpr);
+        ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+      }
+
+      // six rounded bars, like the logo mark
+      function asterisk(x, y, r, rot, width, color) {
+        ctx.save();
+        ctx.translate(x, y);
+        ctx.rotate(rot);
+        ctx.strokeStyle = color;
+        ctx.lineWidth = width;
+        ctx.lineCap = "round";
+        for (var i = 0; i < 3; i++) {
+          ctx.beginPath();
+          ctx.moveTo(-r, 0);
+          ctx.lineTo(r, 0);
+          ctx.stroke();
+          ctx.rotate(Math.PI / 3);
+        }
+        ctx.restore();
+      }
+
+      function rgba(c, a) { return "rgba(" + c[0] + "," + c[1] + "," + c[2] + "," + a.toFixed(3) + ")"; }
+
+      function draw(now) {
+        var t = (now - t0) / 1000;
+        var sy = window.scrollY || 0;
+        var range = Math.max(document.documentElement.scrollHeight - H, 1);
+        var f = sy / range;                 // 0 at top, 1 at bottom
+        var turn = sy / Math.max(H, 1);     // one viewport scrolled = one unit
+        var c = colorAt(f);
+
+        // marks need more presence over the dark panel
+        var boost = 1;
+        if (who) {
+          var r = who.getBoundingClientRect();
+          var overlap = Math.max(0, Math.min(r.bottom, H) - Math.max(r.top, 0)) / H;
+          boost = 1 + overlap * 1.1;
+        }
+
+        eased.x += (mouse.x - eased.x) * 0.06;
+        eased.y += (mouse.y - eased.y) * 0.06;
+
+        ctx.clearRect(0, 0, W, H);
+
+        // big marks, cropped at the edges like the cover art, drifting with scroll
+        var big = Math.max(W, H);
+        var wob = Math.sin(turn * 1.3);
+        asterisk(
+          W * 0.86 + eased.x * 28 + wob * W * 0.05, H * 0.12 + eased.y * 22 + Math.cos(turn * 0.9) * H * 0.12,
+          big * 0.27, 0.25 + t * 0.03 + turn * 0.7,
+          big * 0.12, rgba(c, 0.13 * boost)
+        );
+        asterisk(
+          W * 0.10 - eased.x * 20 - wob * W * 0.04, H * 0.92 - eased.y * 16 - Math.cos(turn * 1.1) * H * 0.10,
+          big * 0.17, -0.4 - t * 0.02 - turn * 0.55,
+          big * 0.075, rgba(c, 0.10 * boost)
+        );
+
+      }
+
+      size();
+      if (motionOK) {
+        (function loop(now) { draw(now); requestAnimationFrame(loop); })(t0);
+        window.addEventListener("pointermove", function (e) {
+          mouse.x = (e.clientX / window.innerWidth) * 2 - 1;
+          mouse.y = (e.clientY / window.innerHeight) * 2 - 1;
+        }, { passive: true });
+      } else {
+        draw(t0);
+        window.addEventListener("scroll", function () { draw(t0); }, { passive: true });
+      }
+      window.addEventListener("resize", function () { size(); if (!motionOK) draw(t0); });
+    })();
+
+    // Rotating word in the headline. Static on the first word when motion is reduced.
+    (function () {
+      var rot = document.getElementById("rotator");
+      if (!rot || !motionOK) return;
+      var words = rot.querySelectorAll("span");
+      var i = 0;
+      setInterval(function () {
+        var cur = words[i];
+        i = (i + 1) % words.length;
+        var next = words[i];
+        cur.classList.remove("on");
+        cur.classList.add("off");
+        next.classList.remove("off");
+        next.classList.add("on");
+        setTimeout(function () { cur.classList.remove("off"); }, 500);
+      }, 2600);
+    })();
+
+    // Founding-team form: posts to Netlify Forms without leaving the page.
+    // Falls back to a normal POST if fetch is unavailable.
+    (function () {
+      var form = document.getElementById("founding-form");
+      var btn = document.getElementById("submit-btn");
+      var msg = document.getElementById("form-msg");
+      if (!form || !window.fetch) return;
+
+      function show(kind, text) {
+        msg.className = "form-msg " + kind;
+        msg.textContent = text;
+      }
+
+      form.addEventListener("submit", function (e) {
+        e.preventDefault();
+        if (!form.checkValidity()) {
+          form.reportValidity();
+          return;
+        }
+        btn.disabled = true;
+        btn.textContent = "Sending";
+        msg.className = "form-msg";
+
+        var data = new FormData(form);
+        fetch("/", {
+          method: "POST",
+          headers: { "Content-Type": "application/x-www-form-urlencoded" },
+          body: new URLSearchParams(data).toString()
+        }).then(function (r) {
+          if (!r.ok) throw new Error("bad status " + r.status);
+          show("ok", "Thanks. The latest issue is on its way. I will follow up once.");
+          form.reset();
+          btn.textContent = "Sent";
+        }).catch(function () {
+          show("err", "That didn't go through. Try again in a moment, or message Manic AI on LinkedIn and I will send it by hand.");
+          btn.disabled = false;
+          btn.textContent = "Send me an issue";
+        });
+      });
+    })();
   </script>
 </body>
 </html>
