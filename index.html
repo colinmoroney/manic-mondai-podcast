@@ -1362,7 +1362,7 @@
           body: new URLSearchParams(data).toString()
         }).then(function (r) {
           if (!r.ok) throw new Error("bad status " + r.status);
-          show("ok", "Thanks. The latest issue is on its way. I will follow up once.");
+          show("ok", "Thanks. The sample issue is on its way to your inbox.");
           form.reset();
           btn.textContent = "Sent";
         }).catch(function () {
