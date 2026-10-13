@@ -1,54 +1,75 @@
-# Manic AI - public podcast feed
+# Manic AI - public podcast feed and website
 
-This is the **public** home for the Manic AI podcast feed and audio. It exists so podcast apps
-and directories (Apple Podcasts, Spotify) can fetch the feed and episodes anonymously. The source
-briefings are generated privately in `colinmoroney/manic-mondai-project`; only the finished audio +
-feed live here.
+This is the **public** home of the Manic AI podcast: the RSS feed, the show artwork and the
+[thisismanic.ai](https://thisismanic.ai) landing page. Podcast apps and directories fetch the feed
+from here anonymously. The briefings, transcripts and audio rendering live in the private
+`colinmoroney/manic-mondai-project` repo; only the finished feed and site are published here.
 
-**Feed URL (submit this to directories / subscribe by URL):**
+**Feed URL (subscribe by URL, or submit to directories):**
 ```
-https://colinmoroney.github.io/manic-mondai-podcast/feed.xml
+https://thisismanic.ai/feed.xml
 ```
 
-## Adding an episode
+Listen on [Apple Podcasts](https://podcasts.apple.com/ca/podcast/manic-ai/id6784824356) or
+[Spotify](https://open.spotify.com/show/033FhHakKuEYXWZg6WkTGW). New episodes every Monday and Thursday.
 
-After NotebookLM generates the audio overview and you download the `.m4a`, it's a one-liner - the
-**episode title and show notes auto-fill from that week's digest**:
+## How an episode gets made
+
+1. A scheduled routine in the private repo writes `digests/<date>-digest.md` every Monday and Thursday.
+2. Claude turns the digest into a two-host transcript plus episode notes
+   (`podcast/transcripts/<date>-transcript.txt` and `<date>-episode-notes.md`).
+3. `podcast/make_episode.py` voices it with the ElevenLabs Text to Dialogue API and adds the intro/outro
+   music, giving `podcast/episodes/<date>.m4a`.
+4. `add_episode.py` in this repo publishes it (below).
+
+## Publishing an episode
+
+Pull the private repo first, so today's digest and notes are on disk. Then, from this repo:
 
 ```bash
-python3 add_episode.py --file ~/Downloads/Some_NotebookLM_Title.m4a --date 2026-07-06
-git add feed.xml && git commit -m "episode 2026-07-06" && git push
+python3 add_episode.py --file ../manic-mondai-project/podcast/episodes/<date>.m4a --date <date> --dry-run
+python3 add_episode.py --file ../manic-mondai-project/podcast/episodes/<date>.m4a --date <date>
+git add feed.xml && git commit -m "episode <date>" && git push
 ```
 
-What it does automatically:
-- **Uploads the audio to the GitHub Release** tagged `episodes` as `<date>.m4a` (public, CDN-served),
-  and points the feed enclosure there. Audio is NOT committed to the repo, so Pages builds stay tiny.
-- **Title** - from the NotebookLM filename (it auto-titles descriptively).
-  Falls back to the digest's top story headline if the filename isn't descriptive.
-- **Show notes / description** - built from the matching digest's *Threads this week* plus a plain
-  list of the week's story headlines (`../manic-mondai-project/digests/<date>-digest.md`).
-- Computes size + duration and prepends a new `<item>` to `feed.xml`.
+Check the dry run before the real one: the `digest` line should name the date you expect, and the
+`title` line should say `(from episode notes)`.
 
-Override anything: `--title`, `--summary`, `--season`, `--episode`, `--digest`, `--force` (season defaults to 1; episode auto-increments).
-Preview without writing/uploading: add `--dry-run`.
+What it does:
+- **Uploads the audio to archive.org** (item `manic-ai-podcast-audio`) as `<date>.m4a` and points the
+  feed enclosure there. Audio is never committed to this repo.
+- **Title** comes from the `**Title:**` line in the episode notes
+  (`../manic-mondai-project/podcast/transcripts/<date>-episode-notes.md`).
+- **Show notes** are built from the digest's *Threads this week* plus a list of that episode's story
+  headlines (`../manic-mondai-project/digests/<date>-digest.md`).
+- Works out size and duration, numbers the episode, and adds a new `<item>` at the top of `feed.xml`.
+- **Refuses to guess.** A missing digest is a hard error, and it fetches the private repo first to warn
+  if your clone is behind, so an episode never goes out with the previous episode's notes.
 
-Requires the `gh` CLI (authenticated) for the upload, and the private `manic-mondai-project` repo
-checked out as a sibling folder for the auto-notes.
+Overrides: `--title`, `--summary`, `--notes`, `--digest`, `--season`, `--episode`, `--force`,
+`--no-fetch`. Run `python3 add_episode.py --help` or read the docstring for details.
+
+Requires the `ia` CLI (`pip install internetarchive`, then `ia configure`) and the private
+`manic-mondai-project` repo checked out as a sibling folder.
 
 ## Files
-- `feed.xml` - the RSS feed (newest episode first); Pages serves this
-- `cover.jpg` - show artwork (3000×3000); Pages serves this
-- `add_episode.py` - feed updater (uploads audio to the Release, updates the feed)
-- **Audio** lives in the GitHub Release [`episodes`](https://github.com/colinmoroney/manic-mondai-podcast/releases/tag/episodes), not in the repo
+- `feed.xml` - the RSS feed, newest episode first
+- `cover.jpg` - show artwork (3000x3000)
+- `index.html` + `assets/` - the thisismanic.ai landing page
+- `CNAME` - the custom domain
+- `add_episode.py` - publishes an episode (uploads audio, updates the feed)
 
-## Getting it searchable (one-time)
-1. **Apple Podcasts:** sign in at [Podcasts Connect](https://podcastsconnect.apple.com), add the feed URL, validate, submit.
-2. **Spotify:** add the feed URL at [Spotify for Creators](https://creators.spotify.com).
-3. Validate first at [castfeedvalidator.com](https://castfeedvalidator.com) or [podba.se/validate](https://podba.se/validate/).
+## Hosting
+- **Site and feed:** a push to `main` deploys to Netlify, which serves thisismanic.ai, usually within
+  about a minute. The landing page source of truth is `site/index.html` in the private repo: copy it here
+  when it changes.
+- **Audio:** archive.org, not GitHub Releases. GitHub serves release assets as downloads
+  (`application/octet-stream`), which Apple Podcasts refuses to stream. archive.org serves them inline with
+  the right audio headers.
+- **Old URLs:** `colinmoroney.github.io/manic-mondai-podcast/...` redirects to thisismanic.ai through the
+  GitHub Pages custom-domain setting, which is kept only for that redirect.
 
-Until submitted, the show is private - listeners can still add it by pasting the feed URL into any app.
-
-## Notes
-- Audio is hosted as GitHub Release assets (CDN-served), so GitHub Pages only ever builds the small
-  `feed.xml` + `cover.jpg` - fast, and no repo-size problem as episodes accumulate.
-- Episode dates match the source digest date in `manic-mondai-project/digests/`.
+## Checking the feed
+Validate after structural changes at [castfeedvalidator.com](https://castfeedvalidator.com) or
+[podba.se/validate](https://podba.se/validate/). Apple Podcasts Connect has a "Refresh Feed" button if a
+new episode is slow to appear.

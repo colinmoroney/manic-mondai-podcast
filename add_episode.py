@@ -1,21 +1,21 @@
 #!/usr/bin/env python3
-"""Add a NotebookLM episode to the Manic AI public feed.
+"""Add an episode to the Manic AI public feed.
 
-Audio is uploaded to the archive.org item "manic-ai-podcast" (public, streams with a real
+Audio is uploaded to the archive.org item "manic-ai-podcast-audio" (public, streams with a real
 audio/* content-type + byte-range support) and the feed's enclosure points there. Only
-feed.xml + cover live in the repo, so GitHub Pages builds stay tiny.
+feed.xml, the cover and the landing page live in the repo.
 
 Why archive.org, not GitHub Releases: GitHub forces Content-Disposition: attachment and
 Content-Type: application/octet-stream on every release-asset download, so Apple Podcasts
 refuses to stream them ("This episode can't be played on this device"). archive.org serves
 audio inline with the right headers.
 
-Common use (one-liner - title + show notes auto-filled from that week's digest):
-  python3 add_episode.py --file ~/Downloads/Some_NotebookLM_Title.m4a --date 2026-07-06
-  git add feed.xml && git commit -m "episode 2026-07-06" && git push
+Common use (title from the episode notes, show notes from that episode's digest):
+  python3 add_episode.py --file ../manic-mondai-project/podcast/episodes/2026-10-12.m4a --date 2026-10-12
+  git add feed.xml && git commit -m "episode 2026-10-12" && git push
 
 Options:
-  --file     path to the NotebookLM .m4a            (required)
+  --file     path to the episode .m4a               (required)
   --date     YYYY-MM-DD, matches the digest date    (required)
   --digest   source digest .md  (default: ../manic-mondai-project/digests/<date>-digest.md).
              A missing digest is a hard error, never a fallback: the routine commits digests

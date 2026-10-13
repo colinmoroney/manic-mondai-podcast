@@ -3,6 +3,6 @@ __pycache__/
 
 .DS_Store
 
-# Audio is hosted in the GitHub Release "episodes", not committed here
+# Audio is hosted on archive.org (item manic-ai-podcast-audio), not committed here
 episodes/
 *.m4a
