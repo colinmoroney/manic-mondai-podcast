@@ -6,3 +6,6 @@ __pycache__/
 # Audio is hosted on archive.org (item manic-ai-podcast-audio), not committed here
 episodes/
 *.m4a
+
+# The sample issue audio is served from the site itself (the public feed episodes stay on archive.org)
+!sample/*.m4a

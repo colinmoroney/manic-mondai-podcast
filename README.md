@@ -52,6 +52,17 @@ Overrides: `--title`, `--summary`, `--notes`, `--digest`, `--season`, `--episode
 Requires the `ia` CLI (`pip install internetarchive`, then `ia configure`) and the private
 `manic-mondai-project` repo checked out as a sibling folder.
 
+## Sample issue and auto-reply
+
+- `sample/` - the Manic AI for RevOps sample issue: `index.html` (web version with the audio player), the
+  two-page PDF and the 12-minute `revops-sample-2026-10-12.m4a`. These are served from thisismanic.ai/sample/.
+  The m4a is deliberately un-ignored in `.gitignore`; public feed episodes still live on archive.org.
+- `netlify/functions/submission-created.mjs` - runs on every verified submission of the `founding-teams` form
+  and emails the sample issue links to the submitter from info@thisismanic.ai via Resend. It needs the
+  `RESEND_API_KEY` environment variable (scope: Functions) in the Netlify project; `SAMPLE_FROM`,
+  `SAMPLE_REPLY_TO` and `SAMPLE_BCC` are optional overrides. The email copy is mirrored in the private repo
+  at `outreach/sample-issue-email.md`.
+
 ## Files
 - `feed.xml` - the RSS feed, newest episode first
 - `cover.jpg` - show artwork (3000x3000)
