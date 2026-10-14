@@ -3,31 +3,48 @@
 // Netlify runs a function with this file name on every verified form submission (spam-flagged
 // submissions never reach it). The email goes out through Resend from info@thisismanic.ai.
 //
+// Every link in the email carries ?k=<submission id>.<HMAC-SHA256>, and the edge function
+// netlify/edge-functions/sample-gate.ts only serves /sample/* to requests that carry a valid key
+// (or the cookie it sets). Both sides read the same SAMPLE_LINK_SECRET.
+//
 // Environment variables (set in the Netlify UI, scope: Functions):
-//   RESEND_API_KEY   required, a Resend key with sending access for thisismanic.ai
+//   RESEND_API_KEY     required, a Resend key with sending access for thisismanic.ai
+//   SAMPLE_LINK_SECRET required, the shared secret that signs the sample links
 //   SAMPLE_FROM      optional, default "Colin at Manic AI <info@thisismanic.ai>"
 //   SAMPLE_REPLY_TO  optional, default "info@thisismanic.ai"
 //   SAMPLE_BCC       optional, an address that gets a copy of every email sent
 //
 // The copy below is mirrored in the private repo at outreach/sample-issue-email.md.
 
-const PAGE = "https://thisismanic.ai/sample/";
-const PDF = "https://thisismanic.ai/sample/manic-ai-for-revops-sample-2026-10-12.pdf";
-const AUDIO = "https://thisismanic.ai/sample/revops-sample-2026-10-12.m4a";
-const PRICING = "https://thisismanic.ai/#pricing";
+import { createHmac } from "node:crypto";
+
+const SITE = "https://thisismanic.ai";
+const PRICING = `${SITE}/#pricing`;
+
+// One signed key per submission; the edge function recomputes the HMAC to check it.
+function signedLinks(secret, submissionId) {
+  const id = String(submissionId).replace(/[^A-Za-z0-9_-]/g, "").slice(0, 64);
+  const sig = createHmac("sha256", secret).update(id).digest("hex");
+  const k = encodeURIComponent(`${id}.${sig}`);
+  return {
+    page: `${SITE}/sample/?k=${k}`,
+    pdf: `${SITE}/sample/manic-ai-for-revops-sample-2026-10-12.pdf?k=${k}`,
+    audio: `${SITE}/sample/revops-sample-2026-10-12.m4a?k=${k}`,
+  };
+}
 
 const escapeHtml = (s) =>
   String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 
-function textBody(first) {
+function textBody(first, L) {
   return `Hi ${first},
 
 Thanks for asking. Here is a sample issue of Manic AI for RevOps, the week of 12 October 2026.
 
-Read it here: ${PAGE}
-PDF: ${PDF}
-Audio companion (12 minutes): ${AUDIO}
-The player is also at the bottom of the web version.
+Read it here: ${L.page}
+PDF: ${L.pdf}
+Audio companion (12 minutes): ${L.audio}
+The player is also at the bottom of the web version. These links are yours; they open for you without a login.
 
 Four items this week, one action each:
 
@@ -48,14 +65,14 @@ https://thisismanic.ai
 `;
 }
 
-function htmlBody(first) {
+function htmlBody(first, L) {
   const p = (s) => `<p style="margin:0 0 1em">${s}</p>`;
   const a = (href, label) => `<a href="${href}" style="color:#c22f00">${label || href}</a>`;
   return `<!doctype html><html><body style="margin:0;padding:24px;background:#fffcf5;color:#16130f;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:16px;line-height:1.5">
 <div style="max-width:600px;margin:0 auto">
 ${p(`Hi ${escapeHtml(first)},`)}
 ${p("Thanks for asking. Here is a sample issue of <strong>Manic AI for RevOps</strong>, the week of 12 October 2026.")}
-${p(`Read it here: ${a(PAGE)}<br>PDF: ${a(PDF, "manic-ai-for-revops-sample-2026-10-12.pdf")}<br>Audio companion (12 minutes): ${a(AUDIO, "revops-sample-2026-10-12.m4a")}<br>The player is also at the bottom of the web version.`)}
+${p(`Read it here: ${a(L.page, "thisismanic.ai/sample")}<br>PDF: ${a(L.pdf, "manic-ai-for-revops-sample-2026-10-12.pdf")}<br>Audio companion (12 minutes): ${a(L.audio, "revops-sample-2026-10-12.m4a")}<br>The player is also at the bottom of the web version. These links are yours; they open for you without a login.`)}
 ${p("Four items this week, one action each:")}
 <ol style="margin:0 0 1em;padding-left:1.25em">
 <li style="margin-bottom:0.5em">Microsoft and Google both shipped an agent that wants to sit in front of your CRM. Sort your CRM write actions into one-way and two-way doors before anyone turns the skills on.</li>
@@ -95,6 +112,12 @@ export default async (req) => {
     console.error("submission-created: RESEND_API_KEY is not set; no email sent for", payload.id);
     return new Response("not configured", { status: 500 });
   }
+  const linkSecret = Netlify.env.get("SAMPLE_LINK_SECRET");
+  if (!linkSecret) {
+    console.error("submission-created: SAMPLE_LINK_SECRET is not set; no email sent for", payload.id);
+    return new Response("not configured", { status: 500 });
+  }
+  const links = signedLinks(linkSecret, payload.id);
   const from = Netlify.env.get("SAMPLE_FROM") || "Colin at Manic AI <info@thisismanic.ai>";
   const replyTo = Netlify.env.get("SAMPLE_REPLY_TO") || "info@thisismanic.ai";
   const bcc = Netlify.env.get("SAMPLE_BCC");
@@ -104,8 +127,8 @@ export default async (req) => {
     to: [to],
     reply_to: replyTo,
     subject: "Your Manic AI for RevOps sample issue",
-    text: textBody(first),
-    html: htmlBody(first),
+    text: textBody(first, links),
+    html: htmlBody(first, links),
     headers: { "X-Entity-Ref-ID": String(payload.id || "") },
   };
   if (bcc) body.bcc = [bcc];
