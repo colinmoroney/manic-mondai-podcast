@@ -58,10 +58,16 @@ Requires the `ia` CLI (`pip install internetarchive`, then `ia configure`) and t
   two-page PDF and the 12-minute `revops-sample-2026-10-12.m4a`. These are served from thisismanic.ai/sample/.
   The m4a is deliberately un-ignored in `.gitignore`; public feed episodes still live on archive.org.
 - `netlify/functions/submission-created.mjs` - runs on every verified submission of the `founding-teams` form
-  and emails the sample issue links to the submitter from info@thisismanic.ai via Resend. It needs the
-  `RESEND_API_KEY` environment variable (scope: Functions) in the Netlify project; `SAMPLE_FROM`,
-  `SAMPLE_REPLY_TO` and `SAMPLE_BCC` are optional overrides. The email copy is mirrored in the private repo
+  and emails the sample issue links to the submitter from info@thisismanic.ai via Resend. Every link carries
+  a per-submission key (`?k=<submission id>.<HMAC-SHA256>`). The email copy is mirrored in the private repo
   at `outreach/sample-issue-email.md`.
+- `netlify/edge-functions/sample-gate.ts` - serves `/sample/*` only to requests with a valid key, or the
+  30-day cookie it sets, and shows a 403 page pointing to the form otherwise. Fails closed (503) if the
+  secret is missing.
+- Environment variables in the Netlify project (all scopes; scoped variables are not available on the
+  free plan): `RESEND_API_KEY` (a Resend sending key for thisismanic.ai) and `SAMPLE_LINK_SECRET` (any
+  long random string; both functions read it). Optional: `SAMPLE_FROM`, `SAMPLE_REPLY_TO`, `SAMPLE_BCC`.
+  Changing a variable needs a new deploy to take effect.
 
 ## Files
 - `feed.xml` - the RSS feed, newest episode first
