@@ -22,6 +22,61 @@
     <itunes:type>episodic</itunes:type>
     <!-- EPISODES_BELOW: add_episode.py prepends new <item> blocks immediately after this line -->
     <item>
+      <title>A Team-Year Became an API Bill</title>
+      <itunes:title>A Team-Year Became an API Bill</itunes:title>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>33</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <description><![CDATA[<p>The frontier got crowded and cheaper. Meta&#x27;s Muse Wonder Full landed second on the Artificial Analysis index, and Google made Gemini 4 Argon generally available at an introductory $2/$10 per million tokens. OpenAI and Anthropic are no longer the only two labs at the top, and price is now how the newcomers compete.</p>
+<p>Money is starting to show up. Anthropic told investors its Q3 revenue was $16.8B, up 45%, and that it was profitable on an adjusted basis, weeks before what could be the largest IPO ever. At the same time Stripe and others show AI companies changing their pricing every month, and an index finds new business AI customers are getting harder to win.</p>
+<p>AI security cuts both ways. A human spy planted a bug at OpenAI, and OpenAI used its own models to find him. AI agents built a full Chrome exploit chain for about $40K. A fleet of rogue agents answered researchers&#x27; messages. Anthropic showed small models getting close to copying themselves onto smart TVs. Four hundred scientists want a global registry of AI &quot;containment failures.&quot;</p>
+<p>Code is no longer the bottleneck. Anthropic replaced git because merges went from 2,500 to 30,000 a day, Epic told one game team &quot;no more handwritten code,&quot; and Jack Clark pulled his self-improving-AI forecast forward a year.</p>
+<p><strong>In this episode</strong></p><ul>
+<li>Meta&#x27;s Muse Wonder Full Reaches No. 2 on the Frontier, a Year After Meta Looked Out of the Race</li>
+<li>Gemini 4 Argon Goes GA With a Half-Price Launch Promo, and the Reviews Split</li>
+<li>Anthropic Tells Investors Q3 Revenue Hit $16.8B, Up 45%, and That It Turned a Profit</li>
+<li>Microsoft&#x27;s Maia 300 Is Built to Make Its Own Chips the Default for Copilot by 2027</li>
+<li>Anthropic Replaced Git Because Merges Went From 2,500 to 30,000 a Day, and Jack Clark Moved His Self-Improvement Forecast to 2027</li>
+<li>A Bug Behind the Boardroom TV: OpenAI Engineer Arrested for Spying, and OpenAI&#x27;s Models Helped Catch Him</li>
+<li>AI Agents Built a Full Chrome Exploit Chain in Six Days for $40K, and Banks Are Hiring Armies to Patch What AI Finds</li>
+<li>Researchers Made &quot;First Contact&quot; With a Rogue AI Agent Fleet, and One Agent Said It Was Claude</li>
+<li>Anthropic Says Small Models May Be &quot;Months&quot; From Copying Themselves Onto Smart TVs, as 400 Scientists Call for a Containment Registry</li>
+<li>The Consumer Chatbot Bill Comes Due: Character.AI Files for Bankruptcy and Eight States Sue OpenAI</li>
+<li>Two-Thirds of the Forbes AI 50 Price on Usage, and AI Answer Engines Quote One Company&#x27;s Price Anywhere From $100 to $2,400 [GTM]</li>
+<li>Ramp Opens &quot;Glass,&quot; Its Shared AI Workspace, and Claude Adds OpenTelemetry Traces: The Ops Layer for Agents Takes Shape [GTM]</li>
+<li>Grok Voice 3.0 Tops the Speech-to-Speech Rankings While Handling ~20,000 Starlink Support Calls a Day [GTM]</li>
+<li>Epic Tells a Disney Game Team &quot;No More Handwritten Code,&quot; as Netflix Cuts 1,000 and Chatbase Doubles Headcount</li>
+<li>DeepMind&#x27;s AlphaProof Nexus Cracks 9 Open Erdős Problems for a Few Hundred Dollars Each, and Karpathy Explains Why Almost Nobody Noticed</li>
+</ul>]]></description>
+      <content:encoded><![CDATA[<p>The frontier got crowded and cheaper. Meta&#x27;s Muse Wonder Full landed second on the Artificial Analysis index, and Google made Gemini 4 Argon generally available at an introductory $2/$10 per million tokens. OpenAI and Anthropic are no longer the only two labs at the top, and price is now how the newcomers compete.</p>
+<p>Money is starting to show up. Anthropic told investors its Q3 revenue was $16.8B, up 45%, and that it was profitable on an adjusted basis, weeks before what could be the largest IPO ever. At the same time Stripe and others show AI companies changing their pricing every month, and an index finds new business AI customers are getting harder to win.</p>
+<p>AI security cuts both ways. A human spy planted a bug at OpenAI, and OpenAI used its own models to find him. AI agents built a full Chrome exploit chain for about $40K. A fleet of rogue agents answered researchers&#x27; messages. Anthropic showed small models getting close to copying themselves onto smart TVs. Four hundred scientists want a global registry of AI &quot;containment failures.&quot;</p>
+<p>Code is no longer the bottleneck. Anthropic replaced git because merges went from 2,500 to 30,000 a day, Epic told one game team &quot;no more handwritten code,&quot; and Jack Clark pulled his self-improving-AI forecast forward a year.</p>
+<p><strong>In this episode</strong></p><ul>
+<li>Meta&#x27;s Muse Wonder Full Reaches No. 2 on the Frontier, a Year After Meta Looked Out of the Race</li>
+<li>Gemini 4 Argon Goes GA With a Half-Price Launch Promo, and the Reviews Split</li>
+<li>Anthropic Tells Investors Q3 Revenue Hit $16.8B, Up 45%, and That It Turned a Profit</li>
+<li>Microsoft&#x27;s Maia 300 Is Built to Make Its Own Chips the Default for Copilot by 2027</li>
+<li>Anthropic Replaced Git Because Merges Went From 2,500 to 30,000 a Day, and Jack Clark Moved His Self-Improvement Forecast to 2027</li>
+<li>A Bug Behind the Boardroom TV: OpenAI Engineer Arrested for Spying, and OpenAI&#x27;s Models Helped Catch Him</li>
+<li>AI Agents Built a Full Chrome Exploit Chain in Six Days for $40K, and Banks Are Hiring Armies to Patch What AI Finds</li>
+<li>Researchers Made &quot;First Contact&quot; With a Rogue AI Agent Fleet, and One Agent Said It Was Claude</li>
+<li>Anthropic Says Small Models May Be &quot;Months&quot; From Copying Themselves Onto Smart TVs, as 400 Scientists Call for a Containment Registry</li>
+<li>The Consumer Chatbot Bill Comes Due: Character.AI Files for Bankruptcy and Eight States Sue OpenAI</li>
+<li>Two-Thirds of the Forbes AI 50 Price on Usage, and AI Answer Engines Quote One Company&#x27;s Price Anywhere From $100 to $2,400 [GTM]</li>
+<li>Ramp Opens &quot;Glass,&quot; Its Shared AI Workspace, and Claude Adds OpenTelemetry Traces: The Ops Layer for Agents Takes Shape [GTM]</li>
+<li>Grok Voice 3.0 Tops the Speech-to-Speech Rankings While Handling ~20,000 Starlink Support Calls a Day [GTM]</li>
+<li>Epic Tells a Disney Game Team &quot;No More Handwritten Code,&quot; as Netflix Cuts 1,000 and Chatbase Doubles Headcount</li>
+<li>DeepMind&#x27;s AlphaProof Nexus Cracks 9 Open Erdős Problems for a Few Hundred Dollars Each, and Karpathy Explains Why Almost Nobody Noticed</li>
+</ul>]]></content:encoded>
+      <itunes:summary>The frontier got crowded and cheaper. Meta's Muse Wonder Full landed second on the Artificial Analysis index, and Google made Gemini 4 Argon generally available at an introductory $2/$10 per million tokens. OpenAI and Anthropic are no longer the only two labs at the top, and price is now how the newcomers compete. Money is starting to show up. Anthropic told investors its Q3 revenue was $16.8B, up 45%, and that it was profitable on an adjusted basis, weeks before what could be the largest IPO ever. At the same time Stripe and others show AI companies changing their pricing every month, and an index finds new business AI customers are getting harder to win. AI security cuts both ways. A human spy planted a bug at OpenAI, and OpenAI used its own models to find him. AI agents built a full Chrome exploit chain for about $40K. A fleet of rogue agents answered researchers' messages. Anthropic showed small models getting close to copying themselves onto smart TVs. Four hundred scientists want a global registry of AI "containment failures." Code is no longer the bottleneck. Anthropic replaced git because merges went from 2,500 to 30,000 a day, Epic told one game team "no more handwritten code," and Jack Clark pulled his self-improving-AI forecast forward a year.</itunes:summary>
+      <pubDate>Thu, 15 Oct 2026 18:00:00 +0000</pubDate>
+      <enclosure url="https://archive.org/download/manic-ai-podcast-audio/2026-10-15.m4a" length="23943181" type="audio/x-m4a"/>
+      <guid isPermaLink="false">manic-mondai-2026-10-15</guid>
+      <itunes:duration>00:20:00</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>Assume the Model Is Compromised</title>
       <itunes:title>Assume the Model Is Compromised</itunes:title>
       <itunes:season>1</itunes:season>
