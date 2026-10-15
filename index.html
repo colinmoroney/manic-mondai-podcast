@@ -711,16 +711,6 @@
       font-variant-numeric: tabular-nums;
     }
 
-    .price .cur {
-      font-family: var(--body);
-      font-weight: 600;
-      font-size: 0.95rem;
-      letter-spacing: 0.08em;
-      margin-left: 0.4rem;
-      vertical-align: 0.35em;
-      opacity: 0.85;
-    }
-
     .price small {
       display: block;
       font-family: var(--body);
@@ -767,6 +757,15 @@
     .price-card.pro li::before { color: var(--accent); }
     .price-card.pro ul { color: var(--ink-soft); }
     .price-card.pro .price small { color: var(--ink); }
+
+    .price-card .btn { align-self: stretch; margin-top: auto; }
+    .btn-paper { background: var(--paper); color: var(--ink); border-color: var(--paper); }
+
+    .price-note {
+      margin-top: 0.75rem;
+      font-size: 0.875rem;
+      color: var(--ink-soft);
+    }
 
     .form-card {
       background: var(--paper-dim);
@@ -1098,25 +1097,25 @@
       <div class="offer">
         <div class="price-card">
           <span class="tag tag-accent">Basic</span>
-          <p class="price">$99<span class="cur">USD</span><small>per team, per month</small></p>
+          <p class="price">$5<small>per month, or $49 per year</small></p>
           <ul>
             <li>One weekly written brief, shared with your whole team</li>
             <li>Audio companion for every issue</li>
             <li>Standard AI voices and characters</li>
-            <li>Annual pricing on request</li>
           </ul>
+          <a class="btn btn-paper" href="#">Subscribe to Basic</a>
         </div>
 
         <div class="price-card pro">
           <span class="tag tag-accent">Pro</span>
-          <p class="price">$149<span class="cur">USD</span><small>per team, per month</small></p>
+          <p class="price">$8<small>per month, or $89 per year</small></p>
           <ul>
             <li>Everything in Basic</li>
             <li>Customisable AI voices and characters</li>
             <li>Branded digest for your team</li>
             <li>Longer audio episodes</li>
-            <li>Annual pricing on request</li>
           </ul>
+          <a class="btn btn-accent" href="#">Subscribe to Pro</a>
         </div>
 
         <div class="form-card">
@@ -1168,6 +1167,7 @@
           </form>
         </div>
       </div>
+      <p class="price-note">All prices shown are in USD</p>
     </div>
   </section>
 
