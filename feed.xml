@@ -22,6 +22,61 @@
     <itunes:type>episodic</itunes:type>
     <!-- EPISODES_BELOW: add_episode.py prepends new <item> blocks immediately after this line -->
     <item>
+      <title>Cheaper Tokens, Bigger Bills</title>
+      <itunes:title>Cheaper Tokens, Bigger Bills</itunes:title>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>34</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <description><![CDATA[<p>The model market has become a commodity market. Open-weight models now carry about 71.5% of tokens on Vercel&#x27;s gateway. Almost one in three teams changed their main lab in September, and Replit, until recently a top-five Anthropic customer, made OpenAI its default. Buyers are switching on price and benchmarks, quarter by quarter.</p>
+<p>Cheaper per token can still mean a bigger bill. List prices keep falling, yet a 33% price cut produced a 4% bigger bill in one test. Ramp shows token volume rising while spend stays flat, and 46% of agent buyers say running costs came in above plan. Credits, seats and tokens are all failing to tell customers what they are actually paying for.</p>
+<p>Humans are now the bottleneck. Anthropic&#x27;s own data shows agents idle 80% of the time waiting on a person, and junior hiring fell from 27% to 9% of technical hires. The Claude Code team rebuilt code review so most PRs need at most one human, and Terence Tao says AI is &quot;harvesting&quot; math problems faster than people can replace them.</p>
+<p>The bill for the build-out is coming due. CoreWeave&#x27;s credit default swaps are pricing roughly a 60% chance of default. Anthropic is setting aside equity &quot;for the public,&quot; and the labs are inviting outside auditors in. Money and trust are both under pressure.</p>
+<p><strong>In this episode</strong></p><ul>
+<li>Anthropic Puts 5% of Its Equity, Roughly $48B, Into a &quot;Public Benefit Fund&quot; and Says It Could Pay People Directly</li>
+<li>Inside Anthropic: Junior Hires Fell From 27% to 9%, Agents Log 6 Hours for Every Human Hour, and Wait 80% of the Time on People</li>
+<li>Replit Makes OpenAI Its Default, as Anthropic&#x27;s Share of One Gateway&#x27;s Spend Drops From 64% to 44%</li>
+<li>Meta&#x27;s 816B Muse Spark Open Runs on Two Mac Studios, and Qualcomm Says Labs Want 100B Models on Phones by 2028</li>
+<li>DeepSeek V4.1 Flash Handles Nearly Half the Tokens on Vercel&#x27;s Gateway for a Few Percent of the Spend</li>
+<li>Claude Code Review Goes GA, and the Claude Code Team Explains How Most of Its PRs Now Merge With At Most One Human</li>
+<li>CoreWeave&#x27;s Credit Default Swaps Price a ~60% Chance of Default as AI Debt Starts to Crack</li>
+<li>Only 9% of Buyers Call Seat Pricing Fair for Agents, and a 33% Price Cut Produced a 4% Bigger Bill [GTM]</li>
+<li>Rippling Replaced Sequences With People and Tripled Outbound Conversion [GTM]</li>
+<li>Tech Companies Are Building Their Own &quot;Internal Lovable,&quot; and Non-Engineers Are the Users [GTM]</li>
+<li>AI Coding Tools Are Now the Attack Surface: SneakPeek, Fake Claude Installers, and a Policy That Blinds an AI Security Judge</li>
+<li>OpenAI&#x27;s Research Agent Raided 362 Wallets to Pay a Fee, as Anthropic Embeds Six METR Auditors With &quot;Employee-Like&quot; Access</li>
+<li>&quot;I&#x27;m on a War Footing&quot;: Terence Tao Says AI Is Harvesting Math Faster Than Mathematicians Can Replant It</li>
+<li>Claude Solved a 26-Year Crypto Mystery: The NSA&#x27;s ECDSA Curve Seeds Came From a 1990s Random Number Generator and a Timestamp</li>
+<li>90% of American Working Hours Go to Tasks No AI Benchmark Really Measures</li>
+</ul>]]></description>
+      <content:encoded><![CDATA[<p>The model market has become a commodity market. Open-weight models now carry about 71.5% of tokens on Vercel&#x27;s gateway. Almost one in three teams changed their main lab in September, and Replit, until recently a top-five Anthropic customer, made OpenAI its default. Buyers are switching on price and benchmarks, quarter by quarter.</p>
+<p>Cheaper per token can still mean a bigger bill. List prices keep falling, yet a 33% price cut produced a 4% bigger bill in one test. Ramp shows token volume rising while spend stays flat, and 46% of agent buyers say running costs came in above plan. Credits, seats and tokens are all failing to tell customers what they are actually paying for.</p>
+<p>Humans are now the bottleneck. Anthropic&#x27;s own data shows agents idle 80% of the time waiting on a person, and junior hiring fell from 27% to 9% of technical hires. The Claude Code team rebuilt code review so most PRs need at most one human, and Terence Tao says AI is &quot;harvesting&quot; math problems faster than people can replace them.</p>
+<p>The bill for the build-out is coming due. CoreWeave&#x27;s credit default swaps are pricing roughly a 60% chance of default. Anthropic is setting aside equity &quot;for the public,&quot; and the labs are inviting outside auditors in. Money and trust are both under pressure.</p>
+<p><strong>In this episode</strong></p><ul>
+<li>Anthropic Puts 5% of Its Equity, Roughly $48B, Into a &quot;Public Benefit Fund&quot; and Says It Could Pay People Directly</li>
+<li>Inside Anthropic: Junior Hires Fell From 27% to 9%, Agents Log 6 Hours for Every Human Hour, and Wait 80% of the Time on People</li>
+<li>Replit Makes OpenAI Its Default, as Anthropic&#x27;s Share of One Gateway&#x27;s Spend Drops From 64% to 44%</li>
+<li>Meta&#x27;s 816B Muse Spark Open Runs on Two Mac Studios, and Qualcomm Says Labs Want 100B Models on Phones by 2028</li>
+<li>DeepSeek V4.1 Flash Handles Nearly Half the Tokens on Vercel&#x27;s Gateway for a Few Percent of the Spend</li>
+<li>Claude Code Review Goes GA, and the Claude Code Team Explains How Most of Its PRs Now Merge With At Most One Human</li>
+<li>CoreWeave&#x27;s Credit Default Swaps Price a ~60% Chance of Default as AI Debt Starts to Crack</li>
+<li>Only 9% of Buyers Call Seat Pricing Fair for Agents, and a 33% Price Cut Produced a 4% Bigger Bill [GTM]</li>
+<li>Rippling Replaced Sequences With People and Tripled Outbound Conversion [GTM]</li>
+<li>Tech Companies Are Building Their Own &quot;Internal Lovable,&quot; and Non-Engineers Are the Users [GTM]</li>
+<li>AI Coding Tools Are Now the Attack Surface: SneakPeek, Fake Claude Installers, and a Policy That Blinds an AI Security Judge</li>
+<li>OpenAI&#x27;s Research Agent Raided 362 Wallets to Pay a Fee, as Anthropic Embeds Six METR Auditors With &quot;Employee-Like&quot; Access</li>
+<li>&quot;I&#x27;m on a War Footing&quot;: Terence Tao Says AI Is Harvesting Math Faster Than Mathematicians Can Replant It</li>
+<li>Claude Solved a 26-Year Crypto Mystery: The NSA&#x27;s ECDSA Curve Seeds Came From a 1990s Random Number Generator and a Timestamp</li>
+<li>90% of American Working Hours Go to Tasks No AI Benchmark Really Measures</li>
+</ul>]]></content:encoded>
+      <itunes:summary>The model market has become a commodity market. Open-weight models now carry about 71.5% of tokens on Vercel's gateway. Almost one in three teams changed their main lab in September, and Replit, until recently a top-five Anthropic customer, made OpenAI its default. Buyers are switching on price and benchmarks, quarter by quarter. Cheaper per token can still mean a bigger bill. List prices keep falling, yet a 33% price cut produced a 4% bigger bill in one test. Ramp shows token volume rising while spend stays flat, and 46% of agent buyers say running costs came in above plan. Credits, seats and tokens are all failing to tell customers what they are actually paying for. Humans are now the bottleneck. Anthropic's own data shows agents idle 80% of the time waiting on a person, and junior hiring fell from 27% to 9% of technical hires. The Claude Code team rebuilt code review so most PRs need at most one human, and Terence Tao says AI is "harvesting" math problems faster than people can replace them. The bill for the build-out is coming due. CoreWeave's credit default swaps are pricing roughly a 60% chance of default. Anthropic is setting aside equity "for the public," and the labs are inviting outside auditors in. Money and trust are both under pressure.</itunes:summary>
+      <pubDate>Mon, 19 Oct 2026 18:00:00 +0000</pubDate>
+      <enclosure url="https://archive.org/download/manic-ai-podcast-audio/2026-10-19.m4a" length="24162541" type="audio/x-m4a"/>
+      <guid isPermaLink="false">manic-mondai-2026-10-19</guid>
+      <itunes:duration>00:20:11</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>A Team-Year Became an API Bill</title>
       <itunes:title>A Team-Year Became an API Bill</itunes:title>
       <itunes:season>1</itunes:season>
