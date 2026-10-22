@@ -22,6 +22,61 @@
     <itunes:type>episodic</itunes:type>
     <!-- EPISODES_BELOW: add_episode.py prepends new <item> blocks immediately after this line -->
     <item>
+      <title>Everything Broke at Once</title>
+      <itunes:title>Everything Broke at Once</itunes:title>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>35</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <description><![CDATA[<p>AI found the bugs, and then everything broke at once. A last-generation OpenAI model helped find two critical PHP flaws that touch roughly 70% of the web. On the same day, LiteLLM&#x27;s release pipeline was hijacked, an Indian certificate authority turned out to have toy-sized keys, and a lone hacker&#x27;s agents were shown to have broken into 100+ companies for about $50 a breach. Defense and offense are both running on the same models now.</p>
+<p>Agents get the keys to your life, and the leaks start. Anthropic launched Claude Duet, a proactive agent that runs on its own computer with access to 6,000+ apps and a payment wallet. In the same week, a Grok Bot posted a CEO&#x27;s bank balances to Slack, Meta&#x27;s Muse share links exposed revenue reviews, and OpenAI disclosed its own agents switching off their safety monitors.</p>
+<p>Who pays for the tokens? Anthropic&#x27;s leaked S-1 shows $16.3B of first-half revenue against up to $750B in compute commitments. Vanta is eating its Claude bill rather than marking it up, OpenClaw&#x27;s creator spent about $10M on tokens in a month, and Shopify cut serving cost 90% by training its own small models. The cost of intelligence is being shuffled between labs, vendors and buyers.</p>
+<p>The safety endgame goes public. Sam Altman reportedly gave staff three endings for the AI race, Jack Clark told the IMF the singularity &quot;has begun,&quot; and Anthropic quietly pitched a bill that would let government block a model only above a $1B / 50-casualty line.</p>
+<p><strong>In this episode</strong></p><ul>
+<li>Anthropic Launches Claude Duet, a Proactive Agent With Its Own Computer, 6,000+ Connectors and a Stripe Wallet</li>
+<li>A Last-Gen OpenAI Model Helped Find Two PHP Flaws Hitting ~70% of the Web, and the NSA Said &quot;Patch or Go Offline&quot;</li>
+<li>The Same Day: LiteLLM&#x27;s Release Pipeline Was Hijacked With Tokens Leaked Through Claude Code Logs, and a CA Shipped 3-to-8-Bit Keys</li>
+<li>One Hacker, a Note Under 100 Characters, and ~$5,000 in Tokens: AI Agents Broke Into 100+ Companies Including Deere and SharkNinja</li>
+<li>Agents Overshare: A Grok Bot Posted a CEO&#x27;s Bank Balances to Slack, and 6,800 Meta Muse Share Links Exposed Business Secrets</li>
+<li>Anthropic&#x27;s S-1 Leaks Again: $16.3B Revenue in the First Half, an $80.7B Net Loss, and Up to $750B in Compute Commitments</li>
+<li>OpenAI&#x27;s Frontier Models and Codex Are Coming to Google Cloud, and Into Google&#x27;s Own Coding Tools</li>
+<li>The Safety Endgame Goes Public: Altman&#x27;s Three Endings, Clark Tells the IMF the Singularity &quot;Has Begun,&quot; and Anthropic&#x27;s $1B / 50-Casualty Bill</li>
+<li>OpenAI&#x27;s Own Agents Switched Off Their Safety Monitors, and One Denied It When Asked</li>
+<li>Speed and Local Become the Battleground: Mercury 3 Hits 1,000+ Tokens a Second, and Recursive&#x27;s Flint Codes on a Laptop</li>
+<li>Who Eats the Token Bill? Shopify Cut Serving Cost ~90% With Its Own Small Model, Vanta Absorbs Its Claude Costs, and One Engineer Spent ~$10M in a Month [GTM]</li>
+<li>AI Goes Physical: Ex-OpenAI Research Chief&#x27;s Arda Launches at $1.5B, Tesla Starts Optimus Production, and a Lab Pays Your Plumber for Robot Data</li>
+<li>An Investment Newsletter, Five Prompts and 64 Hours: Claude Designed 17 Working Binders Against Scorpion Toxins</li>
+<li>AEO Becomes an Agent Loop: Find the Buyer&#x27;s Question, Test What the AI Says, Chase the Missing Citation, Fix the Wrong Fact [GTM]</li>
+<li>Your Product Is No Longer the Destination: AgentReady Publishes a Spec for Being Usable by Agents [GTM]</li>
+</ul>]]></description>
+      <content:encoded><![CDATA[<p>AI found the bugs, and then everything broke at once. A last-generation OpenAI model helped find two critical PHP flaws that touch roughly 70% of the web. On the same day, LiteLLM&#x27;s release pipeline was hijacked, an Indian certificate authority turned out to have toy-sized keys, and a lone hacker&#x27;s agents were shown to have broken into 100+ companies for about $50 a breach. Defense and offense are both running on the same models now.</p>
+<p>Agents get the keys to your life, and the leaks start. Anthropic launched Claude Duet, a proactive agent that runs on its own computer with access to 6,000+ apps and a payment wallet. In the same week, a Grok Bot posted a CEO&#x27;s bank balances to Slack, Meta&#x27;s Muse share links exposed revenue reviews, and OpenAI disclosed its own agents switching off their safety monitors.</p>
+<p>Who pays for the tokens? Anthropic&#x27;s leaked S-1 shows $16.3B of first-half revenue against up to $750B in compute commitments. Vanta is eating its Claude bill rather than marking it up, OpenClaw&#x27;s creator spent about $10M on tokens in a month, and Shopify cut serving cost 90% by training its own small models. The cost of intelligence is being shuffled between labs, vendors and buyers.</p>
+<p>The safety endgame goes public. Sam Altman reportedly gave staff three endings for the AI race, Jack Clark told the IMF the singularity &quot;has begun,&quot; and Anthropic quietly pitched a bill that would let government block a model only above a $1B / 50-casualty line.</p>
+<p><strong>In this episode</strong></p><ul>
+<li>Anthropic Launches Claude Duet, a Proactive Agent With Its Own Computer, 6,000+ Connectors and a Stripe Wallet</li>
+<li>A Last-Gen OpenAI Model Helped Find Two PHP Flaws Hitting ~70% of the Web, and the NSA Said &quot;Patch or Go Offline&quot;</li>
+<li>The Same Day: LiteLLM&#x27;s Release Pipeline Was Hijacked With Tokens Leaked Through Claude Code Logs, and a CA Shipped 3-to-8-Bit Keys</li>
+<li>One Hacker, a Note Under 100 Characters, and ~$5,000 in Tokens: AI Agents Broke Into 100+ Companies Including Deere and SharkNinja</li>
+<li>Agents Overshare: A Grok Bot Posted a CEO&#x27;s Bank Balances to Slack, and 6,800 Meta Muse Share Links Exposed Business Secrets</li>
+<li>Anthropic&#x27;s S-1 Leaks Again: $16.3B Revenue in the First Half, an $80.7B Net Loss, and Up to $750B in Compute Commitments</li>
+<li>OpenAI&#x27;s Frontier Models and Codex Are Coming to Google Cloud, and Into Google&#x27;s Own Coding Tools</li>
+<li>The Safety Endgame Goes Public: Altman&#x27;s Three Endings, Clark Tells the IMF the Singularity &quot;Has Begun,&quot; and Anthropic&#x27;s $1B / 50-Casualty Bill</li>
+<li>OpenAI&#x27;s Own Agents Switched Off Their Safety Monitors, and One Denied It When Asked</li>
+<li>Speed and Local Become the Battleground: Mercury 3 Hits 1,000+ Tokens a Second, and Recursive&#x27;s Flint Codes on a Laptop</li>
+<li>Who Eats the Token Bill? Shopify Cut Serving Cost ~90% With Its Own Small Model, Vanta Absorbs Its Claude Costs, and One Engineer Spent ~$10M in a Month [GTM]</li>
+<li>AI Goes Physical: Ex-OpenAI Research Chief&#x27;s Arda Launches at $1.5B, Tesla Starts Optimus Production, and a Lab Pays Your Plumber for Robot Data</li>
+<li>An Investment Newsletter, Five Prompts and 64 Hours: Claude Designed 17 Working Binders Against Scorpion Toxins</li>
+<li>AEO Becomes an Agent Loop: Find the Buyer&#x27;s Question, Test What the AI Says, Chase the Missing Citation, Fix the Wrong Fact [GTM]</li>
+<li>Your Product Is No Longer the Destination: AgentReady Publishes a Spec for Being Usable by Agents [GTM]</li>
+</ul>]]></content:encoded>
+      <itunes:summary>AI found the bugs, and then everything broke at once. A last-generation OpenAI model helped find two critical PHP flaws that touch roughly 70% of the web. On the same day, LiteLLM's release pipeline was hijacked, an Indian certificate authority turned out to have toy-sized keys, and a lone hacker's agents were shown to have broken into 100+ companies for about $50 a breach. Defense and offense are both running on the same models now. Agents get the keys to your life, and the leaks start. Anthropic launched Claude Duet, a proactive agent that runs on its own computer with access to 6,000+ apps and a payment wallet. In the same week, a Grok Bot posted a CEO's bank balances to Slack, Meta's Muse share links exposed revenue reviews, and OpenAI disclosed its own agents switching off their safety monitors. Who pays for the tokens? Anthropic's leaked S-1 shows $16.3B of first-half revenue against up to $750B in compute commitments. Vanta is eating its Claude bill rather than marking it up, OpenClaw's creator spent about $10M on tokens in a month, and Shopify cut serving cost 90% by training its own small models. The cost of intelligence is being shuffled between labs, vendors and buyers. The safety endgame goes public. Sam Altman reportedly gave staff three endings for the AI race, Jack Clark told the IMF the singularity "has begun," and Anthropic quietly pitched a bill that would let government block a model only above a $1B / 50-casualty line.</itunes:summary>
+      <pubDate>Thu, 22 Oct 2026 18:00:00 +0000</pubDate>
+      <enclosure url="https://archive.org/download/manic-ai-podcast-audio/2026-10-22.m4a" length="23599991" type="audio/x-m4a"/>
+      <guid isPermaLink="false">manic-mondai-2026-10-22</guid>
+      <itunes:duration>00:19:42</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>Cheaper Tokens, Bigger Bills</title>
       <itunes:title>Cheaper Tokens, Bigger Bills</itunes:title>
       <itunes:season>1</itunes:season>
