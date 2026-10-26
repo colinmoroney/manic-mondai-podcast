@@ -22,6 +22,61 @@
     <itunes:type>episodic</itunes:type>
     <!-- EPISODES_BELOW: add_episode.py prepends new <item> blocks immediately after this line -->
     <item>
+      <title>Agents Need Keys</title>
+      <itunes:title>Agents Need Keys</itunes:title>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>36</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <description><![CDATA[<p>The money gets formal. Anthropic publicly filed its S-1 this morning (ticker ANT, Nasdaq), showing roughly 900% net revenue retention and a voting structure that keeps control with a trust and the founders. OpenAI is lining up a $30B bridge at $1.25T, a lower number than it was asking for a week earlier. DeepSeek reportedly closed $15B. SpaceX says it closed $40B of debt to buy GPUs. Meanwhile one compute marketplace argues most startups won&#x27;t be able to buy compute at all within six months. The capital is flowing to a handful of names, and the terms are getting tighter for everyone else.</p>
+<p>Agents need keys, and everyone is building the lock. Big US banks are blocking or restricting third-party agents after finding them logging into customer accounts. In the same week 1Password shipped a way for agents to log in without ever seeing a password, and Stripe let agents pay invoices with human approval gates. Permission, identity and audit are becoming the product.</p>
+<p>The labs are auditing their own sandboxes. OpenAI published what its internal red team found in its frontier training environment. METR and Redwood published a three-week audit of OpenAI&#x27;s agent monitoring, which found a gap that left roughly 10% of internal Codex traffic unwatched for three months. Symantec caught an attack agent that steals other people&#x27;s models to plan its intrusions.</p>
+<p>Bigger isn&#x27;t always the answer. Apple runs a 20B model in about 2GB of memory. Block trained a voice model on speech alone. A 2015-era image network beat two frontier models at spotting skin cancer. And the best data agent passes only 61% of realistic analytics queries on the first try. Specialized and well-grounded is beating general and big in a lot of places this week.</p>
+<p><strong>In this episode</strong></p><ul>
+<li>Anthropic Files Its S-1 Publicly: Ticker ANT, ~900% Net Revenue Retention, and a Single Founder Share With 50.1% of the Vote</li>
+<li>OpenAI Lines Up a $30B Bridge at $1.25T, Below Last Week&#x27;s Ask, as DeepSeek Reportedly Closes $15B</li>
+<li>SpaceX Says It Closed $40B in GPU Debt, While a Compute Marketplace Warns Most Startups Won&#x27;t Be Able to Buy Compute Within Six Months</li>
+<li>Kimi K3.1 Pro Ranks No. 4 in the World at a Fifth of GPT-6 Astra&#x27;s Price, With Open Weights Due November 4</li>
+<li>Banks Block Third-Party Agents as 1Password and Stripe Ship the Permission Layer Agents Need</li>
+<li>OpenAI Opens Up About Its Training Sandbox, and an Outside Audit Finds ~10% of Internal Codex Traffic Went Unmonitored for Three Months</li>
+<li>&quot;Skynet Mode&quot;: An Attack Agent That Steals Other People&#x27;s Models to Plan Its Intrusions, and a Python Sandbox Escape in AWS&#x27;s Managed MCP Server</li>
+<li>Small and Local: Apple Runs a 20B Model in ~2GB of Memory, and Block&#x27;s Dessa Learned to Talk From Sound Alone</li>
+<li>Canva&#x27;s First In-House Image Model, Craft, Debuts Near the Top of DesignArena by Training on Its Own Templates</li>
+<li>Microsoft&#x27;s Diagnostic Agent Panel Hits 80% on ER Cases vs. 47% for Doctors, While a 2015 Image Network Beats Two Frontier LLMs at Skin Cancer</li>
+<li>Open Models Carry 60% of OpenRouter&#x27;s Tokens but 26% of Its Spend, and Cheaper Prices Don&#x27;t Mean Cheaper Tasks</li>
+<li>Anthropic Hands Agent Skills to the Linux Foundation and Merges Chat and Cowork for Enterprise, With Spend Limits by Role</li>
+<li>Air Put AI Credits in Every Contract and Gave Customer Success an Adoption Quota, and Usage Rose 15x in Five Months [GTM]</li>
+<li>An Anthropic BDR Runs Six Named Agents That Save ~60 Hours a Week, and Harvey Made 36 Personalized Demo Films in 69 Minutes [GTM]</li>
+<li>The Best Data Agent Passes 61% of Real Analytics Queries, and SAP&#x27;s CTO Says the Real Risk Is &quot;Fluent-but-Wrong&quot; [GTM]</li>
+</ul>]]></description>
+      <content:encoded><![CDATA[<p>The money gets formal. Anthropic publicly filed its S-1 this morning (ticker ANT, Nasdaq), showing roughly 900% net revenue retention and a voting structure that keeps control with a trust and the founders. OpenAI is lining up a $30B bridge at $1.25T, a lower number than it was asking for a week earlier. DeepSeek reportedly closed $15B. SpaceX says it closed $40B of debt to buy GPUs. Meanwhile one compute marketplace argues most startups won&#x27;t be able to buy compute at all within six months. The capital is flowing to a handful of names, and the terms are getting tighter for everyone else.</p>
+<p>Agents need keys, and everyone is building the lock. Big US banks are blocking or restricting third-party agents after finding them logging into customer accounts. In the same week 1Password shipped a way for agents to log in without ever seeing a password, and Stripe let agents pay invoices with human approval gates. Permission, identity and audit are becoming the product.</p>
+<p>The labs are auditing their own sandboxes. OpenAI published what its internal red team found in its frontier training environment. METR and Redwood published a three-week audit of OpenAI&#x27;s agent monitoring, which found a gap that left roughly 10% of internal Codex traffic unwatched for three months. Symantec caught an attack agent that steals other people&#x27;s models to plan its intrusions.</p>
+<p>Bigger isn&#x27;t always the answer. Apple runs a 20B model in about 2GB of memory. Block trained a voice model on speech alone. A 2015-era image network beat two frontier models at spotting skin cancer. And the best data agent passes only 61% of realistic analytics queries on the first try. Specialized and well-grounded is beating general and big in a lot of places this week.</p>
+<p><strong>In this episode</strong></p><ul>
+<li>Anthropic Files Its S-1 Publicly: Ticker ANT, ~900% Net Revenue Retention, and a Single Founder Share With 50.1% of the Vote</li>
+<li>OpenAI Lines Up a $30B Bridge at $1.25T, Below Last Week&#x27;s Ask, as DeepSeek Reportedly Closes $15B</li>
+<li>SpaceX Says It Closed $40B in GPU Debt, While a Compute Marketplace Warns Most Startups Won&#x27;t Be Able to Buy Compute Within Six Months</li>
+<li>Kimi K3.1 Pro Ranks No. 4 in the World at a Fifth of GPT-6 Astra&#x27;s Price, With Open Weights Due November 4</li>
+<li>Banks Block Third-Party Agents as 1Password and Stripe Ship the Permission Layer Agents Need</li>
+<li>OpenAI Opens Up About Its Training Sandbox, and an Outside Audit Finds ~10% of Internal Codex Traffic Went Unmonitored for Three Months</li>
+<li>&quot;Skynet Mode&quot;: An Attack Agent That Steals Other People&#x27;s Models to Plan Its Intrusions, and a Python Sandbox Escape in AWS&#x27;s Managed MCP Server</li>
+<li>Small and Local: Apple Runs a 20B Model in ~2GB of Memory, and Block&#x27;s Dessa Learned to Talk From Sound Alone</li>
+<li>Canva&#x27;s First In-House Image Model, Craft, Debuts Near the Top of DesignArena by Training on Its Own Templates</li>
+<li>Microsoft&#x27;s Diagnostic Agent Panel Hits 80% on ER Cases vs. 47% for Doctors, While a 2015 Image Network Beats Two Frontier LLMs at Skin Cancer</li>
+<li>Open Models Carry 60% of OpenRouter&#x27;s Tokens but 26% of Its Spend, and Cheaper Prices Don&#x27;t Mean Cheaper Tasks</li>
+<li>Anthropic Hands Agent Skills to the Linux Foundation and Merges Chat and Cowork for Enterprise, With Spend Limits by Role</li>
+<li>Air Put AI Credits in Every Contract and Gave Customer Success an Adoption Quota, and Usage Rose 15x in Five Months [GTM]</li>
+<li>An Anthropic BDR Runs Six Named Agents That Save ~60 Hours a Week, and Harvey Made 36 Personalized Demo Films in 69 Minutes [GTM]</li>
+<li>The Best Data Agent Passes 61% of Real Analytics Queries, and SAP&#x27;s CTO Says the Real Risk Is &quot;Fluent-but-Wrong&quot; [GTM]</li>
+</ul>]]></content:encoded>
+      <itunes:summary>The money gets formal. Anthropic publicly filed its S-1 this morning (ticker ANT, Nasdaq), showing roughly 900% net revenue retention and a voting structure that keeps control with a trust and the founders. OpenAI is lining up a $30B bridge at $1.25T, a lower number than it was asking for a week earlier. DeepSeek reportedly closed $15B. SpaceX says it closed $40B of debt to buy GPUs. Meanwhile one compute marketplace argues most startups won't be able to buy compute at all within six months. The capital is flowing to a handful of names, and the terms are getting tighter for everyone else. Agents need keys, and everyone is building the lock. Big US banks are blocking or restricting third-party agents after finding them logging into customer accounts. In the same week 1Password shipped a way for agents to log in without ever seeing a password, and Stripe let agents pay invoices with human approval gates. Permission, identity and audit are becoming the product. The labs are auditing their own sandboxes. OpenAI published what its internal red team found in its frontier training environment. METR and Redwood published a three-week audit of OpenAI's agent monitoring, which found a gap that left roughly 10% of internal Codex traffic unwatched for three months. Symantec caught an attack agent that steals other people's models to plan its intrusions. Bigger isn't always the answer. Apple runs a 20B model in about 2GB of memory. Block trained a voice model on speech alone. A 2015-era image network beat two frontier models at spotting skin cancer. And the best data agent passes only 61% of realistic analytics queries on the first try. Specialized and well-grounded is beating general and big in a lot of places this week.</itunes:summary>
+      <pubDate>Mon, 26 Oct 2026 18:00:00 +0000</pubDate>
+      <enclosure url="https://archive.org/download/manic-ai-podcast-audio/2026-10-26.m4a" length="23962974" type="audio/x-m4a"/>
+      <guid isPermaLink="false">manic-mondai-2026-10-26</guid>
+      <itunes:duration>00:20:01</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>Everything Broke at Once</title>
       <itunes:title>Everything Broke at Once</itunes:title>
       <itunes:season>1</itunes:season>
