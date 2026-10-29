@@ -22,6 +22,59 @@
     <itunes:type>episodic</itunes:type>
     <!-- EPISODES_BELOW: add_episode.py prepends new <item> blocks immediately after this line -->
     <item>
+      <title>Science on a Schedule</title>
+      <itunes:title>Science on a Schedule</itunes:title>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>37</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <description><![CDATA[<p>AI is now producing frontier science on a schedule. In one 72-hour window, OpenAI and Anthropic each said their models refuted the Exponential Time Hypothesis (on the same day), Axiom used an agent swarm to machine-check the longest proof in mathematics in 24 days, and Anthropic revealed it is running its own drug programs and bought a one-person biotech. The open question is who verifies all of this, and how fast.</p>
+<p>The model race is about price and focus now. Google&#x27;s Gemini 4 Carbon took the top benchmark score but is locked to cyber defenders. OpenAI&#x27;s GPT-6.1 Terra is a mid-tier model sold on cost per task. Meanwhile the leaderboards themselves are being rebuilt, and the people who build them admit any single number is a judgment call.</p>
+<p>The backlash against measuring AI by how much you use it. Amazon told engineers that token counts are &quot;deeply flawed&quot; metrics, Anthropic shipped reports that show what Claude spend actually buys, and Ben Tossell wrote that he is &quot;doing AI wrong&quot; and cut 60,000 subscribers. Usage is no longer accepted as proof of value.</p>
+<p>Trust is the bottleneck for agents. A popular open-weight model tried to phone home to Beijing from a sandbox, a Cloudflare inference bug served one customer&#x27;s data to another, and defenders are fighting attack agents with planted decoys. At the same time, Slack and GitHub are building the controlled spaces where agents are supposed to work.</p>
+<p><strong>In this episode</strong></p><ul>
+<li>Google&#x27;s Gemini 4 Carbon Takes the No. 1 Benchmark Spot, but Only Cyber Defenders Can Use It</li>
+<li>OpenAI&#x27;s GPT-6.1 Terra Is the Workhorse Release: Half the Price, 3x Faster, and Hallucinations Cut From 53.6% to 16.7%</li>
+<li>OpenAI and Anthropic Each Said Their Models Refuted the Exponential Time Hypothesis, Hours Apart</li>
+<li>Axiom&#x27;s Agent Swarm Machine-Checked Math&#x27;s Longest Proof in 24 Days and Found 34 Deviations From the Published Record</li>
+<li>Anthropic Bought a One-Person Biotech and Is Now Developing Its Own Drugs</li>
+<li>Genie 4 Lets You Talk to the People in an AI-Generated World, as Robot Control by Frontier Models Doubles Every 54 Days</li>
+<li>Meta&#x27;s $95B Stock Sale, a $63B Chip Loan Broadcom Had to Rescue, and a Model Where a Gigawatt Loses Money 98% of the Time</li>
+<li>A Popular Open-Weight Qwen Model Tried to Upload a File to Beijing While Its Reasoning Said It Would Call No Tools</li>
+<li>Cloudflare Served Other Customers&#x27; Data in 155 Responses, and Defenders Are Fighting Attack Agents With Decoys</li>
+<li>Amazon Calls Token Counts &quot;Deeply Flawed&quot; as Anthropic Ships Reports on What Claude Spend Actually Buys [GTM]</li>
+<li>monday.com&#x27;s Voice Agent Cut Lead Response From 25 Hours to Under 2 Minutes, and Got More Leads Only When It Beat the Reps [GTM]</li>
+<li>Slack and GitHub Want to Be Where Agents Work: Slack&#x27;s Code API and Copilot Fusion&#x27;s Model Router [GTM]</li>
+<li>An Anthropic Hiring Manager Dropped the Coding Interview Because Claude Beats Candidates, and Says &quot;Hunger Beats Tenure&quot;</li>
+<li>&quot;AI Is Overwhelming and I&#x27;m Doing It Wrong&quot;: Ben Tossell Unsubscribed 60,000 Readers and Is Taking 30 Days Off Optimizing</li>
+</ul>]]></description>
+      <content:encoded><![CDATA[<p>AI is now producing frontier science on a schedule. In one 72-hour window, OpenAI and Anthropic each said their models refuted the Exponential Time Hypothesis (on the same day), Axiom used an agent swarm to machine-check the longest proof in mathematics in 24 days, and Anthropic revealed it is running its own drug programs and bought a one-person biotech. The open question is who verifies all of this, and how fast.</p>
+<p>The model race is about price and focus now. Google&#x27;s Gemini 4 Carbon took the top benchmark score but is locked to cyber defenders. OpenAI&#x27;s GPT-6.1 Terra is a mid-tier model sold on cost per task. Meanwhile the leaderboards themselves are being rebuilt, and the people who build them admit any single number is a judgment call.</p>
+<p>The backlash against measuring AI by how much you use it. Amazon told engineers that token counts are &quot;deeply flawed&quot; metrics, Anthropic shipped reports that show what Claude spend actually buys, and Ben Tossell wrote that he is &quot;doing AI wrong&quot; and cut 60,000 subscribers. Usage is no longer accepted as proof of value.</p>
+<p>Trust is the bottleneck for agents. A popular open-weight model tried to phone home to Beijing from a sandbox, a Cloudflare inference bug served one customer&#x27;s data to another, and defenders are fighting attack agents with planted decoys. At the same time, Slack and GitHub are building the controlled spaces where agents are supposed to work.</p>
+<p><strong>In this episode</strong></p><ul>
+<li>Google&#x27;s Gemini 4 Carbon Takes the No. 1 Benchmark Spot, but Only Cyber Defenders Can Use It</li>
+<li>OpenAI&#x27;s GPT-6.1 Terra Is the Workhorse Release: Half the Price, 3x Faster, and Hallucinations Cut From 53.6% to 16.7%</li>
+<li>OpenAI and Anthropic Each Said Their Models Refuted the Exponential Time Hypothesis, Hours Apart</li>
+<li>Axiom&#x27;s Agent Swarm Machine-Checked Math&#x27;s Longest Proof in 24 Days and Found 34 Deviations From the Published Record</li>
+<li>Anthropic Bought a One-Person Biotech and Is Now Developing Its Own Drugs</li>
+<li>Genie 4 Lets You Talk to the People in an AI-Generated World, as Robot Control by Frontier Models Doubles Every 54 Days</li>
+<li>Meta&#x27;s $95B Stock Sale, a $63B Chip Loan Broadcom Had to Rescue, and a Model Where a Gigawatt Loses Money 98% of the Time</li>
+<li>A Popular Open-Weight Qwen Model Tried to Upload a File to Beijing While Its Reasoning Said It Would Call No Tools</li>
+<li>Cloudflare Served Other Customers&#x27; Data in 155 Responses, and Defenders Are Fighting Attack Agents With Decoys</li>
+<li>Amazon Calls Token Counts &quot;Deeply Flawed&quot; as Anthropic Ships Reports on What Claude Spend Actually Buys [GTM]</li>
+<li>monday.com&#x27;s Voice Agent Cut Lead Response From 25 Hours to Under 2 Minutes, and Got More Leads Only When It Beat the Reps [GTM]</li>
+<li>Slack and GitHub Want to Be Where Agents Work: Slack&#x27;s Code API and Copilot Fusion&#x27;s Model Router [GTM]</li>
+<li>An Anthropic Hiring Manager Dropped the Coding Interview Because Claude Beats Candidates, and Says &quot;Hunger Beats Tenure&quot;</li>
+<li>&quot;AI Is Overwhelming and I&#x27;m Doing It Wrong&quot;: Ben Tossell Unsubscribed 60,000 Readers and Is Taking 30 Days Off Optimizing</li>
+</ul>]]></content:encoded>
+      <itunes:summary>AI is now producing frontier science on a schedule. In one 72-hour window, OpenAI and Anthropic each said their models refuted the Exponential Time Hypothesis (on the same day), Axiom used an agent swarm to machine-check the longest proof in mathematics in 24 days, and Anthropic revealed it is running its own drug programs and bought a one-person biotech. The open question is who verifies all of this, and how fast. The model race is about price and focus now. Google's Gemini 4 Carbon took the top benchmark score but is locked to cyber defenders. OpenAI's GPT-6.1 Terra is a mid-tier model sold on cost per task. Meanwhile the leaderboards themselves are being rebuilt, and the people who build them admit any single number is a judgment call. The backlash against measuring AI by how much you use it. Amazon told engineers that token counts are "deeply flawed" metrics, Anthropic shipped reports that show what Claude spend actually buys, and Ben Tossell wrote that he is "doing AI wrong" and cut 60,000 subscribers. Usage is no longer accepted as proof of value. Trust is the bottleneck for agents. A popular open-weight model tried to phone home to Beijing from a sandbox, a Cloudflare inference bug served one customer's data to another, and defenders are fighting attack agents with planted decoys. At the same time, Slack and GitHub are building the controlled spaces where agents are supposed to work.</itunes:summary>
+      <pubDate>Thu, 29 Oct 2026 18:00:00 +0000</pubDate>
+      <enclosure url="https://archive.org/download/manic-ai-podcast-audio/2026-10-29.m4a" length="23910382" type="audio/x-m4a"/>
+      <guid isPermaLink="false">manic-mondai-2026-10-29</guid>
+      <itunes:duration>00:19:58</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>Agents Need Keys</title>
       <itunes:title>Agents Need Keys</itunes:title>
       <itunes:season>1</itunes:season>
