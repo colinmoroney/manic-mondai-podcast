@@ -22,6 +22,61 @@
     <itunes:type>episodic</itunes:type>
     <!-- EPISODES_BELOW: add_episode.py prepends new <item> blocks immediately after this line -->
     <item>
+      <title>Investors and Voters Hesitate</title>
+      <itunes:title>Investors and Voters Hesitate</itunes:title>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>38</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <description><![CDATA[<p>The money is getting pickier, and the public is getting louder. OpenAI raised about $11B of a $30B target. Cohere still raised at a premium. About 20 U.S. communities vote on data-center bans or pauses on Tuesday. The AI buildout now needs investors and voters to keep saying yes, and both are hesitating.</p>
+<p>Compute is turning into a geopolitics-and-space story. Anthropic is reportedly over a third of SpaceX&#x27;s quarterly revenue, Google ran a model on a TPU in orbit, and a NYT report puts an alleged Chinese intelligence asset close to Nvidia&#x27;s CEO.</p>
+<p>Agents are now the attack surface on both sides. A trojanized Claude Code extension shipped through Cursor&#x27;s marketplace. An infostealer asks Claude what each victim is worth. Researchers planted a remote-code backdoor in a coding agent by poisoning 0.1% of its pretraining data. And an open-weight model turned Firefox patches into working exploits before users got the update.</p>
+<p>Agents are changing how software gets bought and sold. SaaStr&#x27;s agent replaced a vendor during a one-day outage. Ramp and Harvey are betting on a &quot;company brain&quot;. And DoorDash says AI agents have placed only several hundred of its orders.</p>
+<p><strong>In this episode</strong></p><ul>
+<li>OpenAI Raised About $11B of a $30B Target, at $1.25T, as Big Investors Pulled Back</li>
+<li>Data Centers Are on the Ballot Tomorrow, and OpenAI Is Reportedly Planning a Rebrand for After the Vote</li>
+<li>NYT: U.S. Intelligence Says a Megaspeed Executive Close to Jensen Huang Was a Chinese Asset, and the White House Didn&#x27;t Act</li>
+<li>Anthropic Is Reportedly SpaceX&#x27;s &quot;Customer B&quot; at 34.5% of Revenue, and Google Ran a Model on a TPU in Orbit</li>
+<li>Cohere Opens a Series E of Up to ~$5B at $20.5B, Reporting 165% ARR Growth</li>
+<li>Mistral Ships Open Weights for a Trillion-Parameter Model, While Epoch Shows an Open Model Turning Firefox Patches Into Exploits</li>
+<li>A Trojanized Claude Code Extension Ran on Cursor&#x27;s Marketplace for ~11 Hours and Planted SSH Backdoors</li>
+<li>Criminals Put Frontier Models on the Payroll: VOLTA Asks Claude What Each Victim Is &quot;Worth,&quot; and ARTEX Agents Run Real Intrusions</li>
+<li>Poisoning 0.1% of Pretraining Data Planted a Remote-Code Backdoor in a Coding Agent, and Red-Teamers Found 11 Ways Past Codex&#x27;s Monitor</li>
+<li>Anthropic Has Claude Grade Its Own Conversations for Misuse, and It Found 100K+ Child-Abuse Flags From One API Customer</li>
+<li>Cisco Gave a 27-Year-Old Unlimited Tokens to Rewrite 98% of Its Legacy Code in 24 Months, and AI Bug Reports Have Delayed Postgres 19</li>
+<li>The Web Closes Ranks: Reddit Moves to Logged-In-Only, and Google Backs a Single robots.txt Switch for AI Training</li>
+<li>A Core Vendor Went Dark for a Day, and SaaStr&#x27;s AI Agent Replaced It Before It Came Back [GTM]</li>
+<li>&quot;No Model Ships With Your Company&#x27;s Brain&quot;: Ramp&#x27;s Context Playbook, and Harvey Buys an AI Sales Startup to Build Ontologies [GTM]</li>
+<li>Agentic Commerce, Reality Check: DoorDash Has Seen &quot;Maybe Several Hundred&quot; Agent Orders, as Shopify Pushes Checkout Into Agents Anyway [GTM]</li>
+</ul>]]></description>
+      <content:encoded><![CDATA[<p>The money is getting pickier, and the public is getting louder. OpenAI raised about $11B of a $30B target. Cohere still raised at a premium. About 20 U.S. communities vote on data-center bans or pauses on Tuesday. The AI buildout now needs investors and voters to keep saying yes, and both are hesitating.</p>
+<p>Compute is turning into a geopolitics-and-space story. Anthropic is reportedly over a third of SpaceX&#x27;s quarterly revenue, Google ran a model on a TPU in orbit, and a NYT report puts an alleged Chinese intelligence asset close to Nvidia&#x27;s CEO.</p>
+<p>Agents are now the attack surface on both sides. A trojanized Claude Code extension shipped through Cursor&#x27;s marketplace. An infostealer asks Claude what each victim is worth. Researchers planted a remote-code backdoor in a coding agent by poisoning 0.1% of its pretraining data. And an open-weight model turned Firefox patches into working exploits before users got the update.</p>
+<p>Agents are changing how software gets bought and sold. SaaStr&#x27;s agent replaced a vendor during a one-day outage. Ramp and Harvey are betting on a &quot;company brain&quot;. And DoorDash says AI agents have placed only several hundred of its orders.</p>
+<p><strong>In this episode</strong></p><ul>
+<li>OpenAI Raised About $11B of a $30B Target, at $1.25T, as Big Investors Pulled Back</li>
+<li>Data Centers Are on the Ballot Tomorrow, and OpenAI Is Reportedly Planning a Rebrand for After the Vote</li>
+<li>NYT: U.S. Intelligence Says a Megaspeed Executive Close to Jensen Huang Was a Chinese Asset, and the White House Didn&#x27;t Act</li>
+<li>Anthropic Is Reportedly SpaceX&#x27;s &quot;Customer B&quot; at 34.5% of Revenue, and Google Ran a Model on a TPU in Orbit</li>
+<li>Cohere Opens a Series E of Up to ~$5B at $20.5B, Reporting 165% ARR Growth</li>
+<li>Mistral Ships Open Weights for a Trillion-Parameter Model, While Epoch Shows an Open Model Turning Firefox Patches Into Exploits</li>
+<li>A Trojanized Claude Code Extension Ran on Cursor&#x27;s Marketplace for ~11 Hours and Planted SSH Backdoors</li>
+<li>Criminals Put Frontier Models on the Payroll: VOLTA Asks Claude What Each Victim Is &quot;Worth,&quot; and ARTEX Agents Run Real Intrusions</li>
+<li>Poisoning 0.1% of Pretraining Data Planted a Remote-Code Backdoor in a Coding Agent, and Red-Teamers Found 11 Ways Past Codex&#x27;s Monitor</li>
+<li>Anthropic Has Claude Grade Its Own Conversations for Misuse, and It Found 100K+ Child-Abuse Flags From One API Customer</li>
+<li>Cisco Gave a 27-Year-Old Unlimited Tokens to Rewrite 98% of Its Legacy Code in 24 Months, and AI Bug Reports Have Delayed Postgres 19</li>
+<li>The Web Closes Ranks: Reddit Moves to Logged-In-Only, and Google Backs a Single robots.txt Switch for AI Training</li>
+<li>A Core Vendor Went Dark for a Day, and SaaStr&#x27;s AI Agent Replaced It Before It Came Back [GTM]</li>
+<li>&quot;No Model Ships With Your Company&#x27;s Brain&quot;: Ramp&#x27;s Context Playbook, and Harvey Buys an AI Sales Startup to Build Ontologies [GTM]</li>
+<li>Agentic Commerce, Reality Check: DoorDash Has Seen &quot;Maybe Several Hundred&quot; Agent Orders, as Shopify Pushes Checkout Into Agents Anyway [GTM]</li>
+</ul>]]></content:encoded>
+      <itunes:summary>The money is getting pickier, and the public is getting louder. OpenAI raised about $11B of a $30B target. Cohere still raised at a premium. About 20 U.S. communities vote on data-center bans or pauses on Tuesday. The AI buildout now needs investors and voters to keep saying yes, and both are hesitating. Compute is turning into a geopolitics-and-space story. Anthropic is reportedly over a third of SpaceX's quarterly revenue, Google ran a model on a TPU in orbit, and a NYT report puts an alleged Chinese intelligence asset close to Nvidia's CEO. Agents are now the attack surface on both sides. A trojanized Claude Code extension shipped through Cursor's marketplace. An infostealer asks Claude what each victim is worth. Researchers planted a remote-code backdoor in a coding agent by poisoning 0.1% of its pretraining data. And an open-weight model turned Firefox patches into working exploits before users got the update. Agents are changing how software gets bought and sold. SaaStr's agent replaced a vendor during a one-day outage. Ramp and Harvey are betting on a "company brain". And DoorDash says AI agents have placed only several hundred of its orders.</itunes:summary>
+      <pubDate>Mon, 02 Nov 2026 18:00:00 +0000</pubDate>
+      <enclosure url="https://archive.org/download/manic-ai-podcast-audio/2026-11-02.m4a" length="23650320" type="audio/x-m4a"/>
+      <guid isPermaLink="false">manic-mondai-2026-11-02</guid>
+      <itunes:duration>00:19:47</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>Science on a Schedule</title>
       <itunes:title>Science on a Schedule</itunes:title>
       <itunes:season>1</itunes:season>
