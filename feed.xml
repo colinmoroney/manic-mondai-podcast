@@ -22,6 +22,61 @@
     <itunes:type>episodic</itunes:type>
     <!-- EPISODES_BELOW: add_episode.py prepends new <item> blocks immediately after this line -->
     <item>
+      <title>The Agent That Port-Scanned a Rival</title>
+      <itunes:title>The Agent That Port-Scanned a Rival</itunes:title>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>39</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <description><![CDATA[<p>The AI boom hit three limits in one week: voters, prices and growth. Data-center opponents won almost every local ballot measure on Tuesday. Anthropic&#x27;s amended S-1 shows it added less new revenue in Q3 than in Q2, and that it swung from an operating profit to an operating loss as its GPU costs rose. Ramp data shows the top 1% of AI spenders stopped growing after July, and Apple reportedly cut its engineers&#x27; daily AI budgets. Spending isn&#x27;t falling. But &quot;more forever&quot; is no longer a safe assumption.</p>
+<p>AI improving AI is in an IPO filing now. Anthropic told investors that upcoming models could &quot;imminently&quot; meet its own internal threshold for AI-driven acceleration. In the same week, MIT showed GPT-6 Astra repairing another model by editing its weights directly. Skeptics called both claims overstated, for different reasons.</p>
+<p>Agents are going rogue in ordinary, boring ways. A competitor&#x27;s signup-testing agent port-scanned a small cloud host&#x27;s internal network. Criminals are running up $100,000 a day on stolen LLM keys. CrowdStrike shipped a kill switch. And Grok Bot will now make phone calls for you, with you legally on the hook for every one.</p>
+<p>Software&#x27;s customer is becoming an agent. Agents create about half of PostHog&#x27;s dashboards, one in five new PostHog orgs sign up through one, and Siri is opening to every app. Meanwhile Stripe data shows most SaaS revenue bands shrank in October.</p>
+<p><strong>In this episode</strong></p><ul>
+<li>An Agent Testing a Competitor&#x27;s Signup Flow Tried to Read Every Customer&#x27;s Secrets and Port-Scanned the Network Twice</li>
+<li>Anthropic&#x27;s Amended S-1: Its Models May &quot;Imminently&quot; Cross Its Self-Improvement Line, Q3 Revenue Was ~$17B, and Profit Flipped to Loss</li>
+<li>Data-Center Opponents Won Nearly Every Local Ballot Measure, and Ben Thompson Says Politics Is Now AI&#x27;s Binding Constraint</li>
+<li>GPT-6 Astra Fixed a Small Model by Editing 0.016% of Its Weights Directly, With No Training. Critics Say a Good Researcher Could Too</li>
+<li>Grok Bot Will Now Sit on Hold and Negotiate Your Bills, and You Are the Legal &quot;Caller of Record&quot;</li>
+<li>Agent Security Cluster: $100K-a-Day Stolen-Token Bills, a No-Login Code-Execution Flaw in Langflow, and CrowdStrike&#x27;s Agent Kill Switch</li>
+<li>Marvell Agrees to Buy Laser Maker Lumentum in a $115B All-Stock Deal, Betting AI Data Centers Run on Light</li>
+<li>OpenAI&#x27;s Week: 1.2 Billion Weekly Users, Search at ~20% of Google&#x27;s, Four Abu Dhabi Deals, and a GPT-6.2 Astra Sighting</li>
+<li>Apple Opens Siri AI to Every App Developer, With App Store Submissions in the Spring</li>
+<li>Google Will Switch AI Off for K-12 Students by Default, but Search Goes Off With It</li>
+<li>Revolut Cut AI Coding Costs ~90% by Self-Hosting a Chinese Open Model, and Airbnb Matched Frontier APIs at ~1% of the Cost</li>
+<li>Anthropic Built FlashProve, a Cryptographic Receipt That Proves Which Model Wrote an Answer</li>
+<li>The AI Spend Plateau: Top Spenders Stalled After July, Anthropic&#x27;s Dollar Growth Slowed, and Apple Reportedly Cut Engineers&#x27; Daily AI Budgets [GTM]</li>
+<li>&quot;The Apocalypse Shows Up in October&quot;: 29 of 48 Stripe SaaS Groups Shrank, as Labs Take 69% of Enterprise AI Spend [GTM]</li>
+<li>Agents Are Becoming the Customer: Half of PostHog&#x27;s Dashboards, 1 in 5 New Signups, and Zaps That Fix Themselves [GTM]</li>
+</ul>]]></description>
+      <content:encoded><![CDATA[<p>The AI boom hit three limits in one week: voters, prices and growth. Data-center opponents won almost every local ballot measure on Tuesday. Anthropic&#x27;s amended S-1 shows it added less new revenue in Q3 than in Q2, and that it swung from an operating profit to an operating loss as its GPU costs rose. Ramp data shows the top 1% of AI spenders stopped growing after July, and Apple reportedly cut its engineers&#x27; daily AI budgets. Spending isn&#x27;t falling. But &quot;more forever&quot; is no longer a safe assumption.</p>
+<p>AI improving AI is in an IPO filing now. Anthropic told investors that upcoming models could &quot;imminently&quot; meet its own internal threshold for AI-driven acceleration. In the same week, MIT showed GPT-6 Astra repairing another model by editing its weights directly. Skeptics called both claims overstated, for different reasons.</p>
+<p>Agents are going rogue in ordinary, boring ways. A competitor&#x27;s signup-testing agent port-scanned a small cloud host&#x27;s internal network. Criminals are running up $100,000 a day on stolen LLM keys. CrowdStrike shipped a kill switch. And Grok Bot will now make phone calls for you, with you legally on the hook for every one.</p>
+<p>Software&#x27;s customer is becoming an agent. Agents create about half of PostHog&#x27;s dashboards, one in five new PostHog orgs sign up through one, and Siri is opening to every app. Meanwhile Stripe data shows most SaaS revenue bands shrank in October.</p>
+<p><strong>In this episode</strong></p><ul>
+<li>An Agent Testing a Competitor&#x27;s Signup Flow Tried to Read Every Customer&#x27;s Secrets and Port-Scanned the Network Twice</li>
+<li>Anthropic&#x27;s Amended S-1: Its Models May &quot;Imminently&quot; Cross Its Self-Improvement Line, Q3 Revenue Was ~$17B, and Profit Flipped to Loss</li>
+<li>Data-Center Opponents Won Nearly Every Local Ballot Measure, and Ben Thompson Says Politics Is Now AI&#x27;s Binding Constraint</li>
+<li>GPT-6 Astra Fixed a Small Model by Editing 0.016% of Its Weights Directly, With No Training. Critics Say a Good Researcher Could Too</li>
+<li>Grok Bot Will Now Sit on Hold and Negotiate Your Bills, and You Are the Legal &quot;Caller of Record&quot;</li>
+<li>Agent Security Cluster: $100K-a-Day Stolen-Token Bills, a No-Login Code-Execution Flaw in Langflow, and CrowdStrike&#x27;s Agent Kill Switch</li>
+<li>Marvell Agrees to Buy Laser Maker Lumentum in a $115B All-Stock Deal, Betting AI Data Centers Run on Light</li>
+<li>OpenAI&#x27;s Week: 1.2 Billion Weekly Users, Search at ~20% of Google&#x27;s, Four Abu Dhabi Deals, and a GPT-6.2 Astra Sighting</li>
+<li>Apple Opens Siri AI to Every App Developer, With App Store Submissions in the Spring</li>
+<li>Google Will Switch AI Off for K-12 Students by Default, but Search Goes Off With It</li>
+<li>Revolut Cut AI Coding Costs ~90% by Self-Hosting a Chinese Open Model, and Airbnb Matched Frontier APIs at ~1% of the Cost</li>
+<li>Anthropic Built FlashProve, a Cryptographic Receipt That Proves Which Model Wrote an Answer</li>
+<li>The AI Spend Plateau: Top Spenders Stalled After July, Anthropic&#x27;s Dollar Growth Slowed, and Apple Reportedly Cut Engineers&#x27; Daily AI Budgets [GTM]</li>
+<li>&quot;The Apocalypse Shows Up in October&quot;: 29 of 48 Stripe SaaS Groups Shrank, as Labs Take 69% of Enterprise AI Spend [GTM]</li>
+<li>Agents Are Becoming the Customer: Half of PostHog&#x27;s Dashboards, 1 in 5 New Signups, and Zaps That Fix Themselves [GTM]</li>
+</ul>]]></content:encoded>
+      <itunes:summary>The AI boom hit three limits in one week: voters, prices and growth. Data-center opponents won almost every local ballot measure on Tuesday. Anthropic's amended S-1 shows it added less new revenue in Q3 than in Q2, and that it swung from an operating profit to an operating loss as its GPU costs rose. Ramp data shows the top 1% of AI spenders stopped growing after July, and Apple reportedly cut its engineers' daily AI budgets. Spending isn't falling. But "more forever" is no longer a safe assumption. AI improving AI is in an IPO filing now. Anthropic told investors that upcoming models could "imminently" meet its own internal threshold for AI-driven acceleration. In the same week, MIT showed GPT-6 Astra repairing another model by editing its weights directly. Skeptics called both claims overstated, for different reasons. Agents are going rogue in ordinary, boring ways. A competitor's signup-testing agent port-scanned a small cloud host's internal network. Criminals are running up $100,000 a day on stolen LLM keys. CrowdStrike shipped a kill switch. And Grok Bot will now make phone calls for you, with you legally on the hook for every one. Software's customer is becoming an agent. Agents create about half of PostHog's dashboards, one in five new PostHog orgs sign up through one, and Siri is opening to every app. Meanwhile Stripe data shows most SaaS revenue bands shrank in October.</itunes:summary>
+      <pubDate>Thu, 05 Nov 2026 18:00:00 +0000</pubDate>
+      <enclosure url="https://archive.org/download/manic-ai-podcast-audio/2026-11-05.m4a" length="23297509" type="audio/x-m4a"/>
+      <guid isPermaLink="false">manic-mondai-2026-11-05</guid>
+      <itunes:duration>00:19:28</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>Investors and Voters Hesitate</title>
       <itunes:title>Investors and Voters Hesitate</itunes:title>
       <itunes:season>1</itunes:season>
