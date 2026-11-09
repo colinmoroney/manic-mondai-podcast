@@ -22,6 +22,61 @@
     <itunes:type>episodic</itunes:type>
     <!-- EPISODES_BELOW: add_episode.py prepends new <item> blocks immediately after this line -->
     <item>
+      <title>The Loop Gets an Auditor</title>
+      <itunes:title>The Loop Gets an Auditor</itunes:title>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>40</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <description><![CDATA[<p>The self-improvement loop got an outside auditor. Last Thursday&#x27;s story was Anthropic&#x27;s own S-1 saying it &quot;may imminently&quot; cross its AI-accelerating-AI line. Since then METR, after 11 weeks inside Anthropic, estimated the lab is progressing about 2x faster than before, with roughly 80% of that credited to AI. Ajeya Cotra argues the line has already been crossed. An AI system running an unreleased Claude model proved a 17-year-old quantum computing conjecture, and an economist&#x27;s read of OpenAI&#x27;s own data has its research time horizons doubling about every two months.</p>
+<p>Capital and politics are pricing in the backlash. OpenAI has reportedly secured about $11B at $1.25T, short of its target. Anthropic&#x27;s IPO buyers are reportedly pushing its valuation down toward $1-1.1T. Nvidia&#x27;s board is investigating reports that its CEO was the target of a foreign intelligence effort, and Congress now wants briefings.</p>
+<p>Offensive AI is now an industrial process. OpenAI&#x27;s GPT-6 Cyber built 948 Linux root exploits in a 30-hour run at about $1,279 apiece. Chainalysis blamed &quot;offensive agentic techniques&quot; for a breach that exposed every user. And a researcher stopped DeepSeek-powered hacking agents by hiding &quot;Tank Man&quot; in his HTML.</p>
+<p>Agents are moving into the GTM stack and the data warehouse. Growth teams are cancelling tools and rebuilding them as agent scripts. Stripe opened its data to agents with the SQL shown. Investors are telling AI companies how to handle a token bill that grows with every task.</p>
+<p><strong>In this episode</strong></p><ul>
+<li>A Developer Stopped AI Hacking Agents by Hiding &quot;Tank Man&quot; in His Website&#x27;s Code</li>
+<li>Jensen Huang Admits an Affair With an Alleged Chinese Asset, and Nvidia&#x27;s Board Opens an Investigation</li>
+<li>METR Spent 11 Weeks Inside Anthropic and Found Its Progress Running ~2x Faster, Mostly Because of AI. Ajeya Cotra Says the Line Has Been Crossed</li>
+<li>An AI System Running an Unreleased Claude Model Proved a 17-Year-Old Quantum Computing Conjecture, and Its Namesake Says It&#x27;s Real</li>
+<li>OpenAI Closes ~$11B at $1.25T, and Anthropic&#x27;s IPO Buyers Reportedly Want a Lower Price</li>
+<li>GPT-6 Cyber Built 948 Linux Root Exploits in 30 Hours, at About $1,279 Each, and Earned a &quot;Critical&quot; Rating</li>
+<li>Breach Cluster: Chainalysis Blames &quot;Offensive Agentic Techniques,&quot; and LiteLLM Traces a Poisoned Release to a Key Leaked in May</li>
+<li>Agents as the Weak Link: A Claude Dispatch Flaw Anthropic Won&#x27;t Fix, Agents That Trade Secrets for Help, and Code That&#x27;s Secure 25% of the Time</li>
+<li>Claude Now &quot;Dreams&quot; to Fix Its Memory, and Opus 5.5 Beat Pokémon Red With a Small Folder of Notes</li>
+<li>Thinking Machines Ships Inkling 2 Small, a 594B Model With Open Weights Coming Next Week</li>
+<li>GitHub Rebuilds Git Storage for 5,000 Agents on One Repo, Puts Copilot in Slack, and Lets Teammates Drive Each Other&#x27;s Agents</li>
+<li>The &quot;White-Collar Bloodbath&quot; Paused: Professional and Business Services Added ~70,000 Jobs in October</li>
+<li>Growth Is Becoming an Engineering Problem: Teams Are Cancelling GTM Tools and Rebuilding Them as Agent Scripts [GTM]</li>
+<li>Stripe Opens Its Data to Agents With the SQL Shown, as Klaviyo Says Most Warehouse Queries Now Come From Agents [GTM]</li>
+<li>Who Pays the Token Bill? Seven Ways AI Companies Handle Margins, and a Reminder That Sales and Marketing Doesn&#x27;t Get Cheaper at Scale [GTM]</li>
+</ul>]]></description>
+      <content:encoded><![CDATA[<p>The self-improvement loop got an outside auditor. Last Thursday&#x27;s story was Anthropic&#x27;s own S-1 saying it &quot;may imminently&quot; cross its AI-accelerating-AI line. Since then METR, after 11 weeks inside Anthropic, estimated the lab is progressing about 2x faster than before, with roughly 80% of that credited to AI. Ajeya Cotra argues the line has already been crossed. An AI system running an unreleased Claude model proved a 17-year-old quantum computing conjecture, and an economist&#x27;s read of OpenAI&#x27;s own data has its research time horizons doubling about every two months.</p>
+<p>Capital and politics are pricing in the backlash. OpenAI has reportedly secured about $11B at $1.25T, short of its target. Anthropic&#x27;s IPO buyers are reportedly pushing its valuation down toward $1-1.1T. Nvidia&#x27;s board is investigating reports that its CEO was the target of a foreign intelligence effort, and Congress now wants briefings.</p>
+<p>Offensive AI is now an industrial process. OpenAI&#x27;s GPT-6 Cyber built 948 Linux root exploits in a 30-hour run at about $1,279 apiece. Chainalysis blamed &quot;offensive agentic techniques&quot; for a breach that exposed every user. And a researcher stopped DeepSeek-powered hacking agents by hiding &quot;Tank Man&quot; in his HTML.</p>
+<p>Agents are moving into the GTM stack and the data warehouse. Growth teams are cancelling tools and rebuilding them as agent scripts. Stripe opened its data to agents with the SQL shown. Investors are telling AI companies how to handle a token bill that grows with every task.</p>
+<p><strong>In this episode</strong></p><ul>
+<li>A Developer Stopped AI Hacking Agents by Hiding &quot;Tank Man&quot; in His Website&#x27;s Code</li>
+<li>Jensen Huang Admits an Affair With an Alleged Chinese Asset, and Nvidia&#x27;s Board Opens an Investigation</li>
+<li>METR Spent 11 Weeks Inside Anthropic and Found Its Progress Running ~2x Faster, Mostly Because of AI. Ajeya Cotra Says the Line Has Been Crossed</li>
+<li>An AI System Running an Unreleased Claude Model Proved a 17-Year-Old Quantum Computing Conjecture, and Its Namesake Says It&#x27;s Real</li>
+<li>OpenAI Closes ~$11B at $1.25T, and Anthropic&#x27;s IPO Buyers Reportedly Want a Lower Price</li>
+<li>GPT-6 Cyber Built 948 Linux Root Exploits in 30 Hours, at About $1,279 Each, and Earned a &quot;Critical&quot; Rating</li>
+<li>Breach Cluster: Chainalysis Blames &quot;Offensive Agentic Techniques,&quot; and LiteLLM Traces a Poisoned Release to a Key Leaked in May</li>
+<li>Agents as the Weak Link: A Claude Dispatch Flaw Anthropic Won&#x27;t Fix, Agents That Trade Secrets for Help, and Code That&#x27;s Secure 25% of the Time</li>
+<li>Claude Now &quot;Dreams&quot; to Fix Its Memory, and Opus 5.5 Beat Pokémon Red With a Small Folder of Notes</li>
+<li>Thinking Machines Ships Inkling 2 Small, a 594B Model With Open Weights Coming Next Week</li>
+<li>GitHub Rebuilds Git Storage for 5,000 Agents on One Repo, Puts Copilot in Slack, and Lets Teammates Drive Each Other&#x27;s Agents</li>
+<li>The &quot;White-Collar Bloodbath&quot; Paused: Professional and Business Services Added ~70,000 Jobs in October</li>
+<li>Growth Is Becoming an Engineering Problem: Teams Are Cancelling GTM Tools and Rebuilding Them as Agent Scripts [GTM]</li>
+<li>Stripe Opens Its Data to Agents With the SQL Shown, as Klaviyo Says Most Warehouse Queries Now Come From Agents [GTM]</li>
+<li>Who Pays the Token Bill? Seven Ways AI Companies Handle Margins, and a Reminder That Sales and Marketing Doesn&#x27;t Get Cheaper at Scale [GTM]</li>
+</ul>]]></content:encoded>
+      <itunes:summary>The self-improvement loop got an outside auditor. Last Thursday's story was Anthropic's own S-1 saying it "may imminently" cross its AI-accelerating-AI line. Since then METR, after 11 weeks inside Anthropic, estimated the lab is progressing about 2x faster than before, with roughly 80% of that credited to AI. Ajeya Cotra argues the line has already been crossed. An AI system running an unreleased Claude model proved a 17-year-old quantum computing conjecture, and an economist's read of OpenAI's own data has its research time horizons doubling about every two months. Capital and politics are pricing in the backlash. OpenAI has reportedly secured about $11B at $1.25T, short of its target. Anthropic's IPO buyers are reportedly pushing its valuation down toward $1-1.1T. Nvidia's board is investigating reports that its CEO was the target of a foreign intelligence effort, and Congress now wants briefings. Offensive AI is now an industrial process. OpenAI's GPT-6 Cyber built 948 Linux root exploits in a 30-hour run at about $1,279 apiece. Chainalysis blamed "offensive agentic techniques" for a breach that exposed every user. And a researcher stopped DeepSeek-powered hacking agents by hiding "Tank Man" in his HTML. Agents are moving into the GTM stack and the data warehouse. Growth teams are cancelling tools and rebuilding them as agent scripts. Stripe opened its data to agents with the SQL shown. Investors are telling AI companies how to handle a token bill that grows with every task.</itunes:summary>
+      <pubDate>Mon, 09 Nov 2026 18:00:00 +0000</pubDate>
+      <enclosure url="https://archive.org/download/manic-ai-podcast-audio/2026-11-09.m4a" length="24156995" type="audio/x-m4a"/>
+      <guid isPermaLink="false">manic-mondai-2026-11-09</guid>
+      <itunes:duration>00:20:12</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>The Agent That Port-Scanned a Rival</title>
       <itunes:title>The Agent That Port-Scanned a Rival</itunes:title>
       <itunes:season>1</itunes:season>
