@@ -22,6 +22,61 @@
     <itunes:type>episodic</itunes:type>
     <!-- EPISODES_BELOW: add_episode.py prepends new <item> blocks immediately after this line -->
     <item>
+      <title>No CEO, No Brakes</title>
+      <itunes:title>No CEO, No Brakes</itunes:title>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>41</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <description><![CDATA[<p>The AI boom lost its face: Jensen Huang resigned as Nvidia CEO, the same week Anthropic opened its IPO roadshow. One of AI&#x27;s defining companies is leaderless just as another asks public markets for a trillion-dollar-plus valuation.</p>
+<p>&quot;Pacing, not pausing&quot;: Anthropic shipped Fable 5.2 while deliberately holding back its AI-research skills. Meanwhile the AI 2027 forecasters moved their superhuman-AI-researcher date into 2027 and called for an industry-wide pause, and labs and governments started building literal off switches.</p>
+<p>AI&#x27;s own infrastructure is now the target: a vibe-coding tool published 35,000 apps to the open web, stolen AI keys ran up $740,000 in charges, and Microsoft showed a coding agent can be backdoored by editing seven neurons.</p>
+<p>Agents are becoming the customer, and the gatekeepers are picking sides. OpenAI lets brands set up shop inside ChatGPT, United Airlines blocks agents outright, and GTM teams are rebuilding their stacks around Claude while data people warn that raw MCP access brings back &quot;Excel hell&quot;.</p>
+<p><strong>In this episode</strong></p><ul>
+<li>SpaceXSI&#x27;s Vibe-Coding Tool Published 35,000 Apps to the Open Web, Including SpaceXSI&#x27;s Own Sales Plans</li>
+<li>Jensen Huang Resigns as Nvidia CEO After 33 Years. CFO Colette Kress Takes Over</li>
+<li>Anthropic Ships Fable 5.2, Reportedly the Top-Ranked Model, While Deliberately Holding Back Its AI-Research Skills</li>
+<li>Anthropic Opens Its IPO Roadshow: 825 Million Shares at $70-$78, Ticker ANT, and It Now Says the R&amp;D Threshold Is Met</li>
+<li>The &quot;AI 2027&quot; Forecasters Now Think AI 2027 Is Happening, and Call for an Industry-Wide Pause</li>
+<li>Google Ships Gemini 4 Carbon at $2/$10 and an Agent Swarm, as Meta&#x27;s Ember Undercuts the Budget Tier</li>
+<li>AI Did Science This Week: A Millennium Prize Problem Half-Solved, Signal Proven Secure, and Disease Traced to Cells</li>
+<li>Off Switches Arrive: OpenAI Can Halt Its Research Models in 35 Seconds, and 11 Labs Sign Paris&#x27;s Shutdown Pledge</li>
+<li>&quot;LLMjacking&quot;: Stolen AI Keys Ran Up $740,000 at Railway as Fireworks Admits a Second Intrusion</li>
+<li>Microsoft Backdoored a Coding Agent by Editing Seven Neurons, and Claude Found the Idea</li>
+<li>48 AI Agents Found a Maya Pyramid in Under 72 Hours. Archaeologists Had Already Found It</li>
+<li>United Airlines Blocks AI Agents as a16z Declares the &quot;B2A Economy&quot; and OpenAI Proposes Agents Pass Your Location to Websites</li>
+<li>OpenAI Lets Brands Claim a Profile, Track Their Mentions, and Run Their Own Sales Agent Inside ChatGPT [GTM]</li>
+<li>Claude Takes On Spreadsheets, Dashboards and Salesforce, as a Data Founder Warns Raw MCP Is &quot;Excel Hell at Machine Speed&quot; [GTM]</li>
+<li>Five GTM Plays Working Now: An Ad Agency Rebuilt as a Claude Skill, and an Agent That Found a $200K Deal Was Misattributed [GTM]</li>
+</ul>]]></description>
+      <content:encoded><![CDATA[<p>The AI boom lost its face: Jensen Huang resigned as Nvidia CEO, the same week Anthropic opened its IPO roadshow. One of AI&#x27;s defining companies is leaderless just as another asks public markets for a trillion-dollar-plus valuation.</p>
+<p>&quot;Pacing, not pausing&quot;: Anthropic shipped Fable 5.2 while deliberately holding back its AI-research skills. Meanwhile the AI 2027 forecasters moved their superhuman-AI-researcher date into 2027 and called for an industry-wide pause, and labs and governments started building literal off switches.</p>
+<p>AI&#x27;s own infrastructure is now the target: a vibe-coding tool published 35,000 apps to the open web, stolen AI keys ran up $740,000 in charges, and Microsoft showed a coding agent can be backdoored by editing seven neurons.</p>
+<p>Agents are becoming the customer, and the gatekeepers are picking sides. OpenAI lets brands set up shop inside ChatGPT, United Airlines blocks agents outright, and GTM teams are rebuilding their stacks around Claude while data people warn that raw MCP access brings back &quot;Excel hell&quot;.</p>
+<p><strong>In this episode</strong></p><ul>
+<li>SpaceXSI&#x27;s Vibe-Coding Tool Published 35,000 Apps to the Open Web, Including SpaceXSI&#x27;s Own Sales Plans</li>
+<li>Jensen Huang Resigns as Nvidia CEO After 33 Years. CFO Colette Kress Takes Over</li>
+<li>Anthropic Ships Fable 5.2, Reportedly the Top-Ranked Model, While Deliberately Holding Back Its AI-Research Skills</li>
+<li>Anthropic Opens Its IPO Roadshow: 825 Million Shares at $70-$78, Ticker ANT, and It Now Says the R&amp;D Threshold Is Met</li>
+<li>The &quot;AI 2027&quot; Forecasters Now Think AI 2027 Is Happening, and Call for an Industry-Wide Pause</li>
+<li>Google Ships Gemini 4 Carbon at $2/$10 and an Agent Swarm, as Meta&#x27;s Ember Undercuts the Budget Tier</li>
+<li>AI Did Science This Week: A Millennium Prize Problem Half-Solved, Signal Proven Secure, and Disease Traced to Cells</li>
+<li>Off Switches Arrive: OpenAI Can Halt Its Research Models in 35 Seconds, and 11 Labs Sign Paris&#x27;s Shutdown Pledge</li>
+<li>&quot;LLMjacking&quot;: Stolen AI Keys Ran Up $740,000 at Railway as Fireworks Admits a Second Intrusion</li>
+<li>Microsoft Backdoored a Coding Agent by Editing Seven Neurons, and Claude Found the Idea</li>
+<li>48 AI Agents Found a Maya Pyramid in Under 72 Hours. Archaeologists Had Already Found It</li>
+<li>United Airlines Blocks AI Agents as a16z Declares the &quot;B2A Economy&quot; and OpenAI Proposes Agents Pass Your Location to Websites</li>
+<li>OpenAI Lets Brands Claim a Profile, Track Their Mentions, and Run Their Own Sales Agent Inside ChatGPT [GTM]</li>
+<li>Claude Takes On Spreadsheets, Dashboards and Salesforce, as a Data Founder Warns Raw MCP Is &quot;Excel Hell at Machine Speed&quot; [GTM]</li>
+<li>Five GTM Plays Working Now: An Ad Agency Rebuilt as a Claude Skill, and an Agent That Found a $200K Deal Was Misattributed [GTM]</li>
+</ul>]]></content:encoded>
+      <itunes:summary>The AI boom lost its face: Jensen Huang resigned as Nvidia CEO, the same week Anthropic opened its IPO roadshow. One of AI's defining companies is leaderless just as another asks public markets for a trillion-dollar-plus valuation. "Pacing, not pausing": Anthropic shipped Fable 5.2 while deliberately holding back its AI-research skills. Meanwhile the AI 2027 forecasters moved their superhuman-AI-researcher date into 2027 and called for an industry-wide pause, and labs and governments started building literal off switches. AI's own infrastructure is now the target: a vibe-coding tool published 35,000 apps to the open web, stolen AI keys ran up $740,000 in charges, and Microsoft showed a coding agent can be backdoored by editing seven neurons. Agents are becoming the customer, and the gatekeepers are picking sides. OpenAI lets brands set up shop inside ChatGPT, United Airlines blocks agents outright, and GTM teams are rebuilding their stacks around Claude while data people warn that raw MCP access brings back "Excel hell".</itunes:summary>
+      <pubDate>Thu, 12 Nov 2026 18:00:00 +0000</pubDate>
+      <enclosure url="https://archive.org/download/manic-ai-podcast-audio/2026-11-12.m4a" length="23899094" type="audio/x-m4a"/>
+      <guid isPermaLink="false">manic-mondai-2026-11-12</guid>
+      <itunes:duration>00:19:59</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>The Loop Gets an Auditor</title>
       <itunes:title>The Loop Gets an Auditor</itunes:title>
       <itunes:season>1</itunes:season>
