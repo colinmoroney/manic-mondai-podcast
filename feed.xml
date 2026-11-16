@@ -22,6 +22,61 @@
     <itunes:type>episodic</itunes:type>
     <!-- EPISODES_BELOW: add_episode.py prepends new <item> blocks immediately after this line -->
     <item>
+      <title>The Founders Come Back</title>
+      <itunes:title>The Founders Come Back</itunes:title>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>42</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <description><![CDATA[<p>Founders come back, or try to. Jensen Huang&#x27;s supporters are running a petition, and reportedly a &quot;war room,&quot; to try to get him back at Nvidia, and in the same week Brian Halligan retook the CEO job at HubSpot and declared it a &quot;refounding.&quot; When AI changes the rules, boards and investors start asking for the founder again.</p>
+<p>AI is finding bugs far faster than anyone can fix them. Google Project Zero is cutting its disclosure deadline to 30 days, 2026 has already logged more than 100,000 CVEs, Microsoft says &quot;Finding bugs and fixing them are drastically out of balance,&quot; and attackers are running open-source AI pentest frameworks against real companies.</p>
+<p>Agents get a wallet, and merchants push back. ChatGPT Wallet and Replit Agent can now pay for things. Amazon and United block shopping agents because those agents skip the add-ons that make them money.</p>
+<p>The AI supply chain keeps exposing data. The Fireworks AI breach has now reached Notion chat transcripts and Uber driver&#x27;s licenses, and a GitHub worm targeted AI-provider keys in more than 61,000 repositories.</p>
+<p><strong>In this episode</strong></p><ul>
+<li>A Petition to Bring Back Jensen Huang Passes 100,000 Signatures, and the FT Reports He Has Discussed a Return</li>
+<li>A Forensic Analysis Finds Nvidia Blackwell &quot;Fingerprints&quot; in the Weights of Six Top Chinese Models</li>
+<li>An Ex-Anthropic Researcher Says a Single IPO Roadshow Slide Pushed Him Out</li>
+<li>Google Project Zero Will Publish Bugs on a Fixed Clock, Patched or Not, Falling to 30 Days by 2028</li>
+<li>Attackers Are Running Open-Source AI Pentest Agents, and They Pause Every 30 Seconds to Wait for the Model</li>
+<li>The Fireworks AI Breach Spreads: Notion AI Chat Transcripts and Thousands of Uber Driver&#x27;s Licenses</li>
+<li>ChatGPT Gets a Wallet, and Merchants Are Learning Why They Might Not Want Agents Shopping</li>
+<li>OpenAI Disbands Its Standalone Robotics Team, Saying GPT-6 Astra Can Drive Robots Directly</li>
+<li>Gemini 4 Hydrogen Beats Google&#x27;s Own Frontier Argon on a Key Index at $1.50/$7.50</li>
+<li>Google&#x27;s Gemini Glasses Go on Pre-Order at $395, Built to Blur Bystanders&#x27; Faces</li>
+<li>Claude Joins the Meeting: Meetings Beta Ships, With a Default That Leaves When an Outsider Joins</li>
+<li>Brian Halligan Retakes HubSpot and Declares It &quot;the Customer Harness Company&quot; [GTM]</li>
+<li>Seat Pricing Refuses to Die: 58% of Vertical SaaS Still Ties AI to the Seat, and a $5M SaaS Became an &quot;NRR Zombie&quot; [GTM]</li>
+<li>Nvidia Open-Sources a Certified &quot;Meaning Layer&quot; for Agents as Data Teams Admit Review Is the Bottleneck [GTM]</li>
+<li>One Founder Runs 49 Claude Code Sessions; Another Found Only 4 of 67 Shipped Changes Moved a Number</li>
+</ul>]]></description>
+      <content:encoded><![CDATA[<p>Founders come back, or try to. Jensen Huang&#x27;s supporters are running a petition, and reportedly a &quot;war room,&quot; to try to get him back at Nvidia, and in the same week Brian Halligan retook the CEO job at HubSpot and declared it a &quot;refounding.&quot; When AI changes the rules, boards and investors start asking for the founder again.</p>
+<p>AI is finding bugs far faster than anyone can fix them. Google Project Zero is cutting its disclosure deadline to 30 days, 2026 has already logged more than 100,000 CVEs, Microsoft says &quot;Finding bugs and fixing them are drastically out of balance,&quot; and attackers are running open-source AI pentest frameworks against real companies.</p>
+<p>Agents get a wallet, and merchants push back. ChatGPT Wallet and Replit Agent can now pay for things. Amazon and United block shopping agents because those agents skip the add-ons that make them money.</p>
+<p>The AI supply chain keeps exposing data. The Fireworks AI breach has now reached Notion chat transcripts and Uber driver&#x27;s licenses, and a GitHub worm targeted AI-provider keys in more than 61,000 repositories.</p>
+<p><strong>In this episode</strong></p><ul>
+<li>A Petition to Bring Back Jensen Huang Passes 100,000 Signatures, and the FT Reports He Has Discussed a Return</li>
+<li>A Forensic Analysis Finds Nvidia Blackwell &quot;Fingerprints&quot; in the Weights of Six Top Chinese Models</li>
+<li>An Ex-Anthropic Researcher Says a Single IPO Roadshow Slide Pushed Him Out</li>
+<li>Google Project Zero Will Publish Bugs on a Fixed Clock, Patched or Not, Falling to 30 Days by 2028</li>
+<li>Attackers Are Running Open-Source AI Pentest Agents, and They Pause Every 30 Seconds to Wait for the Model</li>
+<li>The Fireworks AI Breach Spreads: Notion AI Chat Transcripts and Thousands of Uber Driver&#x27;s Licenses</li>
+<li>ChatGPT Gets a Wallet, and Merchants Are Learning Why They Might Not Want Agents Shopping</li>
+<li>OpenAI Disbands Its Standalone Robotics Team, Saying GPT-6 Astra Can Drive Robots Directly</li>
+<li>Gemini 4 Hydrogen Beats Google&#x27;s Own Frontier Argon on a Key Index at $1.50/$7.50</li>
+<li>Google&#x27;s Gemini Glasses Go on Pre-Order at $395, Built to Blur Bystanders&#x27; Faces</li>
+<li>Claude Joins the Meeting: Meetings Beta Ships, With a Default That Leaves When an Outsider Joins</li>
+<li>Brian Halligan Retakes HubSpot and Declares It &quot;the Customer Harness Company&quot; [GTM]</li>
+<li>Seat Pricing Refuses to Die: 58% of Vertical SaaS Still Ties AI to the Seat, and a $5M SaaS Became an &quot;NRR Zombie&quot; [GTM]</li>
+<li>Nvidia Open-Sources a Certified &quot;Meaning Layer&quot; for Agents as Data Teams Admit Review Is the Bottleneck [GTM]</li>
+<li>One Founder Runs 49 Claude Code Sessions; Another Found Only 4 of 67 Shipped Changes Moved a Number</li>
+</ul>]]></content:encoded>
+      <itunes:summary>Founders come back, or try to. Jensen Huang's supporters are running a petition, and reportedly a "war room," to try to get him back at Nvidia, and in the same week Brian Halligan retook the CEO job at HubSpot and declared it a "refounding." When AI changes the rules, boards and investors start asking for the founder again. AI is finding bugs far faster than anyone can fix them. Google Project Zero is cutting its disclosure deadline to 30 days, 2026 has already logged more than 100,000 CVEs, Microsoft says "Finding bugs and fixing them are drastically out of balance," and attackers are running open-source AI pentest frameworks against real companies. Agents get a wallet, and merchants push back. ChatGPT Wallet and Replit Agent can now pay for things. Amazon and United block shopping agents because those agents skip the add-ons that make them money. The AI supply chain keeps exposing data. The Fireworks AI breach has now reached Notion chat transcripts and Uber driver's licenses, and a GitHub worm targeted AI-provider keys in more than 61,000 repositories.</itunes:summary>
+      <pubDate>Mon, 16 Nov 2026 18:00:00 +0000</pubDate>
+      <enclosure url="https://archive.org/download/manic-ai-podcast-audio/2026-11-16.m4a" length="23887024" type="audio/x-m4a"/>
+      <guid isPermaLink="false">manic-mondai-2026-11-16</guid>
+      <itunes:duration>00:20:00</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>No CEO, No Brakes</title>
       <itunes:title>No CEO, No Brakes</itunes:title>
       <itunes:season>1</itunes:season>
