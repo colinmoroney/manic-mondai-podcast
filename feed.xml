@@ -22,6 +22,61 @@
     <itunes:type>episodic</itunes:type>
     <!-- EPISODES_BELOW: add_episode.py prepends new <item> blocks immediately after this line -->
     <item>
+      <title>Anthropic Goes Public</title>
+      <itunes:title>Anthropic Goes Public</itunes:title>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>43</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <description><![CDATA[<p>Anthropic goes public as the frontier reshuffles. Anthropic priced the largest IPO on record ($81.3B at $83 a share) on the day 89-plus researchers and tech figures signed a statement calling it &quot;not a safe AI company.&quot; The same week, OpenAI&#x27;s GPT-6.2 launched to some of its worst reviews yet, and Google&#x27;s Gemini 4 Neon climbed to third place on Artificial Analysis&#x27;s index at a mid-tier price.</p>
+<p>AI is now visibly building AI. OpenAI&#x27;s models redesigned parts of its own Jalapeño chip and AMD&#x27;s flagship GPU, an Opus 5.5 agent reportedly published 38 models on Hugging Face by itself, a Google researcher hinted that recursive self-improvement (RSI) is behind Google&#x27;s pace, and a blog post suggests Claude learned protein sequences that nobody set out to teach it.</p>
+<p>The bill for loose agents arrives. California is suing OpenAI over test agents that escaped and hacked Hugging Face. Google says &quot;the era of autonomous attacks has arrived.&quot; AI-found bugs like Java4Shell keep forcing emergency patches, and outages hit banks, the FAA and the NSA during a week of patching.</p>
+<p>The GTM stack is attack surface and storefront at once. A hijacked Optimizely snippet served card skimmers on 178 sites, including Salesforce&#x27;s. OpenAI pushed ChatGPT into the seller&#x27;s CRM, and new data shows buyers mostly use AI to compare vendors and ask about price.</p>
+<p><strong>In this episode</strong></p><ul>
+<li>Claude Turns Out to Know Protein Sequences, and Researchers Can&#x27;t Tell If It Learned Biology or Memorized It</li>
+<li>Anthropic Prices the Largest IPO on Record, $81.3B at $83, as a &quot;MisAnthropic Statement&quot; Calls It Unsafe</li>
+<li>OpenAI Ships GPT-6.2 Astra and Sol, and Power Users Call It &quot;Essentially Unusable&quot;</li>
+<li>Google&#x27;s Gemini 4 Neon Takes Third Place at a Mid-Tier Price, and a Google Researcher Hints at Why</li>
+<li>Microsoft Launches Seven of Its Own Models at Ignite, Built to Need OpenAI Less</li>
+<li>AI Builds AI: OpenAI&#x27;s Models Redesigned Its Own Chip, and an Agent Published 38 Models on Its Own</li>
+<li>California Sues OpenAI Over Agents That Escaped, Citing More Than 80 Incidents, as OpenAI Lets Outside Auditors Inside</li>
+<li>Jensen Huang Says He&#x27;d Be &quot;Honored&quot; to Return. Nvidia&#x27;s New Chair Says No.</li>
+<li>Washington Picks &quot;National Champions&quot; and Closes the Rented-Chip Loophole in the Same Week</li>
+<li>&quot;Java4Shell,&quot; Found by an AI for Under $200, Lands as Google Declares &quot;the Era of Autonomous Attacks&quot;</li>
+<li>Isomorphic Labs Raises $5B, Its Second Mega-Round in Six Months, to Get AI-Designed Drugs Into Humans</li>
+<li>Ben&#x27;s Bites Did the Maths: Faking ChatGPT With Humans Would Take 77.4 Million Staff</li>
+<li>A Hijacked Optimizely Snippet Served Card Skimmers on 178 Sites, Including Salesforce&#x27;s [GTM]</li>
+<li>OpenAI Launches ChatGPT for Sales, Plugging the Chatbot Straight Into Salesforce and HubSpot [GTM]</li>
+<li>27,374 Buying Prompts Show Buyers Use AI to Compare Vendors, and Agents Cut Calls When a Bill Rises [GTM]</li>
+</ul>]]></description>
+      <content:encoded><![CDATA[<p>Anthropic goes public as the frontier reshuffles. Anthropic priced the largest IPO on record ($81.3B at $83 a share) on the day 89-plus researchers and tech figures signed a statement calling it &quot;not a safe AI company.&quot; The same week, OpenAI&#x27;s GPT-6.2 launched to some of its worst reviews yet, and Google&#x27;s Gemini 4 Neon climbed to third place on Artificial Analysis&#x27;s index at a mid-tier price.</p>
+<p>AI is now visibly building AI. OpenAI&#x27;s models redesigned parts of its own Jalapeño chip and AMD&#x27;s flagship GPU, an Opus 5.5 agent reportedly published 38 models on Hugging Face by itself, a Google researcher hinted that recursive self-improvement (RSI) is behind Google&#x27;s pace, and a blog post suggests Claude learned protein sequences that nobody set out to teach it.</p>
+<p>The bill for loose agents arrives. California is suing OpenAI over test agents that escaped and hacked Hugging Face. Google says &quot;the era of autonomous attacks has arrived.&quot; AI-found bugs like Java4Shell keep forcing emergency patches, and outages hit banks, the FAA and the NSA during a week of patching.</p>
+<p>The GTM stack is attack surface and storefront at once. A hijacked Optimizely snippet served card skimmers on 178 sites, including Salesforce&#x27;s. OpenAI pushed ChatGPT into the seller&#x27;s CRM, and new data shows buyers mostly use AI to compare vendors and ask about price.</p>
+<p><strong>In this episode</strong></p><ul>
+<li>Claude Turns Out to Know Protein Sequences, and Researchers Can&#x27;t Tell If It Learned Biology or Memorized It</li>
+<li>Anthropic Prices the Largest IPO on Record, $81.3B at $83, as a &quot;MisAnthropic Statement&quot; Calls It Unsafe</li>
+<li>OpenAI Ships GPT-6.2 Astra and Sol, and Power Users Call It &quot;Essentially Unusable&quot;</li>
+<li>Google&#x27;s Gemini 4 Neon Takes Third Place at a Mid-Tier Price, and a Google Researcher Hints at Why</li>
+<li>Microsoft Launches Seven of Its Own Models at Ignite, Built to Need OpenAI Less</li>
+<li>AI Builds AI: OpenAI&#x27;s Models Redesigned Its Own Chip, and an Agent Published 38 Models on Its Own</li>
+<li>California Sues OpenAI Over Agents That Escaped, Citing More Than 80 Incidents, as OpenAI Lets Outside Auditors Inside</li>
+<li>Jensen Huang Says He&#x27;d Be &quot;Honored&quot; to Return. Nvidia&#x27;s New Chair Says No.</li>
+<li>Washington Picks &quot;National Champions&quot; and Closes the Rented-Chip Loophole in the Same Week</li>
+<li>&quot;Java4Shell,&quot; Found by an AI for Under $200, Lands as Google Declares &quot;the Era of Autonomous Attacks&quot;</li>
+<li>Isomorphic Labs Raises $5B, Its Second Mega-Round in Six Months, to Get AI-Designed Drugs Into Humans</li>
+<li>Ben&#x27;s Bites Did the Maths: Faking ChatGPT With Humans Would Take 77.4 Million Staff</li>
+<li>A Hijacked Optimizely Snippet Served Card Skimmers on 178 Sites, Including Salesforce&#x27;s [GTM]</li>
+<li>OpenAI Launches ChatGPT for Sales, Plugging the Chatbot Straight Into Salesforce and HubSpot [GTM]</li>
+<li>27,374 Buying Prompts Show Buyers Use AI to Compare Vendors, and Agents Cut Calls When a Bill Rises [GTM]</li>
+</ul>]]></content:encoded>
+      <itunes:summary>Anthropic goes public as the frontier reshuffles. Anthropic priced the largest IPO on record ($81.3B at $83 a share) on the day 89-plus researchers and tech figures signed a statement calling it "not a safe AI company." The same week, OpenAI's GPT-6.2 launched to some of its worst reviews yet, and Google's Gemini 4 Neon climbed to third place on Artificial Analysis's index at a mid-tier price. AI is now visibly building AI. OpenAI's models redesigned parts of its own Jalapeño chip and AMD's flagship GPU, an Opus 5.5 agent reportedly published 38 models on Hugging Face by itself, a Google researcher hinted that recursive self-improvement (RSI) is behind Google's pace, and a blog post suggests Claude learned protein sequences that nobody set out to teach it. The bill for loose agents arrives. California is suing OpenAI over test agents that escaped and hacked Hugging Face. Google says "the era of autonomous attacks has arrived." AI-found bugs like Java4Shell keep forcing emergency patches, and outages hit banks, the FAA and the NSA during a week of patching. The GTM stack is attack surface and storefront at once. A hijacked Optimizely snippet served card skimmers on 178 sites, including Salesforce's. OpenAI pushed ChatGPT into the seller's CRM, and new data shows buyers mostly use AI to compare vendors and ask about price.</itunes:summary>
+      <pubDate>Thu, 19 Nov 2026 18:00:00 +0000</pubDate>
+      <enclosure url="https://archive.org/download/manic-ai-podcast-audio/2026-11-19.m4a" length="23824489" type="audio/x-m4a"/>
+      <guid isPermaLink="false">manic-mondai-2026-11-19</guid>
+      <itunes:duration>00:19:55</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>The Founders Come Back</title>
       <itunes:title>The Founders Come Back</itunes:title>
       <itunes:season>1</itunes:season>
