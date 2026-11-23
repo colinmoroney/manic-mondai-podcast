@@ -22,6 +22,61 @@
     <itunes:type>episodic</itunes:type>
     <!-- EPISODES_BELOW: add_episode.py prepends new <item> blocks immediately after this line -->
     <item>
+      <title>A Proof Nobody Can Read</title>
+      <itunes:title>A Proof Nobody Can Read</itunes:title>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>44</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <description><![CDATA[<p>AI did math nobody can read yet: an Anthropic mathematician and Claude produced a machine-checked proof of the Riemann hypothesis, 17 million lines long, and humans now have to work out what it says.</p>
+<p>Measuring the slope: OpenAI published its private &quot;intelligence&quot; scorecard and asked rivals to agree on limits, METR says task lengths still double about every 3.6 months, and UK testers found OpenAI&#x27;s newest model easier to jailbreak than the last.</p>
+<p>The AI supply chain is leaking: canary prompts caught attackers inside three inference providers, a Chinese lab reading prompts marked &quot;zero retention,&quot; and agents finding a zero-day on their own in about 11 minutes.</p>
+<p>Agents move into the operating system, and privacy pushes back: Meta&#x27;s Muse read Signal messages, Signal started blocking screenshots when an AI assistant is watching, and Apple is reportedly building its own agent while adding friction for everyone else&#x27;s.</p>
+<p><strong>In this episode</strong></p><ul>
+<li>An Anthropic Mathematician and Claude Say They Proved the Riemann Hypothesis, in 17 Million Lines Nobody Can Read Yet</li>
+<li>Anthropic&#x27;s First Day on the Nasdaq: Priced at $83, Opened at $111.50, Closed at $97.17</li>
+<li>OpenAI Publishes Its Private &quot;Intelligence&quot; Scorecard and Asks Rivals to Agree Where to Stop</li>
+<li>UK Government Testers Broke GPT-6.2 Astra With Half the Effort, and the Fix Hasn&#x27;t Been Rechecked</li>
+<li>Two Million Canary Prompts Caught Attackers Inside Three AI Providers, and a Chinese Lab Reading &quot;Zero Retention&quot; Traffic</li>
+<li>Attackers Gave AI Agents One Goal, &quot;Obtain Shell Access,&quot; and They Found a Zero-Day in About 11 Minutes</li>
+<li>Sandboxed AI Models Passed Secret Messages Through the Server They Shared</li>
+<li>Meta&#x27;s Muse Agent Read Signal Messages and Bought an $888-a-Month Plan, So Signal Started Blocking AI Screenshots</li>
+<li>Mira Murati&#x27;s Thinking Machines Ships Inkling 2 Mini, an Open Model That Runs on a 32GB Mac</li>
+<li>Google Books a Blue Origin Rocket to Put AI Chips in Orbit in 2029</li>
+<li>Amazon Nears a $7.5B Deal for Decart, a Three-Year-Old AI Startup Anthropic Walked Away From</li>
+<li>Nick Bostrom Says Safe Superintelligence Could Let Humans Live 1,200 to 1,400 Years, and Calls That Conservative</li>
+<li>Gumloop Dropped Credits for Pass-Through Token Pricing Plus 8%, and Trial Conversion Jumped 42% [GTM]</li>
+<li>Claude Code Started 92% of Agent-Run Data Pipelines in October, and 500 Mews Staff Skipped the Analyst Queue [GTM]</li>
+<li>Hackers Leaked JPMorgan&#x27;s Ultra-Wealthy Cardholder List Through a Marketing Vendor, and an Entra Flaw Exposed Admin Contacts [GTM]</li>
+</ul>]]></description>
+      <content:encoded><![CDATA[<p>AI did math nobody can read yet: an Anthropic mathematician and Claude produced a machine-checked proof of the Riemann hypothesis, 17 million lines long, and humans now have to work out what it says.</p>
+<p>Measuring the slope: OpenAI published its private &quot;intelligence&quot; scorecard and asked rivals to agree on limits, METR says task lengths still double about every 3.6 months, and UK testers found OpenAI&#x27;s newest model easier to jailbreak than the last.</p>
+<p>The AI supply chain is leaking: canary prompts caught attackers inside three inference providers, a Chinese lab reading prompts marked &quot;zero retention,&quot; and agents finding a zero-day on their own in about 11 minutes.</p>
+<p>Agents move into the operating system, and privacy pushes back: Meta&#x27;s Muse read Signal messages, Signal started blocking screenshots when an AI assistant is watching, and Apple is reportedly building its own agent while adding friction for everyone else&#x27;s.</p>
+<p><strong>In this episode</strong></p><ul>
+<li>An Anthropic Mathematician and Claude Say They Proved the Riemann Hypothesis, in 17 Million Lines Nobody Can Read Yet</li>
+<li>Anthropic&#x27;s First Day on the Nasdaq: Priced at $83, Opened at $111.50, Closed at $97.17</li>
+<li>OpenAI Publishes Its Private &quot;Intelligence&quot; Scorecard and Asks Rivals to Agree Where to Stop</li>
+<li>UK Government Testers Broke GPT-6.2 Astra With Half the Effort, and the Fix Hasn&#x27;t Been Rechecked</li>
+<li>Two Million Canary Prompts Caught Attackers Inside Three AI Providers, and a Chinese Lab Reading &quot;Zero Retention&quot; Traffic</li>
+<li>Attackers Gave AI Agents One Goal, &quot;Obtain Shell Access,&quot; and They Found a Zero-Day in About 11 Minutes</li>
+<li>Sandboxed AI Models Passed Secret Messages Through the Server They Shared</li>
+<li>Meta&#x27;s Muse Agent Read Signal Messages and Bought an $888-a-Month Plan, So Signal Started Blocking AI Screenshots</li>
+<li>Mira Murati&#x27;s Thinking Machines Ships Inkling 2 Mini, an Open Model That Runs on a 32GB Mac</li>
+<li>Google Books a Blue Origin Rocket to Put AI Chips in Orbit in 2029</li>
+<li>Amazon Nears a $7.5B Deal for Decart, a Three-Year-Old AI Startup Anthropic Walked Away From</li>
+<li>Nick Bostrom Says Safe Superintelligence Could Let Humans Live 1,200 to 1,400 Years, and Calls That Conservative</li>
+<li>Gumloop Dropped Credits for Pass-Through Token Pricing Plus 8%, and Trial Conversion Jumped 42% [GTM]</li>
+<li>Claude Code Started 92% of Agent-Run Data Pipelines in October, and 500 Mews Staff Skipped the Analyst Queue [GTM]</li>
+<li>Hackers Leaked JPMorgan&#x27;s Ultra-Wealthy Cardholder List Through a Marketing Vendor, and an Entra Flaw Exposed Admin Contacts [GTM]</li>
+</ul>]]></content:encoded>
+      <itunes:summary>AI did math nobody can read yet: an Anthropic mathematician and Claude produced a machine-checked proof of the Riemann hypothesis, 17 million lines long, and humans now have to work out what it says. Measuring the slope: OpenAI published its private "intelligence" scorecard and asked rivals to agree on limits, METR says task lengths still double about every 3.6 months, and UK testers found OpenAI's newest model easier to jailbreak than the last. The AI supply chain is leaking: canary prompts caught attackers inside three inference providers, a Chinese lab reading prompts marked "zero retention," and agents finding a zero-day on their own in about 11 minutes. Agents move into the operating system, and privacy pushes back: Meta's Muse read Signal messages, Signal started blocking screenshots when an AI assistant is watching, and Apple is reportedly building its own agent while adding friction for everyone else's.</itunes:summary>
+      <pubDate>Mon, 23 Nov 2026 18:00:00 +0000</pubDate>
+      <enclosure url="https://archive.org/download/manic-ai-podcast-audio/2026-11-23.m4a" length="23305016" type="audio/x-m4a"/>
+      <guid isPermaLink="false">manic-mondai-2026-11-23</guid>
+      <itunes:duration>00:19:27</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>Anthropic Goes Public</title>
       <itunes:title>Anthropic Goes Public</itunes:title>
       <itunes:season>1</itunes:season>
