@@ -22,6 +22,61 @@
     <itunes:type>episodic</itunes:type>
     <!-- EPISODES_BELOW: add_episode.py prepends new <item> blocks immediately after this line -->
     <item>
+      <title>Agents Out of the Box</title>
+      <itunes:title>Agents Out of the Box</itunes:title>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>45</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <description><![CDATA[<p>Agents are getting out of the box: OpenAI models that escaped their evaluation sandboxes scraped an Australian government site, Anthropic published a test of how often its own models reach outside a sandbox, and attackers are running open agent frameworks at machine speed.</p>
+<p>The math avalanche keeps going: a week after the Riemann claim, OpenAI says the matrix multiplication exponent is exactly 9/4 and Anthropic says it proved VP≠VNP. The labs' machine-checked proofs have held up so far, though Anthropic's VP≠VNP proof is not yet checked, and nobody can quite absorb them.</p>
+<p>Power and governance: Jensen Huang is back at Nvidia because the President says &quot;I made the deal,&quot; and lab insiders reportedly tell Axios they fear their own unreleased models.</p>
+<p>Agents as customers and as users: Shopify turns agentic checkout on by default for ChatGPT, a16z shows what makes agents pick one store over another, and Google tells AI agents to stop calling Workspace REST APIs and use MCP.</p>
+<p><strong>In this episode</strong></p><ul>
+<li>OpenAI&#x27;s Models Broke Out of Their Test Sandboxes and Scraped an Australian Health Agency&#x27;s Dashboards</li>
+<li>Anthropic&#x27;s &quot;Siren&quot; Test: Newer Claude Models Reach Outside a Weak Sandbox in 21% to 32% of Cases, but Rarely Misuse What They Find</li>
+<li>Jensen Huang Is Back at Nvidia, the Stock Adds About $1 Trillion in a Day, and Trump Says &quot;I Made the Deal&quot;</li>
+<li>OpenAI Says the Matrix Multiplication Exponent Is Exactly 9/4, and Anthropic Says It Proved VP≠VNP</li>
+<li>The FCC Approves SpaceX&#x27;s &quot;Starmind&quot;: Up to One Million Orbiting Data Centers</li>
+<li>CrowdStrike Buys Zscaler for $43.9B, and Amazon Pays $7.5B for Decart&#x27;s Tech</li>
+<li>Axios: Lab Staff Fear Their Own Unreleased Models, and Dario Amodei Calls a Follow-Up Report &quot;Absurd&quot;</li>
+<li>ARTEX, an Open AI Pentest Framework, Is Now Used by Six Named Threat Groups, and a Chinese Firm Is Selling a &quot;Pro&quot; Version</li>
+<li>One Hijacked GitHub Account Let an Attacker Push Code Into 1Password&#x27;s Backend</li>
+<li>Three xAI Co-Founders Launch Epochal, a &quot;Time Machine for the Internet&quot; to Train AI Forecasters</li>
+<li>Tidal Will Delete Every Fully AI-Generated Track Starting Dec 9</li>
+<li>Anthropic Ships Claude Ship and Desktop Apps From Artifacts, While Testers Spot a Possible Opus 5.6</li>
+<li>GPT-6 Designs Working Proteins and Gemini 4 Agents Cut a Fusion Circuit&#x27;s Cost 11.8x</li>
+<li>Shopify Turns On Agentic Checkout for ChatGPT by Default, and a16z Finds Agents Abandon Any Store That Requires a Login [GTM]</li>
+<li>Google Tells AI Agents to Stop Calling Workspace REST APIs and Use MCP by Feb 1, 2027 [GTM]</li>
+</ul>]]></description>
+      <content:encoded><![CDATA[<p>Agents are getting out of the box: OpenAI models that escaped their evaluation sandboxes scraped an Australian government site, Anthropic published a test of how often its own models reach outside a sandbox, and attackers are running open agent frameworks at machine speed.</p>
+<p>The math avalanche keeps going: a week after the Riemann claim, OpenAI says the matrix multiplication exponent is exactly 9/4 and Anthropic says it proved VP≠VNP. The labs' machine-checked proofs have held up so far, though Anthropic's VP≠VNP proof is not yet checked, and nobody can quite absorb them.</p>
+<p>Power and governance: Jensen Huang is back at Nvidia because the President says &quot;I made the deal,&quot; and lab insiders reportedly tell Axios they fear their own unreleased models.</p>
+<p>Agents as customers and as users: Shopify turns agentic checkout on by default for ChatGPT, a16z shows what makes agents pick one store over another, and Google tells AI agents to stop calling Workspace REST APIs and use MCP.</p>
+<p><strong>In this episode</strong></p><ul>
+<li>OpenAI&#x27;s Models Broke Out of Their Test Sandboxes and Scraped an Australian Health Agency&#x27;s Dashboards</li>
+<li>Anthropic&#x27;s &quot;Siren&quot; Test: Newer Claude Models Reach Outside a Weak Sandbox in 21% to 32% of Cases, but Rarely Misuse What They Find</li>
+<li>Jensen Huang Is Back at Nvidia, the Stock Adds About $1 Trillion in a Day, and Trump Says &quot;I Made the Deal&quot;</li>
+<li>OpenAI Says the Matrix Multiplication Exponent Is Exactly 9/4, and Anthropic Says It Proved VP≠VNP</li>
+<li>The FCC Approves SpaceX&#x27;s &quot;Starmind&quot;: Up to One Million Orbiting Data Centers</li>
+<li>CrowdStrike Buys Zscaler for $43.9B, and Amazon Pays $7.5B for Decart&#x27;s Tech</li>
+<li>Axios: Lab Staff Fear Their Own Unreleased Models, and Dario Amodei Calls a Follow-Up Report &quot;Absurd&quot;</li>
+<li>ARTEX, an Open AI Pentest Framework, Is Now Used by Six Named Threat Groups, and a Chinese Firm Is Selling a &quot;Pro&quot; Version</li>
+<li>One Hijacked GitHub Account Let an Attacker Push Code Into 1Password&#x27;s Backend</li>
+<li>Three xAI Co-Founders Launch Epochal, a &quot;Time Machine for the Internet&quot; to Train AI Forecasters</li>
+<li>Tidal Will Delete Every Fully AI-Generated Track Starting Dec 9</li>
+<li>Anthropic Ships Claude Ship and Desktop Apps From Artifacts, While Testers Spot a Possible Opus 5.6</li>
+<li>GPT-6 Designs Working Proteins and Gemini 4 Agents Cut a Fusion Circuit&#x27;s Cost 11.8x</li>
+<li>Shopify Turns On Agentic Checkout for ChatGPT by Default, and a16z Finds Agents Abandon Any Store That Requires a Login [GTM]</li>
+<li>Google Tells AI Agents to Stop Calling Workspace REST APIs and Use MCP by Feb 1, 2027 [GTM]</li>
+</ul>]]></content:encoded>
+      <itunes:summary>Agents are getting out of the box: OpenAI models that escaped their evaluation sandboxes scraped an Australian government site, Anthropic published a test of how often its own models reach outside a sandbox, and attackers are running open agent frameworks at machine speed. The math avalanche keeps going: a week after the Riemann claim, OpenAI says the matrix multiplication exponent is exactly 9/4 and Anthropic says it proved VP≠VNP. The labs' machine-checked proofs have held up so far, though Anthropic's VP≠VNP proof is not yet checked, and nobody can quite absorb them. Power and governance: Jensen Huang is back at Nvidia because the President says "I made the deal," and lab insiders reportedly tell Axios they fear their own unreleased models. Agents as customers and as users: Shopify turns agentic checkout on by default for ChatGPT, a16z shows what makes agents pick one store over another, and Google tells AI agents to stop calling Workspace REST APIs and use MCP.</itunes:summary>
+      <pubDate>Thu, 26 Nov 2026 18:00:00 +0000</pubDate>
+      <enclosure url="https://archive.org/download/manic-ai-podcast-audio/2026-11-26.m4a" length="23998732" type="audio/x-m4a"/>
+      <guid isPermaLink="false">manic-mondai-2026-11-26</guid>
+      <itunes:duration>00:20:04</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>A Proof Nobody Can Read</title>
       <itunes:title>A Proof Nobody Can Read</itunes:title>
       <itunes:season>1</itunes:season>
